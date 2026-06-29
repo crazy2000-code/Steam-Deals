@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T09:23:04.927947+00:00",
-  "total": 29,
+  "generated_at": "2026-06-29T09:33:35.999948+00:00",
+  "total": 74,
   "games": [
     {
       "id": "018e6857-20cf-7020-8d63-80102ad86b71",
@@ -1614,6 +1614,2441 @@
           "regular": 9.99,
           "low": 4.99,
           "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019791ba-5291-70d7-a9c7-24e9478835b0",
+      "title": "Anime Dream Match: Primates",
+      "slug": "anime-dream-match-primates",
+      "appid": 3820830,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Side Scroller",
+        "2D",
+        "Anime",
+        "Cute"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 2,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019791ba-5291-70d7-a9c7-24e9478835b0/boxart.jpg?t=1777248903",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820830/2d91fe8e05981f3923d1fe2bd645ca5648d4ba4e/ss_2d91fe8e05981f3923d1fe2bd645ca5648d4ba4e.1920x1080.jpg?t=1777245382",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820830/56e2a91503f5184d032692cb2c4e30628a085238/ss_56e2a91503f5184d032692cb2c4e30628a085238.1920x1080.jpg?t=1777245382",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820830/c938b8cea18109f82ac073adcf195c5c4c1a68da/ss_c938b8cea18109f82ac073adcf195c5c4c1a68da.1920x1080.jpg?t=1777245382"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3820830",
+      "prices": {
+        "USD": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.08,
+          "regular": 11,
+          "low": 3.08,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0198738f-4f92-7185-a1ce-786edeecc86b",
+      "title": "Animal Times",
+      "slug": "animal-times",
+      "appid": 3915540,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Strategy",
+        "Board Game",
+        "Turn-Based Tactics",
+        "PvP",
+        "Casual"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 4,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0198738f-4f92-7185-a1ce-786edeecc86b/boxart.jpg?t=1782150304",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3915540/a32fef92507e453cd7a8d3278efaf714f2395106/ss_a32fef92507e453cd7a8d3278efaf714f2395106.1920x1080.jpg?t=1782139731",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3915540/c8ea8547f7df2ce371692af86e4b9c4ed08c69fc/ss_c8ea8547f7df2ce371692af86e4b9c4ed08c69fc.1920x1080.jpg?t=1782139731",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3915540/24f249c2ffa13a457b769aff1887d044930b8648/ss_24f249c2ffa13a457b769aff1887d044930b8648.1920x1080.jpg?t=1782139731"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3915540",
+      "prices": {
+        "USD": {
+          "current": 3.59,
+          "regular": 5.99,
+          "low": 3.59,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 12.59,
+          "regular": 20.99,
+          "low": 12.59,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.59,
+          "regular": 5.99,
+          "low": 3.59,
+          "cut": 40,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0195e168-91b5-7324-8bbc-8db81da066bc",
+      "title": "SQUASER 7",
+      "slug": "squaser-7",
+      "appid": 3625890,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Puzzle",
+        "Side Scroller",
+        "2D",
+        "Atmospheric"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0195e168-91b5-7324-8bbc-8db81da066bc/boxart.jpg?t=1777279817",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3625890/c8a39acac22a45702ab40ea4b2e1068dd068f613/ss_c8a39acac22a45702ab40ea4b2e1068dd068f613.1920x1080.jpg?t=1777278507",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3625890/5c210b8114f489211440bcbd677ab11c29cf2541/ss_5c210b8114f489211440bcbd677ab11c29cf2541.1920x1080.jpg?t=1777278507",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3625890/8ce4b8cff9fab47fdfdaaf3cd35fdf807c486abf/ss_8ce4b8cff9fab47fdfdaaf3cd35fdf807c486abf.1920x1080.jpg?t=1777278507"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3625890",
+      "prices": {
+        "USD": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.08,
+          "regular": 11,
+          "low": 3.08,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-3cf2-70ae-bd1c-56d5dcaac769",
+      "title": "Edge Of Galaxy",
+      "slug": "edge-of-galaxy",
+      "appid": 1025000,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Indie",
+        "Casual",
+        "Puzzle"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 7,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3cf2-70ae-bd1c-56d5dcaac769/boxart.jpg?t=1750088109",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025000/ss_e36b7f50d96be9f8420660d313f50d39664ee580.1920x1080.jpg?t=1629685158",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025000/ss_c6939876e6082400fc070dc3ef75822ddc17317e.1920x1080.jpg?t=1629685158",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025000/ss_2fbbb6251a6d8a50589fe612ff854cba4fdf5be1.1920x1080.jpg?t=1629685158"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1025000",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 5.99,
+          "low": 1.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.5,
+          "regular": 26,
+          "low": 5.4,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 1.49,
+          "regular": 5.99,
+          "low": 0.74,
+          "cut": 75,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-62cf-7168-8b2b-4336fe6b2f1f",
+      "title": "world of cubes",
+      "slug": "world-of-cubes",
+      "appid": 2004090,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Arcade",
+        "2D Platformer",
+        "2D",
+        "1980s"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-62cf-7168-8b2b-4336fe6b2f1f/boxart.jpg?t=1777650616",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004090/ss_a343c1f7500e4d9014b45a2cae2fbe85317efbe9.1920x1080.jpg?t=1777618476",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004090/ss_3d5470741cdd96987c85985c00ec6492543e9313.1920x1080.jpg?t=1777618476",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004090/ss_659c43a5426acf0bab30ffe3aeb8f2774d8d3b1b.1920x1080.jpg?t=1777618476"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2004090",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "cut": 51,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018f800a-7fa5-7045-b9b0-5703c6571d22",
+      "title": "Color Splash: Fairies",
+      "slug": "color-splash-fairies",
+      "appid": 2990570,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Puzzle",
+        "Creature Collector",
+        "Colorful",
+        "Atmospheric"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 2,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018f800a-7fa5-7045-b9b0-5703c6571d22/boxart.jpg?t=1777118422",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990570/ss_f3d0c2063cf97e9ecb8d3e254baba030f969ba44.1920x1080.jpg?t=1777112835",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990570/ss_0c6659ced383f51a2cfacb2062ccb0bf9fcdcfae.1920x1080.jpg?t=1777112835",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990570/ss_23ec9e15cbad657f2ac3fe498afd645a8aabaa8b.1920x1080.jpg?t=1777112835"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2990570",
+      "prices": {
+        "USD": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.08,
+          "regular": 11,
+          "low": 3.08,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-09cc-7005-aeb8-cb3aaee17aed",
+      "title": "Grass Cutter - Icon Pack",
+      "slug": "grass-cutter-icon-pack",
+      "appid": 864185,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Action",
+        "Indie",
+        "Casual",
+        "Simulation"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-09cc-7005-aeb8-cb3aaee17aed/banner300.jpg?t=1733062805",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/864185/ss_bb6cc5b498a781656ca08c4f850422955f7ba288.1920x1080.jpg?t=1667016357",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/864185/ss_58fbd5e8751cb7ed0fa2d98ed2ec1d59cc9c2c35.1920x1080.jpg?t=1667016357",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/864185/ss_a0e45c1b4c824c80c1636817e220581f14f52e66.1920x1080.jpg?t=1667016357"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/864185",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "cut": 51,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01973145-b6ee-717e-8ae0-8b8701402d03",
+      "title": "Anime Dream Match: Cats",
+      "slug": "anime-dream-match-cats",
+      "appid": 3783860,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Side Scroller",
+        "2D",
+        "Anime",
+        "Cute"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/01973145-b6ee-717e-8ae0-8b8701402d03/boxart.jpg?t=1777248922",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3783860/94de262cf954f300a463a495c3218b7e4d6c96e6/ss_94de262cf954f300a463a495c3218b7e4d6c96e6.1920x1080.jpg?t=1777241447",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3783860/b5a852104c2c77d8b3524b8ebb887a6d7f64cf74/ss_b5a852104c2c77d8b3524b8ebb887a6d7f64cf74.1920x1080.jpg?t=1777241447",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3783860/cc99f5a6d623e41bf17beee16c1c6985eac8e7fe/ss_cc99f5a6d623e41bf17beee16c1c6985eac8e7fe.1920x1080.jpg?t=1777241447"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3783860",
+      "prices": {
+        "USD": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.08,
+          "regular": 11,
+          "low": 3.08,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-7470-70f4-8bb3-83cde6ab7b23",
+      "title": "Blasphemous 2 - OST",
+      "slug": "blasphemous-2-ost",
+      "appid": 2500170,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 27,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7470-70f4-8bb3-83cde6ab7b23/banner300.jpg?t=1732896627",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2500170/ss_af2099f6ead08e87699720f330e8072f7add1032.1920x1080.jpg?t=1692892985"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2500170",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 18,
+          "regular": 36,
+          "low": 18,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0191ccf0-9e00-703c-a66d-bb7ec052db57",
+      "title": "Killer Frequency Soundtrack",
+      "slug": "killer-frequency-soundtrack",
+      "appid": 3047650,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 8,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3047650/capsule_616x353.jpg",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047650/ss_2a2505aceddfac6d13efa56087ac73c7cd51fc53.1920x1080.jpg?t=1720704913"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3047650",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 18,
+          "regular": 36,
+          "low": 18,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-2d12-7224-9804-d8bfcae89190",
+      "title": "32 SECS",
+      "slug": "32-secs",
+      "appid": 3390250,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Racing",
+        "Action",
+        "Sci-fi",
+        "Motorbike",
+        "Arcade"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 14,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d12-7224-9804-d8bfcae89190/boxart.jpg?t=1760203513",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3390250/ss_24a121165608debd935bfc1029338b96db9a7799.1920x1080.jpg?t=1739889326",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3390250/ss_5369bda4e1373782cc290d27be463ebab205ef45.1920x1080.jpg?t=1739889326",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3390250/ss_28f3abf6d3d056c0b5bfab34bcb54fc7c255291f.1920x1080.jpg?t=1739889326"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3390250",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 11,
+          "regular": 22,
+          "low": 11,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01930362-9397-70d1-82ed-bdb37404cebd",
+      "title": "Abalon Soundtrack",
+      "slug": "abalon-soundtrack",
+      "appid": 3330660,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/01930362-9397-70d1-82ed-bdb37404cebd/banner300.jpg?t=1733735135",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330660/ss_e89cce801abc52cd5975a73e6b557ffb0d1f1b2e.1920x1080.jpg?t=1731136570"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3330660",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 4.99,
+          "low": 1.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 8.8,
+          "regular": 22,
+          "low": 8.8,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.99,
+          "regular": 4.99,
+          "low": 1.99,
+          "cut": 60,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019ecb87-a83b-7133-aa99-ff028f00e712",
+      "title": "Chill Fishing - Fishing Fantasy",
+      "slug": "chill-fishing-fishing-fantasy",
+      "appid": 4646110,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Simulation",
+        "Indie",
+        "Idler",
+        "2D"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019ecb87-a83b-7133-aa99-ff028f00e712/banner300.jpg?t=1781531426",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646110/b47a38c612300ccc241f744da759cfa2328783af/ss_b47a38c612300ccc241f744da759cfa2328783af.1920x1080.jpg?t=1781530976",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646110/d6fa20fb7a37640c43fd7779601f8d2f093022dc/ss_d6fa20fb7a37640c43fd7779601f8d2f093022dc.1920x1080.jpg?t=1781530976"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/4646110",
+      "prices": {
+        "USD": {
+          "current": 0.59,
+          "regular": 0.99,
+          "low": 0.59,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.6,
+          "regular": 6,
+          "low": 3.6,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.59,
+          "regular": 0.99,
+          "low": 0.59,
+          "cut": 40,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0196ee8d-84f9-7087-905e-027051f2ebaf",
+      "title": "Jumping Jazz Cats Soundtrack",
+      "slug": "jumping-jazz-cats-soundtrack",
+      "appid": 3558450,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0196ee8d-84f9-7087-905e-027051f2ebaf/banner300.jpg?t=1747760403",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558450/d8345949159706488b0c8aea045a91a4b99c9e3e/ss_d8345949159706488b0c8aea045a91a4b99c9e3e.1920x1080.jpg?t=1747756891",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558450/e9bda9681473e7b5b55941213fecda184d317140/ss_e9bda9681473e7b5b55941213fecda184d317140.1920x1080.jpg?t=1747756891",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558450/cc4504dffbb0e2d1f428c557147dba8b49233df6/ss_cc4504dffbb0e2d1f428c557147dba8b49233df6.1920x1080.jpg?t=1747756891"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3558450",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 11,
+          "regular": 22,
+          "low": 11,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0191ccf0-6686-7103-a939-dc7db9d77619",
+      "title": "Patch Quest Soundtrack",
+      "slug": "patch-quest-soundtrack",
+      "appid": 2333120,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 5,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2333120/capsule_616x353.jpg",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333120/ss_93a63350675699f089d8923848c4d0298dc1d7b0.1920x1080.jpg?t=1679581401"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2333120",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9,
+          "regular": 18,
+          "low": 9,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5f84-7053-a6a3-8a9bcf858031",
+      "title": "Athanasy Soundtrack",
+      "slug": "athanasy-soundtrack",
+      "appid": 1887090,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 6,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5f84-7053-a6a3-8a9bcf858031/banner300.jpg?t=1732986319",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1887090/ss_4607601677d5b150cab0c3908e18c1ed5432ee6a.1920x1080.jpg?t=1655922048"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1887090",
+      "prices": {
+        "USD": {
+          "current": 0.99,
+          "regular": 1.99,
+          "low": 0.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 5.5,
+          "regular": 11,
+          "low": 5.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.99,
+          "regular": 1.99,
+          "low": 0.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0191ccf0-8e89-70e7-a697-4b2955feb50b",
+      "title": "Ylands Soundtrack",
+      "slug": "ylands-soundtrack",
+      "appid": 2848670,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 2,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2848670/capsule_616x353.jpg",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848670/ss_4dd512c3afd44321c321cc795254b276798bcac3.1920x1080.jpg?t=1710929874",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848670/ss_887ec78baf4a3b5092dff332932172e37775143d.1920x1080.jpg?t=1710929874",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2848670/ss_6bb03f44d0a4c1f0f1e4a421dc4dbcaa2a2c6fa4.1920x1080.jpg?t=1710929874"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2848670",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 9.99,
+          "low": 2.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10,
+          "regular": 40,
+          "low": 10,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.49,
+          "regular": 9.99,
+          "low": 2.49,
+          "cut": 75,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019814f1-0e82-7056-a62e-153cbe06ef3c",
+      "title": "Death Relives Soundtrack",
+      "slug": "death-relives-soundtrack",
+      "appid": 3883690,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019814f1-0e82-7056-a62e-153cbe06ef3c/banner300.jpg?t=1753458006",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883690/fc036b45fafed15cd2a547b2c6a222dadacf6aa4/ss_fc036b45fafed15cd2a547b2c6a222dadacf6aa4.1920x1080.jpg?t=1753457025",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883690/374867fac5d1b78891d63bfc1e748fb332303788/ss_374867fac5d1b78891d63bfc1e748fb332303788.1920x1080.jpg?t=1753457025",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883690/914b1f101103bc2c574e27bdbc5dc08fc4f613fa/ss_914b1f101103bc2c574e27bdbc5dc08fc4f613fa.1920x1080.jpg?t=1753457025"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3883690",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 9.99,
+          "low": 2.99,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 12.6,
+          "regular": 42,
+          "low": 12.6,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.99,
+          "regular": 9.99,
+          "low": 2.99,
+          "cut": 70,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019809df-65c2-70cd-8b58-9a4cb1049060",
+      "title": "Eternal Hunt",
+      "slug": "eternal-hunt--2",
+      "appid": 3835010,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Action",
+        "Casual",
+        "Strategy",
+        "Action Roguelike",
+        "Roguelike"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019809df-65c2-70cd-8b58-9a4cb1049060/boxart.jpg?t=1768120511",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3835010/ed511aa43d9cacb2804333e79403be1aee91d949/ss_ed511aa43d9cacb2804333e79403be1aee91d949.1920x1080.jpg?t=1768110661",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3835010/4dbad9241098e620b3619ccea51ce58d9e1acc6b/ss_4dbad9241098e620b3619ccea51ce58d9e1acc6b.1920x1080.jpg?t=1768110661",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3835010/6d8c963d2838363207a0544fa5ac1eb1a4e02f29/ss_6d8c963d2838363207a0544fa5ac1eb1a4e02f29.1920x1080.jpg?t=1768110661"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3835010",
+      "prices": {
+        "USD": {
+          "current": 0.71,
+          "regular": 2.99,
+          "low": 0.71,
+          "cut": 76,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.6,
+          "regular": 15,
+          "low": 3.6,
+          "cut": 76,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.71,
+          "regular": 2.99,
+          "low": 0.71,
+          "cut": 76,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019e217a-57e5-73b9-bb55-2b1bdb96b972",
+      "title": "Blosharper",
+      "slug": "blosharper",
+      "appid": 4718270,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Roguelike Deckbuilder",
+        "Deckbuilding",
+        "Roguelike",
+        "Card Battler",
+        "Gambling"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 5,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019e217a-57e5-73b9-bb55-2b1bdb96b972/boxart.jpg?t=1782697816",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4718270/bc895df3181622ddc4daad5465583aa13b41ead5/ss_bc895df3181622ddc4daad5465583aa13b41ead5.1920x1080.jpg?t=1782693121",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4718270/4233bed8fc9edd2a96a6111c31b4596f8fb453fa/ss_4233bed8fc9edd2a96a6111c31b4596f8fb453fa.1920x1080.jpg?t=1782693121",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4718270/db67d457a9449e0fd12ecdb321db4f5633d27756/ss_db67d457a9449e0fd12ecdb321db4f5633d27756.1920x1080.jpg?t=1782693121"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/4718270",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 4.99,
+          "low": 2.99,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 13.2,
+          "regular": 22,
+          "low": 13.2,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.99,
+          "regular": 4.99,
+          "low": 2.99,
+          "cut": 40,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5cf2-7004-8949-f1496be0c9be",
+      "title": "Natural",
+      "slug": "natural",
+      "appid": 1866780,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Puzzle",
+        "Abstract",
+        "Nature",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5cf2-7004-8949-f1496be0c9be/boxart.jpg?t=1761594961",
+        "screenshots": [
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866780/ss_48cc23b92256a1ef056962b35033ad9bf0090eb7.1920x1080.jpg?t=1644862054",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866780/ss_2ab13e76c4b1b0e9f2ff66459d5e4259e98ddfe4.1920x1080.jpg?t=1644862054",
+          "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866780/ss_6e3f4cd3edd9903cd8b0119bc3ba8a486cf4d1e6.1920x1080.jpg?t=1644862054"
+        ]
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1866780",
+      "prices": {
+        "USD": {
+          "current": 1.74,
+          "regular": 6.99,
+          "low": 1.74,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.25,
+          "regular": 29,
+          "low": 7.25,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.74,
+          "regular": 6.99,
+          "low": 1.74,
+          "cut": 75,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-266c-7076-842b-feb9dba7c045",
+      "title": "The Final Days: Eternal Night",
+      "slug": "the-final-days-eternal-night",
+      "appid": 696050,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "RPG",
+        "Indie",
+        "Violent"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-266c-7076-842b-feb9dba7c045/boxart.png?t=1733668821",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/696050",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 5.99,
+          "low": 1.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.5,
+          "regular": 26,
+          "low": 6.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.49,
+          "regular": 5.99,
+          "low": 1.49,
+          "cut": 75,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5fbb-710c-b978-3061d7083392",
+      "title": "Visualis Dynamics",
+      "slug": "visualis-dynamics",
+      "appid": 1897570,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Indie",
+        "Simulation",
+        "Education",
+        "Physics",
+        "Real-Time"
+      ],
+      "reviews": {
+        "score": 83,
+        "count": 6,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5fbb-710c-b978-3061d7083392/boxart.jpg?t=1765540516",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1897570",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 9.99,
+          "low": 1.49,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.3,
+          "regular": 42,
+          "low": 6.3,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.49,
+          "regular": 9.99,
+          "low": 1.49,
+          "cut": 85,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0191ccf0-5bfe-70f2-bebc-c07e5833933e",
+      "title": "Gord Soundtrack",
+      "slug": "gord-soundtrack",
+      "appid": 2439890,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 5,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2439890/capsule_616x353.jpg",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2439890",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 2.99,
+          "low": 1.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.5,
+          "regular": 15,
+          "low": 7.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.49,
+          "regular": 2.99,
+          "low": 1.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01939585-a347-724d-802e-872426db7fd7",
+      "title": "Junkyard Rush Racing",
+      "slug": "junkyard-rush-racing",
+      "appid": 3363510,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Racing",
+        "Arcade",
+        "3D",
+        "Character Customization",
+        "Controller"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 19,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/01939585-a347-724d-802e-872426db7fd7/boxart.jpg?t=1760203209",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3363510",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 21,
+          "regular": 42,
+          "low": 21,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018e5c32-9d6d-7244-8f5f-efdcec56ea3d",
+      "title": "Alone in the Dark Soundtrack",
+      "slug": "alone-in-the-dark-soundtrack",
+      "appid": 2450970,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Violent"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018e5c32-9d6d-7244-8f5f-efdcec56ea3d/banner300.jpg?t=1732789250",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2450970",
+      "prices": {
+        "USD": {
+          "current": 1.64,
+          "regular": 4.99,
+          "low": 1.64,
+          "cut": 67,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.26,
+          "regular": 22,
+          "low": 7,
+          "cut": 67,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 1.64,
+          "regular": 4.99,
+          "low": 1.64,
+          "cut": 67,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-6c82-71de-89f2-8e0982bdfc6b",
+      "title": "Have a Nice Death Soundtrack",
+      "slug": "have-a-nice-death-soundtrack",
+      "appid": 2368180,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 3,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6c82-71de-89f2-8e0982bdfc6b/banner300.jpg?t=1739988612",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2368180",
+      "prices": {
+        "USD": {
+          "current": 2.09,
+          "regular": 5.99,
+          "low": 2.09,
+          "cut": 65,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 8.4,
+          "regular": 24,
+          "low": 8.4,
+          "cut": 65,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.09,
+          "regular": 5.99,
+          "low": 2.09,
+          "cut": 65,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01936f9e-8f19-7191-b19b-913e30c4cab5",
+      "title": "Waifu Soundtrack",
+      "slug": "waifu-soundtrack",
+      "appid": 3370810,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Indie",
+        "Action",
+        "Rock Music",
+        "Soundtrack",
+        "Retro"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 2,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/01936f9e-8f19-7191-b19b-913e30c4cab5/banner300.jpg?t=1757857506",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3370810",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "cut": 51,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0196eec1-eec4-7193-939a-b80573477011",
+      "title": "Jixo: Summer Dreams Collector's Edition",
+      "slug": "jixo-summer-dreams-collectors-edition",
+      "appid": 3754610,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Card Game",
+        "Puzzle",
+        "Word Game",
+        "Solitaire"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 4,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0196eec1-eec4-7193-939a-b80573477011/boxart.jpg?t=1763270777",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3754610",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 21,
+          "regular": 42,
+          "low": 21,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0198aff9-02ce-7372-8785-3b5d0da9e243",
+      "title": "Jixo: Hidden Horizons Collector's Edition",
+      "slug": "jixo-hidden-horizons-collectors-edition",
+      "appid": 3900640,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Point & Click",
+        "Puzzle",
+        "Hidden Object",
+        "Match 3"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 4,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3900640/capsule_616x353.jpg",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3900640",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 21,
+          "regular": 42,
+          "low": 21,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-4ea3-724c-b5ed-cbd874c82d21",
+      "title": "Narita Boy Soundtrack",
+      "slug": "narita-boy-soundtrack",
+      "appid": 1586580,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 4,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4ea3-724c-b5ed-cbd874c82d21/banner300.jpg?t=1776700521",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1586580",
+      "prices": {
+        "USD": {
+          "current": 1.79,
+          "regular": 17.99,
+          "low": 1.79,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.9,
+          "regular": 69,
+          "low": 6.9,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.79,
+          "regular": 17.99,
+          "low": 1.79,
+          "cut": 90,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01956b74-d969-7196-9f44-21be6533e4e0",
+      "title": "Trailmakers Soundtrack",
+      "slug": "trailmakers-soundtrack",
+      "appid": 3456630,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 3,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3456630/capsule_616x353.jpg",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3456630",
+      "prices": {
+        "USD": {
+          "current": 3.49,
+          "regular": 6.99,
+          "low": 3.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 14.5,
+          "regular": 29,
+          "low": 14.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.49,
+          "regular": 6.99,
+          "low": 3.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018dc899-2e3d-70a1-abf8-e774948841fd",
+      "title": "Color Splash: Predators",
+      "slug": "color-splash-predators",
+      "appid": 2846340,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Puzzle",
+        "Creature Collector",
+        "Colorful",
+        "Atmospheric"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 3,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018dc899-2e3d-70a1-abf8-e774948841fd/boxart.jpg?t=1777116616",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2846340",
+      "prices": {
+        "USD": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.08,
+          "regular": 11,
+          "low": 3.08,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.55,
+          "regular": 1.99,
+          "low": 0.55,
+          "cut": 72,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019c5e70-00d2-7348-a2d1-482e8ebc22d9",
+      "title": "Lovely Anime Puzzle: Spring",
+      "slug": "lovely-anime-puzzle-spring",
+      "appid": 4415920,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Side Scroller",
+        "2D",
+        "Anime",
+        "Cute"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 2,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019c5e70-00d2-7348-a2d1-482e8ebc22d9/boxart.jpg?t=1772270406",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/4415920",
+      "prices": {
+        "USD": {
+          "current": 0.83,
+          "regular": 2.99,
+          "low": 0.83,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 4.2,
+          "regular": 15,
+          "low": 4.2,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.83,
+          "regular": 2.99,
+          "low": 0.83,
+          "cut": 72,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01910da6-e889-719d-8937-2916045851da",
+      "title": "键盘侠之魂 Keyboard Souls",
+      "slug": "jian-pan-xia-zhi-hun-keyboard-souls",
+      "appid": 3063740,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Casual",
+        "Typing",
+        "Arcade",
+        "Bullet Hell",
+        "Roguelite"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 13,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3063740/capsule_616x353.jpg",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3063740",
+      "prices": {
+        "USD": {
+          "current": 1.79,
+          "regular": 2.99,
+          "low": 1.79,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.9,
+          "regular": 16.5,
+          "low": 9.9,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.79,
+          "regular": 2.99,
+          "low": 1.79,
+          "cut": 40,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01965b70-5852-70b6-8efc-cf8fe7ea530f",
+      "title": "Dinkum Soundtrack",
+      "slug": "dinkum-soundtrack",
+      "appid": 2468700,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 3,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2468700/capsule_616x353.jpg",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2468700",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 4.99,
+          "low": 1.49,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6,
+          "regular": 20,
+          "low": 6,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.49,
+          "regular": 4.99,
+          "low": 1.49,
+          "cut": 70,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5da2-7104-839c-991c823eaa7d",
+      "title": "Visualis Electromagnetism",
+      "slug": "visualis-electromagnetism",
+      "appid": 1870810,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Indie",
+        "Education",
+        "Simulation",
+        "Physics",
+        "Real-Time"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 3,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5da2-7104-839c-991c823eaa7d/boxart.jpg?t=1765518910",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1870810",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 9.99,
+          "low": 1.49,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.3,
+          "regular": 42,
+          "low": 6.3,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.49,
+          "regular": 9.99,
+          "low": 1.49,
+          "cut": 85,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-462d-7314-a0af-20d70b8eac89",
+      "title": "Dead Cells: Demake Soundtrack",
+      "slug": "dead-cells-demake-soundtrack",
+      "appid": 1393790,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Soundtrack"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 29,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-462d-7314-a0af-20d70b8eac89/banner300.jpg?t=1732991115",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1393790",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10.5,
+          "regular": 21,
+          "low": 10,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019c8df7-5d6f-72d5-b05b-9c57269f4697",
+      "title": "LIMIT//LESS: PHYSICS BIKE CHALLENGE",
+      "slug": "limit-less-physics-bike-challenge",
+      "appid": 4150590,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Simulation",
+        "Strategy",
+        "Arcade",
+        "3D",
+        "Colorful"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 1,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019c8df7-5d6f-72d5-b05b-9c57269f4697/boxart.jpg?t=1782630007",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/4150590",
+      "prices": {
+        "USD": {
+          "current": 3.49,
+          "regular": 6.99,
+          "low": 3.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 14.5,
+          "regular": 29,
+          "low": 14.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.49,
+          "regular": 6.99,
+          "low": 3.49,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019cde61-0921-72df-823a-834e789c5be4",
+      "title": "Impact to the Head",
+      "slug": "impact-to-the-head",
+      "appid": 3842910,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Boxing",
+        "Martial Arts",
+        "Action-Adventure",
+        "3D",
+        "First-Person"
+      ],
+      "reviews": {
+        "score": 80,
+        "count": 15,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019cde61-0921-72df-823a-834e789c5be4/boxart.jpg?t=1774658406",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3842910",
+      "prices": {
+        "USD": {
+          "current": 0.75,
+          "regular": 2.5,
+          "low": 0.75,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.76,
+          "regular": 12.55,
+          "low": 3.76,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 0.75,
+          "regular": 2.5,
+          "low": 0.75,
+          "cut": 70,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-0c64-73ac-b291-74c16db3932f",
+      "title": "Nameless will heal you ~Red~",
+      "slug": "nameless-will-heal-you-red",
+      "appid": 414671,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Simulation"
+      ],
+      "reviews": {
+        "score": 100,
+        "count": 3,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0c64-73ac-b291-74c16db3932f/banner300.jpg",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/414671",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.2,
+          "regular": 36,
+          "low": 7.2,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 1.99,
+          "cut": 80,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018f81b6-a3ff-71cc-b5b5-f1b151f20747",
+      "title": "S. Prysm Destroyer",
+      "slug": "s-prysm-destroyer",
+      "appid": 2975480,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [
+        "Side Scroller",
+        "2D Platformer",
+        "PvE",
+        "Platformer",
+        "Shooter"
+      ],
+      "reviews": {
+        "score": 76,
+        "count": 13,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018f81b6-a3ff-71cc-b5b5-f1b151f20747/boxart.jpg?t=1760390401",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2975480",
+      "prices": {
+        "USD": {
+          "current": 1.59,
+          "regular": 7.99,
+          "low": 1.59,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.6,
+          "regular": 33,
+          "low": 6.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.59,
+          "regular": 7.99,
+          "low": 1.59,
+          "cut": 80,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-645b-70b4-a78e-2578ef73f7a6",
+      "title": "Destroy All Humans! 2 - Reprobed: Official Orchestral Score",
+      "slug": "destroy-all-humans-2-reprobed-official-orchestral-score",
+      "appid": 2082930,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 71,
+        "count": 7,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-645b-70b4-a78e-2578ef73f7a6/banner300.jpg?t=1732769855",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2082930",
+      "prices": {
+        "USD": {
+          "current": 1.24,
+          "regular": 4.99,
+          "low": 1.24,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 5.5,
+          "regular": 22,
+          "low": 5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 1.24,
+          "regular": 4.99,
+          "low": 1.24,
+          "cut": 75,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-7157-70d4-97f0-ad5b0c4269f4",
+      "title": "Trepang2 Soundtrack",
+      "slug": "trepang2-soundtrack",
+      "appid": 1842620,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 97,
+        "count": 48,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7157-70d4-97f0-ad5b0c4269f4/banner300.jpg?t=1731521418",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1842620",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 18,
+          "regular": 36,
+          "low": 18,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "cut": 50,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-782e-70e2-ad38-0f0c68d2cbb8",
+      "title": "Cobalt Core (Original Soundtrack)",
+      "slug": "cobalt-core-original-soundtrack",
+      "appid": 2655780,
+      "tier": "other",
+      "is_atl": true,
+      "tags": [],
+      "reviews": {
+        "score": 100,
+        "count": 8,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-782e-70e2-ad38-0f0c68d2cbb8/boxart.jpg?t=1763788836",
+        "screenshots": []
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2655780",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 9.99,
+          "low": 3.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 16.8,
+          "regular": 42,
+          "low": 16.8,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.99,
+          "regular": 9.99,
+          "low": 3.99,
+          "cut": 60,
           "currency": "MYR",
           "symbol": "RM",
           "is_atl": true
