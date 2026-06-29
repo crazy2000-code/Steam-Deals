@@ -113,23 +113,26 @@ def fetch_steam_deals() -> list[dict]:
             "limit": limit,
         })
 
-        # ITAD docs show the list field as "deals"; fall back to "list"
+        # Response field is "deals"; fall back to "list" for safety
         batch: list[dict] = data.get("deals") or data.get("list") or []
         if not batch:
-            log.info("  empty batch; stopping pagination (keys: %s)", list(data.keys()))
+            log.info("  empty batch (keys: %s)", list(data.keys()))
             break
 
-        # Debug: log unique shop IDs seen on first page
+        # Each item is a game object; the per-shop deal info lives under item["deal"]
         if page == 0:
-            seen_shops = {(item.get("shop", {}).get("id"), item.get("shop", {}).get("name"))
-                         for item in batch}
-            log.info("  shops in first page: %s", seen_shops)
+            sample = batch[0] if batch else {}
+            log.info("  first item keys: %s", list(sample.keys()))
+            deal_sample = sample.get("deal") or {}
+            log.info("  first item['deal'] keys: %s", list(deal_sample.keys()))
+            log.info("  first item shop: %s", deal_sample.get("shop"))
 
         for item in batch:
-            # Keep only Steam deals with sufficient discount
-            if item.get("shop", {}).get("id") != STEAM_SHOP_ID:
+            deal = item.get("deal") or {}
+            shop_id = (deal.get("shop") or {}).get("id")
+            if shop_id != STEAM_SHOP_ID:
                 continue
-            if item.get("cut", 0) >= MIN_CUT:
+            if deal.get("cut", 0) >= MIN_CUT:
                 deals.append(item)
 
         if not data.get("hasMore", False):
@@ -248,28 +251,32 @@ def main():
         log.info("Step 1: fetch current Steam deals (US)...")
         raw_deals = fetch_steam_deals()
 
-        # Build primary deal map from /deals/v2 data (USD is ground truth)
+        # Build primary deal map from /deals/v2 data (USD is ground truth).
+        # Game-level fields (id, title, slug, assets) are at item root;
+        # price/discount/storeLow are nested under item["deal"].
         deal_map: dict[str, dict] = {}
         for item in raw_deals:
             gid = item.get("id")
             if not gid:
                 continue
-            price_obj = item.get("price") or {}
-            regular_obj = item.get("regular") or {}
-            store_low_obj = item.get("storeLow") or {}
+            deal_obj = item.get("deal") or {}
+            price_obj = deal_obj.get("price") or {}
+            regular_obj = deal_obj.get("regular") or {}
+            store_low_obj = deal_obj.get("storeLow") or {}
             assets = item.get("assets") or {}
+            cut = deal_obj.get("cut", 0)
 
             deal_map[gid] = {
                 "title": item.get("title", ""),
                 "slug": item.get("slug", ""),
-                "cut": item.get("cut", 0),
+                "cut": cut,
                 "banner": assets.get("banner300") or assets.get("banner145"),
                 "prices": {
                     "USD": {
                         "current": price_obj.get("amount"),
                         "regular": regular_obj.get("amount"),
                         "low": store_low_obj.get("amount"),      # Steam store ATL (USD)
-                        "cut": item.get("cut", 0),
+                        "cut": cut,
                         "currency": "USD",
                         "symbol": "$",
                         "is_atl": False,  # computed below
