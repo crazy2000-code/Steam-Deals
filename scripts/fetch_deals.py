@@ -119,6 +119,12 @@ def fetch_steam_deals() -> list[dict]:
             log.info("  empty batch; stopping pagination (keys: %s)", list(data.keys()))
             break
 
+        # Debug: log unique shop IDs seen on first page
+        if page == 0:
+            seen_shops = {(item.get("shop", {}).get("id"), item.get("shop", {}).get("name"))
+                         for item in batch}
+            log.info("  shops in first page: %s", seen_shops)
+
         for item in batch:
             # Keep only Steam deals with sufficient discount
             if item.get("shop", {}).get("id") != STEAM_SHOP_ID:
