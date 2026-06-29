@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steam 史低 | Steam Historical Lows</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon">🎮</span>
+      <span class="brand-title" data-i18n="site_title">Steam 史低追踪</span>
+    </div>
+    <div class="header-controls">
+      <div class="control-group">
+        <label class="control-label" data-i18n="label_currency">货币</label>
+        <div class="btn-group" id="currency-group">
+          <button class="btn-toggle active" data-currency="USD">USD</button>
+          <button class="btn-toggle" data-currency="CNY">CNY</button>
+          <button class="btn-toggle" data-currency="MYR">MYR</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" data-i18n="label_sort">排序</label>
+        <select id="sort-select" class="select-control">
+          <option value="priority" data-i18n="sort_priority">优先级</option>
+          <option value="cut" data-i18n="sort_cut">折扣</option>
+          <option value="score" data-i18n="sort_score">好评率</option>
+          <option value="price" data-i18n="sort_price">当前价格</option>
+        </select>
+      </div>
+      <button id="lang-toggle" class="btn-lang">EN</button>
+    </div>
+  </div>
+  <div class="search-bar">
+    <input id="search-input" type="search" placeholder="搜索游戏…" data-i18n-placeholder="search_placeholder" />
+  </div>
+</header>
+
+<main>
+  <div id="status-bar" class="status-bar hidden"></div>
+  <div id="game-grid" class="game-grid"></div>
+  <div id="empty-state" class="empty-state hidden">
+    <p data-i18n="no_deals">当前没有检测到 Steam 促销，请稍后再来。</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>
+    <span data-i18n="footer_data">数据来源</span>
+    <a href="https://isthereanydeal.com" target="_blank" rel="noopener">IsThereAnyDeal</a>
+    &nbsp;·&nbsp;
+    <span id="updated-at"></span>
+  </p>
+</footer>
+
+<!-- Modal -->
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
