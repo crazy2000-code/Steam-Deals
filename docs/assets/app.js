@@ -24,6 +24,7 @@ const I18N = {
     screenshots: '截图',
     trailer: '预告片',
     atl_badge_card: '当前区域史低',
+    load_more: '加载更多',
   },
   en: {
     site_title: 'New S Deals',
@@ -49,16 +50,20 @@ const I18N = {
     screenshots: 'Screenshots',
     trailer: 'Trailer',
     atl_badge_card: 'Regional ATL',
+    load_more: 'Load more',
   },
 };
 
 /* ── state ────────────────────────────────────────────────────────────────── */
+const PAGE_SIZE = 50;
+
 const state = {
   lang: localStorage.getItem('lang') || 'zh',
   currency: localStorage.getItem('currency') || 'USD',
   sort: 'priority',
   search: '',
   data: null,
+  visibleCount: PAGE_SIZE,
 };
 
 /* ── helpers ──────────────────────────────────────────────────────────────── */
@@ -212,19 +217,36 @@ function renderCard(game) {
 
 function renderGrid() {
   const grid = document.getElementById('game-grid');
+  const loadMoreWrap = document.getElementById('load-more-wrap');
   const empty = document.getElementById('empty-state');
   const games = getDisplayGames();
 
   grid.innerHTML = '';
+  loadMoreWrap.innerHTML = '';
+
   if (!games.length) {
     empty.classList.remove('hidden');
     empty.querySelector('[data-i18n]').textContent = t('no_deals');
     return;
   }
   empty.classList.add('hidden');
+
+  const visible = games.slice(0, state.visibleCount);
   const frag = document.createDocumentFragment();
-  games.forEach((g) => frag.appendChild(renderCard(g)));
+  visible.forEach((g) => frag.appendChild(renderCard(g)));
   grid.appendChild(frag);
+
+  if (games.length > state.visibleCount) {
+    const remaining = games.length - state.visibleCount;
+    const btn = document.createElement('button');
+    btn.className = 'btn-load-more';
+    btn.textContent = `${t('load_more')} (${remaining})`;
+    btn.addEventListener('click', () => {
+      state.visibleCount += PAGE_SIZE;
+      renderGrid();
+    });
+    loadMoreWrap.appendChild(btn);
+  }
 }
 
 /* ── modal ────────────────────────────────────────────────────────────────── */
@@ -385,6 +407,7 @@ function initControls() {
     state.lang = state.lang === 'zh' ? 'en' : 'zh';
     localStorage.setItem('lang', state.lang);
     setI18n();
+    state.visibleCount = PAGE_SIZE;
     renderGrid();
   });
 
@@ -396,6 +419,7 @@ function initControls() {
     btn.classList.add('active');
     state.currency = btn.dataset.currency;
     localStorage.setItem('currency', state.currency);
+    state.visibleCount = PAGE_SIZE;
     renderGrid();
   });
 
@@ -407,6 +431,7 @@ function initControls() {
   // Sort
   document.getElementById('sort-select').addEventListener('change', (e) => {
     state.sort = e.target.value;
+    state.visibleCount = PAGE_SIZE;
     renderGrid();
   });
 
@@ -416,6 +441,7 @@ function initControls() {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       state.search = e.target.value;
+      state.visibleCount = PAGE_SIZE;
       renderGrid();
     }, 200);
   });
