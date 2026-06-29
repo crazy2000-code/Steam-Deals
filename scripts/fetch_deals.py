@@ -32,6 +32,7 @@ ITAD_BASE = "https://api.isthereanydeal.com"
 STEAM_API = "https://store.steampowered.com/api/appdetails"
 ITAD_KEY = os.environ["ITAD_API_KEY"]
 STEAM_SHOP_ID = 61  # Steam's numeric shop ID in ITAD
+COUNTRY_CURRENCY = {"US": "USD", "CN": "CNY", "MY": "MYR"}
 
 # ── thresholds ─────────────────────────────────────────────────────────────────
 MIN_CUT = 40            # only scan deals with ≥40% discount
@@ -143,8 +144,11 @@ def fetch_steam_deals() -> list[dict]:
 def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dict]:
     """
     POST /games/prices/v3 in chunks; return dict keyed by game ID.
-    Each value: {current, regular, cut, historyLow, currency}
+    Validates that returned prices are actually in the expected currency —
+    ITAD sometimes returns USD prices for regions without local Steam pricing
+    (e.g. country=MY returning amount in USD). Those entries are set to None.
     """
+    expected_currency = COUNTRY_CURRENCY.get(country, "").upper()
     result: dict[str, dict] = {}
     chunk_size = 100
 
@@ -158,19 +162,30 @@ def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dic
             if not gid:
                 continue
 
-            # Find the Steam deal in this country
+            # Find the Steam deal for this country
             steam_deal = next(
                 (d for d in row.get("deals", []) if d.get("shop", {}).get("id") == STEAM_SHOP_ID),
                 None,
             )
+
+            # Reject deals where ITAD returned the wrong currency (e.g. USD for MY)
+            if steam_deal:
+                deal_currency = (steam_deal.get("price") or {}).get("currency", "").upper()
+                if expected_currency and deal_currency and deal_currency != expected_currency:
+                    log.debug("  %s: skipping %s price in %s (expected %s)",
+                              gid, country, deal_currency, expected_currency)
+                    steam_deal = None
+
+            # historyLow.all may also be in wrong currency; validate it too
             history_low_all = (row.get("historyLow") or {}).get("all") or {}
+            low_currency = history_low_all.get("currency", "").upper()
+            low_amount = history_low_all.get("amount") if low_currency == expected_currency else None
 
             result[gid] = {
                 "current": steam_deal["price"]["amount"] if steam_deal else None,
                 "regular": steam_deal["regular"]["amount"] if steam_deal else None,
                 "cut": steam_deal.get("cut") if steam_deal else None,
-                "low": history_low_all.get("amount"),
-                "currency": history_low_all.get("currency"),
+                "low": low_amount,
             }
         time.sleep(0.3)
 

@@ -1,7 +1,7 @@
 /* ── i18n strings ─────────────────────────────────────────────────────────── */
 const I18N = {
   zh: {
-    site_title: 'Steam 史低追踪',
+    site_title: 'Steam 新史低',
     label_currency: '货币',
     label_sort: '排序',
     sort_priority: '优先级',
@@ -26,7 +26,7 @@ const I18N = {
     atl_badge_card: '当前区域史低',
   },
   en: {
-    site_title: 'Steam Historical Lows',
+    site_title: 'New S Deals',
     label_currency: 'Currency',
     label_sort: 'Sort',
     sort_priority: 'Priority',
