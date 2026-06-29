@@ -41,15 +41,16 @@ COUNTRY_CURRENCY = {"US": "USD", "CN": "CNY", "MY": "MYR"}
 # ── SteamSpy sources ────────────────────────────────────────────────────────────
 STEAMSPY_TOP_ENDPOINTS = ["top100forever", "top100in2weeks"]
 STEAMSPY_GENRES = ["Action", "RPG", "Strategy", "Adventure", "Simulation", "Sports"]
+STEAMSPY_GENRE_TOP_N = 150  # top N per genre by positive review count
 
 # ── thresholds ──────────────────────────────────────────────────────────────────
 MIN_CUT = 30            # minimum discount to consider a game at all
 GOOD_DEAL_CUT = 50      # non-ATL games need ≥50% discount
 GOOD_DEAL_SCORE = 80    # non-ATL games need ≥80% positive reviews
-MIN_ATL_SCORE = 70      # minimum score for ATL "other" tier games
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
 MAX_DEALS_PAGES = 30    # /deals/v2 supplement pages (30×100 = 3 000 mixed deals)
+MAX_OUTPUT = 300        # hard cap on final output
 MAX_MEDIA_GAMES = 50
 MAX_SCREENSHOTS = 3
 
@@ -126,10 +127,12 @@ def fetch_popular_appids() -> list[int]:
     for genre in STEAMSPY_GENRES:
         log.info("  SteamSpy genre=%s ...", genre)
         data = _steamspy_get({"request": "genre", "genre": genre})
+        # Sort by positive reviews desc and take top N to avoid swamping with small games
+        top_genre = sorted(data.items(), key=lambda x: x[1].get("positive", 0), reverse=True)[:STEAMSPY_GENRE_TOP_N]
         before = len(appids)
-        for aid, info in data.items():
+        for aid, info in top_genre:
             appids[int(aid)] = info.get("name", "")
-        log.info("    +%d new (total %d)", len(appids) - before, len(appids))
+        log.info("    +%d new from genre (total %d)", len(appids) - before, len(appids))
         time.sleep(1.2)
 
     result = list(appids.keys())
@@ -400,14 +403,13 @@ def main():
             atl_ref = usd.get("store_low") or usd.get("low")
             is_atl = (cur_usd is not None and atl_ref is not None and cur_usd <= atl_ref + 0.01)
 
-            # Inclusion rules
+            # Inclusion rules: site focuses on AAA and known games only
+            if tier == "other":
+                continue
             if is_atl:
-                if score < MIN_ATL_SCORE and tier == "other":
-                    continue
+                pass  # all aaa/known ATL games qualify
             else:
                 if cut < GOOD_DEAL_CUT or score < GOOD_DEAL_SCORE:
-                    continue
-                if tier == "other":
                     continue
 
             appid = info.get("appid") or uuid_to_appid.get(gid)
@@ -465,9 +467,10 @@ def main():
                 "prices": prices,
             })
 
-        # ── Sort ─────────────────────────────────────────────────────────────────
+        # ── Sort + cap ───────────────────────────────────────────────────────────
         games.sort(key=sort_priority)
-        log.info("Final list: %d games", len(games))
+        games = games[:MAX_OUTPUT]
+        log.info("Final list: %d games (capped at %d)", len(games), MAX_OUTPUT)
 
         # ── Media for top N ───────────────────────────────────────────────────────
         media_count = min(MAX_MEDIA_GAMES, len(games))
