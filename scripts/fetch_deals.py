@@ -47,6 +47,7 @@ STEAMSPY_GENRE_TOP_N = 150  # top N per genre by positive review count
 MIN_CUT = 30            # minimum discount to consider a game at all
 GOOD_DEAL_CUT = 50      # non-ATL games need ≥50% discount
 GOOD_DEAL_SCORE = 80    # non-ATL games need ≥80% positive reviews
+MIN_TIER_SCORE = 70     # minimum score to qualify for aaa/known tier
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
 MAX_DEALS_PAGES = 30    # /deals/v2 supplement pages (30×100 = 3 000 mixed deals)
@@ -281,9 +282,9 @@ def get_steam_review(reviews_list: list[dict]) -> dict:
 
 
 def classify_tier(review_count: int, score: int) -> str:
-    if review_count >= AAA_MIN_REVIEWS and score >= MIN_ATL_SCORE:
+    if review_count >= AAA_MIN_REVIEWS and score >= MIN_TIER_SCORE:
         return "aaa"
-    if review_count >= KNOWN_MIN_REVIEWS and score >= MIN_ATL_SCORE:
+    if review_count >= KNOWN_MIN_REVIEWS and score >= MIN_TIER_SCORE:
         return "known"
     return "other"
 
