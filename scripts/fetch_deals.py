@@ -473,9 +473,39 @@ def main():
         games = games[:MAX_OUTPUT]
         log.info("Final list: %d games (capped at %d)", len(games), MAX_OUTPUT)
 
-        # ── Media for top N ───────────────────────────────────────────────────────
+        # ── Step F: Fill missing MYR prices from Steam API ───────────────────────
+        myr_missing = [g for g in games if not g["prices"].get("MYR") and g["appid"]]
+        log.info("Step F: fetching Steam MYR prices for %d games without ITAD data...", len(myr_missing))
+        for game in myr_missing:
+            try:
+                r = requests.get(
+                    STEAM_API,
+                    params={"appids": game["appid"], "cc": "MY", "filters": "price_overview", "l": "english"},
+                    timeout=15,
+                )
+                r.raise_for_status()
+                entry = r.json().get(str(game["appid"]), {})
+                po = entry.get("data", {}).get("price_overview", {}) if entry.get("success") else {}
+                if po and po.get("currency") == "MYR":
+                    current_myr = round(po["final"] / 100, 2)
+                    regular_myr = round(po["initial"] / 100, 2)
+                    cut_myr = po.get("discount_percent", 0)
+                    game["prices"]["MYR"] = {
+                        "current": current_myr,
+                        "regular": regular_myr,
+                        "cut": cut_myr,
+                        "low": None,
+                        "currency": "MYR",
+                        "symbol": "RM",
+                        "is_atl": False,
+                    }
+            except Exception as exc:
+                log.debug("Steam MYR price failed for %s: %s", game.get("title"), exc)
+            time.sleep(0.4)
+
+        # ── Step G: Media for top N ───────────────────────────────────────────────
         media_count = min(MAX_MEDIA_GAMES, len(games))
-        log.info("Step F: Steam media for top %d games...", media_count)
+        log.info("Step G: Steam media for top %d games...", media_count)
         for game in games[:media_count]:
             if game["appid"]:
                 media = fetch_media(game["appid"])

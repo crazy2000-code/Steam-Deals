@@ -121,8 +121,8 @@ function getDisplayGames() {
       break;
     case 'price':
       list.sort((a, b) => {
-        const pa = (a.prices[cur] || {}).current ?? (a.prices.USD || {}).current ?? Infinity;
-        const pb = (b.prices[cur] || {}).current ?? (b.prices.USD || {}).current ?? Infinity;
+        const pa = (a.prices[cur] || {}).current ?? Infinity;
+        const pb = (b.prices[cur] || {}).current ?? Infinity;
         return pa - pb;
       });
       break;
@@ -136,14 +136,15 @@ function getDisplayGames() {
 
 function renderCard(game) {
   const cur = state.currency;
-  const priceData = game.prices[cur] || game.prices.USD || {};
+  // Use selected currency's price; fall back to USD only for the discount badge (cut %)
+  const priceData = game.prices[cur] || {};
   const usdData = game.prices.USD || {};
 
   const isAtl = priceData.is_atl;
   const cut = priceData.cut ?? usdData.cut ?? 0;
-  const current = priceData.current;
-  const regular = priceData.regular;
-  const low = priceData.low;
+  const current = priceData.current ?? null;   // null → fmt shows "—"
+  const regular = priceData.regular ?? null;
+  const low = priceData.low ?? null;
 
   const card = el('div', 'game-card');
   card.setAttribute('tabindex', '0');
