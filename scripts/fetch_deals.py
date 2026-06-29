@@ -96,9 +96,10 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
 
 def fetch_steam_deals() -> list[dict]:
     """
-    Paginate GET /deals/v2 (Steam only, country=US) collecting deals with
-    cut ≥ MIN_CUT until MAX_PAGES or no more results.
-    Each item already contains: id, title, slug, cut, price, regular, storeLow, assets.
+    Paginate GET /deals/v2 (all shops, country=US) and filter for Steam
+    (shop.id == STEAM_SHOP_ID) in post-processing.  We avoid passing a
+    `shops` query-param because the ITAD endpoint expects it as an array
+    (shops[]) which requests doesn't encode that way for a scalar value.
     """
     deals: list[dict] = []
     offset = 0
@@ -108,29 +109,30 @@ def fetch_steam_deals() -> list[dict]:
         log.info("  /deals/v2 page %d (offset=%d)", page + 1, offset)
         data = _itad("GET", "/deals/v2", params={
             "country": "US",
-            "shops": STEAM_SHOP_ID,
             "offset": offset,
             "limit": limit,
         })
 
-        batch: list[dict] = data.get("deals", [])
+        # ITAD docs show the list field as "deals"; fall back to "list"
+        batch: list[dict] = data.get("deals") or data.get("list") or []
         if not batch:
+            log.info("  empty batch; stopping pagination (keys: %s)", list(data.keys()))
             break
 
         for item in batch:
+            # Keep only Steam deals with sufficient discount
+            if item.get("shop", {}).get("id") != STEAM_SHOP_ID:
+                continue
             if item.get("cut", 0) >= MIN_CUT:
                 deals.append(item)
 
         if not data.get("hasMore", False):
             break
 
-        # Stop early if the discount has dropped well below our threshold
-        # (deals are returned newest-first; discount may not be monotone, so
-        # keep going until page limit)
         offset += limit
         time.sleep(0.4)
 
-    log.info("Collected %d deals with cut ≥ %d%%", len(deals), MIN_CUT)
+    log.info("Collected %d Steam deals with cut ≥ %d%%", len(deals), MIN_CUT)
     return deals
 
 
@@ -145,7 +147,7 @@ def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dic
     for i in range(0, len(game_ids), chunk_size):
         chunk = game_ids[i : i + chunk_size]
         rows: list[dict] = _itad("POST", "/games/prices/v3",
-                                  params={"country": country, "shops": STEAM_SHOP_ID},
+                                  params={"country": country},
                                   json=chunk)
         for row in rows:
             gid = row.get("id")
