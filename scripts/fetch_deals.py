@@ -48,6 +48,8 @@ MIN_CUT = 30            # minimum discount to consider a game at all
 GOOD_DEAL_CUT = 50      # non-ATL games need ≥50% discount
 GOOD_DEAL_SCORE = 80    # non-ATL games need ≥80% positive reviews
 MIN_TIER_SCORE = 70     # minimum score to qualify for aaa/known tier
+OTHER_ATL_MIN_SCORE = 80   # "other" tier ATL: minimum score
+OTHER_ATL_MIN_REVIEWS = 500  # "other" tier ATL: minimum review count
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
 MAX_DEALS_PAGES = 30    # /deals/v2 supplement pages (30×100 = 3 000 mixed deals)
@@ -404,12 +406,16 @@ def main():
             atl_ref = usd.get("store_low") or usd.get("low")
             is_atl = (cur_usd is not None and atl_ref is not None and cur_usd <= atl_ref + 0.01)
 
-            # Inclusion rules: site focuses on AAA and known games only
-            if tier == "other":
-                continue
+            # Inclusion rules
             if is_atl:
-                pass  # all aaa/known ATL games qualify
+                if tier == "other":
+                    # ATL "other": only include games with decent quality
+                    if score < OTHER_ATL_MIN_SCORE or rev_count < OTHER_ATL_MIN_REVIEWS:
+                        continue
             else:
+                # Non-ATL: only AAA/known with big discount and high score
+                if tier == "other":
+                    continue
                 if cut < GOOD_DEAL_CUT or score < GOOD_DEAL_SCORE:
                     continue
 
