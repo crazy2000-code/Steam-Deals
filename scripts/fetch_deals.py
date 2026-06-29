@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Fetches current Steam deals from ITAD API, identifies historical lows,
-and writes static JSON to docs/data/deals.json for GitHub Pages.
+Fetches current Steam deals via two sources:
+  A) SteamSpy popular game lists  → covers AAA / well-known titles
+  B) ITAD /deals/v2 recent feed   → covers new / smaller releases
+Then verifies prices + history lows via ITAD /games/prices/v3 for US/CN/MY.
 """
 
 import json
 import logging
 import os
+import re
 import shutil
 import sys
 import time
@@ -22,7 +25,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── paths ──────────────────────────────────────────────────────────────────────
+# ── paths ───────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
 OUTPUT = ROOT / "docs" / "data" / "deals.json"
 BACKUP = ROOT / "docs" / "data" / "deals.backup.json"
@@ -30,31 +33,33 @@ BACKUP = ROOT / "docs" / "data" / "deals.backup.json"
 # ── API constants ───────────────────────────────────────────────────────────────
 ITAD_BASE = "https://api.isthereanydeal.com"
 STEAM_API = "https://store.steampowered.com/api/appdetails"
+STEAMSPY_BASE = "https://steamspy.com/api.php"
 ITAD_KEY = os.environ["ITAD_API_KEY"]
-STEAM_SHOP_ID = 61  # Steam's numeric shop ID in ITAD
+STEAM_SHOP_ID = 61
 COUNTRY_CURRENCY = {"US": "USD", "CN": "CNY", "MY": "MYR"}
 
-# ── thresholds ─────────────────────────────────────────────────────────────────
-MIN_CUT = 40            # only scan deals with ≥40% discount
-GOOD_DEAL_CUT = 50      # non-ATL games must have ≥50% discount
-GOOD_DEAL_SCORE = 80    # non-ATL games must have ≥80% positive reviews
-MIN_ATL_SCORE = 70      # ATL games below this score are still excluded
+# ── SteamSpy sources ────────────────────────────────────────────────────────────
+STEAMSPY_TOP_ENDPOINTS = ["top100forever", "top100in2weeks"]
+STEAMSPY_GENRES = ["Action", "RPG", "Strategy", "Adventure", "Simulation", "Sports"]
+
+# ── thresholds ──────────────────────────────────────────────────────────────────
+MIN_CUT = 30            # minimum discount to consider a game at all
+GOOD_DEAL_CUT = 50      # non-ATL games need ≥50% discount
+GOOD_DEAL_SCORE = 80    # non-ATL games need ≥80% positive reviews
+MIN_ATL_SCORE = 70      # minimum score for ATL "other" tier games
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
-MAX_PAGES = 50          # 50×100 = up to 5 000 mixed deals (Steam ≈10–20%)
-STEAM_EARLY_STOP = 500  # stop once we have this many Steam deals
-MAX_MEDIA_GAMES = 50    # fetch Steam screenshots/trailer for top N games
+MAX_DEALS_PAGES = 30    # /deals/v2 supplement pages (30×100 = 3 000 mixed deals)
+MAX_MEDIA_GAMES = 50
 MAX_SCREENSHOTS = 3
 
 
-# ── HTTP helpers ────────────────────────────────────────────────────────────────
+# ── HTTP helpers ─────────────────────────────────────────────────────────────────
 
 def _itad(method: str, path: str, retries: int = 3, **kwargs) -> object:
-    """ITAD API request with retry + back-off. Raises on final failure."""
     url = f"{ITAD_BASE}{path}"
     params = kwargs.pop("params", {})
     params["key"] = ITAD_KEY
-
     for attempt in range(retries):
         try:
             r = requests.request(method, url, params=params, timeout=30, **kwargs)
@@ -68,25 +73,33 @@ def _itad(method: str, path: str, retries: int = 3, **kwargs) -> object:
         except requests.RequestException as exc:
             if attempt == retries - 1:
                 raise
-            wait = 2 ** attempt
-            log.warning("Request failed (%s); retry in %ds", exc, wait)
-            time.sleep(wait)
+            time.sleep(2 ** attempt)
+
+
+def _steamspy_get(params: dict, retries: int = 3) -> dict:
+    for attempt in range(retries):
+        try:
+            r = requests.get(STEAMSPY_BASE, params=params,
+                             headers={"User-Agent": "Mozilla/5.0"},
+                             timeout=20)
+            r.raise_for_status()
+            return r.json()
+        except Exception as exc:
+            if attempt == retries - 1:
+                log.warning("SteamSpy request failed: %s", exc)
+                return {}
+            time.sleep(2 ** attempt)
 
 
 def _steam_appdetails(appid: int, retries: int = 3) -> dict:
-    """Fetch screenshots and movies from Steam store API."""
     for attempt in range(retries):
         try:
-            r = requests.get(
-                STEAM_API,
-                params={"appids": appid, "filters": "screenshots,movies", "l": "english"},
-                timeout=20,
-            )
+            r = requests.get(STEAM_API,
+                             params={"appids": appid, "filters": "screenshots,movies", "l": "english"},
+                             timeout=20)
             r.raise_for_status()
             entry = r.json().get(str(appid), {})
-            if not entry.get("success"):
-                return {}
-            return entry.get("data", {})
+            return entry.get("data", {}) if entry.get("success") else {}
         except Exception as exc:
             if attempt == retries - 1:
                 log.warning("Steam appdetails failed for %s: %s", appid, exc)
@@ -94,59 +107,110 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
             time.sleep(2 ** attempt)
 
 
-# ── ITAD calls ──────────────────────────────────────────────────────────────────
+# ── Source A: SteamSpy popular AppIDs ───────────────────────────────────────────
 
-def fetch_steam_deals() -> list[dict]:
+def fetch_popular_appids() -> list[int]:
     """
-    Paginate GET /deals/v2 (no shop filter; ITAD rejects shops[] and ignores
-    shops=61).  We filter for Steam by checking item["deal"]["shop"]["id"] == 61
-    in post-processing.  Stop early once STEAM_EARLY_STOP Steam deals are found
-    or MAX_PAGES pages are scanned.
+    Pull popular game AppIDs from SteamSpy top lists + genre charts.
+    These cover AAA and well-known titles that Summer Sale commonly discounts.
+    """
+    appids: dict[int, str] = {}
+
+    for ep in STEAMSPY_TOP_ENDPOINTS:
+        log.info("  SteamSpy %s ...", ep)
+        data = _steamspy_get({"request": ep})
+        for aid, info in data.items():
+            appids[int(aid)] = info.get("name", "")
+        time.sleep(1.0)
+
+    for genre in STEAMSPY_GENRES:
+        log.info("  SteamSpy genre=%s ...", genre)
+        data = _steamspy_get({"request": "genre", "genre": genre})
+        before = len(appids)
+        for aid, info in data.items():
+            appids[int(aid)] = info.get("name", "")
+        log.info("    +%d new (total %d)", len(appids) - before, len(appids))
+        time.sleep(1.2)
+
+    result = list(appids.keys())
+    log.info("SteamSpy: %d unique popular AppIDs", len(result))
+    return result
+
+
+# ── Source B: ITAD /deals/v2 recent Steam deals ──────────────────────────────────
+
+def fetch_recent_steam_deals() -> list[dict]:
+    """
+    Paginate /deals/v2 (all shops, country=US) and collect Steam deals with
+    cut ≥ MIN_CUT.  Supplements SteamSpy with newer / smaller releases.
+    Returns list of {id, title, cut, banner, appid_from_deal}.
     """
     deals: list[dict] = []
     offset = 0
     limit = 100
 
-    for page in range(MAX_PAGES):
-        if len(deals) >= STEAM_EARLY_STOP:
-            log.info("  reached %d Steam deals; stopping early", len(deals))
-            break
-
-        log.info("  /deals/v2 page %d (offset=%d) – %d Steam so far",
-                 page + 1, offset, len(deals))
-        data = _itad("GET", "/deals/v2", params={
-            "country": "US",
-            "offset": offset,
-            "limit": limit,
-        })
-
+    for page in range(MAX_DEALS_PAGES):
+        data = _itad("GET", "/deals/v2", params={"country": "US", "offset": offset, "limit": limit})
         batch: list[dict] = data.get("deals") or data.get("list") or []
         if not batch:
-            log.info("  empty batch; done")
             break
 
         for item in batch:
             deal = item.get("deal") or {}
-            shop_id = (deal.get("shop") or {}).get("id")
-            if shop_id == STEAM_SHOP_ID and deal.get("cut", 0) >= MIN_CUT:
-                deals.append(item)
+            if (deal.get("shop") or {}).get("id") != STEAM_SHOP_ID:
+                continue
+            if deal.get("cut", 0) < MIN_CUT:
+                continue
+            assets = item.get("assets") or {}
+            deals.append({
+                "id": item.get("id"),
+                "title": item.get("title", ""),
+                "cut": deal.get("cut", 0),
+                "banner": assets.get("banner300") or assets.get("banner145"),
+            })
 
         if not data.get("hasMore", False):
             break
-
         offset += limit
         time.sleep(0.35)
 
-    log.info("Collected %d Steam deals with cut ≥ %d%%", len(deals), MIN_CUT)
+    log.info("/deals/v2: %d Steam deals with cut ≥ %d%%", len(deals), MIN_CUT)
     return deals
 
 
+# ── AppID → ITAD UUID lookup ─────────────────────────────────────────────────────
+
+def lookup_itad_ids(appids: list[int]) -> dict[int, str]:
+    """
+    POST /lookup/id/shop/61/v1 to convert Steam AppIDs to ITAD UUIDs.
+    ITAD expects shop IDs in format "app/APPID".
+    Returns {appid: uuid}.
+    """
+    result: dict[int, str] = {}
+    chunk_size = 500
+
+    for i in range(0, len(appids), chunk_size):
+        chunk = appids[i : i + chunk_size]
+        shop_ids = [f"app/{aid}" for aid in chunk]
+        data: dict = _itad("POST", "/lookup/id/shop/61/v1", json=shop_ids)
+        for shop_id, uuid in data.items():
+            if uuid:
+                m = re.search(r"\d+", shop_id)
+                if m:
+                    result[int(m.group())] = uuid
+        log.info("  lookup chunk %d-%d: %d resolved", i, i + len(chunk), len(result))
+        time.sleep(0.4)
+
+    return result
+
+
+# ── Prices (all three currencies) ────────────────────────────────────────────────
+
 def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dict]:
     """
-    POST /games/prices/v3 in chunks; return dict keyed by game ID.
-    Validates that returned prices are actually in the expected currency —
-    ITAD sometimes returns USD prices for regions without local Steam pricing
-    (e.g. country=MY returning amount in USD). Those entries are set to None.
+    POST /games/prices/v3 in chunks; return dict keyed by ITAD game UUID.
+    Validates that returned prices are in the expected regional currency.
+    Returns {uuid: {current, regular, cut, store_low, low}}.
     """
     expected_currency = COUNTRY_CURRENCY.get(country, "").upper()
     result: dict[str, dict] = {}
@@ -162,45 +226,51 @@ def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dic
             if not gid:
                 continue
 
-            # Find the Steam deal for this country
             steam_deal = next(
                 (d for d in row.get("deals", []) if d.get("shop", {}).get("id") == STEAM_SHOP_ID),
                 None,
             )
 
-            # Reject deals where ITAD returned the wrong currency (e.g. USD for MY)
+            # Discard deals returned in wrong currency (e.g. USD for country=MY)
             if steam_deal:
                 deal_currency = (steam_deal.get("price") or {}).get("currency", "").upper()
                 if expected_currency and deal_currency and deal_currency != expected_currency:
-                    log.debug("  %s: skipping %s price in %s (expected %s)",
-                              gid, country, deal_currency, expected_currency)
                     steam_deal = None
 
-            # historyLow.all may also be in wrong currency; validate it too
             history_low_all = (row.get("historyLow") or {}).get("all") or {}
             low_currency = history_low_all.get("currency", "").upper()
             low_amount = history_low_all.get("amount") if low_currency == expected_currency else None
+
+            # storeLow in the deal = Steam-specific store all-time low
+            store_low_obj = (steam_deal or {}).get("storeLow") or {}
+            store_low_cur = store_low_obj.get("currency", "").upper()
+            store_low = (
+                store_low_obj.get("amount")
+                if store_low_cur == expected_currency
+                else None
+            )
 
             result[gid] = {
                 "current": steam_deal["price"]["amount"] if steam_deal else None,
                 "regular": steam_deal["regular"]["amount"] if steam_deal else None,
                 "cut": steam_deal.get("cut") if steam_deal else None,
-                "low": low_amount,
+                "store_low": store_low,   # Steam-specific ATL (preferred)
+                "low": low_amount,        # cross-shop ATL (fallback display)
             }
         time.sleep(0.3)
 
     return result
 
 
+# ── Game info ────────────────────────────────────────────────────────────────────
+
 def fetch_game_info(game_id: str) -> dict:
-    """GET /games/info/v2 for a single game."""
     return _itad("GET", "/games/info/v2", params={"id": game_id})
 
 
-# ── classification ──────────────────────────────────────────────────────────────
+# ── Classification + sorting ─────────────────────────────────────────────────────
 
 def get_steam_review(reviews_list: list[dict]) -> dict:
-    """Extract the Steam review entry from /games/info/v2 reviews array."""
     for r in reviews_list or []:
         if str(r.get("source", "")).lower() == "steam":
             return r
@@ -215,144 +285,107 @@ def classify_tier(review_count: int, score: int) -> str:
     return "other"
 
 
-def sort_priority(game: dict) -> int:
-    is_atl = game["is_atl"]
-    tier = game["tier"]
-    if is_atl and tier == "aaa":    return 0
-    if is_atl and tier == "known":  return 1
-    if not is_atl and tier == "aaa":   return 2
-    if not is_atl and tier == "known": return 3
-    return 4
+def sort_priority(game: dict) -> tuple:
+    tier_rank = {"aaa": 0, "known": 1, "other": 2}[game["tier"]]
+    atl_rank = 0 if game["is_atl"] else 1
+    # Primary: (ATL first, then tier); secondary: discount descending
+    cut = game["prices"].get("USD", {}).get("cut") or 0
+    return (atl_rank, tier_rank, -cut)
 
 
-# ── media ───────────────────────────────────────────────────────────────────────
+# ── Media ────────────────────────────────────────────────────────────────────────
 
 def fetch_media(appid: int) -> dict:
-    """Return {screenshots: [...], trailer: url|None} from Steam appdetails."""
     data = _steam_appdetails(appid)
     screenshots = [
         s["path_full"] for s in (data.get("screenshots") or [])[:MAX_SCREENSHOTS]
     ]
-
     trailer = None
     movies = data.get("movies") or []
     if movies:
-        # Prefer the highlight trailer; fall back to first
         movie = next((m for m in movies if m.get("highlight")), movies[0])
         mp4 = movie.get("mp4") or {}
         webm = movie.get("webm") or {}
         trailer = mp4.get("max") or mp4.get("480") or webm.get("max") or webm.get("480")
-
     return {"screenshots": screenshots, "trailer": trailer}
 
 
-# ── main ────────────────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────────
 
 def main():
     log.info("=== Steam Deals Fetch Start ===")
 
-    # Back up existing output before touching anything
     if OUTPUT.exists():
         shutil.copy2(OUTPUT, BACKUP)
-        log.info("Backed up existing data → %s", BACKUP)
+        log.info("Backed up existing data")
 
     try:
-        # ── Step 1: discover current Steam deals (USD) ─────────────────────────
-        log.info("Step 1: fetch current Steam deals (US)...")
-        raw_deals = fetch_steam_deals()
+        # ── A: SteamSpy popular AppIDs → ITAD UUIDs ────────────────────────────
+        log.info("Step A: SteamSpy popular games...")
+        popular_appids = fetch_popular_appids()
 
-        # Build primary deal map from /deals/v2 data (USD is ground truth).
-        # Game-level fields (id, title, slug, assets) are at item root;
-        # price/discount/storeLow are nested under item["deal"].
-        deal_map: dict[str, dict] = {}
-        for item in raw_deals:
-            gid = item.get("id")
-            if not gid:
-                continue
-            deal_obj = item.get("deal") or {}
-            price_obj = deal_obj.get("price") or {}
-            regular_obj = deal_obj.get("regular") or {}
-            # historyLow (cross-shop ATL) and storeLow (Steam-specific ATL) are both
-            # present in the deal payload; prefer storeLow for Steam ATL comparison,
-            # fall back to historyLow if storeLow is absent.
-            store_low_obj = deal_obj.get("storeLow") or deal_obj.get("historyLow") or {}
-            assets = item.get("assets") or {}
-            cut = deal_obj.get("cut", 0)
+        log.info("Step A2: ITAD lookup for %d AppIDs...", len(popular_appids))
+        appid_to_uuid = lookup_itad_ids(popular_appids)
+        log.info("  resolved %d/%d AppIDs", len(appid_to_uuid), len(popular_appids))
 
-            deal_map[gid] = {
-                "title": item.get("title", ""),
-                "slug": item.get("slug", ""),
-                "cut": cut,
-                "banner": assets.get("banner300") or assets.get("banner145"),
-                "prices": {
-                    "USD": {
-                        "current": price_obj.get("amount"),
-                        "regular": regular_obj.get("amount"),
-                        "low": store_low_obj.get("amount"),
-                        "cut": cut,
-                        "currency": "USD",
-                        "symbol": "$",
-                        "is_atl": False,  # computed below
-                    }
-                },
-            }
+        # ── B: /deals/v2 recent Steam deals ─────────────────────────────────────
+        log.info("Step B: ITAD recent Steam deals...")
+        recent_deals = fetch_recent_steam_deals()
 
-            # USD ATL: current price ≤ Steam store all-time low (with float tolerance)
-            cur = price_obj.get("amount")
-            low = store_low_obj.get("amount")
-            if cur is not None and low is not None:
-                deal_map[gid]["prices"]["USD"]["is_atl"] = cur <= low + 0.01
+        # ── Merge UUID sets ──────────────────────────────────────────────────────
+        uuid_to_appid: dict[str, int] = {v: k for k, v in appid_to_uuid.items()}
+        uuid_set: set[str] = set(appid_to_uuid.values())
 
-        game_ids = list(deal_map.keys())
-        log.info("Unique games: %d", len(game_ids))
+        # For /deals/v2 games, ITAD game ID is directly available
+        recent_by_id: dict[str, dict] = {}
+        for d in recent_deals:
+            gid = d.get("id")
+            if gid:
+                uuid_set.add(gid)
+                recent_by_id[gid] = d
 
-        # ── Step 2: CN and MY prices via /games/prices/v3 ──────────────────────
-        for country, currency, symbol in [("CN", "CNY", "¥"), ("MY", "MYR", "RM")]:
-            log.info("Step 2: fetch %s prices (%d games)...", country, len(game_ids))
-            prices = fetch_prices_for_country(game_ids, country)
-            for gid, p in prices.items():
-                if gid not in deal_map:
-                    continue
-                cur = p.get("current")
-                low = p.get("low")
-                is_atl = (cur is not None and low is not None and cur <= low + 0.01)
-                deal_map[gid]["prices"][currency] = {
-                    "current": cur,
-                    "regular": p.get("regular"),
-                    "low": low,
-                    "cut": p.get("cut") or deal_map[gid]["cut"],
-                    "currency": currency,
-                    "symbol": symbol,
-                    "is_atl": is_atl,
-                }
+        all_uuids = list(uuid_set)
+        log.info("Total unique UUIDs to price-check: %d", len(all_uuids))
 
-        # ── Step 3: determine candidates ───────────────────────────────────────
-        # A game is a candidate if it's at USD ATL, OR high discount (potential good deal)
+        # ── Fetch prices for US / CN / MY ────────────────────────────────────────
+        log.info("Step C: fetch USD prices (%d games)...", len(all_uuids))
+        us_prices = fetch_prices_for_country(all_uuids, "US")
+
+        # Filter: must have a current Steam deal with cut ≥ MIN_CUT
         candidates = [
-            gid for gid, d in deal_map.items()
-            if d["prices"]["USD"]["is_atl"] or d["cut"] >= GOOD_DEAL_CUT
+            gid for gid in all_uuids
+            if (us_prices.get(gid) or {}).get("current") is not None
+            and (us_prices.get(gid) or {}).get("cut", 0) >= MIN_CUT
         ]
-        log.info("Candidates (ATL or ≥%d%% off): %d", GOOD_DEAL_CUT, len(candidates))
+        log.info("Candidates with current Steam deal ≥ %d%% off: %d", MIN_CUT, len(candidates))
 
-        # ── Step 4: fetch game info for candidates ──────────────────────────────
-        log.info("Step 4: fetch game info for %d candidates...", len(candidates))
+        log.info("Step C2: fetch CNY prices (%d games)...", len(candidates))
+        cn_prices = fetch_prices_for_country(candidates, "CN")
+
+        log.info("Step C3: fetch MYR prices (%d games)...", len(candidates))
+        my_prices = fetch_prices_for_country(candidates, "MY")
+
+        # ── Fetch game info for candidates ───────────────────────────────────────
+        log.info("Step D: fetch game info for %d candidates...", len(candidates))
         info_map: dict[str, dict] = {}
         for i, gid in enumerate(candidates, 1):
             try:
                 info_map[gid] = fetch_game_info(gid)
                 if i % 20 == 0:
-                    log.info("  %d/%d done", i, len(candidates))
-                time.sleep(0.25)
+                    log.info("  %d/%d", i, len(candidates))
+                time.sleep(0.2)
             except Exception as exc:
                 log.warning("  info failed for %s: %s", gid, exc)
 
-        # ── Step 5: build final list ────────────────────────────────────────────
-        log.info("Step 5: classify and filter...")
+        # ── Build final game list ────────────────────────────────────────────────
+        log.info("Step E: classify and filter...")
         games: list[dict] = []
 
         for gid in candidates:
             info = info_map.get(gid) or {}
-            dm = deal_map[gid]
+            usd = us_prices.get(gid) or {}
+            cny = cn_prices.get(gid) or {}
+            myr = my_prices.get(gid) or {}
 
             steam_rev = get_steam_review(info.get("reviews") or [])
             score = steam_rev.get("score") or 0      # 0–100
@@ -360,14 +393,15 @@ def main():
             rev_text = steam_rev.get("text") or ""
 
             tier = classify_tier(rev_count, score)
-            usd_is_atl = dm["prices"]["USD"]["is_atl"]
-            cut = dm["cut"]
+            cut = usd.get("cut", 0)
 
-            # Inclusion rules:
-            # • ATL games: include if score ≥ MIN_ATL_SCORE (already baked into tier for AAA/known)
-            #   but also allow "other" tier ATL if score is decent
-            # • Non-ATL (good deal): only AAA or known tier, cut ≥ GOOD_DEAL_CUT, score ≥ GOOD_DEAL_SCORE
-            if usd_is_atl:
+            # ATL check: prefer Steam-specific store_low; fall back to cross-shop low
+            cur_usd = usd.get("current")
+            atl_ref = usd.get("store_low") or usd.get("low")
+            is_atl = (cur_usd is not None and atl_ref is not None and cur_usd <= atl_ref + 0.01)
+
+            # Inclusion rules
+            if is_atl:
                 if score < MIN_ATL_SCORE and tier == "other":
                     continue
             else:
@@ -376,69 +410,90 @@ def main():
                 if tier == "other":
                     continue
 
-            appid = info.get("appid")
+            appid = info.get("appid") or uuid_to_appid.get(gid)
             assets = info.get("assets") or {}
+            banner_from_deal = (recent_by_id.get(gid) or {}).get("banner")
             capsule = (
                 assets.get("boxart")
-                or dm.get("banner")
-                or (f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg" if appid else None)
+                or banner_from_deal
+                or (f"https://cdn.cloudflare.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg"
+                    if appid else None)
             )
 
-            game: dict = {
+            def price_block(p: dict, currency: str, symbol: str) -> dict | None:
+                cur = p.get("current")
+                if cur is None:
+                    return None
+                low = p.get("store_low") or p.get("low")
+                p_is_atl = (cur is not None and low is not None and cur <= low + 0.01)
+                return {
+                    "current": cur,
+                    "regular": p.get("regular"),
+                    "low": low,
+                    "cut": p.get("cut") or cut,
+                    "currency": currency,
+                    "symbol": symbol,
+                    "is_atl": p_is_atl,
+                }
+
+            prices: dict = {}
+            usd_block = price_block(usd, "USD", "$")
+            if usd_block:
+                prices["USD"] = usd_block
+            cny_block = price_block(cny, "CNY", "¥")
+            if cny_block:
+                prices["CNY"] = cny_block
+            myr_block = price_block(myr, "MYR", "RM")
+            if myr_block:
+                prices["MYR"] = myr_block
+
+            if not prices.get("USD"):
+                continue
+
+            games.append({
                 "id": gid,
-                "title": dm["title"],
-                "slug": dm["slug"],
+                "title": info.get("title") or (recent_by_id.get(gid) or {}).get("title", ""),
+                "slug": info.get("slug", ""),
                 "appid": appid,
                 "tier": tier,
-                "is_atl": usd_is_atl,
+                "is_atl": is_atl,
                 "tags": (info.get("tags") or [])[:8],
-                "reviews": {
-                    "score": score,
-                    "count": rev_count,
-                    "text": rev_text,
-                },
-                "images": {
-                    "capsule": capsule,
-                    "screenshots": [],
-                },
+                "reviews": {"score": score, "count": rev_count, "text": rev_text},
+                "images": {"capsule": capsule, "screenshots": []},
                 "trailer": None,
                 "steam_url": f"https://store.steampowered.com/app/{appid}" if appid else None,
-                "prices": dm["prices"],
-            }
-            games.append(game)
+                "prices": prices,
+            })
 
-        # ── Step 6: sort ────────────────────────────────────────────────────────
+        # ── Sort ─────────────────────────────────────────────────────────────────
         games.sort(key=sort_priority)
         log.info("Final list: %d games", len(games))
 
-        # ── Step 7: fetch Steam media for top N games only ──────────────────────
+        # ── Media for top N ───────────────────────────────────────────────────────
         media_count = min(MAX_MEDIA_GAMES, len(games))
-        log.info("Step 7: fetch Steam media for top %d games...", media_count)
+        log.info("Step F: Steam media for top %d games...", media_count)
         for game in games[:media_count]:
-            appid = game.get("appid")
-            if appid:
-                media = fetch_media(appid)
+            if game["appid"]:
+                media = fetch_media(game["appid"])
                 game["images"]["screenshots"] = media["screenshots"]
                 game["trailer"] = media["trailer"]
-                time.sleep(0.6)  # be polite to Steam API
+                time.sleep(0.6)
 
-        # ── Step 8: write output ────────────────────────────────────────────────
+        # ── Write output ──────────────────────────────────────────────────────────
         output = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "total": len(games),
             "games": games,
         }
-
         OUTPUT.parent.mkdir(parents=True, exist_ok=True)
         OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2))
         log.info("Wrote %s (%d games)", OUTPUT, len(games))
 
     except Exception:
-        log.exception("Fatal error during fetch")
-        # If output was partially written or missing, restore backup
+        log.exception("Fatal error")
         if BACKUP.exists() and (not OUTPUT.exists() or OUTPUT.stat().st_size < 10):
             shutil.copy2(BACKUP, OUTPUT)
-            log.info("Restored backup to %s", OUTPUT)
+            log.info("Restored backup")
         sys.exit(1)
 
 
