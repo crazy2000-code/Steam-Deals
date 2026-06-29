@@ -1,7 +1,7 @@
 /* ── i18n strings ─────────────────────────────────────────────────────────── */
 const I18N = {
   zh: {
-    site_title: 'Steam 新史低',
+    site_title: '新史T',
     label_currency: '货币',
     label_sort: '排序',
     sort_priority: '优先级',
