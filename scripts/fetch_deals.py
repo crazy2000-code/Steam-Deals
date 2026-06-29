@@ -40,7 +40,7 @@ GOOD_DEAL_SCORE = 80    # non-ATL games must have ≥80% positive reviews
 MIN_ATL_SCORE = 70      # ATL games below this score are still excluded
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
-MAX_PAGES = 10          # 10×100 = up to 1 000 deals scanned
+MAX_PAGES = 20          # 20×100 = up to 2 000 Steam-filtered deals
 MAX_MEDIA_GAMES = 50    # fetch Steam screenshots/trailer for top N games
 MAX_SCREENSHOTS = 3
 
@@ -96,10 +96,10 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
 
 def fetch_steam_deals() -> list[dict]:
     """
-    Paginate GET /deals/v2 (all shops, country=US) and filter for Steam
-    (shop.id == STEAM_SHOP_ID) in post-processing.  We avoid passing a
-    `shops` query-param because the ITAD endpoint expects it as an array
-    (shops[]) which requests doesn't encode that way for a scalar value.
+    Paginate GET /deals/v2 filtered to Steam (shops[]=61).
+    ITAD expects the shops param as a repeated key with [] suffix;
+    we pass it as a list of tuples so requests encodes it correctly.
+    Each returned item is a game object with price info under item["deal"].
     """
     deals: list[dict] = []
     offset = 0
@@ -107,31 +107,42 @@ def fetch_steam_deals() -> list[dict]:
 
     for page in range(MAX_PAGES):
         log.info("  /deals/v2 page %d (offset=%d)", page + 1, offset)
-        data = _itad("GET", "/deals/v2", params={
-            "country": "US",
-            "offset": offset,
-            "limit": limit,
-        })
+        # Pass shops as repeated tuple so requests encodes as shops[]=61
+        params = [
+            ("key", ITAD_KEY),
+            ("country", "US"),
+            ("shops[]", STEAM_SHOP_ID),
+            ("offset", offset),
+            ("limit", limit),
+        ]
+        url = f"{ITAD_BASE}/deals/v2"
+        for attempt in range(3):
+            try:
+                r = requests.get(url, params=params, timeout=30)
+                if r.status_code == 429:
+                    wait = int(r.headers.get("Retry-After", 60))
+                    log.warning("Rate-limited; sleeping %ds", wait)
+                    time.sleep(wait)
+                    continue
+                r.raise_for_status()
+                data = r.json()
+                break
+            except requests.RequestException as exc:
+                if attempt == 2:
+                    raise
+                time.sleep(2 ** attempt)
 
-        # Response field is "deals"; fall back to "list" for safety
         batch: list[dict] = data.get("deals") or data.get("list") or []
         if not batch:
             log.info("  empty batch (keys: %s)", list(data.keys()))
             break
 
-        # Each item is a game object; the per-shop deal info lives under item["deal"]
         if page == 0:
-            sample = batch[0] if batch else {}
-            log.info("  first item keys: %s", list(sample.keys()))
-            deal_sample = sample.get("deal") or {}
-            log.info("  first item['deal'] keys: %s", list(deal_sample.keys()))
-            log.info("  first item shop: %s", deal_sample.get("shop"))
+            deal_sample = (batch[0].get("deal") or {}) if batch else {}
+            log.info("  deal fields available: %s", list(deal_sample.keys()))
 
         for item in batch:
             deal = item.get("deal") or {}
-            shop_id = (deal.get("shop") or {}).get("id")
-            if shop_id != STEAM_SHOP_ID:
-                continue
             if deal.get("cut", 0) >= MIN_CUT:
                 deals.append(item)
 
@@ -262,7 +273,10 @@ def main():
             deal_obj = item.get("deal") or {}
             price_obj = deal_obj.get("price") or {}
             regular_obj = deal_obj.get("regular") or {}
-            store_low_obj = deal_obj.get("storeLow") or {}
+            # historyLow (cross-shop ATL) and storeLow (Steam-specific ATL) are both
+            # present in the deal payload; prefer storeLow for Steam ATL comparison,
+            # fall back to historyLow if storeLow is absent.
+            store_low_obj = deal_obj.get("storeLow") or deal_obj.get("historyLow") or {}
             assets = item.get("assets") or {}
             cut = deal_obj.get("cut", 0)
 
@@ -275,7 +289,7 @@ def main():
                     "USD": {
                         "current": price_obj.get("amount"),
                         "regular": regular_obj.get("amount"),
-                        "low": store_low_obj.get("amount"),      # Steam store ATL (USD)
+                        "low": store_low_obj.get("amount"),
                         "cut": cut,
                         "currency": "USD",
                         "symbol": "$",
