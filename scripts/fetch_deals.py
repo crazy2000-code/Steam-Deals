@@ -40,7 +40,8 @@ GOOD_DEAL_SCORE = 80    # non-ATL games must have ≥80% positive reviews
 MIN_ATL_SCORE = 70      # ATL games below this score are still excluded
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
-MAX_PAGES = 20          # 20×100 = up to 2 000 Steam-filtered deals
+MAX_PAGES = 50          # 50×100 = up to 5 000 mixed deals (Steam ≈10–20%)
+STEAM_EARLY_STOP = 500  # stop once we have this many Steam deals
 MAX_MEDIA_GAMES = 50    # fetch Steam screenshots/trailer for top N games
 MAX_SCREENSHOTS = 3
 
@@ -96,61 +97,44 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
 
 def fetch_steam_deals() -> list[dict]:
     """
-    Paginate GET /deals/v2 filtered to Steam (shops[]=61).
-    ITAD expects the shops param as a repeated key with [] suffix;
-    we pass it as a list of tuples so requests encodes it correctly.
-    Each returned item is a game object with price info under item["deal"].
+    Paginate GET /deals/v2 (no shop filter; ITAD rejects shops[] and ignores
+    shops=61).  We filter for Steam by checking item["deal"]["shop"]["id"] == 61
+    in post-processing.  Stop early once STEAM_EARLY_STOP Steam deals are found
+    or MAX_PAGES pages are scanned.
     """
     deals: list[dict] = []
     offset = 0
     limit = 100
 
     for page in range(MAX_PAGES):
-        log.info("  /deals/v2 page %d (offset=%d)", page + 1, offset)
-        # Pass shops as repeated tuple so requests encodes as shops[]=61
-        params = [
-            ("key", ITAD_KEY),
-            ("country", "US"),
-            ("shops[]", STEAM_SHOP_ID),
-            ("offset", offset),
-            ("limit", limit),
-        ]
-        url = f"{ITAD_BASE}/deals/v2"
-        for attempt in range(3):
-            try:
-                r = requests.get(url, params=params, timeout=30)
-                if r.status_code == 429:
-                    wait = int(r.headers.get("Retry-After", 60))
-                    log.warning("Rate-limited; sleeping %ds", wait)
-                    time.sleep(wait)
-                    continue
-                r.raise_for_status()
-                data = r.json()
-                break
-            except requests.RequestException as exc:
-                if attempt == 2:
-                    raise
-                time.sleep(2 ** attempt)
+        if len(deals) >= STEAM_EARLY_STOP:
+            log.info("  reached %d Steam deals; stopping early", len(deals))
+            break
+
+        log.info("  /deals/v2 page %d (offset=%d) – %d Steam so far",
+                 page + 1, offset, len(deals))
+        data = _itad("GET", "/deals/v2", params={
+            "country": "US",
+            "offset": offset,
+            "limit": limit,
+        })
 
         batch: list[dict] = data.get("deals") or data.get("list") or []
         if not batch:
-            log.info("  empty batch (keys: %s)", list(data.keys()))
+            log.info("  empty batch; done")
             break
-
-        if page == 0:
-            deal_sample = (batch[0].get("deal") or {}) if batch else {}
-            log.info("  deal fields available: %s", list(deal_sample.keys()))
 
         for item in batch:
             deal = item.get("deal") or {}
-            if deal.get("cut", 0) >= MIN_CUT:
+            shop_id = (deal.get("shop") or {}).get("id")
+            if shop_id == STEAM_SHOP_ID and deal.get("cut", 0) >= MIN_CUT:
                 deals.append(item)
 
         if not data.get("hasMore", False):
             break
 
         offset += limit
-        time.sleep(0.4)
+        time.sleep(0.35)
 
     log.info("Collected %d Steam deals with cut ≥ %d%%", len(deals), MIN_CUT)
     return deals
