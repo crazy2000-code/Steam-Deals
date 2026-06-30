@@ -30,15 +30,6 @@ const I18N = {
     filter_atl: '史低',
     filter_aaa: '大作',
     last_sale: '上次销售低',
-    featured_title: '知名大作 · 新史低',
-    featured_subtitle: '以下大作正在以历史最低价促销',
-    copy_list: '复制本期清单',
-    share_game: '分享',
-    copied: '已复制到剪贴板 ✓',
-    label_min_cut: '最低折扣',
-    label_min_reviews: '评价数',
-    label_tag: '标签',
-    filter_any: '不限',
   },
   en: {
     site_title: 'New S Deals',
@@ -70,22 +61,11 @@ const I18N = {
     filter_atl: 'ATL',
     filter_aaa: 'AAA',
     last_sale: 'Prev Sale',
-    featured_title: 'Notable Games · All-Time Low',
-    featured_subtitle: 'These major titles are at their lowest price ever',
-    copy_list: 'Copy List',
-    share_game: 'Share',
-    copied: 'Copied to clipboard ✓',
-    label_min_cut: 'Min Discount',
-    label_min_reviews: 'Reviews',
-    label_tag: 'Tag',
-    filter_any: 'Any',
   },
 };
 
-/* ── constants & state ────────────────────────────────────────────────────── */
+/* ── state ────────────────────────────────────────────────────────────────── */
 const PAGE_SIZE = 50;
-const FEATURED_MIN_REVIEWS = 50_000;
-const FEATURED_COUNT = 12;
 
 const state = {
   lang: localStorage.getItem('lang') || 'zh',
@@ -93,9 +73,6 @@ const state = {
   sort: 'priority',
   filter: 'all',   // 'all' | 'atl' | 'aaa'
   search: '',
-  minCut: 0,
-  minReviews: 0,
-  tag: '',
   data: null,
   visibleCount: PAGE_SIZE,
 };
@@ -134,164 +111,7 @@ function setI18n() {
   document.querySelector('#sort-select').querySelectorAll('option').forEach((opt) => {
     if (opt.dataset.i18n) opt.textContent = t(opt.dataset.i18n);
   });
-  ['#min-cut-select', '#min-reviews-select'].forEach((sel) => {
-    const el = document.querySelector(sel);
-    if (el) el.querySelectorAll('option[data-i18n]').forEach((opt) => {
-      opt.textContent = t(opt.dataset.i18n);
-    });
-  });
   document.getElementById('lang-toggle').textContent = state.lang === 'zh' ? 'EN' : '中文';
-}
-
-function showToast(msg) {
-  let toast = document.getElementById('toast');
-  if (!toast) {
-    toast = document.createElement('div');
-    toast.id = 'toast';
-    toast.className = 'toast';
-    document.body.appendChild(toast);
-  }
-  toast.textContent = msg;
-  toast.classList.add('show');
-  clearTimeout(toast._timer);
-  toast._timer = setTimeout(() => toast.classList.remove('show'), 2200);
-}
-
-/* ── featured section ─────────────────────────────────────────────────────── */
-function getFeaturedGames() {
-  if (!state.data) return [];
-  return state.data.games
-    .filter((g) => g.is_atl && (g.reviews.count || 0) >= FEATURED_MIN_REVIEWS)
-    .sort((a, b) => (b.reviews.count || 0) - (a.reviews.count || 0))
-    .slice(0, FEATURED_COUNT);
-}
-
-function shareGame(game) {
-  const cur = state.currency;
-  const priceData = game.prices[cur] || game.prices.USD || {};
-  const cut = priceData.cut ?? 0;
-  const current = priceData.current != null ? fmt(priceData.current, cur) : '—';
-  const text = `《${game.title}》-${cut}% 现价${current} | Steam史低 | ${game.steam_url || ''}`;
-  if (navigator.share) {
-    navigator.share({ title: game.title, text }).catch(() => {});
-  } else {
-    navigator.clipboard.writeText(text)
-      .then(() => showToast(t('copied')))
-      .catch(() => {});
-  }
-}
-
-function copyFeaturedList() {
-  const games = getFeaturedGames();
-  if (!games.length) return;
-  const cur = state.currency;
-  const lines = games.map((g) => {
-    const p = g.prices[cur] || g.prices.USD || {};
-    const cut = p.cut ?? 0;
-    const price = p.current != null ? fmt(p.current, cur) : '—';
-    return `🔥 ${g.title}  -${cut}% → ${price}`;
-  });
-  const header = state.lang === 'zh'
-    ? '🎮 Steam 知名大作 · 新史低精选\n━━━━━━━━━━━━━━━━'
-    : '🎮 Steam Notable Games · All-Time Low\n━━━━━━━━━━━━━━━━';
-  const text = `${header}\n${lines.join('\n')}\n━━━━━━━━━━━━━━━━`;
-  navigator.clipboard.writeText(text)
-    .then(() => showToast(t('copied')))
-    .catch(() => {});
-}
-
-function renderFeaturedCard(game) {
-  const cur = state.currency;
-  const priceData = game.prices[cur] || {};
-  const usdData = game.prices.USD || {};
-  const cut = priceData.cut ?? usdData.cut ?? 0;
-  const current = priceData.current ?? null;
-
-  const card = el('div', 'featured-card');
-
-  const coverDiv = el('div', 'featured-card-cover');
-  if (game.images.capsule) {
-    const img = document.createElement('img');
-    img.src = game.images.capsule;
-    img.alt = game.title;
-    img.loading = 'lazy';
-    img.onerror = () => { coverDiv.style.background = '#0a1520'; };
-    coverDiv.appendChild(img);
-  }
-  if (cut > 0) coverDiv.appendChild(el('span', 'discount-badge', `-${cut}%`));
-  card.appendChild(coverDiv);
-
-  const body = el('div', 'featured-card-body');
-  body.appendChild(el('div', 'featured-card-title', game.title));
-
-  if (game.tags && game.tags.length) {
-    const tagsDiv = el('div', 'card-tags');
-    game.tags.slice(0, 3).forEach((tag) => tagsDiv.appendChild(el('span', 'tag', tag)));
-    body.appendChild(tagsDiv);
-  }
-
-  if (game.reviews.count) {
-    const revDiv = el('div', 'card-reviews');
-    revDiv.appendChild(el('span', `review-score ${scoreClass(game.reviews.score)}`, `${game.reviews.score}%`));
-    const cnt = game.reviews.count >= 1000
-      ? `${(game.reviews.count / 1000).toFixed(0)}k ${t('reviews_label')}`
-      : `${game.reviews.count} ${t('reviews_label')}`;
-    revDiv.appendChild(el('span', 'review-count', cnt));
-    body.appendChild(revDiv);
-  }
-
-  const priceRow = el('div', 'featured-price-row');
-  priceRow.appendChild(el('span', 'featured-price-current', fmt(current, cur)));
-
-  const shareBtn = el('button', 'btn-share', t('share_game'));
-  shareBtn.title = t('share_game');
-  shareBtn.addEventListener('click', (e) => { e.stopPropagation(); shareGame(game); });
-  priceRow.appendChild(shareBtn);
-  body.appendChild(priceRow);
-
-  card.appendChild(body);
-  card.addEventListener('click', () => openModal(game));
-  return card;
-}
-
-function renderFeaturedSection() {
-  const section = document.getElementById('featured-section');
-  const grid = document.getElementById('featured-grid');
-  if (!section || !grid) return;
-
-  const games = getFeaturedGames();
-  grid.innerHTML = '';
-
-  if (!games.length) {
-    section.classList.add('hidden');
-    return;
-  }
-  section.classList.remove('hidden');
-
-  const frag = document.createDocumentFragment();
-  games.forEach((g) => frag.appendChild(renderFeaturedCard(g)));
-  grid.appendChild(frag);
-}
-
-/* ── tag filter population ────────────────────────────────────────────────── */
-function populateTagFilter() {
-  const sel = document.getElementById('tag-select');
-  if (!sel || !state.data) return;
-
-  const freq = {};
-  state.data.games.forEach((g) => {
-    (g.tags || []).forEach((tag) => { freq[tag] = (freq[tag] || 0) + 1; });
-  });
-
-  const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 30);
-  sel.innerHTML = `<option value="" data-i18n="filter_any">${t('filter_any')}</option>`;
-  sorted.forEach(([tag]) => {
-    const opt = document.createElement('option');
-    opt.value = tag;
-    opt.textContent = tag;
-    if (tag === state.tag) opt.selected = true;
-    sel.appendChild(opt);
-  });
 }
 
 /* ── rendering ────────────────────────────────────────────────────────────── */
@@ -302,21 +122,6 @@ function getDisplayGames() {
   // Filter tab
   if (state.filter === 'atl') list = list.filter((g) => g.is_atl);
   else if (state.filter === 'aaa') list = list.filter((g) => g.tier === 'aaa');
-
-  // Advanced filters
-  if (state.minCut > 0) {
-    const cur = state.currency;
-    list = list.filter((g) => {
-      const cut = (g.prices[cur] || g.prices.USD || {}).cut ?? 0;
-      return cut >= state.minCut;
-    });
-  }
-  if (state.minReviews > 0) {
-    list = list.filter((g) => (g.reviews.count || 0) >= state.minReviews);
-  }
-  if (state.tag) {
-    list = list.filter((g) => (g.tags || []).includes(state.tag));
-  }
 
   const q = state.search.trim().toLowerCase();
   if (q) list = list.filter((g) => g.title.toLowerCase().includes(q));
@@ -351,12 +156,13 @@ function getDisplayGames() {
 
 function renderCard(game) {
   const cur = state.currency;
+  // Use selected currency's price; fall back to USD only for the discount badge (cut %)
   const priceData = game.prices[cur] || {};
   const usdData = game.prices.USD || {};
 
   const isAtl = priceData.is_atl;
   const cut = priceData.cut ?? usdData.cut ?? 0;
-  const current = priceData.current ?? null;
+  const current = priceData.current ?? null;   // null → fmt shows "—"
   const regular = priceData.regular ?? null;
   const low = priceData.low ?? null;
 
@@ -565,11 +371,6 @@ function openModal(game) {
     link.className = 'btn-steam';
     link.textContent = t('open_steam');
     actions.appendChild(link);
-
-    const shareBtn = el('button', 'btn-steam btn-share-modal', t('share_game'));
-    shareBtn.addEventListener('click', () => shareGame(game));
-    actions.appendChild(shareBtn);
-
     content.appendChild(actions);
   }
 
@@ -580,6 +381,7 @@ function openModal(game) {
 function closeModal() {
   document.getElementById('modal').classList.add('hidden');
   document.body.style.overflow = '';
+  // Stop any playing video
   const video = document.querySelector('.trailer-video');
   if (video) video.pause();
 }
@@ -599,6 +401,7 @@ async function loadData() {
       const updated = document.getElementById('updated-at');
       updated.textContent = `${t('updated_at')} ${d.toLocaleString()}`;
 
+      // Show stale warning if data is more than 24h old
       if (hoursSince > 24) {
         statusBar.textContent = t('stale_notice');
         statusBar.classList.add('stale');
@@ -611,8 +414,6 @@ async function loadData() {
     console.error(err);
   }
 
-  renderFeaturedSection();
-  populateTagFilter();
   renderGrid();
 }
 
@@ -624,7 +425,6 @@ function initControls() {
     localStorage.setItem('lang', state.lang);
     setI18n();
     state.visibleCount = PAGE_SIZE;
-    renderFeaturedSection();
     renderGrid();
   });
 
@@ -637,7 +437,6 @@ function initControls() {
     state.currency = btn.dataset.currency;
     localStorage.setItem('currency', state.currency);
     state.visibleCount = PAGE_SIZE;
-    renderFeaturedSection();
     renderGrid();
   });
 
@@ -646,7 +445,7 @@ function initControls() {
     btn.classList.toggle('active', btn.dataset.currency === state.currency);
   });
 
-  // Filter tabs
+  // Filter tabs (null-guard: element added after initial release)
   const filterGroup = document.getElementById('filter-group');
   if (filterGroup) {
     filterGroup.addEventListener('click', (e) => {
@@ -677,38 +476,6 @@ function initControls() {
       renderGrid();
     }, 200);
   });
-
-  // Advanced filters
-  const minCutSel = document.getElementById('min-cut-select');
-  if (minCutSel) {
-    minCutSel.addEventListener('change', (e) => {
-      state.minCut = Number(e.target.value);
-      state.visibleCount = PAGE_SIZE;
-      renderGrid();
-    });
-  }
-
-  const minRevSel = document.getElementById('min-reviews-select');
-  if (minRevSel) {
-    minRevSel.addEventListener('change', (e) => {
-      state.minReviews = Number(e.target.value);
-      state.visibleCount = PAGE_SIZE;
-      renderGrid();
-    });
-  }
-
-  const tagSel = document.getElementById('tag-select');
-  if (tagSel) {
-    tagSel.addEventListener('change', (e) => {
-      state.tag = e.target.value;
-      state.visibleCount = PAGE_SIZE;
-      renderGrid();
-    });
-  }
-
-  // Copy featured list
-  const copyBtn = document.getElementById('copy-list-btn');
-  if (copyBtn) copyBtn.addEventListener('click', copyFeaturedList);
 
   // Modal close
   document.getElementById('modal-close').addEventListener('click', closeModal);
