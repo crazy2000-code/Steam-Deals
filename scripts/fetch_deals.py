@@ -40,8 +40,7 @@ COUNTRY_CURRENCY = {"US": "USD", "CN": "CNY", "MY": "MYR"}
 
 # ── SteamSpy sources ────────────────────────────────────────────────────────────
 STEAMSPY_TOP_ENDPOINTS = ["top100forever", "top100in2weeks"]
-STEAMSPY_GENRES = ["Action", "RPG", "Strategy", "Adventure", "Simulation", "Sports"]
-STEAMSPY_GENRE_TOP_N = 150  # top N per genre by positive review count
+STEAMSPY_ALL_PAGES = 4   # request=all gives top games by owner count, 1000/page
 
 # ── thresholds ──────────────────────────────────────────────────────────────────
 MIN_CUT = 30            # minimum discount to consider a game at all
@@ -120,26 +119,27 @@ def fetch_popular_appids() -> list[int]:
     """
     appids: dict[int, str] = {}
 
+    # Top lists first (always reliable, no rate-limit issues)
     for ep in STEAMSPY_TOP_ENDPOINTS:
         log.info("  SteamSpy %s ...", ep)
         data = _steamspy_get({"request": ep})
         for aid, info in data.items():
             appids[int(aid)] = info.get("name", "")
-        time.sleep(1.0)
+        time.sleep(2)
 
-    for genre in STEAMSPY_GENRES:
-        log.info("  SteamSpy genre=%s ...", genre)
-        time.sleep(16)  # SteamSpy rate limit: ~4 req/min → 1 per 15s; 16s for safety
-        data = _steamspy_get({"request": "genre", "genre": genre})
+    # Paginate through all-games sorted by owner count (top 4000 most-owned games)
+    # Each page has 1000 games; 16s apart to respect ~4 req/min rate limit
+    for page in range(STEAMSPY_ALL_PAGES):
+        log.info("  SteamSpy all page=%d ...", page)
+        time.sleep(16)
+        data = _steamspy_get({"request": "all", "page": page})
         if len(data) < 10:
-            log.warning("  genre=%s returned only %d entries, likely rate-limited — skipping", genre, len(data))
-            continue
-        # Sort by positive reviews desc and take top N to avoid swamping with small games
-        top_genre = sorted(data.items(), key=lambda x: x[1].get("positive", 0), reverse=True)[:STEAMSPY_GENRE_TOP_N]
+            log.warning("  page=%d returned only %d entries — stopping", page, len(data))
+            break
         before = len(appids)
-        for aid, info in top_genre:
+        for aid, info in data.items():
             appids[int(aid)] = info.get("name", "")
-        log.info("    +%d new from genre (total %d)", len(appids) - before, len(appids))
+        log.info("    +%d new (total %d)", len(appids) - before, len(appids))
 
     result = list(appids.keys())
     log.info("SteamSpy: %d unique popular AppIDs", len(result))
@@ -302,9 +302,14 @@ def classify_tier(review_count: int, score: int) -> str:
 def sort_priority(game: dict) -> tuple:
     tier_rank = {"aaa": 0, "known": 1, "other": 2}[game["tier"]]
     atl_rank = 0 if game["is_atl"] else 1
-    # Primary: (ATL first, then tier); secondary: discount descending
+    rev_count = game["reviews"].get("count", 0)
     cut = game["prices"].get("USD", {}).get("cut") or 0
-    return (atl_rank, tier_rank, -cut)
+    if game["is_atl"]:
+        # ATL: famous games first (review count = proxy for recognizability)
+        return (atl_rank, tier_rank, -rev_count, -cut)
+    else:
+        # Non-ATL good deals: best discount first
+        return (atl_rank, tier_rank, -cut, -rev_count)
 
 
 # ── Media ────────────────────────────────────────────────────────────────────────
