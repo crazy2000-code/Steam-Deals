@@ -29,6 +29,7 @@ const I18N = {
     filter_all: '全部',
     filter_atl: '史低',
     filter_aaa: '大作',
+    filter_notable: '知名大作',
     last_sale: '上次销售低',
   },
   en: {
@@ -60,6 +61,7 @@ const I18N = {
     filter_all: 'All',
     filter_atl: 'ATL',
     filter_aaa: 'AAA',
+    filter_notable: 'Notable',
     last_sale: 'Prev Sale',
   },
 };
@@ -122,6 +124,7 @@ function getDisplayGames() {
   // Filter tab
   if (state.filter === 'atl') list = list.filter((g) => g.is_atl);
   else if (state.filter === 'aaa') list = list.filter((g) => g.tier === 'aaa');
+  else if (state.filter === 'notable') list = list.filter((g) => !!g.is_notable);
 
   const q = state.search.trim().toLowerCase();
   if (q) list = list.filter((g) => g.title.toLowerCase().includes(q));
@@ -147,16 +150,16 @@ function getDisplayGames() {
       });
       break;
     default: {
-      // AAA+ATL first, sorted by current price asc in selected currency (cheapest eye-catchers first)
-      // Everything else keeps server priority order (ATL+known → ATL+other → non-ATL)
-      const aaaAtl = list.filter((g) => g.tier === 'aaa' && g.is_atl);
-      const rest   = list.filter((g) => !(g.tier === 'aaa' && g.is_atl));
-      aaaAtl.sort((a, b) => {
+      // 知名大作+ATL first, sorted by price asc in selected currency
+      // Everything else keeps server priority order
+      const notableAtl = list.filter((g) => !!g.is_notable && g.is_atl);
+      const rest       = list.filter((g) => !(!!g.is_notable && g.is_atl));
+      notableAtl.sort((a, b) => {
         const pa = (a.prices[cur] || a.prices.USD || {}).current ?? Infinity;
         const pb = (b.prices[cur] || b.prices.USD || {}).current ?? Infinity;
         return pa - pb;
       });
-      list = [...aaaAtl, ...rest];
+      list = [...notableAtl, ...rest];
       break;
     }
   }

@@ -52,6 +52,43 @@ OTHER_ATL_MIN_REVIEWS = 500  # "other" tier ATL: minimum review count
 AAA_MIN_REVIEWS = 50_000   # raised: ensures only genuinely well-known titles reach AAA tier
 KNOWN_MIN_REVIEWS = 1_000
 
+# ── "知名大作" identification ────────────────────────────────────────────────────
+# Publisher substrings matched case-insensitively against SteamSpy publisher field.
+# Add new publishers here to expand the "notable" category.
+MAJOR_PUBLISHERS: set[str] = {
+    "Ubisoft",
+    "Activision",
+    "Electronic Arts",
+    "CD Projekt",
+    "Rockstar",
+    "Bandai Namco",
+    "Bethesda",
+    "Square Enix",
+    "Capcom",
+    "Sega",
+    "Warner Bros",
+    "2K",
+    "Take-Two",
+    "Xbox Game Studios",
+    "Microsoft Studios",
+    "Konami",
+    "Focus Entertainment",
+    "Focus Home Interactive",
+    "Devolver Digital",
+    "THQ Nordic",
+}
+
+# Non-big-publisher games that are still widely known.
+# Add by Steam AppID (int) or exact title (str).
+KNOWN_SUPPLEMENT_APPIDS: set[int] = {
+    219740,   # Don't Starve
+    322330,   # Don't Starve Together
+}
+KNOWN_SUPPLEMENT_NAMES: set[str] = {
+    "Don't Starve",
+    "Don't Starve Together",
+}
+
 # Tags that disqualify a game from appearing at all
 NON_GAME_TAGS = {
     "Software", "Utilities", "Game Development", "Animation & Modeling",
@@ -122,23 +159,23 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
 
 # ── Source A: SteamSpy popular AppIDs ───────────────────────────────────────────
 
-def fetch_popular_appids() -> list[int]:
+def fetch_popular_appids() -> dict[int, dict]:
     """
-    Pull popular game AppIDs from SteamSpy top lists + genre charts.
-    These cover AAA and well-known titles that Summer Sale commonly discounts.
+    Pull popular game AppIDs from SteamSpy top lists + all-pages.
+    Returns {appid: {name, publisher}} — publisher is used for is_notable detection.
     """
-    appids: dict[int, str] = {}
+    appids: dict[int, dict] = {}
 
-    # Top lists first (always reliable, no rate-limit issues)
     for ep in STEAMSPY_TOP_ENDPOINTS:
         log.info("  SteamSpy %s ...", ep)
         data = _steamspy_get({"request": ep})
         for aid, info in data.items():
-            appids[int(aid)] = info.get("name", "")
+            appids[int(aid)] = {
+                "name": info.get("name", ""),
+                "publisher": info.get("publisher", ""),
+            }
         time.sleep(2)
 
-    # Paginate through all-games sorted by owner count (top 4000 most-owned games)
-    # Each page has 1000 games; 16s apart to respect ~4 req/min rate limit
     for page in range(STEAMSPY_ALL_PAGES):
         log.info("  SteamSpy all page=%d ...", page)
         time.sleep(16)
@@ -148,12 +185,14 @@ def fetch_popular_appids() -> list[int]:
             break
         before = len(appids)
         for aid, info in data.items():
-            appids[int(aid)] = info.get("name", "")
+            appids[int(aid)] = {
+                "name": info.get("name", ""),
+                "publisher": info.get("publisher", ""),
+            }
         log.info("    +%d new (total %d)", len(appids) - before, len(appids))
 
-    result = list(appids.keys())
-    log.info("SteamSpy: %d unique popular AppIDs", len(result))
-    return result
+    log.info("SteamSpy: %d unique popular AppIDs", len(appids))
+    return appids
 
 
 # ── Source B: ITAD /deals/v2 recent Steam deals ──────────────────────────────────
@@ -301,6 +340,16 @@ def get_steam_review(reviews_list: list[dict]) -> dict:
     return {}
 
 
+def is_notable_game(appid: int | None, title: str, publisher: str) -> bool:
+    """Return True if game qualifies as 知名大作 (notable title)."""
+    if appid and appid in KNOWN_SUPPLEMENT_APPIDS:
+        return True
+    if title in KNOWN_SUPPLEMENT_NAMES:
+        return True
+    pub_lower = publisher.lower()
+    return any(p.lower() in pub_lower for p in MAJOR_PUBLISHERS)
+
+
 def is_excluded_by_tags(tags: list[str]) -> bool:
     """Return True for non-games (software/tools) and adult-content-primary titles."""
     tag_set = set(tags)
@@ -321,16 +370,15 @@ def classify_tier(review_count: int, score: int) -> str:
 
 
 def sort_priority(game: dict) -> tuple:
-    tier_rank = {"aaa": 0, "known": 1, "other": 2}[game["tier"]]
+    notable_atl = 0 if (game.get("is_notable") and game["is_atl"]) else 1
     atl_rank = 0 if game["is_atl"] else 1
+    tier_rank = {"aaa": 0, "known": 1, "other": 2}[game["tier"]]
     rev_count = game["reviews"].get("count", 0)
     cut = game["prices"].get("USD", {}).get("cut") or 0
     if game["is_atl"]:
-        # ATL: famous games first (review count = proxy for recognizability)
-        return (atl_rank, tier_rank, -rev_count, -cut)
+        return (notable_atl, atl_rank, tier_rank, -rev_count, -cut)
     else:
-        # Non-ATL good deals: best discount first
-        return (atl_rank, tier_rank, -cut, -rev_count)
+        return (notable_atl, atl_rank, tier_rank, -cut, -rev_count)
 
 
 # ── Media ────────────────────────────────────────────────────────────────────────
@@ -362,11 +410,14 @@ def main():
     try:
         # ── A: SteamSpy popular AppIDs → ITAD UUIDs ────────────────────────────
         log.info("Step A: SteamSpy popular games...")
-        popular_appids = fetch_popular_appids()
+        popular_appinfo = fetch_popular_appids()
+        appid_to_publisher: dict[int, str] = {
+            aid: info["publisher"] for aid, info in popular_appinfo.items()
+        }
 
-        log.info("Step A2: ITAD lookup for %d AppIDs...", len(popular_appids))
-        appid_to_uuid = lookup_itad_ids(popular_appids)
-        log.info("  resolved %d/%d AppIDs", len(appid_to_uuid), len(popular_appids))
+        log.info("Step A2: ITAD lookup for %d AppIDs...", len(popular_appinfo))
+        appid_to_uuid = lookup_itad_ids(list(popular_appinfo.keys()))
+        log.info("  resolved %d/%d AppIDs", len(appid_to_uuid), len(popular_appinfo))
 
         # ── B: /deals/v2 recent Steam deals ─────────────────────────────────────
         log.info("Step B: ITAD recent Steam deals...")
@@ -498,13 +549,18 @@ def main():
             if not prices.get("USD"):
                 continue
 
+            title_str = info.get("title") or (recent_by_id.get(gid) or {}).get("title", "")
+            publisher = appid_to_publisher.get(appid or -1, "")
+            is_notable = is_notable_game(appid, title_str, publisher)
+
             games.append({
                 "id": gid,
-                "title": info.get("title") or (recent_by_id.get(gid) or {}).get("title", ""),
+                "title": title_str,
                 "slug": info.get("slug", ""),
                 "appid": appid,
                 "tier": tier,
                 "is_atl": is_atl,
+                "is_notable": is_notable,
                 "tags": tags_raw,
                 "reviews": {"score": score, "count": rev_count, "text": rev_text},
                 "images": {"capsule": capsule, "screenshots": []},
