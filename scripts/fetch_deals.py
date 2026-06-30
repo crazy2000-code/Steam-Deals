@@ -89,6 +89,10 @@ KNOWN_SUPPLEMENT_NAMES: set[str] = {
     "Don't Starve Together",
 }
 
+# Publisher-matched games must also have this many reviews to qualify as notable.
+# Supplement list games bypass this threshold entirely.
+NOTABLE_MIN_REVIEWS = 20_000
+
 # Tags that disqualify a game from appearing at all
 NON_GAME_TAGS = {
     "Software", "Utilities", "Game Development", "Animation & Modeling",
@@ -340,12 +344,15 @@ def get_steam_review(reviews_list: list[dict]) -> dict:
     return {}
 
 
-def is_notable_game(appid: int | None, title: str, publisher: str) -> bool:
-    """Return True if game qualifies as 知名大作 (notable title)."""
+def is_notable_game(appid: int | None, title: str, publisher: str, rev_count: int) -> bool:
+    """Return True if game qualifies as 知名大作 (notable title).
+    Supplement-list entries bypass the review threshold; publisher matches require it."""
     if appid and appid in KNOWN_SUPPLEMENT_APPIDS:
         return True
     if title in KNOWN_SUPPLEMENT_NAMES:
         return True
+    if rev_count < NOTABLE_MIN_REVIEWS:
+        return False
     pub_lower = publisher.lower()
     return any(p.lower() in pub_lower for p in MAJOR_PUBLISHERS)
 
@@ -551,7 +558,7 @@ def main():
 
             title_str = info.get("title") or (recent_by_id.get(gid) or {}).get("title", "")
             publisher = appid_to_publisher.get(appid or -1, "")
-            is_notable = is_notable_game(appid, title_str, publisher)
+            is_notable = is_notable_game(appid, title_str, publisher, rev_count)
 
             games.append({
                 "id": gid,
