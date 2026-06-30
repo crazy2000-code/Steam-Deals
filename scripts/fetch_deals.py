@@ -49,8 +49,18 @@ GOOD_DEAL_SCORE = 80    # non-ATL games need ≥80% positive reviews
 MIN_TIER_SCORE = 70     # minimum score to qualify for aaa/known tier
 OTHER_ATL_MIN_SCORE = 80   # "other" tier ATL: minimum score
 OTHER_ATL_MIN_REVIEWS = 500  # "other" tier ATL: minimum review count
-AAA_MIN_REVIEWS = 10_000
+AAA_MIN_REVIEWS = 50_000   # raised: ensures only genuinely well-known titles reach AAA tier
 KNOWN_MIN_REVIEWS = 1_000
+
+# Tags that disqualify a game from appearing at all
+NON_GAME_TAGS = {
+    "Software", "Utilities", "Game Development", "Animation & Modeling",
+    "Video Production", "Photo Editing", "Audio Production",
+}
+# If ANY of these appear in the first 3 tags (primary genre), exclude the title
+ADULT_PRIMARY_TAGS = {
+    "Sexual Content", "Hentai", "Adult Only", "Explicit Sexual Content",
+}
 MAX_DEALS_PAGES = 50    # /deals/v2 supplement pages (50×100 = 5 000 mixed deals)
 MAX_OUTPUT = 300        # hard cap on final output
 MAX_MEDIA_GAMES = 50
@@ -291,6 +301,17 @@ def get_steam_review(reviews_list: list[dict]) -> dict:
     return {}
 
 
+def is_excluded_by_tags(tags: list[str]) -> bool:
+    """Return True for non-games (software/tools) and adult-content-primary titles."""
+    tag_set = set(tags)
+    if tag_set & NON_GAME_TAGS:
+        return True
+    # Only exclude if adult tag is primary (first 3 tags = the game's main genre)
+    if set(tags[:3]) & ADULT_PRIMARY_TAGS:
+        return True
+    return False
+
+
 def classify_tier(review_count: int, score: int) -> str:
     if review_count >= AAA_MIN_REVIEWS and score >= MIN_TIER_SCORE:
         return "aaa"
@@ -411,6 +432,10 @@ def main():
             rev_count = steam_rev.get("count") or 0
             rev_text = steam_rev.get("text") or ""
 
+            tags_raw: list[str] = (info.get("tags") or [])[:8]
+            if is_excluded_by_tags(tags_raw):
+                continue
+
             tier = classify_tier(rev_count, score)
             cut = usd.get("cut", 0)
 
@@ -480,7 +505,7 @@ def main():
                 "appid": appid,
                 "tier": tier,
                 "is_atl": is_atl,
-                "tags": (info.get("tags") or [])[:8],
+                "tags": tags_raw,
                 "reviews": {"score": score, "count": rev_count, "text": rev_text},
                 "images": {"capsule": capsule, "screenshots": []},
                 "trailer": None,
