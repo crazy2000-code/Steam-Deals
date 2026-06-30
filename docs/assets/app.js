@@ -29,7 +29,7 @@ const I18N = {
     filter_all: '全部',
     filter_atl: '史低',
     filter_aaa: '大作',
-    last_sale: '去年最低',
+    last_sale: '上次销售低',
   },
   en: {
     site_title: 'New S Deals',
@@ -60,7 +60,7 @@ const I18N = {
     filter_all: 'All',
     filter_atl: 'ATL',
     filter_aaa: 'AAA',
-    last_sale: 'Yr Low',
+    last_sale: 'Prev Sale',
   },
 };
 
@@ -319,7 +319,7 @@ function openModal(game) {
     card.appendChild(el('div', 'price-card-label', cur));
     card.appendChild(el('div', 'price-card-current', fmt(p.current, cur)));
     if (p.regular) card.appendChild(el('div', 'price-card-original', fmt(p.regular, cur)));
-    if (p.low_1y && p.low_1y !== p.low) card.appendChild(el('div', 'price-card-y1', `${t('last_sale')}: ${fmt(p.low_1y, cur)}`));
+    if (p.low_1y && p.low && p.low_1y > p.low) card.appendChild(el('div', 'price-card-y1', `${t('last_sale')}: ${fmt(p.low_1y, cur)}`));
     if (p.low) card.appendChild(el('div', 'price-card-low', `${t('low_label')}: ${fmt(p.low, cur)}`));
     if (p.is_atl) card.appendChild(el('div', 'price-card-atl-badge', t('badge_atl')));
     pricesGrid.appendChild(card);
