@@ -340,26 +340,6 @@ function openModal(game) {
   });
   content.appendChild(pricesGrid);
 
-  // Screenshots
-  if (game.images.screenshots && game.images.screenshots.length) {
-    const section = el('div', 'modal-screenshots');
-    section.appendChild(el('div', 'modal-section-title', t('screenshots')));
-    const grid = el('div', 'screenshots-grid');
-    game.images.screenshots.forEach((src) => {
-      const img = document.createElement('img');
-      img.src = src;
-      img.className = 'screenshot-img';
-      img.loading = 'lazy';
-      img.addEventListener('click', (e) => {
-        e.stopPropagation();
-        window.open(src, '_blank');
-      });
-      grid.appendChild(img);
-    });
-    section.appendChild(grid);
-    content.appendChild(section);
-  }
-
   // Trailer
   if (game.trailer) {
     const section = el('div', 'modal-trailer');

@@ -105,7 +105,6 @@ ADULT_PRIMARY_TAGS = {
 MAX_DEALS_PAGES = 50    # /deals/v2 supplement pages (50×100 = 5 000 mixed deals)
 MAX_OUTPUT = 300        # hard cap on final output
 MAX_MEDIA_GAMES = 50
-MAX_SCREENSHOTS = 3
 
 
 # ── HTTP helpers ─────────────────────────────────────────────────────────────────
@@ -149,7 +148,7 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
     for attempt in range(retries):
         try:
             r = requests.get(STEAM_API,
-                             params={"appids": appid, "filters": "screenshots,movies", "l": "english"},
+                             params={"appids": appid, "filters": "movies", "l": "english"},
                              timeout=20)
             r.raise_for_status()
             entry = r.json().get(str(appid), {})
@@ -392,9 +391,6 @@ def sort_priority(game: dict) -> tuple:
 
 def fetch_media(appid: int) -> dict:
     data = _steam_appdetails(appid)
-    screenshots = [
-        s["path_full"] for s in (data.get("screenshots") or [])[:MAX_SCREENSHOTS]
-    ]
     trailer = None
     movies = data.get("movies") or []
     if movies:
@@ -402,7 +398,7 @@ def fetch_media(appid: int) -> dict:
         mp4 = movie.get("mp4") or {}
         webm = movie.get("webm") or {}
         trailer = mp4.get("max") or mp4.get("480") or webm.get("max") or webm.get("480")
-    return {"screenshots": screenshots, "trailer": trailer}
+    return {"trailer": trailer}
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────────
@@ -530,12 +526,17 @@ def main():
                 if cur is None:
                     return None
                 low = p.get("store_low") or p.get("low")
-                p_is_atl = (cur is not None and low is not None and cur <= low + 0.01)
+                if low is not None:
+                    p_is_atl = cur <= low + 0.01
+                else:
+                    # No historical data for this currency — inherit game-level ATL
+                    # (USD-confirmed ATL applies globally across all regions)
+                    p_is_atl = is_atl
                 return {
                     "current": cur,
                     "regular": p.get("regular"),
                     "low": low,
-                    "low_1y": p.get("low_1y"),  # past-year low = last sale reference
+                    "low_1y": p.get("low_1y"),
                     "cut": p.get("cut") or cut,
                     "currency": currency,
                     "symbol": symbol,
@@ -570,7 +571,7 @@ def main():
                 "is_notable": is_notable,
                 "tags": tags_raw,
                 "reviews": {"score": score, "count": rev_count, "text": rev_text},
-                "images": {"capsule": capsule, "screenshots": []},
+                "images": {"capsule": capsule},
                 "trailer": None,
                 "steam_url": f"https://store.steampowered.com/app/{appid}" if appid else None,
                 "prices": prices,
@@ -606,7 +607,7 @@ def main():
                         "low_1y": None,
                         "currency": "MYR",
                         "symbol": "RM",
-                        "is_atl": False,
+                        "is_atl": game["is_atl"],  # inherit USD-confirmed ATL
                     }
             except Exception as exc:
                 log.debug("Steam MYR price failed for %s: %s", game.get("title"), exc)
@@ -618,7 +619,6 @@ def main():
         for game in games[:media_count]:
             if game["appid"]:
                 media = fetch_media(game["appid"])
-                game["images"]["screenshots"] = media["screenshots"]
                 game["trailer"] = media["trailer"]
                 time.sleep(0.6)
 
