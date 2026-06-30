@@ -243,9 +243,13 @@ def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dic
                 if expected_currency and deal_currency and deal_currency != expected_currency:
                     steam_deal = None
 
-            history_low_all = (row.get("historyLow") or {}).get("all") or {}
-            low_currency = history_low_all.get("currency", "").upper()
-            low_amount = history_low_all.get("amount") if low_currency == expected_currency else None
+            def _history_amount(key: str) -> float | None:
+                obj = (row.get("historyLow") or {}).get(key) or {}
+                cur = obj.get("currency", "").upper()
+                return obj.get("amount") if cur == expected_currency else None
+
+            low_amount = _history_amount("all")   # cross-shop all-time low
+            low_1y     = _history_amount("y1")    # lowest in past 12 months (proxy for last sale)
 
             # storeLow in the deal = Steam-specific store all-time low
             store_low_obj = (steam_deal or {}).get("storeLow") or {}
@@ -257,11 +261,12 @@ def fetch_prices_for_country(game_ids: list[str], country: str) -> dict[str, dic
             )
 
             result[gid] = {
-                "current": steam_deal["price"]["amount"] if steam_deal else None,
-                "regular": steam_deal["regular"]["amount"] if steam_deal else None,
-                "cut": steam_deal.get("cut") if steam_deal else None,
-                "store_low": store_low,   # Steam-specific ATL (preferred)
-                "low": low_amount,        # cross-shop ATL (fallback display)
+                "current":   steam_deal["price"]["amount"] if steam_deal else None,
+                "regular":   steam_deal["regular"]["amount"] if steam_deal else None,
+                "cut":       steam_deal.get("cut") if steam_deal else None,
+                "store_low": store_low,   # Steam-specific ATL (preferred for is_atl check)
+                "low":       low_amount,  # cross-shop ATL (display)
+                "low_1y":    low_1y,      # past-year low (last sale reference)
             }
         time.sleep(0.3)
 
@@ -439,6 +444,7 @@ def main():
                     "current": cur,
                     "regular": p.get("regular"),
                     "low": low,
+                    "low_1y": p.get("low_1y"),  # past-year low = last sale reference
                     "cut": p.get("cut") or cut,
                     "currency": currency,
                     "symbol": symbol,
@@ -501,6 +507,7 @@ def main():
                         "regular": regular_myr,
                         "cut": cut_myr,
                         "low": None,
+                        "low_1y": None,
                         "currency": "MYR",
                         "symbol": "RM",
                         "is_atl": False,

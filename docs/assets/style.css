@@ -360,7 +360,8 @@ main {
 .price-card-current { font-size: 1.05rem; font-weight: 700; color: var(--accent); }
 .price-card.is-atl .price-card-current { color: var(--atl); }
 .price-card-original { font-size: 0.75rem; color: var(--text-muted); text-decoration: line-through; }
-.price-card-low { font-size: 0.72rem; color: var(--atl); margin-top: 0.15rem; }
+.price-card-y1  { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.15rem; }
+.price-card-low { font-size: 0.72rem; color: var(--atl); margin-top: 0.1rem; }
 .price-card-atl-badge { font-size: 0.65rem; font-weight: 700; color: var(--atl); letter-spacing: 0.05em; margin-top: 0.2rem; }
 
 .modal-screenshots { margin-bottom: 1rem; }

@@ -25,6 +25,11 @@ const I18N = {
     trailer: '预告片',
     atl_badge_card: '当前区域史低',
     load_more: '加载更多',
+    label_filter: '筛选',
+    filter_all: '全部',
+    filter_atl: '史低',
+    filter_aaa: '大作',
+    last_sale: '去年最低',
   },
   en: {
     site_title: 'New S Deals',
@@ -51,6 +56,11 @@ const I18N = {
     trailer: 'Trailer',
     atl_badge_card: 'Regional ATL',
     load_more: 'Load more',
+    label_filter: 'Filter',
+    filter_all: 'All',
+    filter_atl: 'ATL',
+    filter_aaa: 'AAA',
+    last_sale: 'Yr Low',
   },
 };
 
@@ -61,6 +71,7 @@ const state = {
   lang: localStorage.getItem('lang') || 'zh',
   currency: localStorage.getItem('currency') || 'USD',
   sort: 'priority',
+  filter: 'all',   // 'all' | 'atl' | 'aaa'
   search: '',
   data: null,
   visibleCount: PAGE_SIZE,
@@ -107,6 +118,10 @@ function setI18n() {
 function getDisplayGames() {
   if (!state.data) return [];
   let list = [...state.data.games];
+
+  // Filter tab
+  if (state.filter === 'atl') list = list.filter((g) => g.is_atl);
+  else if (state.filter === 'aaa') list = list.filter((g) => g.tier === 'aaa');
 
   const q = state.search.trim().toLowerCase();
   if (q) list = list.filter((g) => g.title.toLowerCase().includes(q));
@@ -304,6 +319,7 @@ function openModal(game) {
     card.appendChild(el('div', 'price-card-label', cur));
     card.appendChild(el('div', 'price-card-current', fmt(p.current, cur)));
     if (p.regular) card.appendChild(el('div', 'price-card-original', fmt(p.regular, cur)));
+    if (p.low_1y && p.low_1y !== p.low) card.appendChild(el('div', 'price-card-y1', `${t('last_sale')}: ${fmt(p.low_1y, cur)}`));
     if (p.low) card.appendChild(el('div', 'price-card-low', `${t('low_label')}: ${fmt(p.low, cur)}`));
     if (p.is_atl) card.appendChild(el('div', 'price-card-atl-badge', t('badge_atl')));
     pricesGrid.appendChild(card);
@@ -426,6 +442,17 @@ function initControls() {
   // Restore saved currency button state
   document.querySelectorAll('#currency-group .btn-toggle').forEach((btn) => {
     btn.classList.toggle('active', btn.dataset.currency === state.currency);
+  });
+
+  // Filter tabs
+  document.getElementById('filter-group').addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-filter]');
+    if (!btn) return;
+    document.querySelectorAll('#filter-group .btn-toggle').forEach((b) => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.filter = btn.dataset.filter;
+    state.visibleCount = PAGE_SIZE;
+    renderGrid();
   });
 
   // Sort
