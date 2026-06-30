@@ -33,6 +33,6 @@ jobs:
           git add docs/data/deals.json docs/data/deals.backup.json
           if ! git diff --staged --quiet; then
             git commit -m "chore: update deals $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push
           fi
