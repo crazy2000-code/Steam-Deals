@@ -146,9 +146,19 @@ function getDisplayGames() {
         return pa - pb;
       });
       break;
-    default:
-      // priority order from server is already set
+    default: {
+      // AAA+ATL first, sorted by current price asc in selected currency (cheapest eye-catchers first)
+      // Everything else keeps server priority order (ATL+known → ATL+other → non-ATL)
+      const aaaAtl = list.filter((g) => g.tier === 'aaa' && g.is_atl);
+      const rest   = list.filter((g) => !(g.tier === 'aaa' && g.is_atl));
+      aaaAtl.sort((a, b) => {
+        const pa = (a.prices[cur] || a.prices.USD || {}).current ?? Infinity;
+        const pb = (b.prices[cur] || b.prices.USD || {}).current ?? Infinity;
+        return pa - pb;
+      });
+      list = [...aaaAtl, ...rest];
       break;
+    }
   }
 
   return list;
