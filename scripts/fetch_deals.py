@@ -52,7 +52,7 @@ OTHER_ATL_MIN_SCORE = 80   # "other" tier ATL: minimum score
 OTHER_ATL_MIN_REVIEWS = 500  # "other" tier ATL: minimum review count
 AAA_MIN_REVIEWS = 10_000
 KNOWN_MIN_REVIEWS = 1_000
-MAX_DEALS_PAGES = 30    # /deals/v2 supplement pages (30×100 = 3 000 mixed deals)
+MAX_DEALS_PAGES = 50    # /deals/v2 supplement pages (50×100 = 5 000 mixed deals)
 MAX_OUTPUT = 300        # hard cap on final output
 MAX_MEDIA_GAMES = 50
 MAX_SCREENSHOTS = 3
@@ -129,14 +129,17 @@ def fetch_popular_appids() -> list[int]:
 
     for genre in STEAMSPY_GENRES:
         log.info("  SteamSpy genre=%s ...", genre)
+        time.sleep(16)  # SteamSpy rate limit: ~4 req/min → 1 per 15s; 16s for safety
         data = _steamspy_get({"request": "genre", "genre": genre})
+        if len(data) < 10:
+            log.warning("  genre=%s returned only %d entries, likely rate-limited — skipping", genre, len(data))
+            continue
         # Sort by positive reviews desc and take top N to avoid swamping with small games
         top_genre = sorted(data.items(), key=lambda x: x[1].get("positive", 0), reverse=True)[:STEAMSPY_GENRE_TOP_N]
         before = len(appids)
         for aid, info in top_genre:
             appids[int(aid)] = info.get("name", "")
         log.info("    +%d new from genre (total %d)", len(appids) - before, len(appids))
-        time.sleep(1.2)
 
     result = list(appids.keys())
     log.info("SteamSpy: %d unique popular AppIDs", len(result))
