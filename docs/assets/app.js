@@ -234,10 +234,11 @@ function renderGrid() {
   const grid = document.getElementById('game-grid');
   const loadMoreWrap = document.getElementById('load-more-wrap');
   const empty = document.getElementById('empty-state');
+  if (!grid || !empty) return;
   const games = getDisplayGames();
 
   grid.innerHTML = '';
-  loadMoreWrap.innerHTML = '';
+  if (loadMoreWrap) loadMoreWrap.innerHTML = '';
 
   if (!games.length) {
     empty.classList.remove('hidden');
@@ -251,7 +252,7 @@ function renderGrid() {
   visible.forEach((g) => frag.appendChild(renderCard(g)));
   grid.appendChild(frag);
 
-  if (games.length > state.visibleCount) {
+  if (loadMoreWrap && games.length > state.visibleCount) {
     const remaining = games.length - state.visibleCount;
     const btn = document.createElement('button');
     btn.className = 'btn-load-more';
@@ -444,16 +445,19 @@ function initControls() {
     btn.classList.toggle('active', btn.dataset.currency === state.currency);
   });
 
-  // Filter tabs
-  document.getElementById('filter-group').addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-filter]');
-    if (!btn) return;
-    document.querySelectorAll('#filter-group .btn-toggle').forEach((b) => b.classList.remove('active'));
-    btn.classList.add('active');
-    state.filter = btn.dataset.filter;
-    state.visibleCount = PAGE_SIZE;
-    renderGrid();
-  });
+  // Filter tabs (null-guard: element added after initial release)
+  const filterGroup = document.getElementById('filter-group');
+  if (filterGroup) {
+    filterGroup.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-filter]');
+      if (!btn) return;
+      filterGroup.querySelectorAll('.btn-toggle').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.filter = btn.dataset.filter;
+      state.visibleCount = PAGE_SIZE;
+      renderGrid();
+    });
+  }
 
   // Sort
   document.getElementById('sort-select').addEventListener('change', (e) => {
