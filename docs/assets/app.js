@@ -334,7 +334,7 @@ function openModal(game) {
     card.appendChild(el('div', 'price-card-current', fmt(p.current, cur)));
     if (p.regular) card.appendChild(el('div', 'price-card-original', fmt(p.regular, cur)));
     if (p.low_1y && p.low && p.low_1y > p.low) card.appendChild(el('div', 'price-card-y1', `${t('last_sale')}: ${fmt(p.low_1y, cur)}`));
-    if (p.low) card.appendChild(el('div', 'price-card-low', `${t('low_label')}: ${fmt(p.low, cur)}`));
+    if (p.low && !p.is_atl) card.appendChild(el('div', 'price-card-low', `${t('low_label')}: ${fmt(p.low, cur)}`));
     if (p.is_atl) card.appendChild(el('div', 'price-card-atl-badge', t('badge_atl')));
     pricesGrid.appendChild(card);
   });

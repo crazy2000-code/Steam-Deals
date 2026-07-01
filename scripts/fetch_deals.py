@@ -104,7 +104,7 @@ ADULT_PRIMARY_TAGS = {
 }
 MAX_DEALS_PAGES = 50    # /deals/v2 supplement pages (50×100 = 5 000 mixed deals)
 MAX_OUTPUT = 300        # hard cap on final output
-MAX_MEDIA_GAMES = 25
+MAX_MEDIA_GAMES = 300
 
 
 # ── HTTP helpers ─────────────────────────────────────────────────────────────────
@@ -626,14 +626,14 @@ def main():
 
         # ── Step G: Media for top N ───────────────────────────────────────────────
         media_count = min(MAX_MEDIA_GAMES, len(games))
-        log.info("Step G: sleeping 60s to let Steam API rate limit recover after Step F...")
-        time.sleep(60)
+        log.info("Step G: sleeping 30s to let Steam API rate limit recover after Step F...")
+        time.sleep(30)
         log.info("Step G: Steam media for top %d games...", media_count)
         for game in games[:media_count]:
             if game["appid"]:
                 media = fetch_media(game["appid"])
                 game["trailer"] = media["trailer"]
-                time.sleep(5)
+                time.sleep(3)
 
         # ── Write output ──────────────────────────────────────────────────────────
         output = {
