@@ -29,6 +29,7 @@ log = logging.getLogger(__name__)
 ROOT = Path(__file__).parent.parent
 OUTPUT = ROOT / "docs" / "data" / "deals.json"
 BACKUP = ROOT / "docs" / "data" / "deals.backup.json"
+MEDIA_CACHE = ROOT / "docs" / "data" / "meta_cache.json"
 
 # ── API constants ───────────────────────────────────────────────────────────────
 ITAD_BASE = "https://api.isthereanydeal.com"
@@ -412,6 +413,21 @@ def fetch_media(appid: int) -> dict:
     return {"trailer": trailer}
 
 
+# ── Media cache ──────────────────────────────────────────────────────────────────
+
+def load_media_cache() -> dict:
+    if MEDIA_CACHE.exists():
+        try:
+            return json.loads(MEDIA_CACHE.read_text())
+        except Exception:
+            return {}
+    return {}
+
+
+def save_media_cache(cache: dict) -> None:
+    MEDIA_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2))
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────────
 
 def main():
@@ -624,16 +640,35 @@ def main():
                 log.debug("Steam MYR price failed for %s: %s", game.get("title"), exc)
             time.sleep(0.4)
 
-        # ── Step G: Media for top N ───────────────────────────────────────────────
+        # ── Step G: Media (cached trailer per appid) ─────────────────────────────
         media_count = min(MAX_MEDIA_GAMES, len(games))
-        log.info("Step G: sleeping 30s to let Steam API rate limit recover after Step F...")
-        time.sleep(30)
-        log.info("Step G: Steam media for top %d games...", media_count)
-        for game in games[:media_count]:
-            if game["appid"]:
-                media = fetch_media(game["appid"])
+        media_cache = load_media_cache()
+        to_fetch = [g for g in games[:media_count]
+                    if g["appid"] and str(g["appid"]) not in media_cache]
+        cached_count = media_count - len([g for g in games[:media_count] if not g["appid"]]) - len(to_fetch)
+        log.info("Step G: %d cached, %d to fetch (total %d)", cached_count, len(to_fetch), media_count)
+
+        if to_fetch:
+            log.info("Step G: sleeping 30s to let Steam API rate limit recover after Step F...")
+            time.sleep(30)
+
+        for i, game in enumerate(games[:media_count]):
+            aid = game["appid"]
+            if not aid:
+                continue
+            key = str(aid)
+            if key in media_cache:
+                game["trailer"] = media_cache[key].get("trailer")
+            else:
+                media = fetch_media(aid)
                 game["trailer"] = media["trailer"]
-                time.sleep(3)
+                media_cache[key] = {"trailer": media["trailer"]}
+                if i < media_count - 1:
+                    time.sleep(3)
+
+        if to_fetch:
+            save_media_cache(media_cache)
+            log.info("Step G: fetched %d new trailers; cache now %d entries", len(to_fetch), len(media_cache))
 
         # ── Write output ──────────────────────────────────────────────────────────
         output = {
