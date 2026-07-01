@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:36:50.264116+00:00",
+  "generated_at": "2026-07-01T20:19:51.995324+00:00",
   "total": 300,
   "games": [
     {
@@ -931,6 +931,64 @@
       }
     },
     {
+      "id": "018d937f-17f6-721f-8f97-9ca83bdd15a4",
+      "title": "Just Cause™ 3",
+      "slug": "just-cause-3",
+      "appid": 225540,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Open World",
+        "Action",
+        "Destruction",
+        "Multiplayer",
+        "Third-Person Shooter"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 103465,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-17f6-721f-8f97-9ca83bdd15a4/boxart.jpg?t=1782913814"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/225540/77866/6703c5af4ad7284a13b3182d25a0b96f079ab238/1750482311/hls_264_master.m3u8?t=1477500536",
+      "steam_url": "https://store.steampowered.com/app/225540",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 19.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 16.05,
+          "regular": 107,
+          "low": 16,
+          "low_1y": 16.05,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 10.2,
+          "regular": 68.0,
+          "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-2f29-7309-915c-f4b3603fb866",
       "title": "Insurgency: Sandstorm",
       "slug": "insurgency-sandstorm",
@@ -980,64 +1038,6 @@
           "current": 19.75,
           "regular": 79.0,
           "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-17f6-721f-8f97-9ca83bdd15a4",
-      "title": "Just Cause™ 3",
-      "slug": "just-cause-3",
-      "appid": 225540,
-      "tier": "aaa",
-      "is_atl": true,
-      "is_notable": true,
-      "tags": [
-        "Open World",
-        "Action",
-        "Destruction",
-        "Multiplayer",
-        "Third-Person Shooter"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 103393,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-17f6-721f-8f97-9ca83bdd15a4/boxart.jpg?t=1766061315"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/225540/77866/6703c5af4ad7284a13b3182d25a0b96f079ab238/1750482311/hls_264_master.m3u8?t=1477500536",
-      "steam_url": "https://store.steampowered.com/app/225540",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 19.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 16.05,
-          "regular": 107,
-          "low": 16,
-          "low_1y": 16.05,
-          "cut": 85,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 10.2,
-          "regular": 68.0,
-          "cut": 85,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3183,6 +3183,64 @@
       }
     },
     {
+      "id": "019a078d-a02c-7283-9d63-f03a248ee8f1",
+      "title": "Uno - Ultimate Edition 2025",
+      "slug": "uno-ultimate-edition-2025",
+      "appid": 470220,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Card Game",
+        "Multiplayer",
+        "Tabletop",
+        "Board Game",
+        "Casual"
+      ],
+      "reviews": {
+        "score": 70,
+        "count": 41882,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/470220/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/470220/1967812071/abac03c102731bea1f4cf16da76e39f9f0ce1eaa/1761158409/hls_264_master.m3u8?t=1761164219",
+      "steam_url": "https://store.steampowered.com/app/470220",
+      "prices": {
+        "USD": {
+          "current": 20.99,
+          "regular": 29.99,
+          "low": 20.99,
+          "low_1y": 20.99,
+          "cut": 30,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 89.6,
+          "regular": 128,
+          "low": 89.6,
+          "low_1y": 89.6,
+          "cut": 30,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 12.4,
+          "regular": 31.0,
+          "cut": 60,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-3e65-70f6-9951-190f0fa3502e",
       "title": "SILENT HILL 2",
       "slug": "silent-hill-2",
@@ -3257,11 +3315,11 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 40887,
+        "count": 40899,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f9fc-7308-8e8c-86a79602112d/boxart.jpg?t=1760635565"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f9fc-7308-8e8c-86a79602112d/boxart.jpg?t=1782912915"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/8190/2128/883343ec8ea60d91bb6ac363afe68608d7d0f0f9/1750484071/hls_264_master.m3u8?t=1447352276",
       "steam_url": "https://store.steampowered.com/app/8190",
@@ -7587,11 +7645,11 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 109195,
+        "count": 109301,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-502d-707c-b964-11cd6990ba4f/boxart.jpg?t=1781187620"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-502d-707c-b964-11cd6990ba4f/boxart.jpg?t=1782911112"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1604030/695563/ec1d7936ac8aac583439039a89a421f9ab70fb0b/1750710266/hls_264_master.m3u8?t=1714748047",
       "steam_url": "https://store.steampowered.com/app/1604030",
@@ -10293,11 +10351,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 48193,
+        "count": 48204,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-33e8-72ed-a34e-8397d3f83437/boxart.jpg?t=1781372111"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-33e8-72ed-a34e-8397d3f83437/boxart.jpg?t=1782934521"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/645630/115547/33a82f4993b8512ac3af247d552de81b35d80147/1750566291/hls_264_master.m3u8?t=1683629134",
       "steam_url": "https://store.steampowered.com/app/645630",
@@ -11118,7 +11176,7 @@
           "current": 17.49,
           "regular": 34.99,
           "low": 17.49,
-          "low_1y": 17.49,
+          "low_1y": 13.99,
           "cut": 50,
           "currency": "USD",
           "symbol": "$",
@@ -11511,11 +11569,11 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 36825,
+        "count": 36873,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-342f-704f-b8d9-0813d7209d96/boxart.jpg?t=1781250623"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-342f-704f-b8d9-0813d7209d96/boxart.jpg?t=1782934511"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/704850/193372/67fc3ac273477bacd524b959bfd4a6e9cb5b96b6/1750573216/hls_264_master.m3u8?t=1683628527",
       "steam_url": "https://store.steampowered.com/app/704850",
@@ -11538,16 +11596,6 @@
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 4.9,
-          "regular": 49.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": true
         }
       }
@@ -16288,54 +16336,6 @@
           "low": 24.5,
           "low_1y": 24.5,
           "cut": 65,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-75c0-7271-aa0e-acffaba43e75",
-      "title": "Horizon Forbidden West Complete Edition",
-      "slug": "horizon-forbidden-west-complete-edition",
-      "appid": 2420110,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Open World",
-        "Singleplayer",
-        "Female Protagonist",
-        "Action",
-        "Exploration"
-      ],
-      "reviews": {
-        "score": 88,
-        "count": 19478,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-75c0-7271-aa0e-acffaba43e75/boxart.jpg?t=1776466213"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2420110",
-      "prices": {
-        "USD": {
-          "current": 29.99,
-          "regular": 59.99,
-          "low": 29.99,
-          "low_1y": 26.28,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 207,
-          "regular": 414,
-          "low": 207,
-          "low_1y": 189.24,
-          "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
