@@ -104,7 +104,7 @@ ADULT_PRIMARY_TAGS = {
 }
 MAX_DEALS_PAGES = 50    # /deals/v2 supplement pages (50×100 = 5 000 mixed deals)
 MAX_OUTPUT = 300        # hard cap on final output
-MAX_MEDIA_GAMES = 50
+MAX_MEDIA_GAMES = 25
 
 
 # ── HTTP helpers ─────────────────────────────────────────────────────────────────
@@ -153,6 +153,18 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
             r.raise_for_status()
             entry = r.json().get(str(appid), {})
             return entry.get("data", {}) if entry.get("success") else {}
+        except requests.exceptions.HTTPError as exc:
+            if exc.response is not None and exc.response.status_code == 429:
+                wait = 30 * (attempt + 1)
+                log.warning("Steam appdetails 429 for %s (attempt %d); sleeping %ds", appid, attempt + 1, wait)
+                if attempt == retries - 1:
+                    return {}
+                time.sleep(wait)
+            else:
+                if attempt == retries - 1:
+                    log.warning("Steam appdetails failed for %s: %s", appid, exc)
+                    return {}
+                time.sleep(2 ** attempt)
         except Exception as exc:
             if attempt == retries - 1:
                 log.warning("Steam appdetails failed for %s: %s", appid, exc)
@@ -614,12 +626,14 @@ def main():
 
         # ── Step G: Media for top N ───────────────────────────────────────────────
         media_count = min(MAX_MEDIA_GAMES, len(games))
+        log.info("Step G: sleeping 60s to let Steam API rate limit recover after Step F...")
+        time.sleep(60)
         log.info("Step G: Steam media for top %d games...", media_count)
         for game in games[:media_count]:
             if game["appid"]:
                 media = fetch_media(game["appid"])
                 game["trailer"] = media["trailer"]
-                time.sleep(0.6)
+                time.sleep(5)
 
         # ── Write output ──────────────────────────────────────────────────────────
         output = {
