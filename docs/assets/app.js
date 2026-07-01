@@ -1,5 +1,31 @@
-/* ── Site config (update SITE_URL when switching to custom domain) ─────────── */
+/* ── Site config ────────────────────────────────────────────────────────────
+   SITE_URL is the single source of truth for all URL meta tags.
+   To switch domains, change ONLY this one line — everything else updates
+   automatically at runtime (canonical, og:url, og:image, JSON-LD).
+   Also manually update: docs/robots.txt and docs/sitemap.xml (2 static files).
+   ────────────────────────────────────────────────────────────────────────── */
 const SITE_URL = 'https://crazy2000-code.github.io/Steam-Deals';
+
+/* Apply SITE_URL to all URL meta tags and inject JSON-LD */
+(function () {
+  const base = SITE_URL.replace(/\/$/, '');
+  const setAttr = (sel, attr, val) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, val); };
+  setAttr('link[rel="canonical"]',      'href',    base + '/');
+  setAttr('meta[property="og:url"]',    'content', base + '/');
+  setAttr('meta[property="og:image"]',  'content', base + '/assets/og-image.jpg');
+  setAttr('meta[name="twitter:image"]', 'content', base + '/assets/og-image.jpg');
+  const ld = document.createElement('script');
+  ld.type = 'application/ld+json';
+  ld.textContent = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'WebSite',
+    name: 'Steam 史低追踪', alternateName: 'New Steam Historical Low Deals',
+    url: base + '/',
+    description: '实时追踪 Steam 历史新低价格，每天自动更新。Steam historical low price tracker updated daily.',
+    inLanguage: ['zh-CN', 'en'],
+    potentialAction: { '@type': 'SearchAction', target: base + '/?q={search_term_string}', 'query-input': 'required name=search_term_string' }
+  });
+  document.head.appendChild(ld);
+})();
 
 /* ── i18n strings ─────────────────────────────────────────────────────────── */
 const I18N = {
