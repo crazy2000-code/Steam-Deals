@@ -5,8 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <title>New S Deals | Steam 新史低</title>
-  <link rel="stylesheet" href="assets/style.css?v=20260701c" />
+
+  <!--
+    SITE_URL: update the two lines below when switching to a custom domain.
+    Current: https://crazy2000-code.github.io/Steam-Deals
+    Future:  https://newshi-t.is-a.dev
+  -->
+
+  <!-- Primary Meta -->
+  <title>Steam 史低追踪 | New Steam Historical Low Deals</title>
+  <meta name="description" content="实时追踪 Steam 历史新低价格，每天自动更新。知名大作、AAA 游戏史低一键筛查，支持 USD / CNY / MYR。Steam historical low price tracker — updated daily. Find the best Steam deals, summer sale discounts, AAA game sales." />
+  <meta name="keywords" content="Steam 史低, Steam 历史低价, Steam 促销, Steam 好价, 大作史低, 知名大作史低, Steam deals, Steam historical low, Steam summer sale, best Steam deals, Steam discounts, cheap Steam games, PC game sales" />
+  <link rel="canonical" href="https://crazy2000-code.github.io/Steam-Deals/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://crazy2000-code.github.io/Steam-Deals/" />
+  <meta property="og:site_name" content="Steam 史低追踪" />
+  <meta property="og:title" content="Steam 史低追踪 | New Steam Historical Low Deals" />
+  <meta property="og:description" content="实时追踪 Steam 历史新低价格，每天自动更新 · Daily Steam historical low price tracker — AAA deals, big-name titles, USD / CNY / MYR." />
+  <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg" />
+  <meta property="og:image:width" content="616" />
+  <meta property="og:image:height" content="353" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Steam 史低追踪 | New Steam Historical Low Deals" />
+  <meta name="twitter:description" content="实时追踪 Steam 历史新低价格，每天自动更新 · Daily Steam historical low tracker." />
+  <meta name="twitter:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/capsule_616x353.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Steam 史低追踪",
+    "alternateName": "New Steam Historical Low Deals",
+    "url": "https://crazy2000-code.github.io/Steam-Deals/",
+    "description": "实时追踪 Steam 历史新低价格，每天自动更新。Steam historical low price tracker updated daily.",
+    "inLanguage": ["zh-CN", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://crazy2000-code.github.io/Steam-Deals/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="assets/style.css?v=20260701d" />
 </head>
 <body>
 
@@ -52,6 +103,7 @@
 </header>
 
 <main>
+  <p class="seo-intro">实时追踪 Steam 历史新低价格 · 知名大作、AAA 游戏史低筛查 · USD / CNY / MYR · 每天自动更新 · Steam historical low price tracker, updated daily — find the best Steam deals &amp; all-time low prices.</p>
   <div id="status-bar" class="status-bar hidden"></div>
   <div id="game-grid" class="game-grid"></div>
   <div id="load-more-wrap"></div>
@@ -79,6 +131,6 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js"></script>
-<script src="assets/app.js?v=20260701c"></script>
+<script src="assets/app.js?v=20260701d"></script>
 </body>
 </html>

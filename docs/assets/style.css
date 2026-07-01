@@ -424,3 +424,13 @@ main {
   .modal-prices { grid-template-columns: 1fr 1fr; }
   .header-controls { gap: 0.6rem; }
 }
+
+/* ── seo intro (visible but visually unobtrusive) ────────────────────────── */
+.seo-intro {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-muted, #888);
+  padding: 0.4rem 1rem 0;
+  margin: 0;
+  line-height: 1.5;
+}

@@ -1,3 +1,6 @@
+/* ── Site config (update SITE_URL when switching to custom domain) ─────────── */
+const SITE_URL = 'https://crazy2000-code.github.io/Steam-Deals';
+
 /* ── i18n strings ─────────────────────────────────────────────────────────── */
 const I18N = {
   zh: {
