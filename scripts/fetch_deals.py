@@ -153,7 +153,8 @@ def _steam_appdetails(appid: int, retries: int = 3) -> dict:
                              timeout=20)
             r.raise_for_status()
             entry = r.json().get(str(appid), {})
-            return entry.get("data", {}) if entry.get("success") else {}
+            data = entry.get("data", {}) if entry.get("success") else {}
+            return data if isinstance(data, dict) else {}
         except requests.exceptions.HTTPError as exc:
             if exc.response is not None and exc.response.status_code == 429:
                 wait = 30 * (attempt + 1)
