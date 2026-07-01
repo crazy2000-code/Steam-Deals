@@ -395,9 +395,8 @@ def fetch_media(appid: int) -> dict:
     movies = data.get("movies") or []
     if movies:
         movie = next((m for m in movies if m.get("highlight")), movies[0])
-        mp4 = movie.get("mp4") or {}
-        webm = movie.get("webm") or {}
-        trailer = mp4.get("max") or mp4.get("480") or webm.get("max") or webm.get("480")
+        # Steam now distributes trailers as HLS/DASH streams; prefer HLS for broad compat
+        trailer = movie.get("hls_h264") or movie.get("dash_h264")
     return {"trailer": trailer}
 
 

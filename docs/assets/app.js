@@ -340,16 +340,27 @@ function openModal(game) {
   });
   content.appendChild(pricesGrid);
 
-  // Trailer
+  // Trailer (HLS stream from Steam)
   if (game.trailer) {
     const section = el('div', 'modal-trailer');
     section.appendChild(el('div', 'modal-section-title', t('trailer')));
     const video = document.createElement('video');
     video.className = 'trailer-video';
-    video.src = game.trailer;
     video.controls = true;
     video.preload = 'none';
     video.poster = game.images.capsule || '';
+    if (game.trailer.includes('.m3u8') && video.canPlayType('application/vnd.apple.mpegurl')) {
+      // Safari: native HLS support
+      video.src = game.trailer;
+    } else if (game.trailer.includes('.m3u8') && window.Hls && window.Hls.isSupported()) {
+      // Chrome / Firefox: use hls.js
+      const hls = new window.Hls({ startLevel: -1 });
+      hls.loadSource(game.trailer);
+      hls.attachMedia(video);
+    } else {
+      // Fallback: direct src (e.g. future mp4 URLs, or DASH if browser supports)
+      video.src = game.trailer;
+    }
     section.appendChild(video);
     content.appendChild(section);
   }
