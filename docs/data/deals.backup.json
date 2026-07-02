@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T20:19:51.995324+00:00",
+  "generated_at": "2026-07-02T09:38:15.056570+00:00",
   "total": 300,
   "games": [
     {
@@ -3174,64 +3174,6 @@
           "current": 14.75,
           "regular": 59.0,
           "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "019a078d-a02c-7283-9d63-f03a248ee8f1",
-      "title": "Uno - Ultimate Edition 2025",
-      "slug": "uno-ultimate-edition-2025",
-      "appid": 470220,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": true,
-      "tags": [
-        "Card Game",
-        "Multiplayer",
-        "Tabletop",
-        "Board Game",
-        "Casual"
-      ],
-      "reviews": {
-        "score": 70,
-        "count": 41882,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/470220/capsule_616x353.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/470220/1967812071/abac03c102731bea1f4cf16da76e39f9f0ce1eaa/1761158409/hls_264_master.m3u8?t=1761164219",
-      "steam_url": "https://store.steampowered.com/app/470220",
-      "prices": {
-        "USD": {
-          "current": 20.99,
-          "regular": 29.99,
-          "low": 20.99,
-          "low_1y": 20.99,
-          "cut": 30,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 89.6,
-          "regular": 128,
-          "low": 89.6,
-          "low_1y": 89.6,
-          "cut": 30,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 12.4,
-          "regular": 31.0,
-          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7320,7 +7262,7 @@
           "current": 27,
           "regular": 108,
           "low": 27,
-          "low_1y": 27,
+          "low_1y": 24.75,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -7397,6 +7339,64 @@
       }
     },
     {
+      "id": "018d937f-1256-71b1-a55b-4e0d94c9a912",
+      "title": "POSTAL 2",
+      "slug": "postal-2",
+      "appid": 223470,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Violent",
+        "Dark Humor",
+        "Open World",
+        "First-Person",
+        "Funny"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 115055,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1256-71b1-a55b-4e0d94c9a912/boxart.jpg?t=1782947404"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/223470/39299/cc6b02a534770ef7d82632acb92fcbc4b1b21083/1750481844/hls_264_master.m3u8?t=1456997327",
+      "steam_url": "https://store.steampowered.com/app/223470",
+      "prices": {
+        "USD": {
+          "current": 0.99,
+          "regular": 9.99,
+          "low": 0.99,
+          "low_1y": 0.84,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 4.2,
+          "regular": 42,
+          "low": 3,
+          "low_1y": 4,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 2.67,
+          "regular": 26.75,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1e66-7184-b1d7-1634c8fc9df4",
       "title": "Metro Exodus",
       "slug": "metro-exodus",
@@ -7445,64 +7445,6 @@
         "MYR": {
           "current": 9.39,
           "regular": 93.9,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-1256-71b1-a55b-4e0d94c9a912",
-      "title": "POSTAL 2",
-      "slug": "postal-2",
-      "appid": 223470,
-      "tier": "aaa",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Violent",
-        "Dark Humor",
-        "Open World",
-        "First-Person",
-        "Funny"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 114734,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1256-71b1-a55b-4e0d94c9a912/boxart.jpg?t=1760117444"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/223470/39299/cc6b02a534770ef7d82632acb92fcbc4b1b21083/1750481844/hls_264_master.m3u8?t=1456997327",
-      "steam_url": "https://store.steampowered.com/app/223470",
-      "prices": {
-        "USD": {
-          "current": 0.99,
-          "regular": 9.99,
-          "low": 0.99,
-          "low_1y": 0.84,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 4.2,
-          "regular": 42,
-          "low": 3,
-          "low_1y": 4,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 2.67,
-          "regular": 26.75,
           "cut": 90,
           "low": null,
           "low_1y": null,
@@ -10467,11 +10409,11 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 46928,
+        "count": 47006,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4c71-73cc-bb02-d19a70711629/boxart.jpg?t=1778743216"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4c71-73cc-bb02-d19a70711629/boxart.jpg?t=1782980134"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1384160/1202603821/4f0f6690f2e280e0e546d40ed193d6496cc5668c/1774421240/hls_264_master.m3u8?t=1774423103",
       "steam_url": "https://store.steampowered.com/app/1384160",
@@ -11597,6 +11539,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 4.9,
+          "regular": 49.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11713,11 +11665,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 35705,
+        "count": 35840,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5018-73d9-8c4c-98a098302e81/boxart.jpg?t=1781371521"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5018-73d9-8c4c-98a098302e81/boxart.jpg?t=1782934522"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1190000/875770/f919977b0c202dea2acc4be0624e522423ef7a0c/1750636427/hls_264_master.m3u8?t=1745365738",
       "steam_url": "https://store.steampowered.com/app/1190000",
@@ -14161,11 +14113,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 24178,
+        "count": 24238,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3646-7290-985d-66caa615329f/boxart.jpg?t=1781276747"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3646-7290-985d-66caa615329f/boxart.jpg?t=1782934512"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/756800/541658/98b70730967b024abbcde7b6434d2dc8427b1751/1750579316/hls_264_master.m3u8?t=1758622923",
       "steam_url": "https://store.steampowered.com/app/756800",
@@ -16336,6 +16288,54 @@
           "low": 24.5,
           "low_1y": 24.5,
           "cut": 65,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-75c0-7271-aa0e-acffaba43e75",
+      "title": "Horizon Forbidden West Complete Edition",
+      "slug": "horizon-forbidden-west-complete-edition",
+      "appid": 2420110,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Open World",
+        "Singleplayer",
+        "Female Protagonist",
+        "Action",
+        "Exploration"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 19478,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-75c0-7271-aa0e-acffaba43e75/boxart.jpg?t=1776466213"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2420110",
+      "prices": {
+        "USD": {
+          "current": 29.99,
+          "regular": 59.99,
+          "low": 29.99,
+          "low_1y": 26.28,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 207,
+          "regular": 414,
+          "low": 207,
+          "low_1y": 189.24,
+          "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
