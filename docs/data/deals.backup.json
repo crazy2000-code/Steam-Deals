@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:50:06.066349+00:00",
+  "generated_at": "2026-07-06T20:42:58.282544+00:00",
   "total": 300,
   "games": [
     {
@@ -612,7 +612,7 @@
           "current": 9.99,
           "regular": 39.99,
           "low": 9.99,
-          "low_1y": 8.5,
+          "low_1y": 8.46,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -3721,7 +3721,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 34715,
+        "count": 34724,
         "text": ""
       },
       "images": {
@@ -4053,6 +4053,64 @@
       }
     },
     {
+      "id": "018d937e-f858-7329-9ce7-73c2ab23434e",
+      "title": "CARRION",
+      "slug": "carrion",
+      "appid": 953490,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Gore",
+        "Villain Protagonist",
+        "Pixel Graphics",
+        "Metroidvania",
+        "Action"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 30814,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f858-7329-9ce7-73c2ab23434e/boxart.jpg?t=1760016915"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/953490/299866/53f1de1d90c44388fc8ad92b194b6bbe4ecc0d9b/1750600306/hls_264_master.m3u8?t=1595426760",
+      "steam_url": "https://store.steampowered.com/app/953490",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.6,
+          "regular": 76,
+          "low": 7.6,
+          "low_1y": 7.6,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 4.9,
+          "regular": 49.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-3486-72cf-9ddb-b90f2110f278",
       "title": "Wreckfest",
       "slug": "wreckfest",
@@ -4101,64 +4159,6 @@
         "MYR": {
           "current": 6.0,
           "regular": 60.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937e-f858-7329-9ce7-73c2ab23434e",
-      "title": "CARRION",
-      "slug": "carrion",
-      "appid": 953490,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": true,
-      "tags": [
-        "Gore",
-        "Villain Protagonist",
-        "Pixel Graphics",
-        "Action",
-        "Metroidvania"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 29209,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f858-7329-9ce7-73c2ab23434e/boxart.jpg?t=1760016915"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/953490/299866/53f1de1d90c44388fc8ad92b194b6bbe4ecc0d9b/1750600306/hls_264_master.m3u8?t=1595426760",
-      "steam_url": "https://store.steampowered.com/app/953490",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.6,
-          "regular": 76,
-          "low": 7.6,
-          "low_1y": 7.6,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 4.9,
-          "regular": 49.0,
           "cut": 90,
           "low": null,
           "low_1y": null,
@@ -9423,11 +9423,11 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 55096,
+        "count": 55817,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6993-7288-8655-db3300f50295/boxart.jpg?t=1781518812"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6993-7288-8655-db3300f50295/boxart.jpg?t=1783340407"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1659040/489970123/756c6b61b74d8a0ffe5b40d505d9a2d5325dc07a/1780394208/hls_264_master.m3u8?t=1780701513",
       "steam_url": "https://store.steampowered.com/app/1659040",
