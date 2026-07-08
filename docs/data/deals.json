@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T08:56:40.350638+00:00",
+  "generated_at": "2026-07-08T19:56:45.686558+00:00",
   "total": 300,
   "games": [
     {
@@ -7123,11 +7123,11 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 133255,
+        "count": 133892,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1f5e-715c-9cd9-b4ea95e07304/boxart.jpg?t=1781198733"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1f5e-715c-9cd9-b4ea95e07304/boxart.jpg?t=1783533006"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/457140/1591482321/da8da016a7d7e7efd4819927145a5afd29f34b02/1763663209/hls_264_master.m3u8?t=1763664297",
       "steam_url": "https://store.steampowered.com/app/457140",
@@ -7262,7 +7262,7 @@
           "current": 59.5,
           "regular": 119,
           "low": 56,
-          "low_1y": 54.74,
+          "low_1y": 59.5,
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
@@ -15681,6 +15681,54 @@
       }
     },
     {
+      "id": "018d937f-53ee-71c1-9635-7035894410d7",
+      "title": "Frostpunk 2",
+      "slug": "frostpunk-2",
+      "appid": 1601580,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "City Builder",
+        "Strategy",
+        "Survival",
+        "Resource Management",
+        "Post-apocalyptic"
+      ],
+      "reviews": {
+        "score": 74,
+        "count": 20457,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-53ee-71c1-9635-7035894410d7/boxart.jpg?t=1783524014"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1601580/2081179672/a51d6a89ce7cb594bf01d5c08904b3888a8593a0/1750709792/hls_264_master.m3u8?t=1747236650",
+      "steam_url": "https://store.steampowered.com/app/1601580",
+      "prices": {
+        "USD": {
+          "current": 22.49,
+          "regular": 44.99,
+          "low": 22.49,
+          "low_1y": 17.03,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 74.5,
+          "regular": 149,
+          "low": 74.5,
+          "low_1y": 67.05,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-124c-7160-9762-1144ea75581e",
       "title": "Call of Juarez: Gunslinger",
       "slug": "call-of-juarez-gunslinger",
@@ -15722,54 +15770,6 @@
           "low": 5,
           "low_1y": 5,
           "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-53ee-71c1-9635-7035894410d7",
-      "title": "Frostpunk 2",
-      "slug": "frostpunk-2",
-      "appid": 1601580,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "City Builder",
-        "Strategy",
-        "Survival",
-        "Resource Management",
-        "Post-apocalyptic"
-      ],
-      "reviews": {
-        "score": 74,
-        "count": 20253,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-53ee-71c1-9635-7035894410d7/boxart.jpg?t=1782220515"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1601580/2081179672/a51d6a89ce7cb594bf01d5c08904b3888a8593a0/1750709792/hls_264_master.m3u8?t=1747236650",
-      "steam_url": "https://store.steampowered.com/app/1601580",
-      "prices": {
-        "USD": {
-          "current": 22.49,
-          "regular": 44.99,
-          "low": 22.49,
-          "low_1y": 17.03,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 74.5,
-          "regular": 149,
-          "low": 74.5,
-          "low_1y": 67.05,
-          "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
