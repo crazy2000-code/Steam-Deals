@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T19:43:36.122308+00:00",
-  "total": 188,
+  "generated_at": "2026-07-10T09:09:09.814239+00:00",
+  "total": 189,
   "games": [
     {
       "id": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0",
@@ -541,11 +541,11 @@
       ],
       "reviews": {
         "score": 84,
-        "count": 42453,
+        "count": 42455,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-21bd-730b-89ed-9d4ac523a8f0/boxart.jpg?t=1783590614"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-21bd-730b-89ed-9d4ac523a8f0/boxart.jpg?t=1783663518"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/633230/599567/e938e15a000cc7374548de4ca7ef3f78c5107e85/1750564445/hls_264_master.m3u8?t=1692663146",
       "steam_url": "https://store.steampowered.com/app/633230",
@@ -773,11 +773,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 359036,
+        "count": 359317,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-50c1-7086-807c-e020c98c72b2/boxart.jpg?t=1782414613"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-50c1-7086-807c-e020c98c72b2/boxart.jpg?t=1783655418"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1623730/1835768144/fe4d152e82cc30c4a0c6b66de7a4326410e0cf5d/1780700542/hls_264_master.m3u8?t=1780701306",
       "steam_url": "https://store.steampowered.com/app/1623730",
@@ -1933,7 +1933,7 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 18676,
+        "count": 18728,
         "text": ""
       },
       "images": {
@@ -2397,7 +2397,7 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 14490,
+        "count": 14523,
         "text": ""
       },
       "images": {
@@ -4160,7 +4160,7 @@
           "current": 13.3,
           "regular": 133,
           "low": 13,
-          "low_1y": 12.5,
+          "low_1y": 10.87,
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
@@ -4949,7 +4949,7 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 5938,
+        "count": 5943,
         "text": ""
       },
       "images": {
@@ -6108,8 +6108,8 @@
         "Visual Novel"
       ],
       "reviews": {
-        "score": 95,
-        "count": 1974,
+        "score": 96,
+        "count": 1984,
         "text": ""
       },
       "images": {
@@ -6399,7 +6399,7 @@
       ],
       "reviews": {
         "score": 83,
-        "count": 1368,
+        "count": 1365,
         "text": ""
       },
       "images": {
@@ -6747,7 +6747,7 @@
       ],
       "reviews": {
         "score": 83,
-        "count": 140478,
+        "count": 140708,
         "text": ""
       },
       "images": {
@@ -7243,6 +7243,64 @@
       }
     },
     {
+      "id": "018d937f-3ebb-73ab-89a3-519da8296625",
+      "title": "Battle Ram",
+      "slug": "battle-ram",
+      "appid": 1262060,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Spectacle fighter",
+        "Bullet Hell",
+        "Robots",
+        "Perma Death",
+        "Difficult"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 2201,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3ebb-73ab-89a3-519da8296625/boxart.jpg?t=1779415518"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1262060",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 29.99,
+          "low": 0.39,
+          "low_1y": 1.49,
+          "cut": 95,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 5.4,
+          "regular": 108,
+          "low": 1.5,
+          "low_1y": 5.4,
+          "cut": 95,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 3.6,
+          "regular": 72.0,
+          "cut": 95,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-1e8b-7276-88c7-0e18489c8b20",
       "title": "Sherlock Holmes: The Devil's Daughter",
       "slug": "sherlock-holmes-the-devils-daughter",
@@ -7375,7 +7433,7 @@
       ],
       "reviews": {
         "score": 84,
-        "count": 2817,
+        "count": 2820,
         "text": ""
       },
       "images": {
@@ -7781,7 +7839,7 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 21059,
+        "count": 21073,
         "text": ""
       },
       "images": {
@@ -7839,7 +7897,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 17727,
+        "count": 17743,
         "text": ""
       },
       "images": {
@@ -8071,7 +8129,7 @@
       ],
       "reviews": {
         "score": 83,
-        "count": 6401,
+        "count": 6392,
         "text": ""
       },
       "images": {
@@ -9521,7 +9579,7 @@
       ],
       "reviews": {
         "score": 84,
-        "count": 3418,
+        "count": 3414,
         "text": ""
       },
       "images": {
