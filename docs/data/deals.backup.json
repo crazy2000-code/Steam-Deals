@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T19:24:01.701843+00:00",
+  "generated_at": "2026-07-16T08:14:33.442221+00:00",
   "total": 300,
   "games": [
     {
@@ -5030,7 +5030,7 @@
           "current": 13.5,
           "regular": 54,
           "low": 13.5,
-          "low_1y": 13.5,
+          "low_1y": 13,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -10529,6 +10529,64 @@
       }
     },
     {
+      "id": "018d937f-292f-715b-a9ad-ef307de46e1c",
+      "title": "Quest Hunter",
+      "slug": "quest-hunter",
+      "appid": 487000,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Character Customization",
+        "Isometric",
+        "Cartoon",
+        "Exploration",
+        "Party-Based RPG"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 2019,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-292f-715b-a9ad-ef307de46e1c/boxart.jpg?t=1760982094"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/487000",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 15.2,
+          "regular": 76,
+          "low": 13.8,
+          "low_1y": 12.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 9.8,
+          "regular": 49.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937e-eff8-70e8-a193-2d4773d9322e",
       "title": "Detective Grimoire",
       "slug": "detective-grimoire",
@@ -10752,6 +10810,61 @@
           "current": 2.35,
           "regular": 23.5,
           "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5dab-72fc-b028-9bcfc6cffe16",
+      "title": "Euro Truck Simulator 2 - Ukrainian Paint Jobs Pack",
+      "slug": "euro-truck-simulator-2-ukrainian-paint-jobs-pack",
+      "appid": 1918370,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 1692,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5dab-72fc-b028-9bcfc6cffe16/banner300.jpg?t=1764580814"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1918370",
+      "prices": {
+        "USD": {
+          "current": 0.52,
+          "regular": 0.99,
+          "low": 0.52,
+          "low_1y": 0.52,
+          "cut": 47,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.18,
+          "regular": 6,
+          "low": 3.18,
+          "low_1y": 3.18,
+          "cut": 47,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.59,
+          "regular": 3.0,
+          "cut": 47,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11501,16 +11614,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 11.8,
-          "regular": 59.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11558,16 +11661,6 @@
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 18.78,
-          "regular": 93.9,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -16260,92 +16353,6 @@
           "low": 4,
           "low_1y": 5.8,
           "cut": 67,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-333c-717a-9dea-75407cab920a",
-      "title": "NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution",
-      "slug": "naruto-shippuden-ultimate-ninja-storm-revolution",
-      "appid": 272510,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Anime",
-        "Fighting",
-        "Ninja",
-        "Action",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 84,
-        "count": 7174,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-333c-717a-9dea-75407cab920a/boxart.png?t=1732818371"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/272510/23565/ee402fc1bdc0dbc8a1c3916c9f2368df4b003901/1751268673/hls_264_master.m3u8?t=1447362924",
-      "steam_url": "https://store.steampowered.com/app/272510",
-      "prices": {
-        "USD": {
-          "current": 9.89,
-          "regular": 29.99,
-          "low": 4.49,
-          "low_1y": 8.18,
-          "cut": 67,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-f885-701c-8ce8-1710e0ed6fe5",
-      "title": "Total War: Attila",
-      "slug": "total-war-attila",
-      "appid": 325610,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": true,
-      "tags": [
-        "Strategy",
-        "Historical",
-        "War",
-        "Turn-Based Strategy",
-        "Grand Strategy"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 26700,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f885-701c-8ce8-1710e0ed6fe5/boxart.jpg?t=1782986112"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/325610/31588/79efcab8aac5f1c6a1f11d14c9c87a2d37ac27bd/1750509047/hls_264_master.m3u8?t=1447369531",
-      "steam_url": "https://store.steampowered.com/app/325610",
-      "prices": {
-        "USD": {
-          "current": 15.29,
-          "regular": 44.99,
-          "low": 8.99,
-          "low_1y": 7.73,
-          "cut": 66,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 68,
-          "regular": 200,
-          "low": 24,
-          "low_1y": 40,
-          "cut": 66,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
