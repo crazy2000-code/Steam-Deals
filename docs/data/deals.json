@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T08:17:36.894008+00:00",
+  "generated_at": "2026-07-19T19:11:31.544711+00:00",
   "total": 300,
   "games": [
     {
@@ -5484,7 +5484,7 @@
           "current": 2.99,
           "regular": 29.99,
           "low": 2.99,
-          "low_1y": 2.35,
+          "low_1y": 1.99,
           "cut": 90,
           "currency": "USD",
           "symbol": "$",
@@ -8477,7 +8477,7 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 5943,
+        "count": 5964,
         "text": ""
       },
       "images": {
@@ -8858,6 +8858,64 @@
           "current": 15.25,
           "regular": 61.0,
           "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-f9a8-7393-a321-b1963240cbf0",
+      "title": "Rising World",
+      "slug": "rising-world",
+      "appid": 324080,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Open World Survival Craft",
+        "Mining",
+        "Relaxing",
+        "Building",
+        "Base Building"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 5238,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f9a8-7393-a321-b1963240cbf0/boxart.jpg?t=1766430616"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/324080",
+      "prices": {
+        "USD": {
+          "current": 10.04,
+          "regular": 14.99,
+          "low": 10.04,
+          "low_1y": 10.04,
+          "cut": 33,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 36.85,
+          "regular": 55,
+          "low": 32,
+          "low_1y": 36.85,
+          "cut": 33,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 25.79,
+          "regular": 38.5,
+          "cut": 33,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11559,16 +11617,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 3.8,
-          "regular": 38.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -11614,6 +11662,54 @@
           "low": 11.9,
           "low_1y": 11.9,
           "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-7a0c-7024-9762-1c9fa70a3e1a",
+      "title": "Snezhinka:Sentinel Girls2",
+      "slug": "snezhinka-sentinel-girls2",
+      "appid": 2608350,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "Pixel Graphics",
+        "Cute",
+        "Twin Stick Shooter",
+        "Action Roguelike"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 2378,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7a0c-7024-9762-1c9fa70a3e1a/boxart.jpg?t=1763148693"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2608350/628551/548e9ee662d83449c8da7cba2368f85aa76169d0/1750817398/hls_264_master.m3u8?t=1724696670",
+      "steam_url": "https://store.steampowered.com/app/2608350",
+      "prices": {
+        "USD": {
+          "current": 4.79,
+          "regular": 7.99,
+          "low": 4.79,
+          "low_1y": 4.79,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 19.2,
+          "regular": 32,
+          "low": 19.2,
+          "low_1y": 19.2,
+          "cut": 40,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
@@ -12821,101 +12917,6 @@
       }
     },
     {
-      "id": "018d937f-42d3-70c8-b7fa-ae75af35ed73",
-      "title": "Euro Truck Simulator 2 - FH Tuning Pack",
-      "slug": "euro-truck-simulator-2-fh-tuning-pack",
-      "appid": 1299530,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Simulation",
-        "Indie",
-        "Multiplayer",
-        "Singleplayer"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 824,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-42d3-70c8-b7fa-ae75af35ed73/banner300.jpg?t=1758013809"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1299530/1435812417/d0272278ed8d08b8a21fbc8323dd3e902f92c9bc/1757933998/hls_264_master.m3u8?t=1758009702",
-      "steam_url": "https://store.steampowered.com/app/1299530",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 3.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 10,
-          "regular": 20,
-          "low": 10,
-          "low_1y": 10,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018ef1c9-4129-727b-8863-03565d9aa355",
-      "title": "Furry Angel Take In",
-      "slug": "furry-angel-take-in",
-      "appid": 2910460,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Visual Novel",
-        "Dating Sim",
-        "Anime",
-        "Romance",
-        "Adventure"
-      ],
-      "reviews": {
-        "score": 98,
-        "count": 680,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018ef1c9-4129-727b-8863-03565d9aa355/boxart.jpg?t=1760033730"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2910460/690605/c80223574d0376e29de41f28fd04ee335196f92a/1750888182/hls_264_master.m3u8?t=1723746308",
-      "steam_url": "https://store.steampowered.com/app/2910460",
-      "prices": {
-        "USD": {
-          "current": 2.09,
-          "regular": 2.99,
-          "low": 2.09,
-          "low_1y": 2.09,
-          "cut": 30,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 8.4,
-          "regular": 12,
-          "low": 8.4,
-          "low_1y": 8.4,
-          "cut": 30,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-220e-7290-84d7-80608be87563",
       "title": "Hell Yeah! Wrath of the Dead Rabbit",
       "slug": "hell-yeah-wrath-of-the-dead-rabbit",
@@ -12964,6 +12965,54 @@
       }
     },
     {
+      "id": "018d937f-1310-71c6-9d2d-f3ee861f01d6",
+      "title": "Euro Truck Simulator 2 - Actros Tuning Pack",
+      "slug": "euro-truck-simulator-2-actros-tuning-pack",
+      "appid": 1056761,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Indie",
+        "Driving",
+        "Singleplayer",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 81,
+        "count": 542,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1310-71c6-9d2d-f3ee861f01d6/banner300.jpg?t=1753962926"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1056761",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 3.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10,
+          "regular": 20,
+          "low": 9,
+          "low_1y": 10,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937e-f85d-703b-aa5d-a38a1c1f5bc2",
       "title": "Warhammer: Vermintide 2",
       "slug": "warhammer-vermintide-2",
@@ -13005,54 +13054,6 @@
           "low": 5.4,
           "low_1y": 5.4,
           "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-17be-72b4-ac97-2a2712a897d9",
-      "title": "Darkest Dungeon",
-      "slug": "darkest-dungeon",
-      "appid": 262060,
-      "tier": "aaa",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Turn-Based Combat",
-        "Dungeon Crawler",
-        "Dark Fantasy",
-        "Roguelike",
-        "RPG"
-      ],
-      "reviews": {
-        "score": 91,
-        "count": 139061,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-17be-72b4-ac97-2a2712a897d9/boxart.jpg?t=1769781943"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/262060/50503/a313852a4becb5f5e662685db8e57a8283b7cd85/1750497858/hls_264_master.m3u8?t=1747999027",
-      "steam_url": "https://store.steampowered.com/app/262060",
-      "prices": {
-        "USD": {
-          "current": 3.74,
-          "regular": 24.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 13.2,
-          "regular": 88,
-          "low": 7.04,
-          "low_1y": 7.04,
-          "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
@@ -13330,54 +13331,6 @@
           "regular": 58,
           "low": 10,
           "low_1y": 12,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-03bd-71c2-b2ed-2d640f658e89",
-      "title": "Prison Architect",
-      "slug": "prison-architect",
-      "appid": 233450,
-      "tier": "aaa",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Simulation",
-        "Building",
-        "Sandbox",
-        "Base Building",
-        "Colony Sim"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 59547,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03bd-71c2-b2ed-2d640f658e89/boxart.jpg?t=1761596805"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/233450/44205/a60887680466f46c3a1d02feb3c60d4547937e11/1750491714/hls_264_master.m3u8?t=1447378356",
-      "steam_url": "https://store.steampowered.com/app/233450",
-      "prices": {
-        "USD": {
-          "current": 7.49,
-          "regular": 29.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 34.5,
-          "regular": 138,
-          "low": 13.8,
-          "low_1y": 9,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -15546,6 +15499,102 @@
       }
     },
     {
+      "id": "018d937f-1329-72f1-8df2-dc5ca7a74878",
+      "title": "Disco Dodgeball Four Pack",
+      "slug": "disco-dodgeball-four-pack",
+      "appid": 270450,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Arena Shooter",
+        "FPS",
+        "Sports",
+        "PvP",
+        "Shooter"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 2248,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1329-72f1-8df2-dc5ca7a74878/boxart.png"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/270450/20624/db905f16a62b5ae40f6ea4392bc1c28327776e02/1751269480/hls_264_master.m3u8?t=1447361794",
+      "steam_url": "https://store.steampowered.com/app/270450",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 15.6,
+          "regular": 78,
+          "low": 7,
+          "low_1y": 7.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c54-71a8-a3ce-f7f9e90581b7",
+      "title": "Sanctum 4 Pack",
+      "slug": "sanctum-4-pack",
+      "appid": 91600,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Tower Defense",
+        "FPS",
+        "Strategy",
+        "Co-op",
+        "Action"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 1973,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c54-71a8-a3ce-f7f9e90581b7/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/91600/4751/09bb05f295cc744e27c7df9fae77d76e32ef3fb6/1750492667/hls_264_master.m3u8?t=1581547986",
+      "steam_url": "https://store.steampowered.com/app/91600",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 29.99,
+          "low": 2.99,
+          "low_1y": 5.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 22,
+          "regular": 110,
+          "low": 10.8,
+          "low_1y": 22,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937e-f96e-7180-950f-f9d4ab6c3f07",
       "title": "Sanctum",
       "slug": "sanctum",
@@ -15874,6 +15923,54 @@
           "regular": 68,
           "low": 6,
           "low_1y": 11,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-3830-71f4-bbcc-b3430798f559",
+      "title": "Beyond a Steel Sky",
+      "slug": "beyond-a-steel-sky",
+      "appid": 1146310,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Cyberpunk",
+        "Indie",
+        "Action"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 1276,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3830-71f4-bbcc-b3430798f559/boxart.jpg?t=1763147507"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1146310/310770/3309ae6b5f3ad9ba74e00e09f7f0d9e41c5442c9/1750627607/hls_264_master.m3u8?t=1752404924",
+      "steam_url": "https://store.steampowered.com/app/1146310",
+      "prices": {
+        "USD": {
+          "current": 6.99,
+          "regular": 34.99,
+          "low": 5.24,
+          "low_1y": 3.49,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 20.6,
+          "regular": 103,
+          "low": 15.45,
+          "low_1y": 10,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -16258,102 +16355,6 @@
           "regular": 25,
           "low": 5,
           "low_1y": 5,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-3d1e-7316-a76b-5cf207edfabb",
-      "title": "Coromon",
-      "slug": "coromon",
-      "appid": 1218210,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Creature Collector",
-        "Exploration",
-        "JRPG",
-        "Turn-Based Combat",
-        "Turn-Based"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 6197,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3d1e-7316-a76b-5cf207edfabb/boxart.jpg?t=1780143015"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1218210/2017833148/0b1f7573517bcd3564d63edf19ff689a0994e0b4/1773772662/hls_264_master.m3u8?t=1773936459",
-      "steam_url": "https://store.steampowered.com/app/1218210",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 19.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 17.5,
-          "regular": 70,
-          "low": 10.5,
-          "low_1y": 10.2,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-4091-72d8-93db-d75649d6b7d3",
-      "title": "Old World",
-      "slug": "old-world",
-      "appid": 597180,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Grand Strategy",
-        "Simulation",
-        "4X",
-        "Historical"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 5842,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4091-72d8-93db-d75649d6b7d3/boxart.jpg?t=1784303719"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/597180/407258/81b2c01ef88390b11b473784796c5bbb0df3805d/1750559270/hls_264_master.m3u8?t=1743006909",
-      "steam_url": "https://store.steampowered.com/app/597180",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 39.99,
-          "low": 3.99,
-          "low_1y": 3.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 37.25,
-          "regular": 149,
-          "low": 14.9,
-          "low_1y": 14.9,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
