@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T19:10:03.721013+00:00",
+  "generated_at": "2026-07-19T08:17:36.894008+00:00",
   "total": 300,
   "games": [
     {
@@ -4775,7 +4775,7 @@
       ],
       "reviews": {
         "score": 85,
-        "count": 12039,
+        "count": 12040,
         "text": ""
       },
       "images": {
@@ -11717,6 +11717,102 @@
       }
     },
     {
+      "id": "019f3e01-7fa1-7302-9db8-be185b150773",
+      "title": "Esports Manager 2026 + Cat Cafe Manager",
+      "slug": "esports-manager-2026-and-cat-cafe-manager",
+      "appid": 1354830,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Cozy",
+        "Simulation",
+        "Management",
+        "Strategy",
+        "Shop Keeper"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 2138,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1354830/capsule_616x353.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1354830",
+      "prices": {
+        "USD": {
+          "current": 19.78,
+          "regular": 35.98,
+          "low": 19.78,
+          "low_1y": 19.78,
+          "cut": 45,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 67.86,
+          "regular": 124.2,
+          "low": 67.86,
+          "low_1y": 67.86,
+          "cut": 45,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-0102-7347-8f41-3ad694083d5e",
+      "title": "Haunt the House: Terrortown - Soundtrack Edition",
+      "slug": "haunt-the-house-terrortown-soundtrack-edition",
+      "appid": 270630,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Cute",
+        "Indie",
+        "Casual",
+        "Supernatural",
+        "Funny"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 2137,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0102-7347-8f41-3ad694083d5e/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/270630",
+      "prices": {
+        "USD": {
+          "current": 1.39,
+          "regular": 6.99,
+          "low": 1.39,
+          "low_1y": 1.39,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 5.8,
+          "regular": 29,
+          "low": 5,
+          "low_1y": 5.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-4d13-70b8-be67-2626dd5ae5ab",
       "title": "The Dark Eye: Memoria",
       "slug": "the-dark-eye-memoria",
@@ -11861,54 +11957,6 @@
       }
     },
     {
-      "id": "018d937e-eff8-70e8-a193-2d4773d9322e",
-      "title": "Detective Grimoire",
-      "slug": "detective-grimoire",
-      "appid": 272600,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Exploration",
-        "Point & Click",
-        "Puzzle",
-        "Detective",
-        "Visual Novel"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 1984,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-eff8-70e8-a193-2d4773d9322e/boxart.jpg?t=1771581907"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/272600/23667/f3aaeb3cdedae29df4d8ac825295d70636d2b7a6/1751268680/hls_264_master.m3u8?t=1447362976",
-      "steam_url": "https://store.steampowered.com/app/272600",
-      "prices": {
-        "USD": {
-          "current": 1.39,
-          "regular": 6.99,
-          "low": 1.39,
-          "low_1y": 1.39,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 5.8,
-          "regular": 29,
-          "low": 5,
-          "low_1y": 5,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-03c9-711c-9dbb-62a7584a893a",
       "title": "Detective Grimoire - Soundtrack Edition",
       "slug": "detective-grimoire-soundtrack-edition",
@@ -11949,6 +11997,54 @@
           "regular": 36,
           "low": 6,
           "low_1y": 7.2,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-eff8-70e8-a193-2d4773d9322e",
+      "title": "Detective Grimoire",
+      "slug": "detective-grimoire",
+      "appid": 272600,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Exploration",
+        "Point & Click",
+        "Puzzle",
+        "Detective",
+        "Visual Novel"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 1984,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-eff8-70e8-a193-2d4773d9322e/boxart.jpg?t=1771581907"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/272600/23667/f3aaeb3cdedae29df4d8ac825295d70636d2b7a6/1751268680/hls_264_master.m3u8?t=1447362976",
+      "steam_url": "https://store.steampowered.com/app/272600",
+      "prices": {
+        "USD": {
+          "current": 1.39,
+          "regular": 6.99,
+          "low": 1.39,
+          "low_1y": 1.39,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 5.8,
+          "regular": 29,
+          "low": 5,
+          "low_1y": 5,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -12725,6 +12821,53 @@
       }
     },
     {
+      "id": "018d937f-42d3-70c8-b7fa-ae75af35ed73",
+      "title": "Euro Truck Simulator 2 - FH Tuning Pack",
+      "slug": "euro-truck-simulator-2-fh-tuning-pack",
+      "appid": 1299530,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Indie",
+        "Multiplayer",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 824,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-42d3-70c8-b7fa-ae75af35ed73/banner300.jpg?t=1758013809"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1299530/1435812417/d0272278ed8d08b8a21fbc8323dd3e902f92c9bc/1757933998/hls_264_master.m3u8?t=1758009702",
+      "steam_url": "https://store.steampowered.com/app/1299530",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 3.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10,
+          "regular": 20,
+          "low": 10,
+          "low_1y": 10,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018ef1c9-4129-727b-8863-03565d9aa355",
       "title": "Furry Angel Take In",
       "slug": "furry-angel-take-in",
@@ -12814,54 +12957,6 @@
           "low": 12,
           "low_1y": 12.5,
           "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-1310-71c6-9d2d-f3ee861f01d6",
-      "title": "Euro Truck Simulator 2 - Actros Tuning Pack",
-      "slug": "euro-truck-simulator-2-actros-tuning-pack",
-      "appid": 1056761,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Simulation",
-        "Indie",
-        "Driving",
-        "Singleplayer",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 81,
-        "count": 542,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1310-71c6-9d2d-f3ee861f01d6/banner300.jpg?t=1753962926"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1056761",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 3.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 10,
-          "regular": 20,
-          "low": 9,
-          "low_1y": 10,
-          "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
@@ -15899,11 +15994,11 @@
       ],
       "reviews": {
         "score": 84,
-        "count": 3241,
+        "count": 3248,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f7fb-7210-9003-8b7028ce03fa/boxart.png?t=1745448008"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f7fb-7210-9003-8b7028ce03fa/boxart.png?t=1784406314"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/967250/191473/6b4cc50cdc017ba53675ae5c830bb93b96b8524a/1751169871/hls_264_master.m3u8?t=1540273163",
       "steam_url": "https://store.steampowered.com/app/967250",
@@ -16259,102 +16354,6 @@
           "regular": 149,
           "low": 14.9,
           "low_1y": 14.9,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "01936e75-ad53-7188-8e37-a2716799fd2e",
-      "title": "Talisman: Digital Classic Edition",
-      "slug": "talisman-digital-classic-edition",
-      "appid": 247000,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Board Game",
-        "Tabletop",
-        "Strategy",
-        "Multiplayer",
-        "RPG"
-      ],
-      "reviews": {
-        "score": 80,
-        "count": 5537,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/01936e75-ad53-7188-8e37-a2716799fd2e/boxart.jpg?t=1761607275"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/247000",
-      "prices": {
-        "USD": {
-          "current": 1.74,
-          "regular": 6.99,
-          "low": 1.39,
-          "low_1y": 1.74,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 7.25,
-          "regular": 29,
-          "low": 5,
-          "low_1y": 7.25,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-fd6d-7278-8471-0336942218ad",
-      "title": "We Need to Go Deeper",
-      "slug": "we-need-to-go-deeper",
-      "appid": 307110,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Co-op",
-        "2D",
-        "Lovecraftian",
-        "Roguelite",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 86,
-        "count": 4650,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd6d-7278-8471-0336942218ad/boxart.jpg?t=1761590775"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/307110/235964/c0b0ec6c5862bb93d4c13160c2015f7a6638614d/1750504473/hls_264_master.m3u8?t=1564675372",
-      "steam_url": "https://store.steampowered.com/app/307110",
-      "prices": {
-        "USD": {
-          "current": 3.99,
-          "regular": 15.99,
-          "low": 2.39,
-          "low_1y": 2.39,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 13.5,
-          "regular": 54,
-          "low": 8.1,
-          "low_1y": 8.1,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
