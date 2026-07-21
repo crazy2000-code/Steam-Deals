@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T19:49:54.411490+00:00",
+  "generated_at": "2026-07-21T08:27:58.402670+00:00",
   "total": 300,
   "games": [
     {
@@ -251,7 +251,7 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 152145,
+        "count": 152140,
         "text": ""
       },
       "images": {
@@ -773,7 +773,7 @@
       ],
       "reviews": {
         "score": 82,
-        "count": 48317,
+        "count": 48295,
         "text": ""
       },
       "images": {
@@ -1063,7 +1063,7 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 37212,
+        "count": 37208,
         "text": ""
       },
       "images": {
@@ -1643,11 +1643,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 369327,
+        "count": 376185,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-50c1-7086-807c-e020c98c72b2/boxart.jpg?t=1784190627"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-50c1-7086-807c-e020c98c72b2/boxart.jpg?t=1784621118"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1623730/1835768144/fe4d152e82cc30c4a0c6b66de7a4326410e0cf5d/1780700542/hls_264_master.m3u8?t=1780701306",
       "steam_url": "https://store.steampowered.com/app/1623730",
@@ -4079,7 +4079,7 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 17971,
+        "count": 17973,
         "text": ""
       },
       "images": {
@@ -5471,7 +5471,7 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 12612,
+        "count": 12611,
         "text": ""
       },
       "images": {
@@ -11589,7 +11589,7 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 3687,
+        "count": 3685,
         "text": ""
       },
       "images": {
@@ -11685,7 +11685,7 @@
       ],
       "reviews": {
         "score": 82,
-        "count": 3414,
+        "count": 3413,
         "text": ""
       },
       "images": {
@@ -12389,6 +12389,54 @@
       }
     },
     {
+      "id": "018d937f-4d05-700c-9002-d0f37c170dc9",
+      "title": "NORCO",
+      "slug": "norco",
+      "appid": 1221250,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Point & Click",
+        "Atmospheric",
+        "Pixel Graphics",
+        "Story Rich",
+        "Mystery"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 2711,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4d05-700c-9002-d0f37c170dc9/boxart.jpg?t=1784576112"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1221250/458745/67bbb128d813aae1c98ab63b753a5321cfe50985/1750644407/hls_264_master.m3u8?t=1651070998",
+      "steam_url": "https://store.steampowered.com/app/1221250",
+      "prices": {
+        "USD": {
+          "current": 4.94,
+          "regular": 14.99,
+          "low": 4.94,
+          "low_1y": 2.99,
+          "cut": 67,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 19.14,
+          "regular": 58,
+          "low": 19.14,
+          "low_1y": 17,
+          "cut": 67,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937e-f4da-726b-aff7-4fde33dab7d0",
       "title": "Dead Rising® 2: Off The Record",
       "slug": "dead-rising-2-off-the-record",
@@ -12433,54 +12481,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-4d05-700c-9002-d0f37c170dc9",
-      "title": "NORCO",
-      "slug": "norco",
-      "appid": 1221250,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Point & Click",
-        "Atmospheric",
-        "Pixel Graphics",
-        "Story Rich",
-        "Mystery"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 2697,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4d05-700c-9002-d0f37c170dc9/boxart.jpg?t=1766142619"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1221250/458745/67bbb128d813aae1c98ab63b753a5321cfe50985/1750644407/hls_264_master.m3u8?t=1651070998",
-      "steam_url": "https://store.steampowered.com/app/1221250",
-      "prices": {
-        "USD": {
-          "current": 4.94,
-          "regular": 14.99,
-          "low": 4.94,
-          "low_1y": 2.99,
-          "cut": 67,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 19.14,
-          "regular": 58,
-          "low": 19.14,
-          "low_1y": 17,
-          "cut": 67,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
         }
       }
     },
@@ -13061,54 +13061,6 @@
       }
     },
     {
-      "id": "018d937f-0102-7347-8f41-3ad694083d5e",
-      "title": "Haunt the House: Terrortown - Soundtrack Edition",
-      "slug": "haunt-the-house-terrortown-soundtrack-edition",
-      "appid": 270630,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Cute",
-        "Indie",
-        "Casual",
-        "Supernatural",
-        "Funny"
-      ],
-      "reviews": {
-        "score": 87,
-        "count": 2137,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0102-7347-8f41-3ad694083d5e/boxart.jpg"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/270630",
-      "prices": {
-        "USD": {
-          "current": 1.39,
-          "regular": 6.99,
-          "low": 1.39,
-          "low_1y": 1.39,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 5.8,
-          "regular": 29,
-          "low": 5,
-          "low_1y": 5.8,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937e-ea2c-7124-b1bb-f9fd858528c9",
       "title": "X3: Terran Conflict",
       "slug": "x3-terran-conflict",
@@ -13246,54 +13198,6 @@
           "low": 7,
           "low_1y": 7.6,
           "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-03c9-711c-9dbb-62a7584a893a",
-      "title": "Detective Grimoire - Soundtrack Edition",
-      "slug": "detective-grimoire-soundtrack-edition",
-      "appid": 272600,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Exploration",
-        "Point & Click",
-        "Puzzle",
-        "Detective",
-        "Visual Novel"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 1984,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03c9-711c-9dbb-62a7584a893a/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/272600/23667/f3aaeb3cdedae29df4d8ac825295d70636d2b7a6/1751268680/hls_264_master.m3u8?t=1447362976",
-      "steam_url": "https://store.steampowered.com/app/272600",
-      "prices": {
-        "USD": {
-          "current": 1.79,
-          "regular": 8.99,
-          "low": 1.79,
-          "low_1y": 1.79,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.2,
-          "regular": 36,
-          "low": 6,
-          "low_1y": 7.2,
-          "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
@@ -14148,54 +14052,6 @@
           "low": 3,
           "low_1y": 3,
           "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-1b1e-737b-9727-548b45f16a33",
-      "title": "Final Exam 4 pack",
-      "slug": "final-exam-4-pack",
-      "appid": 233190,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Indie",
-        "Beat 'em up",
-        "Co-op",
-        "Online Co-Op"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 845,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1b1e-737b-9727-548b45f16a33/boxart.jpg"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/233190",
-      "prices": {
-        "USD": {
-          "current": 2.24,
-          "regular": 14.99,
-          "low": 2.24,
-          "low_1y": 2.24,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.6,
-          "regular": 64,
-          "low": 9.6,
-          "low_1y": 9.6,
-          "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
@@ -15265,7 +15121,7 @@
       ],
       "reviews": {
         "score": 86,
-        "count": 8019,
+        "count": 8020,
         "text": ""
       },
       "images": {
@@ -15697,7 +15553,7 @@
       ],
       "reviews": {
         "score": 92,
-        "count": 1820,
+        "count": 1821,
         "text": ""
       },
       "images": {
@@ -16345,6 +16201,150 @@
           "regular": 108,
           "low": 5.4,
           "low_1y": 5.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea31-72ce-bf91-30dc94a27f5b",
+      "title": "South Park™: The Fractured but Whole™",
+      "slug": "south-park-the-fractured-but-whole",
+      "appid": 488790,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": true,
+      "tags": [
+        "RPG",
+        "Comedy",
+        "Dark Humor",
+        "Funny",
+        "Superhero"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 31660,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea31-72ce-bf91-30dc94a27f5b/boxart.jpg?t=1777995311"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/488790",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 29.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 29.6,
+          "regular": 148,
+          "low": 14.8,
+          "low_1y": 14.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-2dae-7271-9f15-a908168a37d0",
+      "title": "Transport Fever 2",
+      "slug": "transport-fever-2",
+      "appid": 1066780,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Strategy",
+        "Management",
+        "Transportation",
+        "Trains"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 26159,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2dae-7271-9f15-a908168a37d0/boxart.jpg?t=1763164104"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1066780/256917/22c7175322cf1f13c11c983c4192ae70a7f935d5/1750611995/hls_264_master.m3u8?t=1576058990",
+      "steam_url": "https://store.steampowered.com/app/1066780",
+      "prices": {
+        "USD": {
+          "current": 7.99,
+          "regular": 39.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 27.2,
+          "regular": 136,
+          "low": 13.6,
+          "low_1y": 13.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-20b3-7398-b681-a55634c29521",
+      "title": "Hatred",
+      "slug": "hatred",
+      "appid": 341940,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Gore",
+        "Violent",
+        "Action",
+        "Dark",
+        "Villain Protagonist"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 25167,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-20b3-7398-b681-a55634c29521/boxart.jpg?t=1779960008"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/341940/29413/6a285c3215b1b0f2297c3f03460685f4c32da8d8/1750512815/hls_264_master.m3u8?t=1447366863",
+      "steam_url": "https://store.steampowered.com/app/341940",
+      "prices": {
+        "USD": {
+          "current": 1.19,
+          "regular": 5.99,
+          "low": 0.59,
+          "low_1y": 0.8,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 5.2,
+          "regular": 26,
+          "low": 3,
+          "low_1y": 5,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
