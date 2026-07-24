@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:19:57.788035+00:00",
+  "generated_at": "2026-07-24T08:24:31.892733+00:00",
   "total": 300,
   "games": [
     {
@@ -2107,11 +2107,11 @@
       ],
       "reviews": {
         "score": 92,
-        "count": 35117,
+        "count": 35120,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5c6a-73fb-b7e8-aa4acbb844bb/boxart.jpg?t=1784773215"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5c6a-73fb-b7e8-aa4acbb844bb/boxart.jpg?t=1784865025"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1296830/636864/cf6d7688be71ba59a9471c777160cf09878011c6/1750670460/hls_264_master.m3u8?t=1702643211",
       "steam_url": "https://store.steampowered.com/app/1296830",
@@ -4217,6 +4217,64 @@
         "MYR": {
           "current": 17.0,
           "regular": 85.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-32b8-71e2-83a7-4ba95729e152",
+      "title": "Company of Heroes",
+      "slug": "company-of-heroes",
+      "appid": 228200,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "World War II",
+        "RTS",
+        "War",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 12460,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-32b8-71e2-83a7-4ba95729e152/boxart.jpg?t=1777997110"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/228200",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 14,
+          "regular": 70,
+          "low": 13,
+          "low_1y": 14,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 9.8,
+          "regular": 49.0,
           "cut": 80,
           "low": null,
           "low_1y": null,
@@ -11263,6 +11321,64 @@
       }
     },
     {
+      "id": "018d937f-1af8-72d7-905d-024bbded07f9",
+      "title": "Company of Heroes: Tales of Valor",
+      "slug": "company-of-heroes-tales-of-valor",
+      "appid": 20540,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "RTS",
+        "World War II",
+        "Military",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 1626,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1af8-72d7-905d-024bbded07f9/boxart.jpg?t=1760462430"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/20540/1539/42bddf106732586a93de1116792a244f242866a8/1751245963/hls_264_master.m3u8?t=1447351628",
+      "steam_url": "https://store.steampowered.com/app/20540",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 14,
+          "regular": 70,
+          "low": 13,
+          "low_1y": 14,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 9.8,
+          "regular": 49.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-0460-70be-a3ff-40f682ae84d7",
       "title": "A New Beginning - Final Cut",
       "slug": "a-new-beginning-final-cut",
@@ -11481,16 +11597,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        },
-        "MYR": {
-          "current": 3.9,
-          "regular": 39.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -11539,16 +11645,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 2.67,
-          "regular": 26.75,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -11639,50 +11735,50 @@
       }
     },
     {
-      "id": "018d937f-7161-727a-8d61-0ed41d03f34a",
-      "title": "\"The Wonderful 101: Remastered\" Special Discount Pack",
-      "slug": "the-wonderful-101-remastered-special-discount-pack",
-      "appid": 1190400,
+      "id": "018d937f-0e32-726c-84a2-c30e8f6f8837",
+      "title": "Company of Heroes: Opposing Fronts",
+      "slug": "company-of-heroes-opposing-fronts",
+      "appid": 9340,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
+        "Strategy",
+        "RTS",
+        "World War II",
         "Action",
-        "Adventure",
-        "Superhero",
-        "Character Action Game",
-        "Hack and Slash"
+        "Singleplayer"
       ],
       "reviews": {
-        "score": 84,
-        "count": 557,
+        "score": 90,
+        "count": 808,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7161-727a-8d61-0ed41d03f34a/boxart.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e32-726c-84a2-c30e8f6f8837/boxart.jpg?t=1760462472"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1190400/286769/e6eec70049e31c069c92a477488d825108c2c8b3/1751201413/hls_264_master.m3u8?t=1729755865",
-      "steam_url": "https://store.steampowered.com/app/1190400",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/9340/819/ec1d2e062d15cd12627e611c8bffe9a610f6c1a5/1751245951/hls_264_master.m3u8?t=1447351157",
+      "steam_url": "https://store.steampowered.com/app/9340",
       "prices": {
         "USD": {
-          "current": 16.8,
-          "regular": 30,
-          "low": 16.8,
-          "low_1y": 16.8,
-          "cut": 44,
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 80,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 112,
-          "regular": 200,
-          "low": 112,
-          "low_1y": 112,
-          "cut": 44,
+          "current": 14,
+          "regular": 70,
+          "low": 13,
+          "low_1y": 14,
+          "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": true
+          "is_atl": false
         }
       }
     },
@@ -12111,6 +12207,54 @@
           "regular": 68,
           "low": 7.6,
           "low_1y": 16.25,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea01-7377-b6b7-2cb0d668e8f0",
+      "title": "Company of Heroes 2",
+      "slug": "company-of-heroes-2",
+      "appid": 231430,
+      "tier": "aaa",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "World War II",
+        "RTS",
+        "Multiplayer",
+        "Tactical"
+      ],
+      "reviews": {
+        "score": 80,
+        "count": 68673,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea01-7377-b6b7-2cb0d668e8f0/boxart.jpg?t=1760462442"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/231430/41940/97d586afcd3e1066495b651828f23c5902f081f9/1750495230/hls_264_master.m3u8?t=1447377773",
+      "steam_url": "https://store.steampowered.com/app/231430",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 1,
+          "low_1y": 3.68,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 17.5,
+          "regular": 70,
+          "low": 3,
+          "low_1y": 17.5,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -12640,54 +12784,6 @@
           "low": 42,
           "low_1y": 42,
           "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-3ebb-73ab-89a3-519da8296625",
-      "title": "Battle Ram",
-      "slug": "battle-ram",
-      "appid": 1262060,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Spectacle fighter",
-        "Bullet Hell",
-        "Robots",
-        "Perma Death",
-        "Difficult"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 2201,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3ebb-73ab-89a3-519da8296625/boxart.jpg?t=1779415518"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1262060",
-      "prices": {
-        "USD": {
-          "current": 1.49,
-          "regular": 29.99,
-          "low": 0.39,
-          "low_1y": 1.49,
-          "cut": 95,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 5.4,
-          "regular": 108,
-          "low": 1.5,
-          "low_1y": 5.4,
-          "cut": 95,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
@@ -14279,6 +14375,54 @@
       }
     },
     {
+      "id": "019d87d9-088e-7097-9c70-5a0cc1fe3354",
+      "title": "Warhammer 40,000: Dawn of War II - Anniversary Edition (Classic)",
+      "slug": "warhammer-40000-dawn-of-war-ii-anniversary-edition-classic",
+      "appid": 15620,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "RTS",
+        "Sci-fi",
+        "Multiplayer",
+        "Tactical"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 7988,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019d87d9-088e-7097-9c70-5a0cc1fe3354/boxart.jpg?t=1777502131"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/15620/38968/4c3d2830171576e2be085ff9784465fb1a8f9fa0/1751245957/hls_264_master.m3u8?t=1447376998",
+      "steam_url": "https://store.steampowered.com/app/15620",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 49.99,
+          "low": 3.99,
+          "low_1y": 7.96,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 29.6,
+          "regular": 148,
+          "low": 13,
+          "low_1y": 29,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-7b8a-709c-9d15-9bf368dfbe0b",
       "title": "FlatOut: Ultimate Carnage Collector's Edition",
       "slug": "flatout-ultimate-carnage-collectors-edition",
@@ -15143,6 +15287,102 @@
       }
     },
     {
+      "id": "018d937f-570a-7137-82a4-f7ff6e9b3d42",
+      "title": "Warhammer 40,000: Space Marine - Anniversary Edition",
+      "slug": "warhammer-40000-space-marine-anniversary-edition",
+      "appid": 55150,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Third-Person Shooter",
+        "Sci-fi",
+        "Third Person",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 18222,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-570a-7137-82a4-f7ff6e9b3d42/boxart.jpg?t=1773792318"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/55150/33202/33d29dcb38ab4b91a3969f6081efff625aef3cc7/1750498259/hls_264_master.m3u8?t=1447371470",
+      "steam_url": "https://store.steampowered.com/app/55150",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 7.49,
+          "low_1y": 7.96,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 32,
+          "regular": 128,
+          "low": 22,
+          "low_1y": 32,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-0e91-7122-9566-615e3ff55c0a",
+      "title": "Trine 2: Soundtracks & Artbooks",
+      "slug": "trine-2-soundtracks-and-artbooks",
+      "appid": 35720,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Puzzle Platformer",
+        "Platformer",
+        "Adventure",
+        "Beautiful",
+        "Action"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 15240,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e91-7122-9566-615e3ff55c0a/boxart.jpg?t=1733621434"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
+      "steam_url": "https://store.steampowered.com/app/35720",
+      "prices": {
+        "USD": {
+          "current": 1.24,
+          "regular": 4.99,
+          "low": 0.49,
+          "low_1y": 1.24,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 5.25,
+          "regular": 21,
+          "low": 2,
+          "low_1y": 5.25,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-24e6-7067-886a-d9919d37f3aa",
       "title": "Cat Quest",
       "slug": "cat-quest",
@@ -15423,54 +15663,6 @@
           "regular": 59,
           "low": 4,
           "low_1y": 11.6,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-7b6d-7157-8c3d-6a201490b905",
-      "title": "Симулятор Чушпана",
-      "slug": "simulator-cuspana",
-      "appid": 2755330,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Memes",
-        "Life Sim",
-        "Funny",
-        "Open World",
-        "Dark Humor"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 2444,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7b6d-7157-8c3d-6a201490b905/boxart.jpg?t=1720413900"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2755330/652314/80b651a2bb2200f519fbffa58459453e78d45b67/1750897208/hls_264_master.m3u8?t=1706732897",
-      "steam_url": "https://store.steampowered.com/app/2755330",
-      "prices": {
-        "USD": {
-          "current": 0.74,
-          "regular": 2.99,
-          "low": 0.61,
-          "low_1y": 0.61,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 3.75,
-          "regular": 15,
-          "low": 3.41,
-          "low_1y": 3.41,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -16144,198 +16336,6 @@
           "low": 4,
           "low_1y": 5.8,
           "cut": 67,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-fce3-7094-bf5f-033ef388a6e3",
-      "title": "Tiny & Big: Grandpa's Leftovers",
-      "slug": "tiny-and-big-grandpas-leftovers",
-      "appid": 205910,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Physics",
-        "Platformer",
-        "Puzzle",
-        "Great Soundtrack"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 2772,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fce3-7094-bf5f-033ef388a6e3/boxart.jpg?t=1760983821"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/205910/7948/9a3670d2cc885c23e14816381e6614c806398048/1751249001/hls_264_master.m3u8?t=1584297589",
-      "steam_url": "https://store.steampowered.com/app/205910",
-      "prices": {
-        "USD": {
-          "current": 4.07,
-          "regular": 11.99,
-          "low": 0.99,
-          "low_1y": 2.08,
-          "cut": 66,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 16.32,
-          "regular": 48,
-          "low": 3,
-          "low_1y": 9.6,
-          "cut": 66,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-171d-70ec-8884-69a4c656d44a",
-      "title": "Broken Sword 5: The Serpent's Curse",
-      "slug": "broken-sword-5-the-serpents-curse",
-      "appid": 262940,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "1990's",
-        "Female Protagonist",
-        "Adventure",
-        "Point & Click",
-        "Investigation"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 1911,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-171d-70ec-8884-69a4c656d44a/boxart.jpg?t=1761599844"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/262940/15581/578d77957632d20991cd0eaafb4e867c8e9435cc/1750498851/hls_264_master.m3u8?t=1752409263",
-      "steam_url": "https://store.steampowered.com/app/262940",
-      "prices": {
-        "USD": {
-          "current": 8.49,
-          "regular": 24.99,
-          "low": 3.74,
-          "low_1y": 2.49,
-          "cut": 66,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 26.52,
-          "regular": 78,
-          "low": 11.7,
-          "low_1y": 8,
-          "cut": 66,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-0631-7307-980a-7f864d6bb2eb",
-      "title": "Broken Sword 2 - The Smoking Mirror: Remastered",
-      "slug": "broken-sword-2-the-smoking-mirror-remastered",
-      "appid": 33600,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Point & Click",
-        "Adventure",
-        "Puzzle",
-        "Mystery",
-        "Retro"
-      ],
-      "reviews": {
-        "score": 91,
-        "count": 1241,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0631-7307-980a-7f864d6bb2eb/boxart.jpg?t=1763218874"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/33600/27043/a16f4abf7e30b5d2daa3a064dcfed5ca3bfd1c37/1750485099/hls_264_master.m3u8?t=1752409458",
-      "steam_url": "https://store.steampowered.com/app/33600",
-      "prices": {
-        "USD": {
-          "current": 2.03,
-          "regular": 5.99,
-          "low": 0.89,
-          "low_1y": 0.59,
-          "cut": 66,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 8.5,
-          "regular": 25,
-          "low": 3.75,
-          "low_1y": 3,
-          "cut": 66,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-fd08-732e-a1d1-cee1c7d920d5",
-      "title": "Into the Breach",
-      "slug": "into-the-breach",
-      "appid": 590380,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Turn-Based Strategy",
-        "Indie",
-        "Turn-Based Tactics",
-        "Pixel Graphics"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 18753,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd08-732e-a1d1-cee1c7d920d5/boxart.jpg?t=1761067333"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/590380/89558/de5e87f7edee39b31eb3f4810d5a04f9cbe2aaf0/1750557552/hls_264_master.m3u8?t=1519738417",
-      "steam_url": "https://store.steampowered.com/app/590380",
-      "prices": {
-        "USD": {
-          "current": 5.24,
-          "regular": 14.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 65,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 17.5,
-          "regular": 50,
-          "low": 10,
-          "low_1y": 10,
-          "cut": 65,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
