@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T19:28:49.444574+00:00",
+  "generated_at": "2026-07-25T08:08:26.998651+00:00",
   "total": 300,
   "games": [
     {
@@ -3209,7 +3209,7 @@
       ],
       "reviews": {
         "score": 92,
-        "count": 18491,
+        "count": 18494,
         "text": ""
       },
       "images": {
@@ -5842,6 +5842,64 @@
           "current": 4.65,
           "regular": 31.0,
           "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "019d2b53-f7ee-7151-9890-b090b6ab953b",
+      "title": "SULFUR x subpar pool",
+      "slug": "sulfur-x-subpar-pool",
+      "appid": 2124120,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Gun Customization",
+        "Roguelite",
+        "Stylized",
+        "Boomer Shooter",
+        "Difficult"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 8880,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019d2b53-f7ee-7151-9890-b090b6ab953b/banner300.jpg?t=1774551008"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2124120",
+      "prices": {
+        "USD": {
+          "current": 17.98,
+          "regular": 27.98,
+          "low": 17.98,
+          "low_1y": 17.98,
+          "cut": 36,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 68,
+          "regular": 102.4,
+          "low": 68,
+          "low_1y": 68,
+          "cut": 34,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 30.5,
+          "regular": 61.0,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11529,16 +11587,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 2.3,
-          "regular": 23.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -11587,6 +11635,54 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-7161-727a-8d61-0ed41d03f34a",
+      "title": "\"The Wonderful 101: Remastered\" Special Discount Pack",
+      "slug": "the-wonderful-101-remastered-special-discount-pack",
+      "appid": 1190400,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Adventure",
+        "Superhero",
+        "Character Action Game",
+        "Hack and Slash"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 557,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7161-727a-8d61-0ed41d03f34a/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1190400/286769/e6eec70049e31c069c92a477488d825108c2c8b3/1751201413/hls_264_master.m3u8?t=1729755865",
+      "steam_url": "https://store.steampowered.com/app/1190400",
+      "prices": {
+        "USD": {
+          "current": 16.8,
+          "regular": 30,
+          "low": 16.8,
+          "low_1y": 16.8,
+          "cut": 44,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 112,
+          "regular": 200,
+          "low": 112,
+          "low_1y": 112,
+          "cut": 44,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
         }
       }
     },
@@ -16240,102 +16336,6 @@
           "low": 3.75,
           "low_1y": 3,
           "cut": 66,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-fd08-732e-a1d1-cee1c7d920d5",
-      "title": "Into the Breach",
-      "slug": "into-the-breach",
-      "appid": 590380,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Turn-Based Strategy",
-        "Indie",
-        "Turn-Based Tactics",
-        "Pixel Graphics"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 18753,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd08-732e-a1d1-cee1c7d920d5/boxart.jpg?t=1761067333"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/590380/89558/de5e87f7edee39b31eb3f4810d5a04f9cbe2aaf0/1750557552/hls_264_master.m3u8?t=1519738417",
-      "steam_url": "https://store.steampowered.com/app/590380",
-      "prices": {
-        "USD": {
-          "current": 5.24,
-          "regular": 14.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 65,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 17.5,
-          "regular": 50,
-          "low": 10,
-          "low_1y": 10,
-          "cut": 65,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-262c-707a-b4eb-3f345a6ded8c",
-      "title": "Turmoil",
-      "slug": "turmoil",
-      "appid": 361280,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Management",
-        "Mining",
-        "Strategy",
-        "Time Management",
-        "Resource Management"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 13059,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-262c-707a-b4eb-3f345a6ded8c/boxart.jpg?t=1775658005"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/361280/522127/c6c8429b49085740f5312d3d5cbbf5ffebb4f0ec/1750515940/hls_264_master.m3u8?t=1671023170",
-      "steam_url": "https://store.steampowered.com/app/361280",
-      "prices": {
-        "USD": {
-          "current": 4.54,
-          "regular": 12.99,
-          "low": 1.99,
-          "low_1y": 1.94,
-          "cut": 65,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 18.2,
-          "regular": 52,
-          "low": 7,
-          "low_1y": 8,
-          "cut": 65,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
