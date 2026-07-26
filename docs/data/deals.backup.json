@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T19:15:50.799503+00:00",
+  "generated_at": "2026-07-26T08:34:53.211261+00:00",
   "total": 300,
   "games": [
     {
@@ -3068,64 +3068,6 @@
           "current": 6.0,
           "regular": 60.0,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "019f66c7-04a1-730d-9589-8db8b6e4925a",
-      "title": "TerraTech x Main Assembly",
-      "slug": "terratech-x-main-assembly",
-      "appid": 285920,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Building",
-        "Sandbox",
-        "Open World",
-        "Open World Survival Craft",
-        "Robots"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 20382,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019f66c7-04a1-730d-9589-8db8b6e4925a/banner300.jpg?t=1784136607"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/285920/178207/dd0b4cf30b4b9fec99f9792b38ecf2dc71600513/1750490003/hls_264_master.m3u8?t=1685531508",
-      "steam_url": "https://store.steampowered.com/app/285920",
-      "prices": {
-        "USD": {
-          "current": 23.61,
-          "regular": 40.48,
-          "low": 23.61,
-          "low_1y": 23.61,
-          "cut": 42,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 88.2,
-          "regular": 142.2,
-          "low": 88.2,
-          "low_1y": 88.2,
-          "cut": 38,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 11.0,
-          "regular": 44.0,
-          "cut": 75,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6389,7 +6331,7 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 8958,
+        "count": 8959,
         "text": ""
       },
       "images": {
@@ -11655,6 +11597,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 6.99,
+          "regular": 13.99,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11703,6 +11655,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 3.8,
+          "regular": 38.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11751,6 +11713,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 4.16,
+          "regular": 32.0,
+          "cut": 87,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11798,6 +11770,16 @@
           "cut": 40,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 13.05,
+          "regular": 21.75,
+          "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": true
         }
       }
@@ -11847,6 +11829,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 33.62,
+          "regular": 101.9,
+          "cut": 67,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11894,6 +11886,16 @@
           "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 5.77,
+          "regular": 38.5,
+          "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": true
         }
       }
@@ -11987,54 +11989,6 @@
           "regular": 79,
           "low": 1.99,
           "low_1y": 7,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-1561-70ec-8bd3-e28d24e0f45f",
-      "title": "Goodbye Deponia Premium",
-      "slug": "goodbye-deponia-premium",
-      "appid": 241910,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Point & Click",
-        "Comedy",
-        "Singleplayer",
-        "Indie"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 2046,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1561-70ec-8bd3-e28d24e0f45f/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
-      "steam_url": "https://store.steampowered.com/app/241910",
-      "prices": {
-        "USD": {
-          "current": 2.49,
-          "regular": 24.99,
-          "low": 2.49,
-          "low_1y": 2.49,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.2,
-          "regular": 92,
-          "low": 8,
-          "low_1y": 9.2,
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
@@ -12615,6 +12569,54 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-789d-71ef-add1-c90d5281166f",
+      "title": "Древние Ящеры Против Русов: Битва за Гиперборею",
+      "slug": "drevnie-asery-protiv-rusov-bitva-za-giperboreu",
+      "appid": 2621150,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Pixel Graphics",
+        "Bullet Hell",
+        "Dark Fantasy",
+        "Roguelite",
+        "2D"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 1278,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-789d-71ef-add1-c90d5281166f/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2621150",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "low_1y": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "low_1y": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
         }
       }
     },
@@ -15777,54 +15779,6 @@
       }
     },
     {
-      "id": "018d937f-15c7-72df-b0ae-41bcfa7493a0",
-      "title": "Trine 2: Complete Story Upgrade",
-      "slug": "trine-2-complete-story-upgrade",
-      "appid": 35720,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Puzzle Platformer",
-        "Platformer",
-        "Adventure",
-        "Beautiful",
-        "Action"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 15240,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-15c7-72df-b0ae-41bcfa7493a0/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
-      "steam_url": "https://store.steampowered.com/app/35720",
-      "prices": {
-        "USD": {
-          "current": 0.99,
-          "regular": 4.99,
-          "low": 0.49,
-          "low_1y": 0.74,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 4.4,
-          "regular": 22,
-          "low": 2,
-          "low_1y": 3.3,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937e-f07d-7229-8ae8-c22a9d5fda2a",
       "title": "Trine 2: Complete Story",
       "slug": "trine-2-complete-story",
@@ -16345,6 +16299,102 @@
           "regular": 62,
           "low": 8.7,
           "low_1y": 8.84,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c88-723c-a78b-ac5e6fb54aea",
+      "title": "Call of Juarez®: Bound in Blood",
+      "slug": "call-of-juarez-bound-in-blood",
+      "appid": 21980,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Western",
+        "Action",
+        "FPS",
+        "Singleplayer",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 4323,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c88-723c-a78b-ac5e6fb54aea/boxart.jpg?t=1760894425"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/21980/232538/b0ed94627ba3a40582e76b8d3aabe105745b6415/1751245968/hls_264_master.m3u8?t=1563454826",
+      "steam_url": "https://store.steampowered.com/app/21980",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 0.99,
+          "low_1y": 1.64,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 8.4,
+          "regular": 42,
+          "low": 4.2,
+          "low_1y": 8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c9e-73be-b564-32c8aa44408c",
+      "title": "Samorost 3",
+      "slug": "samorost-3",
+      "appid": 421120,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Point & Click",
+        "Hand-drawn",
+        "Relaxing",
+        "Story Rich",
+        "Stylized"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 4310,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c9e-73be-b564-32c8aa44408c/boxart.jpg?t=1779469506"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/421120/50122/67c6c148bef5efd87cd136566179230f91137544/1750528744/hls_264_master.m3u8?t=1457090099",
+      "steam_url": "https://store.steampowered.com/app/421120",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 17.2,
+          "regular": 86,
+          "low": 11.7,
+          "low_1y": 13.8,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
