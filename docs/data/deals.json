@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T19:24:48.047825+00:00",
+  "generated_at": "2026-07-27T09:56:08.963876+00:00",
   "total": 300,
   "games": [
     {
@@ -6025,6 +6025,64 @@
       }
     },
     {
+      "id": "019d2b53-f7f5-7274-af70-8887473f13a9",
+      "title": "SULFUR x holedown",
+      "slug": "sulfur-x-holedown",
+      "appid": 2124120,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Gun Customization",
+        "Roguelite",
+        "Stylized",
+        "Boomer Shooter",
+        "Difficult"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 8880,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019d2b53-f7f5-7274-af70-8887473f13a9/banner300.jpg?t=1774551028"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2124120",
+      "prices": {
+        "USD": {
+          "current": 20.23,
+          "regular": 31.48,
+          "low": 20.23,
+          "low_1y": 20.23,
+          "cut": 36,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 76.5,
+          "regular": 115.2,
+          "low": 76.5,
+          "low_1y": 76.5,
+          "cut": 34,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 30.5,
+          "regular": 61.0,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "019d2b53-f7ee-7151-9890-b090b6ab953b",
       "title": "SULFUR x subpar pool",
       "slug": "sulfur-x-subpar-pool",
@@ -9175,64 +9233,6 @@
       }
     },
     {
-      "id": "018d937f-012e-702b-b320-54b8471a1bb4",
-      "title": "Epistory - Typing Chronicles Soundtrack Edition",
-      "slug": "epistory-typing-chronicles-soundtrack-edition",
-      "appid": 398850,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Typing",
-        "Adventure",
-        "Narrative",
-        "Exploration",
-        "Story Rich"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 4005,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-012e-702b-b320-54b8471a1bb4/boxart.jpg?t=1720195811"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/398850/55429/69d1c77c635cb6037339809ec165746d8aa04944/1750525856/hls_264_master.m3u8?t=1459347597",
-      "steam_url": "https://store.steampowered.com/app/398850",
-      "prices": {
-        "USD": {
-          "current": 3.59,
-          "regular": 17.99,
-          "low": 3.59,
-          "low_1y": 3.59,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 17.8,
-          "regular": 89,
-          "low": 17,
-          "low_1y": 17.8,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 7.0,
-          "regular": 35.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-6ee2-70f6-940c-6212b0c16fa9",
       "title": "Jusant",
       "slug": "jusant",
@@ -11655,6 +11655,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 9.8,
+          "regular": 49.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -13465,6 +13475,54 @@
           "regular": 95,
           "low": 4.75,
           "low_1y": 4.75,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1ef6-71b1-8700-077ff8900f56",
+      "title": "Dino D-Day - Four Pack",
+      "slug": "dino-d-day-four-pack",
+      "appid": 70000,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Dinosaurs",
+        "Multiplayer",
+        "Action",
+        "World War II",
+        "FPS"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 8020,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1ef6-71b1-8700-077ff8900f56/boxart.png"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/70000/5506/2051f897bfa2c63211b0b29b2c96d72bfbeda3f3/1750492559/hls_264_master.m3u8?t=1447354467",
+      "steam_url": "https://store.steampowered.com/app/70000",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 29.99,
+          "low": 1.49,
+          "low_1y": 2.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 8.8,
+          "regular": 88,
+          "low": 8,
+          "low_1y": 8.8,
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
@@ -15345,54 +15403,6 @@
       }
     },
     {
-      "id": "018d937e-fa50-72c0-91d0-6ed8ed4dba2f",
-      "title": "Gas Guzzlers Extreme",
-      "slug": "gas-guzzlers-extreme",
-      "appid": 243800,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Combat Racing",
-        "Vehicular Combat",
-        "Racing",
-        "Automobile Sim",
-        "Action"
-      ],
-      "reviews": {
-        "score": 86,
-        "count": 3080,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fa50-72c0-91d0-6ed8ed4dba2f/boxart.jpg?t=1767705310"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/243800/12644/ebf72d24c994defc1589b644b968fe03d036d7af/1751247950/hls_264_master.m3u8?t=1447358432",
-      "steam_url": "https://store.steampowered.com/app/243800",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 24.99,
-          "low": 2.49,
-          "low_1y": 1.66,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 18.8,
-          "regular": 94,
-          "low": 9.4,
-          "low_1y": 11.78,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-0e50-71fb-8a62-ba3a3328c8e6",
       "title": "Gas Guzzlers Extreme Four Pack",
       "slug": "gas-guzzlers-extreme-four-pack",
@@ -15433,6 +15443,54 @@
           "regular": 194,
           "low": 19.4,
           "low_1y": 29.1,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-fa50-72c0-91d0-6ed8ed4dba2f",
+      "title": "Gas Guzzlers Extreme",
+      "slug": "gas-guzzlers-extreme",
+      "appid": 243800,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Combat Racing",
+        "Vehicular Combat",
+        "Racing",
+        "Automobile Sim",
+        "Action"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 3080,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fa50-72c0-91d0-6ed8ed4dba2f/boxart.jpg?t=1767705310"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/243800/12644/ebf72d24c994defc1589b644b968fe03d036d7af/1751247950/hls_264_master.m3u8?t=1447358432",
+      "steam_url": "https://store.steampowered.com/app/243800",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 1.66,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 18.8,
+          "regular": 94,
+          "low": 9.4,
+          "low_1y": 11.78,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -16157,16 +16215,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 7.0,
-          "regular": 35.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -16311,54 +16359,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-6eed-717e-a3ee-586c7cea00e8",
-      "title": "The Talos Principle 2",
-      "slug": "the-talos-principle-2",
-      "appid": 835960,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Puzzle",
-        "Story Rich",
-        "Philosophical",
-        "First-Person",
-        "Sci-fi"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 12331,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6eed-717e-a3ee-586c7cea00e8/boxart.jpg?t=1775139616"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/835960/624582/fc9c5c3832e82eadc474f1a9d4d33a3bb2409bf6/1750587837/hls_264_master.m3u8?t=1698939929",
-      "steam_url": "https://store.steampowered.com/app/835960",
-      "prices": {
-        "USD": {
-          "current": 8.99,
-          "regular": 29.99,
-          "low": 7.49,
-          "low_1y": 7.49,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 32.4,
-          "regular": 108,
-          "low": 27,
-          "low_1y": 27,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
         }
       }
     }
