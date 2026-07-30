@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T19:13:55.882120+00:00",
+  "generated_at": "2026-07-30T08:29:56.060982+00:00",
   "total": 300,
   "games": [
     {
@@ -1875,11 +1875,11 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 301703,
+        "count": 301907,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fdb1-704e-8962-3e822f2f223e/boxart.jpg?t=1782118210"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fdb1-704e-8962-3e822f2f223e/boxart.jpg?t=1785396902"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/548430/1912821037/a9a4174ee3e32773076b9f64e2f27cd7627bdbed/1769597323/hls_264_master.m3u8?t=1769688641",
       "steam_url": "https://store.steampowered.com/app/548430",
@@ -2513,7 +2513,7 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 35761,
+        "count": 35898,
         "text": ""
       },
       "images": {
@@ -2545,64 +2545,6 @@
         "MYR": {
           "current": 42.7,
           "regular": 61.0,
-          "cut": 30,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-5c6a-73fb-b7e8-aa4acbb844bb",
-      "title": "暖雪 Warm Snow",
-      "slug": "nuan-xue-warm-snow",
-      "appid": 1296830,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action Roguelike",
-        "Roguelite",
-        "Martial Arts",
-        "Action-Adventure",
-        "Roguelike"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 35124,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5c6a-73fb-b7e8-aa4acbb844bb/boxart.jpg?t=1785000904"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1296830/636864/cf6d7688be71ba59a9471c777160cf09878011c6/1750670460/hls_264_master.m3u8?t=1702643211",
-      "steam_url": "https://store.steampowered.com/app/1296830",
-      "prices": {
-        "USD": {
-          "current": 12.59,
-          "regular": 17.99,
-          "low": 12.59,
-          "low_1y": 12.59,
-          "cut": 30,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 40.6,
-          "regular": 58,
-          "low": 40.6,
-          "low_1y": 40.6,
-          "cut": 30,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 25.2,
-          "regular": 36.0,
           "cut": 30,
           "low": null,
           "low_1y": null,
@@ -6194,8 +6136,8 @@
         "Sandbox"
       ],
       "reviews": {
-        "score": 82,
-        "count": 9571,
+        "score": 81,
+        "count": 9578,
         "text": ""
       },
       "images": {
@@ -10345,6 +10287,64 @@
       }
     },
     {
+      "id": "018d937f-6eed-717e-a3ee-586c815d11c2",
+      "title": "Heretic's Fork",
+      "slug": "heretics-fork",
+      "appid": 2181610,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Bullet Heaven",
+        "Deckbuilding",
+        "Tower Defense",
+        "Strategy",
+        "Roguelike Deckbuilder"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 3079,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6eed-717e-a3ee-586c815d11c2/boxart.jpg?t=1780316436"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2181610",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "low_1y": 3.89,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 19.99,
+          "regular": 39.99,
+          "low": 19.99,
+          "low_1y": 19.99,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 13.34,
+          "regular": 26.69,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-6ce4-73d2-8802-174f054b41c2",
       "title": "Thriving City: Song",
       "slug": "thriving-city-song",
@@ -13297,7 +13297,7 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 1155857,
+        "count": 1156009,
         "text": ""
       },
       "images": {
