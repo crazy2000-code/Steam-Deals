@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T19:35:44.174463+00:00",
+  "generated_at": "2026-07-31T09:03:01.860916+00:00",
   "total": 300,
   "games": [
     {
@@ -2049,11 +2049,11 @@
       ],
       "reviews": {
         "score": 75,
-        "count": 62607,
+        "count": 62611,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f4b9-7080-816b-cf6e33e64534/boxart.jpg?t=1785434711"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f4b9-7080-816b-cf6e33e64534/boxart.jpg?t=1785449109"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/582660/1424471521/e5429c8301fe669a0764684055ac26a7d30c0136/1765919722/hls_264_master.m3u8?t=1765935421",
       "steam_url": "https://store.steampowered.com/app/582660",
@@ -2735,7 +2735,7 @@
       ],
       "reviews": {
         "score": 82,
-        "count": 29349,
+        "count": 29361,
         "text": ""
       },
       "images": {
@@ -10451,6 +10451,64 @@
       }
     },
     {
+      "id": "0199f181-aa1f-706d-b955-aff83de29946",
+      "title": "炽澜号",
+      "slug": "chi-lan-hao",
+      "appid": 3864530,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "FMV",
+        "First-Person",
+        "Detective",
+        "Story Rich",
+        "Multiple Endings"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 1446,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3864530/capsule_616x353.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/3864530",
+      "prices": {
+        "USD": {
+          "current": 6.99,
+          "regular": 9.99,
+          "low": 6.99,
+          "low_1y": 6.99,
+          "cut": 30,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 28,
+          "regular": 40,
+          "low": 28,
+          "low_1y": 28,
+          "cut": 30,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 28.0,
+          "regular": 40.0,
+          "cut": 30,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-7338-7088-b795-eef79c84f194",
       "title": "Golf Club Nostalgia",
       "slug": "golf-club-nostalgia",
@@ -11528,16 +11586,6 @@
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 13.0,
-          "regular": 65.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -16287,54 +16335,6 @@
           "regular": 40,
           "low": 6,
           "low_1y": 10,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-24e6-7067-886a-d9919d37f3aa",
-      "title": "Cat Quest",
-      "slug": "cat-quest",
-      "appid": 593280,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "RPG",
-        "Cats",
-        "Cute",
-        "Action"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 8293,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-24e6-7067-886a-d9919d37f3aa/boxart.jpg?t=1761611853"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/593280/115389/35add2e54b5eb73f90b20ba4293dbf43e02b8bda/1750557773/hls_264_master.m3u8?t=1501126813",
-      "steam_url": "https://store.steampowered.com/app/593280",
-      "prices": {
-        "USD": {
-          "current": 3.24,
-          "regular": 12.99,
-          "low": 1.29,
-          "low_1y": 1.43,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 10.5,
-          "regular": 42,
-          "low": 4,
-          "low_1y": 7.48,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
