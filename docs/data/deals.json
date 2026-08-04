@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T19:52:55.087242+00:00",
+  "generated_at": "2026-08-04T08:49:21.132271+00:00",
   "total": 300,
   "games": [
     {
@@ -3769,11 +3769,11 @@
       ],
       "reviews": {
         "score": 85,
-        "count": 13553,
+        "count": 13607,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-07e9-7041-8d73-511c3bb2c94f/boxart.jpg?t=1781763320"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-07e9-7041-8d73-511c3bb2c94f/boxart.jpg?t=1785812714"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/921570",
@@ -3802,6 +3802,64 @@
           "current": 47.7,
           "regular": 159.0,
           "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-64ac-7047-aed9-f1a7e64996d5",
+      "title": "OCTOPATH TRAVELER II",
+      "slug": "octopath-traveler-ii",
+      "appid": 1971650,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "Turn-Based",
+        "JRPG",
+        "2.5D",
+        "Party-Based RPG"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 13110,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-64ac-7047-aed9-f1a7e64996d5/boxart.jpg?t=1785812719"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1971650/799601/91577050e592180ddb9a8701204feec56a8faea7/1750743288/hls_264_master.m3u8?t=1734425550",
+      "steam_url": "https://store.steampowered.com/app/1971650",
+      "prices": {
+        "USD": {
+          "current": 23.99,
+          "regular": 59.99,
+          "low": 23.99,
+          "low_1y": 23.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 79.2,
+          "regular": 198,
+          "low": 79.2,
+          "low_1y": 79.2,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 63.6,
+          "regular": 159.0,
+          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3860,64 +3918,6 @@
           "current": 12.75,
           "regular": 51.0,
           "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-64ac-7047-aed9-f1a7e64996d5",
-      "title": "OCTOPATH TRAVELER II",
-      "slug": "octopath-traveler-ii",
-      "appid": 1971650,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Turn-Based",
-        "JRPG",
-        "2.5D",
-        "Party-Based RPG"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 13055,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-64ac-7047-aed9-f1a7e64996d5/boxart.jpg?t=1781763613"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1971650/799601/91577050e592180ddb9a8701204feec56a8faea7/1750743288/hls_264_master.m3u8?t=1734425550",
-      "steam_url": "https://store.steampowered.com/app/1971650",
-      "prices": {
-        "USD": {
-          "current": 23.99,
-          "regular": 59.99,
-          "low": 23.99,
-          "low_1y": 23.99,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 79.2,
-          "regular": 198,
-          "low": 79.2,
-          "low_1y": 79.2,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 63.6,
-          "regular": 159.0,
-          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4835,64 +4835,6 @@
       }
     },
     {
-      "id": "018d937f-07ff-72dd-9159-80f433592bc3",
-      "title": "Momodora: Reverie Under the Moonlight",
-      "slug": "momodora-reverie-under-the-moonlight",
-      "appid": 428550,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Metroidvania",
-        "2D Platformer",
-        "Side Scroller",
-        "Pixel Graphics",
-        "Exploration"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 10414,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-07ff-72dd-9159-80f433592bc3/boxart.jpg?t=1761588422"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/428550/51869/93ab208dd401b76ab4b84f10f727985e4c0e4cdf/1750529824/hls_264_master.m3u8?t=1485492906",
-      "steam_url": "https://store.steampowered.com/app/428550",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 9.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.2,
-          "regular": 36,
-          "low": 7,
-          "low_1y": 7.2,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 4.6,
-          "regular": 23.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-1600-72f4-82e7-58443c1477b3",
       "title": "Momodora: Reverie Under the Moonlight - Soundtrack Bundle",
       "slug": "momodora-reverie-under-the-moonlight-soundtrack-bundle",
@@ -4937,6 +4879,64 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 4.6,
+          "regular": 23.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-07ff-72dd-9159-80f433592bc3",
+      "title": "Momodora: Reverie Under the Moonlight",
+      "slug": "momodora-reverie-under-the-moonlight",
+      "appid": 428550,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Metroidvania",
+        "2D Platformer",
+        "Side Scroller",
+        "Pixel Graphics",
+        "Exploration"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 10414,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-07ff-72dd-9159-80f433592bc3/boxart.jpg?t=1761588422"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/428550/51869/93ab208dd401b76ab4b84f10f727985e4c0e4cdf/1750529824/hls_264_master.m3u8?t=1485492906",
+      "steam_url": "https://store.steampowered.com/app/428550",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.2,
+          "regular": 36,
+          "low": 7,
+          "low_1y": 7.2,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
         },
         "MYR": {
           "current": 4.6,
@@ -9581,64 +9581,6 @@
       }
     },
     {
-      "id": "019376e4-50d4-7187-abab-32b34091fe0b",
-      "title": "SHOOPER NOVA",
-      "slug": "shooper-nova",
-      "appid": 2853160,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Roguelite",
-        "Casual",
-        "Action",
-        "Tower Defense"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 532,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019376e4-50d4-7187-abab-32b34091fe0b/boxart.jpg?t=1785754219"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2853160/860881/d5e6126b6abee5d0d5e0b6d3299b4dbd57383298/1750947755/hls_264_master.m3u8?t=1743645226",
-      "steam_url": "https://store.steampowered.com/app/2853160",
-      "prices": {
-        "USD": {
-          "current": 2.72,
-          "regular": 6.99,
-          "low": 2.72,
-          "low_1y": 2.72,
-          "cut": 61,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.36,
-          "regular": 24,
-          "low": 9.36,
-          "low_1y": 9.36,
-          "cut": 61,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 7.6,
-          "regular": 19.5,
-          "cut": 61,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937e-f81a-7288-868c-49236397885a",
       "title": "Sid Meier's Civilization® VI",
       "slug": "sid-meiers-civilization-vi",
@@ -11712,6 +11654,16 @@
           "cut": 95,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 3.6,
+          "regular": 72.0,
+          "cut": 95,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -15173,54 +15125,6 @@
       }
     },
     {
-      "id": "018d937e-ff58-70c9-8e6b-3e0e1a1b8bff",
-      "title": "Wargame: AirLand Battle",
-      "slug": "wargame-airland-battle",
-      "appid": 222750,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "RTS",
-        "Military",
-        "Cold War",
-        "Wargame"
-      ],
-      "reviews": {
-        "score": 86,
-        "count": 3588,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-ff58-70c9-8e6b-3e0e1a1b8bff/boxart.jpg?t=1777991729"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/222750/11763/12bfbd3dd77a293b7fcb16c115b00c8b2892a3d4/1751259041/hls_264_master.m3u8?t=1447358001",
-      "steam_url": "https://store.steampowered.com/app/222750",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 19.99,
-          "low": 2.39,
-          "low_1y": 3.49,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 24.5,
-          "regular": 98,
-          "low": 8,
-          "low_1y": 19.6,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-17f6-721f-8f97-9ca8380f1037",
       "title": "Shadowrun Hong Kong - Extended Edition",
       "slug": "shadowrun-hong-kong-extended-edition",
@@ -15237,7 +15141,7 @@
       ],
       "reviews": {
         "score": 86,
-        "count": 3567,
+        "count": 3569,
         "text": ""
       },
       "images": {
@@ -16365,6 +16269,102 @@
           "regular": 41,
           "low": 4,
           "low_1y": 10.55,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-2f06-7273-a44d-becd30a424a5",
+      "title": "QUAKE II",
+      "slug": "quake-ii",
+      "appid": 2320,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "FPS",
+        "Classic",
+        "Action",
+        "Boomer Shooter",
+        "Shooter"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 8382,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2f06-7273-a44d-becd30a424a5/boxart.jpg?t=1761597365"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2320",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 9.99,
+          "low": 1.24,
+          "low_1y": 3.4,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 19.6,
+          "regular": 49,
+          "low": 4,
+          "low_1y": 16.66,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-0fd6-71f2-84c4-3c9a13291e1e",
+      "title": "Return to Castle Wolfenstein",
+      "slug": "return-to-castle-wolfenstein",
+      "appid": 9010,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "FPS",
+        "Action",
+        "Classic",
+        "World War II",
+        "Supernatural"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 7894,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0fd6-71f2-84c4-3c9a13291e1e/boxart.jpg?t=1763118493"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/9010",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 4.99,
+          "low": 1.24,
+          "low_1y": 1.49,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 8,
+          "regular": 20,
+          "low": 4,
+          "low_1y": 6,
           "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
