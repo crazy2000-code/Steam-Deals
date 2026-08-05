@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:48:00.774500+00:00",
+  "generated_at": "2026-08-05T08:54:29.000287+00:00",
   "total": 300,
   "games": [
     {
@@ -1308,7 +1308,7 @@
           "current": 24.99,
           "regular": 49.99,
           "low": 24.99,
-          "low_1y": 20.9,
+          "low_1y": 20.49,
           "cut": 50,
           "currency": "USD",
           "symbol": "$",
@@ -1585,11 +1585,11 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 109773,
+        "count": 110040,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-64e8-73ff-b9b0-8449b0a8eb8c/boxart.jpg?t=1784793908"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-64e8-73ff-b9b0-8449b0a8eb8c/boxart.jpg?t=1785901810"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1942280/776977/3c3b725174c83d8d873735bd5e80af3220010ed7/1750742089/hls_264_master.m3u8?t=1729849696",
       "steam_url": "https://store.steampowered.com/app/1942280",
@@ -6629,11 +6629,11 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 8628,
+        "count": 8648,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1774869016"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1785902413"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1504500/464551/8dc9db2283be45cabbd5ca3042d678168064c9c9/1750996364/hls_264_master.m3u8?t=1684903877",
       "steam_url": "https://store.steampowered.com/app/1504500",
@@ -10131,64 +10131,6 @@
       }
     },
     {
-      "id": "018d937e-f0b3-7288-91c3-a98cdfb2a46b",
-      "title": "Painkiller Hell & Damnation Standard 4-pack",
-      "slug": "painkiller-hell-and-damnation-standard-4-pack",
-      "appid": 214870,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "FPS",
-        "Gore",
-        "Co-op",
-        "Horror"
-      ],
-      "reviews": {
-        "score": 78,
-        "count": 2925,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f0b3-7288-91c3-a98cdfb2a46b/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/214870/9587/cc9a8ef966973920b712448c15037ee91c207c5e/1751259427/hls_264_master.m3u8?t=1493811086",
-      "steam_url": "https://store.steampowered.com/app/214870",
-      "prices": {
-        "USD": {
-          "current": 5.99,
-          "regular": 59.99,
-          "low": 5.99,
-          "low_1y": 5.99,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 22.2,
-          "regular": 222.02,
-          "low": 22.2,
-          "low_1y": 22.2,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 6.29,
-          "regular": 62.9,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937e-efe3-7282-b1cb-0b93518aefc2",
       "title": "Painkiller Hell & Damnation",
       "slug": "painkiller-hell-and-damnation",
@@ -10233,6 +10175,64 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 6.29,
+          "regular": 62.9,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-f0b3-7288-91c3-a98cdfb2a46b",
+      "title": "Painkiller Hell & Damnation Standard 4-pack",
+      "slug": "painkiller-hell-and-damnation-standard-4-pack",
+      "appid": 214870,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "FPS",
+        "Gore",
+        "Co-op",
+        "Horror"
+      ],
+      "reviews": {
+        "score": 78,
+        "count": 2925,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f0b3-7288-91c3-a98cdfb2a46b/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/214870/9587/cc9a8ef966973920b712448c15037ee91c207c5e/1751259427/hls_264_master.m3u8?t=1493811086",
+      "steam_url": "https://store.steampowered.com/app/214870",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 59.99,
+          "low": 5.99,
+          "low_1y": 5.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 22.2,
+          "regular": 222.02,
+          "low": 22.2,
+          "low_1y": 22.2,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
         },
         "MYR": {
           "current": 6.29,
@@ -11001,6 +11001,64 @@
       }
     },
     {
+      "id": "018d937f-540c-7369-a2bc-15b504d47298",
+      "title": "选王之剑",
+      "slug": "xuan-wang-zhi-jian",
+      "appid": 1674890,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Roguelite",
+        "Idler",
+        "Strategy",
+        "Anime"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 1243,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-540c-7369-a2bc-15b504d47298/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1674890",
+      "prices": {
+        "USD": {
+          "current": 2.39,
+          "regular": 7.99,
+          "low": 2.39,
+          "low_1y": 2.39,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.6,
+          "regular": 32,
+          "low": 9.6,
+          "low_1y": 9.6,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 6.52,
+          "regular": 21.75,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-7338-7088-b795-eef79c84f194",
       "title": "Golf Club Nostalgia",
       "slug": "golf-club-nostalgia",
@@ -11233,6 +11291,64 @@
       }
     },
     {
+      "id": "0197e9bf-b469-72b7-ad6b-a49b0b384214",
+      "title": "Red Souls",
+      "slug": "red-souls",
+      "appid": 3333250,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Souls-like",
+        "Action",
+        "Alternate History",
+        "Faith",
+        "Medieval"
+      ],
+      "reviews": {
+        "score": 83,
+        "count": 701,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0197e9bf-b469-72b7-ad6b-a49b0b384214/boxart.jpg?t=1783486203"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3333250/2140271502/96619482a0cea84a98068fec5564a152b6bbf8d4/1775661712/hls_264_master.m3u8?t=1775662077",
+      "steam_url": "https://store.steampowered.com/app/3333250",
+      "prices": {
+        "USD": {
+          "current": 9.44,
+          "regular": 14.99,
+          "low": 9.44,
+          "low_1y": 9.44,
+          "cut": 37,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 42.84,
+          "regular": 68,
+          "low": 39.2,
+          "low_1y": 35.25,
+          "cut": 37,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 23.15,
+          "regular": 36.75,
+          "cut": 37,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1f25-70c0-9c55-9c37d94ec520",
       "title": "2Dark",
       "slug": "2dark",
@@ -11291,55 +11407,55 @@
       }
     },
     {
-      "id": "019376e4-50d4-7187-abab-32b34091fe0b",
-      "title": "SHOOPER NOVA",
-      "slug": "shooper-nova",
-      "appid": 2853160,
+      "id": "018d937f-5e46-73aa-a5ba-48134e35d19b",
+      "title": "Black Datura & Red Goat",
+      "slug": "black-datura-and-red-goat",
+      "appid": 1306750,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Strategy",
-        "Roguelite",
-        "Casual",
-        "Action",
-        "Tower Defense"
+        "RPG",
+        "Adventure",
+        "Horror",
+        "Thriller",
+        "Mystery"
       ],
       "reviews": {
-        "score": 82,
-        "count": 532,
+        "score": 95,
+        "count": 515,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/019376e4-50d4-7187-abab-32b34091fe0b/boxart.jpg?t=1785754219"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5e46-73aa-a5ba-48134e35d19b/boxart.jpg?t=1783783210"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2853160/860881/d5e6126b6abee5d0d5e0b6d3299b4dbd57383298/1750947755/hls_264_master.m3u8?t=1743645226",
-      "steam_url": "https://store.steampowered.com/app/2853160",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1306750/294060/cd6fcf3fd6a1c3b2d8dc6d5b75b01d571b2e0efe/1751218906/hls_264_master.m3u8?t=1593483996",
+      "steam_url": "https://store.steampowered.com/app/1306750",
       "prices": {
         "USD": {
-          "current": 2.72,
-          "regular": 6.99,
-          "low": 2.72,
-          "low_1y": 2.72,
-          "cut": 61,
+          "current": 3.19,
+          "regular": 7.99,
+          "low": 3.19,
+          "low_1y": 3.16,
+          "cut": 60,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 9.36,
-          "regular": 24,
-          "low": 9.36,
-          "low_1y": 9.36,
-          "cut": 61,
+          "current": 12.8,
+          "regular": 32,
+          "low": 12.8,
+          "low_1y": 12.8,
+          "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
         },
         "MYR": {
-          "current": 7.6,
+          "current": 7.8,
           "regular": 19.5,
-          "cut": 61,
+          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11509,16 +11625,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 6.0,
-          "regular": 60.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11566,16 +11672,6 @@
           "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 17.85,
-          "regular": 119.0,
-          "cut": 85,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -15661,54 +15757,6 @@
       }
     },
     {
-      "id": "018d937f-1607-711f-866f-331a3799ffd2",
-      "title": "Move or Die 4 Pack",
-      "slug": "move-or-die-4-pack",
-      "appid": 323850,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Multiplayer",
-        "Funny",
-        "Local Multiplayer",
-        "Action",
-        "Fast-Paced"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 16462,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1607-711f-866f-331a3799ffd2/boxart.jpg?t=1720625719"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/323850/50674/3e36ffff683353aad484b9016a58d85843292ade/1750508544/hls_264_master.m3u8?t=1498652224",
-      "steam_url": "https://store.steampowered.com/app/323850",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 39.99,
-          "low": 7.99,
-          "low_1y": 9.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 28,
-          "regular": 112,
-          "low": 22,
-          "low_1y": 28,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-5cc2-7138-88fa-4c425049d58e",
       "title": "Ghostwire Tokyo",
       "slug": "ghostwire-tokyo",
@@ -16277,54 +16325,6 @@
           "regular": 118,
           "low": 11.8,
           "low_1y": 17.7,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-17f6-721f-8f97-9ca8380f1037",
-      "title": "Shadowrun Hong Kong - Extended Edition",
-      "slug": "shadowrun-hong-kong-extended-edition",
-      "appid": 346940,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Cyberpunk",
-        "Turn-Based",
-        "Story Rich",
-        "Isometric"
-      ],
-      "reviews": {
-        "score": 86,
-        "count": 3569,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-17f6-721f-8f97-9ca8380f1037/boxart.jpg?t=1760727933"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/346940/51660/6f4fc23481cb45b545410e5a805680259621a0c6/1750513486/hls_264_master.m3u8?t=1454695302",
-      "steam_url": "https://store.steampowered.com/app/346940",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 19.99,
-          "low": 3.99,
-          "low_1y": 4.55,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 24.5,
-          "regular": 98,
-          "low": 13,
-          "low_1y": 17,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
