@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:43:40.589697+00:00",
+  "generated_at": "2026-08-06T08:40:58.108972+00:00",
   "total": 300,
   "games": [
     {
@@ -1121,7 +1121,7 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 747895,
+        "count": 749198,
         "text": ""
       },
       "images": {
@@ -1151,9 +1151,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 153.3,
+          "current": 219.0,
           "regular": 219.0,
-          "cut": 30,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1807,7 +1807,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 57365,
+        "count": 57370,
         "text": ""
       },
       "images": {
@@ -3479,7 +3479,7 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 17163,
+        "count": 17165,
         "text": ""
       },
       "images": {
@@ -5058,7 +5058,7 @@
           "current": 29.92,
           "regular": 88,
           "low": 29.92,
-          "low_1y": 29.92,
+          "low_1y": 29.04,
           "cut": 66,
           "currency": "CNY",
           "symbol": "¥",
@@ -6513,7 +6513,7 @@
       ],
       "reviews": {
         "score": 84,
-        "count": 9525,
+        "count": 9526,
         "text": ""
       },
       "images": {
@@ -7522,64 +7522,6 @@
           "current": 32.4,
           "regular": 54.0,
           "cut": 40,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "019fa469-9d3c-7382-9d6d-7821231dff72",
-      "title": "Lightyear Frontier X Forever Skies",
-      "slug": "lightyear-frontier-x-forever-skies",
-      "appid": 1641960,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Singleplayer",
-        "Co-op",
-        "Exploration",
-        "Survival",
-        "Base Building"
-      ],
-      "reviews": {
-        "score": 78,
-        "count": 7871,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019fa469-9d3c-7382-9d6d-7821231dff72/banner300.jpg?t=1785172210"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1641960/1003187836/81404076a294d68ce95e4a3c72a2474546ab02a4/1784727136/hls_264_master.m3u8?t=1785163930",
-      "steam_url": "https://store.steampowered.com/app/1641960",
-      "prices": {
-        "USD": {
-          "current": 33.28,
-          "regular": 49.48,
-          "low": 33.28,
-          "low_1y": 33.28,
-          "cut": 33,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 121.68,
-          "regular": 180,
-          "low": 121.68,
-          "low_1y": 121.68,
-          "cut": 32,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 28.8,
-          "regular": 72.0,
-          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9271,64 +9213,6 @@
       }
     },
     {
-      "id": "018d937f-7040-7271-bfe8-2d34f60b48b9",
-      "title": "清零计划2：天启派对 Project Zero 2: Apocalypse Party",
-      "slug": "qing-ling-ji-hua2-tian-qi-pai-dui-project-zero-2-apocalypse-party",
-      "appid": 2351560,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Singleplayer",
-        "Action Roguelike",
-        "Online Co-Op",
-        "Top-Down Shooter"
-      ],
-      "reviews": {
-        "score": 72,
-        "count": 4647,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2351560/capsule_616x353.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2351560/635370/1612003367d1009abee95085252781d24c49fd7c/1750812611/hls_264_master.m3u8?t=1703068482",
-      "steam_url": "https://store.steampowered.com/app/2351560",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 21,
-          "regular": 42,
-          "low": 21,
-          "low_1y": 21,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 13.37,
-          "regular": 26.75,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-4d0e-706a-886a-077c495a3099",
       "title": "Hero's Hour",
       "slug": "heros-hour",
@@ -10827,64 +10711,6 @@
       }
     },
     {
-      "id": "018d937e-efe3-7282-b1cb-0b93518aefc2",
-      "title": "Painkiller Hell & Damnation",
-      "slug": "painkiller-hell-and-damnation",
-      "appid": 214870,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "FPS",
-        "Gore",
-        "Co-op",
-        "Horror"
-      ],
-      "reviews": {
-        "score": 78,
-        "count": 2925,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-efe3-7282-b1cb-0b93518aefc2/boxart.jpg?t=1761846625"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/214870/9587/cc9a8ef966973920b712448c15037ee91c207c5e/1751259427/hls_264_master.m3u8?t=1493811086",
-      "steam_url": "https://store.steampowered.com/app/214870",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 0.99,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.39,
-          "regular": 73.98,
-          "low": 6,
-          "low_1y": 6.73,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 6.29,
-          "regular": 62.9,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937e-f0b3-7288-91c3-a98cdfb2a46b",
       "title": "Painkiller Hell & Damnation Standard 4-pack",
       "slug": "painkiller-hell-and-damnation-standard-4-pack",
@@ -10929,6 +10755,64 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 6.29,
+          "regular": 62.9,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-efe3-7282-b1cb-0b93518aefc2",
+      "title": "Painkiller Hell & Damnation",
+      "slug": "painkiller-hell-and-damnation",
+      "appid": 214870,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "FPS",
+        "Gore",
+        "Co-op",
+        "Horror"
+      ],
+      "reviews": {
+        "score": 78,
+        "count": 2925,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-efe3-7282-b1cb-0b93518aefc2/boxart.jpg?t=1761846625"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/214870/9587/cc9a8ef966973920b712448c15037ee91c207c5e/1751259427/hls_264_master.m3u8?t=1493811086",
+      "steam_url": "https://store.steampowered.com/app/214870",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 0.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.39,
+          "regular": 73.98,
+          "low": 6,
+          "low_1y": 6.73,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
         },
         "MYR": {
           "current": 6.29,
@@ -11625,6 +11509,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 9.8,
+          "regular": 49.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11673,6 +11567,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 5.75,
+          "regular": 23.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11741,7 +11645,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 2115,
+        "count": 2117,
         "text": ""
       },
       "images": {
@@ -12246,54 +12150,6 @@
           "low": 2.6,
           "low_1y": 2,
           "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "0197e9bf-b469-72b7-ad6b-a49b0b384214",
-      "title": "Red Souls",
-      "slug": "red-souls",
-      "appid": 3333250,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Souls-like",
-        "Action",
-        "Alternate History",
-        "Faith",
-        "Medieval"
-      ],
-      "reviews": {
-        "score": 83,
-        "count": 701,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/0197e9bf-b469-72b7-ad6b-a49b0b384214/boxart.jpg?t=1783486203"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3333250/2140271502/96619482a0cea84a98068fec5564a152b6bbf8d4/1775661712/hls_264_master.m3u8?t=1775662077",
-      "steam_url": "https://store.steampowered.com/app/3333250",
-      "prices": {
-        "USD": {
-          "current": 9.44,
-          "regular": 14.99,
-          "low": 9.44,
-          "low_1y": 9.44,
-          "cut": 37,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 42.84,
-          "regular": 68,
-          "low": 39.2,
-          "low_1y": 35.25,
-          "cut": 37,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
@@ -16325,6 +16181,150 @@
           "regular": 118,
           "low": 11.8,
           "low_1y": 11.8,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea85-70a6-a417-f6015968fcca",
+      "title": "Dragon Age: Origins - Ultimate Edition",
+      "slug": "dragon-age-origins-ultimate-edition",
+      "appid": 47810,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": true,
+      "tags": [
+        "RPG",
+        "Fantasy",
+        "Story Rich",
+        "Choices Matter",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 28418,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea85-70a6-a417-f6015968fcca/boxart.jpg?t=1782473115"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/47810/350137/cd160b04f45c6191dc8962a6771998e89e22c4c1/1750480954/hls_264_master.m3u8?t=1614195331",
+      "steam_url": "https://store.steampowered.com/app/47810",
+      "prices": {
+        "USD": {
+          "current": 7.49,
+          "regular": 29.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 39.5,
+          "regular": 158,
+          "low": 15.8,
+          "low_1y": 15.8,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-00c1-7390-be64-ac2849da681e",
+      "title": "Alice: Madness Returns",
+      "slug": "alice-madness-returns",
+      "appid": 19680,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": true,
+      "tags": [
+        "Dark Fantasy",
+        "Horror",
+        "Female Protagonist",
+        "3D Platformer",
+        "Hack and Slash"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 27156,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-00c1-7390-be64-ac2849da681e/boxart.jpg?t=1763087557"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/19680/433818/e3d8144cfc2ac442028dea25dc43d901c5caea61/1750484631/hls_264_master.m3u8?t=1646073473",
+      "steam_url": "https://store.steampowered.com/app/19680",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 9.99,
+          "low": 0.99,
+          "low_1y": 1.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 14.5,
+          "regular": 58,
+          "low": 5.8,
+          "low_1y": 11.6,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c89-7159-8d87-bfd52f64a0e4",
+      "title": "The Escapists 2",
+      "slug": "the-escapists-2",
+      "appid": 641990,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Multiplayer",
+        "Strategy",
+        "Pixel Graphics",
+        "Online Co-Op",
+        "Co-op"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 26302,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c89-7159-8d87-bfd52f64a0e4/boxart.jpg?t=1784119814"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/641990/121340/4ad73b5dd18eefdd14d32011688832de58ae99cd/1750565967/hls_264_master.m3u8?t=1504542318",
+      "steam_url": "https://store.steampowered.com/app/641990",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 2.88,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 22.5,
+          "regular": 90,
+          "low": 18,
+          "low_1y": 14,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
