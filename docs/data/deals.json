@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:47:14.047748+00:00",
+  "generated_at": "2026-08-09T07:04:17.281491+00:00",
   "total": 300,
   "games": [
     {
@@ -1357,7 +1357,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/477160/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3062-71ad-8549-0a24362a14ec/boxart.jpg?t=1786215331"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/477160/1047236089/f415d6bc5bf94b2b7b3f97849d802a5d0880f751/1772711935/hls_264_master.m3u8?t=1772719522",
       "steam_url": "https://store.steampowered.com/app/477160",
@@ -6971,9 +6971,9 @@
       }
     },
     {
-      "id": "019fa469-9d3c-7382-9d6d-7821231dff72",
-      "title": "Lightyear Frontier X Forever Skies",
-      "slug": "lightyear-frontier-x-forever-skies",
+      "id": "019fa469-9d39-7355-858a-767b5bc7c9b4",
+      "title": "StarRupture x Forever Skies",
+      "slug": "starrupture-x-forever-skies",
       "appid": 1641960,
       "tier": "known",
       "is_atl": true,
@@ -6991,27 +6991,27 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/019fa469-9d3c-7382-9d6d-7821231dff72/banner300.jpg?t=1785172210"
+        "capsule": "https://assets.isthereanydeal.com/019fa469-9d39-7355-858a-767b5bc7c9b4/banner300.jpg?t=1785172214"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1641960/1003187836/81404076a294d68ce95e4a3c72a2474546ab02a4/1784727136/hls_264_master.m3u8?t=1785163930",
       "steam_url": "https://store.steampowered.com/app/1641960",
       "prices": {
         "USD": {
-          "current": 33.28,
-          "regular": 49.48,
-          "low": 33.28,
-          "low_1y": 33.28,
-          "cut": 33,
+          "current": 28.78,
+          "regular": 44.98,
+          "low": 28.78,
+          "low_1y": 28.78,
+          "cut": 36,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 121.68,
-          "regular": 180,
-          "low": 121.68,
-          "low_1y": 121.68,
-          "cut": 32,
+          "current": 137.88,
+          "regular": 196.2,
+          "low": 137.88,
+          "low_1y": 137.88,
+          "cut": 30,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
@@ -8267,7 +8267,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/800270/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0141-739f-912e-5f4c53f09e5b/boxart.jpg?t=1786218091"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/800270/274528/e8924ba159d8bf59b42ab9b66a1763ed1801c2c1/1750585314/hls_264_master.m3u8?t=1585571481",
       "steam_url": "https://store.steampowered.com/app/800270",
@@ -10963,6 +10963,64 @@
       }
     },
     {
+      "id": "019e92ef-3b3b-7240-8eec-07ba365756f0",
+      "title": "Arizona Sunshine® VR 2 Deluxe Edition",
+      "slug": "arizona-sunshine-vr-2-deluxe-edition",
+      "appid": 1540210,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "VR",
+        "Action",
+        "Adventure",
+        "Zombies",
+        "Action-Adventure"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 2217,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/019e92ef-3b3b-7240-8eec-07ba365756f0/banner300.jpg?t=1780605604"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1540210",
+      "prices": {
+        "USD": {
+          "current": 17.99,
+          "regular": 39.99,
+          "low": 17.99,
+          "low_1y": 17.99,
+          "cut": 55,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 80.1,
+          "regular": 178,
+          "low": 80.1,
+          "low_1y": 80.1,
+          "cut": 55,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 58.05,
+          "regular": 129.0,
+          "cut": 55,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-4632-728e-9822-43b1e50d3fdb",
       "title": "Lacuna - A Sci-Fi Noir Adventure",
       "slug": "lacuna-a-sci-fi-noir-adventure",
@@ -11586,16 +11644,6 @@
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 17.9,
-          "regular": 179.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -16297,54 +16345,6 @@
           "regular": 136,
           "low": 27.2,
           "low_1y": 27.2,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-03fc-70d8-bb80-7a9eeda69b9f",
-      "title": "SpellForce Platinum Edition",
-      "slug": "spellforce-platinum-edition",
-      "appid": 39540,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Strategy",
-        "Fantasy",
-        "RTS",
-        "Action"
-      ],
-      "reviews": {
-        "score": 87,
-        "count": 2394,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03fc-70d8-bb80-7a9eeda69b9f/boxart.jpg?t=1786134414"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/39540/2825/7a3da34358ce51fb017045c67959fef36a048d78/1751246295/hls_264_master.m3u8?t=1447352693",
-      "steam_url": "https://store.steampowered.com/app/39540",
-      "prices": {
-        "USD": {
-          "current": 2.49,
-          "regular": 9.99,
-          "low": 0.99,
-          "low_1y": 1.09,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 9,
-          "regular": 36,
-          "low": 3,
-          "low_1y": 7.2,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
