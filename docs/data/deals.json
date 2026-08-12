@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:06:19.340677+00:00",
+  "generated_at": "2026-08-12T07:23:02.296248+00:00",
   "total": 282,
   "games": [
     {
@@ -835,7 +835,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7456-7396-b192-9e1866e209bb/boxart.jpg?t=1786473345"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2358720/743632/6acf4311bb6a59d300b902ab6a3f445215089d9c/1750812851/hls_264_master.m3u8?t=1729236218",
       "steam_url": "https://store.steampowered.com/app/2358720",
@@ -5113,11 +5113,11 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 7482,
+        "count": 7483,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/474750/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2424-73b7-80fa-04f374b36c88/boxart.jpg?t=1786478429"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/474750/64882/0d111e9ab90c4158eb718106232668dd1e3a95e4/1751290817/hls_264_master.m3u8?t=1470772072",
       "steam_url": "https://store.steampowered.com/app/474750",
@@ -6895,6 +6895,64 @@
       }
     },
     {
+      "id": "018d937f-6478-7120-b00a-3bafa13a55c5",
+      "title": "Asterigos: Curse of the Stars - Deluxe Edition",
+      "slug": "asterigos-curse-of-the-stars-deluxe-edition",
+      "appid": 1731070,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Female Protagonist",
+        "Souls-like",
+        "Action RPG",
+        "Exploration",
+        "Action-Adventure"
+      ],
+      "reviews": {
+        "score": 78,
+        "count": 2521,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6478-7120-b00a-3bafa13a55c5/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1731070/613892/d10f7a567dca89834971da1e1bfd4a0ffc330678/1750730575/hls_264_master.m3u8?t=1699960410",
+      "steam_url": "https://store.steampowered.com/app/1731070",
+      "prices": {
+        "USD": {
+          "current": 11.24,
+          "regular": 44.99,
+          "low": 11.24,
+          "low_1y": 11.24,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 41.25,
+          "regular": 165,
+          "low": 41.25,
+          "low_1y": 41,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 22.25,
+          "regular": 89.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-4604-7280-ab6b-b26281bf5c0a",
       "title": "Warriors of the Nile",
       "slug": "warriors-of-the-nile",
@@ -7533,64 +7591,6 @@
       }
     },
     {
-      "id": "018d937f-7494-70a9-bf4b-90b598cc2eae",
-      "title": "Pocket Bravery: Deluxe Edition",
-      "slug": "pocket-bravery-deluxe-edition",
-      "appid": 1555150,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Fighting",
-        "Competitive",
-        "Pixel Graphics",
-        "Multiplayer",
-        "2D Fighter"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 500,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7494-70a9-bf4b-90b598cc2eae/boxart.jpg?t=1719860703"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1555150",
-      "prices": {
-        "USD": {
-          "current": 14.99,
-          "regular": 24.99,
-          "low": 14.99,
-          "low_1y": 14.99,
-          "cut": 40,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 55.8,
-          "regular": 93,
-          "low": 55.8,
-          "low_1y": 55.8,
-          "cut": 40,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 29.4,
-          "regular": 49.0,
-          "cut": 40,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-7494-70a9-bf4b-90b5995fb2aa",
       "title": "Pocket Bravery: Ultimate Edition",
       "slug": "pocket-bravery-ultimate-edition",
@@ -7631,6 +7631,64 @@
           "regular": 109,
           "low": 65.4,
           "low_1y": 65.4,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 29.4,
+          "regular": 49.0,
+          "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-7494-70a9-bf4b-90b598cc2eae",
+      "title": "Pocket Bravery: Deluxe Edition",
+      "slug": "pocket-bravery-deluxe-edition",
+      "appid": 1555150,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Fighting",
+        "Competitive",
+        "Pixel Graphics",
+        "Multiplayer",
+        "2D Fighter"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 500,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7494-70a9-bf4b-90b598cc2eae/boxart.jpg?t=1719860703"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1555150",
+      "prices": {
+        "USD": {
+          "current": 14.99,
+          "regular": 24.99,
+          "low": 14.99,
+          "low_1y": 14.99,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 55.8,
+          "regular": 93,
+          "low": 55.8,
+          "low_1y": 55.8,
           "cut": 40,
           "currency": "CNY",
           "symbol": "¥",
@@ -7955,7 +8013,7 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 172004,
+        "count": 172006,
         "text": ""
       },
       "images": {
@@ -8017,7 +8075,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-246a-7339-8ccc-7bddae738345/boxart.jpg?t=1786492838"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/582160/130379/fbe86162d0aacf0a39d88154b9bca10a2e0a02a0/1750555625/hls_264_master.m3u8?t=1509076784",
       "steam_url": "https://store.steampowered.com/app/582160",
@@ -8075,7 +8133,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1e66-7184-b1d7-1634c8fc9df4/boxart.jpg?t=1786477819"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/412020/367730/d12ab0a984d079921fa2463d5ebfb0b65a65865e/1750530039/hls_264_master.m3u8?t=1622105839",
       "steam_url": "https://store.steampowered.com/app/412020",
@@ -9571,19 +9629,19 @@
       "is_atl": false,
       "is_notable": false,
       "tags": [
+        "Atmospheric",
         "Adventure",
-        "Indie",
-        "Casual",
-        "Foxes",
-        "Exploration"
+        "Exploration",
+        "Puzzle",
+        "Casual"
       ],
       "reviews": {
         "score": 84,
-        "count": 5521,
+        "count": 5571,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3e60-72db-8d08-3b2ce4235f2f/boxart.jpg?t=1761611554"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3e60-72db-8d08-3b2ce4235f2f/boxart.jpg?t=1786500908"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1213700/282132/b4983baaa8b9c39c5175c5ce1c22ca132550e2cb/1750643594/hls_264_master.m3u8?t=1588861667",
       "steam_url": "https://store.steampowered.com/app/1213700",
@@ -10067,64 +10125,6 @@
           "regular": 48,
           "low": 4.8,
           "low_1y": 9,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 7.7,
-          "regular": 38.5,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-2772-71dc-9e59-3ebb196bf876",
-      "title": "SpeedRunners 4-Pack",
-      "slug": "speedrunners-4-pack",
-      "appid": 207140,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Multiplayer",
-        "Racing",
-        "Local Multiplayer",
-        "Indie",
-        "Competitive"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 22799,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2772-71dc-9e59-3ebb196bf876/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/207140/56745/1aba37a0f97a71c5f8a94878376b31b72e2701a4/1750493140/hls_264_master.m3u8?t=1461085702",
-      "steam_url": "https://store.steampowered.com/app/207140",
-      "prices": {
-        "USD": {
-          "current": 7.99,
-          "regular": 39.99,
-          "low": 7.49,
-          "low_1y": 3.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 27.2,
-          "regular": 136,
-          "low": 21,
-          "low_1y": 27.02,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -10975,7 +10975,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fee0-7282-a941-79b83314440f/boxart.jpg?t=1786477559"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/371660/53289/be1c37a962b45ac9df3bfffcc4d7f9d87c978064/1750518693/hls_264_master.m3u8?t=1456813035",
       "steam_url": "https://store.steampowered.com/app/371660",
@@ -11207,7 +11207,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/368500/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fdd8-73fc-b6f2-669d6969f960/boxart.jpg?t=1786476322"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/368500/36132/053229f37d671abf8d47841aa2711a379b934117/1750518386/hls_264_master.m3u8?t=1447857697",
       "steam_url": "https://store.steampowered.com/app/368500",
@@ -13217,7 +13217,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/311560/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f9bd-732a-8129-55703fce0e08/boxart.jpg?t=1786475130"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/311560/31047/8287a8e96930147303bf0ee4a824e3bb37223076/1750506293/hls_264_master.m3u8?t=1447368841",
       "steam_url": "https://store.steampowered.com/app/311560",
@@ -14173,11 +14173,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 10119,
+        "count": 10121,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd00-73d9-a35c-e7bfb8ebd708/boxart.jpg?t=1786137456"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fd00-73d9-a35c-e7bfb8ebd708/boxart.jpg?t=1786505721"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/282900/29854/3a33d3468ba1f7045a7a2d86d3a8d7f8e16f9abd/1750489572/hls_264_master.m3u8?t=1447367510",
       "steam_url": "https://store.steampowered.com/app/282900",
