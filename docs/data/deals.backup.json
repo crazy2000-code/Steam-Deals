@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T19:10:44.679136+00:00",
-  "total": 259,
+  "generated_at": "2026-08-13T07:42:18.713441+00:00",
+  "total": 263,
   "games": [
     {
       "id": "018d937f-1f0a-73a6-a3aa-b861902b50a6",
@@ -1401,11 +1401,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 29801,
+        "count": 29989,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6ef0-711f-89fb-8d7483407588/boxart.jpg?t=1781580014"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6ef0-711f-89fb-8d7483407588/boxart.jpg?t=1786599019"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2273430/1645862357/85ecd59152c945ecf35966b4d5c5ee8fe095321b/1779958510/hls_264_master.m3u8?t=1779964053",
       "steam_url": "https://store.steampowered.com/app/2273430",
@@ -1666,6 +1666,64 @@
           "current": 19.75,
           "regular": 79.0,
           "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d97ae-b97c-70fd-bf68-c0d51ac847ba",
+      "title": "Hero's Adventure: Road to Passion",
+      "slug": "heros-adventure-road-to-passion",
+      "appid": 1948980,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "Martial Arts",
+        "Open World",
+        "Multiple Endings",
+        "Wuxia"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 22706,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d97ae-b97c-70fd-bf68-c0d51ac847ba/boxart.jpg?t=1786592421"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1948980/2004736583/07766229800e97372e632b872f2a3eefe10a8b45/1750742424/hls_264_master.m3u8?t=1750315205",
+      "steam_url": "https://store.steampowered.com/app/1948980",
+      "prices": {
+        "USD": {
+          "current": 8.99,
+          "regular": 17.99,
+          "low": 8.99,
+          "low_1y": 8.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 34.5,
+          "regular": 69,
+          "low": 34.5,
+          "low_1y": 34.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 22.5,
+          "regular": 45.0,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3366,18 +3424,18 @@
       "is_notable": false,
       "tags": [
         "Dialogue Heavy",
-        "Visual Novel",
         "Pixel Graphics",
+        "Visual Novel",
         "Relaxing",
         "Atmospheric"
       ],
       "reviews": {
         "score": 94,
-        "count": 11193,
+        "count": 11214,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-05b0-72b4-ae35-aab8f0e3f93b/boxart.jpg?t=1786145122"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-05b0-72b4-ae35-aab8f0e3f93b/boxart.jpg?t=1786600812"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/914800/238484/4909637ac195d241c64193806b0e7d35dbceea4f/1750595751/hls_264_master.m3u8?t=1565902783",
       "steam_url": "https://store.steampowered.com/app/914800",
@@ -5561,6 +5619,64 @@
       }
     },
     {
+      "id": "018d937e-f53f-721c-8354-3eb7742da917",
+      "title": "ibb & obb",
+      "slug": "ibb-and-obb",
+      "appid": 95400,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Co-op",
+        "Online Co-Op",
+        "Puzzle",
+        "Local Co-Op",
+        "Platformer"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 4045,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f53f-721c-8354-3eb7742da917/boxart.jpg?t=1786597218"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/95400",
+      "prices": {
+        "USD": {
+          "current": 2.39,
+          "regular": 11.99,
+          "low": 2.39,
+          "low_1y": 2.39,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 8,
+          "regular": 40,
+          "low": 8,
+          "low_1y": 8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 5.4,
+          "regular": 27.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-51d5-7325-a353-62e773f99bd4",
       "title": "ELEX II",
       "slug": "elex-ii",
@@ -6083,64 +6199,6 @@
       }
     },
     {
-      "id": "019e9db7-8761-7134-865c-2ecb4fc0deca",
-      "title": "Supporter",
-      "slug": "supporter--9",
-      "appid": 2274620,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Shop Keeper",
-        "Simulation",
-        "Pixel Graphics",
-        "Life Sim",
-        "Casual"
-      ],
-      "reviews": {
-        "score": 81,
-        "count": 2267,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019e9db7-8761-7134-865c-2ecb4fc0deca/banner300.jpg?t=1780797315"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2274620/1392800696/23aa62ad0661216b70ad1a4247051fe9f3fc6424/1780330097/hls_264_master.m3u8?t=1780762348",
-      "steam_url": "https://store.steampowered.com/app/2274620",
-      "prices": {
-        "USD": {
-          "current": 15.28,
-          "regular": 22.48,
-          "low": 15.28,
-          "low_1y": 15.28,
-          "cut": 32,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 63,
-          "regular": 91.8,
-          "low": 63,
-          "low_1y": 63,
-          "cut": 31,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 48.29,
-          "regular": 80.49,
-          "cut": 40,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-4632-728e-9822-43b1e50d3fdb",
       "title": "Lacuna - A Sci-Fi Noir Adventure",
       "slug": "lacuna-a-sci-fi-noir-adventure",
@@ -6315,55 +6373,103 @@
       }
     },
     {
-      "id": "018d937f-7b47-7024-9d0a-3362fd6b22dd",
-      "title": "拜托！明天和我恋爱吧",
-      "slug": "bai-tuo-ming-tian-he-wo-lian-ai-ba",
-      "appid": 2726890,
+      "id": "01919cd6-6a89-7377-bbd8-12d4a8f79641",
+      "title": "Football Life Simulator",
+      "slug": "football-life-simulator",
+      "appid": 3158270,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "FMV",
-        "Cinematic",
-        "Immersive Sim",
-        "Dating Sim",
-        "First-Person"
+        "Simulation",
+        "Football (Soccer)",
+        "Life Sim",
+        "Indie",
+        "Time Management"
       ],
       "reviews": {
         "score": 70,
-        "count": 1113,
+        "count": 1511,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2726890/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/01919cd6-6a89-7377-bbd8-12d4a8f79641/boxart.jpg?t=1774641046"
       },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2726890",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3158270/746796/62f54b1501efa138d9589c97cab7e94f233d26bf/1750824192/hls_264_master.m3u8?t=1744311008",
+      "steam_url": "https://store.steampowered.com/app/3158270",
       "prices": {
         "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
+          "current": 8.99,
+          "regular": 19.99,
+          "low": 8.99,
+          "low_1y": 8.99,
+          "cut": 55,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 22.05,
+          "regular": 49.0,
+          "cut": 55,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-6cae-70fd-8fc2-f9c4890776a9",
+      "title": "长梦",
+      "slug": "zhang-meng",
+      "appid": 2088030,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Visual Novel",
+        "Puzzle",
+        "Puzzle Platformer"
+      ],
+      "reviews": {
+        "score": 98,
+        "count": 948,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6cae-70fd-8fc2-f9c4890776a9/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2088030/556803/37ca2960ca207cbf448187f73bd7cc09ac56408c/1751073974/hls_264_master.m3u8?t=1681195185",
+      "steam_url": "https://store.steampowered.com/app/2088030",
+      "prices": {
+        "USD": {
+          "current": 2.79,
+          "regular": 6.99,
+          "low": 2.79,
+          "low_1y": 2.79,
+          "cut": 60,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 21,
-          "regular": 42,
-          "low": 21,
-          "low_1y": 21,
-          "cut": 50,
+          "current": 11.2,
+          "regular": 28,
+          "low": 11.2,
+          "low_1y": 11.2,
+          "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
         },
         "MYR": {
-          "current": 13.37,
-          "regular": 26.75,
-          "cut": 50,
+          "current": 7.8,
+          "regular": 19.5,
+          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6547,6 +6653,122 @@
       }
     },
     {
+      "id": "018d937f-2e84-7193-ba94-a6a6f1c57bce",
+      "title": "Carmageddon 1",
+      "slug": "carmageddon-1",
+      "appid": 282010,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Combat Racing",
+        "Racing",
+        "Gore",
+        "Action",
+        "Classic"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 704,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/282010/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/282010/20978/bed981fd605d467b54971a2f7f01af3a43fc2d46/1750489085/hls_264_master.m3u8?t=1447361946",
+      "steam_url": "https://store.steampowered.com/app/282010",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 9.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9,
+          "regular": 36,
+          "low": 9,
+          "low_1y": 9,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 5.75,
+          "regular": 23.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018ef1c9-4119-73bd-b9f4-0381ce74b535",
+      "title": "哎呦！这么多美女呀！",
+      "slug": "ai-you-zhe-me-duo-mei-nu-ya",
+      "appid": 3395300,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "FMV",
+        "RPG",
+        "Dating Sim",
+        "Interactive Fiction",
+        "Visual Novel"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 616,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018ef1c9-4119-73bd-b9f4-0381ce74b535/boxart.jpg?t=1763219788"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3395300/868760/91e5c3c7d6f6a6cbe1e6420fd0e4f321b8c7bd47/1750847008/hls_264_master.m3u8?t=1744433572",
+      "steam_url": "https://store.steampowered.com/app/3395300",
+      "prices": {
+        "USD": {
+          "current": 12.34,
+          "regular": 18.99,
+          "low": 12.34,
+          "low_1y": 12.34,
+          "cut": 35,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 44.85,
+          "regular": 69,
+          "low": 44.85,
+          "low_1y": 44.85,
+          "cut": 35,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 30.55,
+          "regular": 47.0,
+          "cut": 35,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1154-700c-97e1-63f4ddc7a5b4",
       "title": "Carmageddon 2",
       "slug": "carmageddon-2",
@@ -6654,64 +6876,6 @@
           "current": 7.8,
           "regular": 19.5,
           "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-7494-70a9-bf4b-90b598cc2eae",
-      "title": "Pocket Bravery: Deluxe Edition",
-      "slug": "pocket-bravery-deluxe-edition",
-      "appid": 1555150,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Fighting",
-        "Competitive",
-        "Pixel Graphics",
-        "Multiplayer",
-        "2D Fighter"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 500,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7494-70a9-bf4b-90b598cc2eae/boxart.jpg?t=1719860703"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1555150",
-      "prices": {
-        "USD": {
-          "current": 14.99,
-          "regular": 24.99,
-          "low": 14.99,
-          "low_1y": 14.99,
-          "cut": 40,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 55.8,
-          "regular": 93,
-          "low": 55.8,
-          "low_1y": 55.8,
-          "cut": 40,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 29.4,
-          "regular": 49.0,
-          "cut": 40,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11453,16 +11617,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 19.75,
-          "regular": 79.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11510,16 +11664,6 @@
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 5.75,
-          "regular": 23.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -11569,16 +11713,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 18.0,
-          "regular": 72.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11626,16 +11760,6 @@
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 5.75,
-          "regular": 23.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -12957,7 +13081,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/458710/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ffcb-7090-86b1-42470d5d99d9/boxart.jpg?t=1786564847"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/458710/63664/65887991ba02ffe8a820630afc7b4978b5ba24fa/1750532966/hls_264_master.m3u8?t=1467913290",
       "steam_url": "https://store.steampowered.com/app/458710",
@@ -13313,6 +13437,54 @@
           "regular": 62,
           "low": 14,
           "low_1y": 20.46,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-09cf-7336-a768-e58e7fdd80b4",
+      "title": "Hyperdimension Neptunia Re;Birth3",
+      "slug": "hyperdimension-neptunia-re-birth3",
+      "appid": 353270,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "JRPG",
+        "Female Protagonist",
+        "RPG",
+        "Cute"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 3023,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-09cf-7336-a768-e58e7fdd80b4/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/353270/44076/8c77ffa0d3ff035340a880a3b85f56370b8fe2e8/1751268384/hls_264_master.m3u8?t=1447378333",
+      "steam_url": "https://store.steampowered.com/app/353270",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 14.99,
+          "low": 4.49,
+          "low_1y": 5.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 23.2,
+          "regular": 58,
+          "low": 15,
+          "low_1y": 22.5,
           "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
