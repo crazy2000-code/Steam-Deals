@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T06:40:09.312676+00:00",
-  "total": 212,
+  "generated_at": "2026-08-15T18:31:04.179252+00:00",
+  "total": 215,
   "games": [
     {
       "id": "018d937f-5ccf-7344-a579-d8feb6ba83cf",
@@ -351,6 +351,64 @@
       }
     },
     {
+      "id": "018d937e-ea1c-71e7-9b12-dd4a7c394475",
+      "title": "Total War: THREE KINGDOMS",
+      "slug": "total-war-three-kingdoms",
+      "appid": 779340,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "War",
+        "Turn-Based Strategy",
+        "Grand Strategy"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 62880,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/779340/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/779340/224656/a4656ca68ea0f9f50b812bf8d2b715e696002703/1750582630/hls_264_master.m3u8?t=1558620959",
+      "steam_url": "https://store.steampowered.com/app/779340",
+      "prices": {
+        "USD": {
+          "current": 11.99,
+          "regular": 39.99,
+          "low": 11.99,
+          "low_1y": 7.59,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 59.4,
+          "regular": 198,
+          "low": 53.6,
+          "low_1y": 39,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 38.4,
+          "regular": 128.0,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-7466-727c-8331-8f9c8c2af33b",
       "title": "Persona 3 Reload",
       "slug": "persona-3-reload",
@@ -516,6 +574,64 @@
           "current": 27.6,
           "regular": 69.0,
           "cut": 60,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-f885-701c-8ce8-1710e0ed6fe5",
+      "title": "Total War: Attila",
+      "slug": "total-war-attila",
+      "appid": 325610,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "War",
+        "Turn-Based Strategy",
+        "Grand Strategy"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 26796,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/325610/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/325610/31588/79efcab8aac5f1c6a1f11d14c9c87a2d37ac27bd/1750509047/hls_264_master.m3u8?t=1447369531",
+      "steam_url": "https://store.steampowered.com/app/325610",
+      "prices": {
+        "USD": {
+          "current": 8.99,
+          "regular": 44.99,
+          "low": 8.99,
+          "low_1y": 7.73,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 40,
+          "regular": 200,
+          "low": 24,
+          "low_1y": 40,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 23.8,
+          "regular": 119.0,
+          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1453,64 +1569,6 @@
       }
     },
     {
-      "id": "018d937e-f555-7184-ad46-639a9fd44f74",
-      "title": "Tiny Bunny",
-      "slug": "tiny-bunny",
-      "appid": 1421250,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Visual Novel",
-        "Horror",
-        "Story Rich",
-        "Atmospheric",
-        "Dark"
-      ],
-      "reviews": {
-        "score": 83,
-        "count": 26998,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f555-7184-ad46-639a9fd44f74/boxart.jpg?t=1776699912"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1421250/755844/47a54adefa30f31b306500e99671f399715e2e9a/1751235851/hls_264_master.m3u8?t=1764794649",
-      "steam_url": "https://store.steampowered.com/app/1421250",
-      "prices": {
-        "USD": {
-          "current": 7.47,
-          "regular": 10.99,
-          "low": 7.47,
-          "low_1y": 7.47,
-          "cut": 32,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 31.28,
-          "regular": 46,
-          "low": 29,
-          "low_1y": 31.28,
-          "cut": 32,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 20.06,
-          "regular": 29.5,
-          "cut": 32,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937e-f99a-7194-a303-07dd8f22d0b4",
       "title": "Heavy Rain",
       "slug": "heavy-rain",
@@ -2140,64 +2198,6 @@
           "current": 84.5,
           "regular": 169.0,
           "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-5281-7062-9d82-a628f78d52f1",
-      "title": "Infection Free Zone",
-      "slug": "infection-free-zone",
-      "appid": 1465460,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Base Building",
-        "Post-apocalyptic",
-        "Zombies",
-        "City Builder",
-        "Strategy"
-      ],
-      "reviews": {
-        "score": 80,
-        "count": 16334,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5281-7062-9d82-a628f78d52f1/boxart.jpg?t=1786098908"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1465460",
-      "prices": {
-        "USD": {
-          "current": 17.49,
-          "regular": 24.99,
-          "low": 17.49,
-          "low_1y": 17.49,
-          "cut": 30,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 61.6,
-          "regular": 88,
-          "low": 61.6,
-          "low_1y": 61.6,
-          "cut": 30,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 41.3,
-          "regular": 59.0,
-          "cut": 30,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2845,6 +2845,64 @@
       }
     },
     {
+      "id": "018d937f-4d2e-72f4-a97f-5846db69105a",
+      "title": "Total War: ROME REMASTERED",
+      "slug": "total-war-rome-remastered",
+      "appid": 885970,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Grand Strategy",
+        "Turn-Based Strategy",
+        "Rome",
+        "Action"
+      ],
+      "reviews": {
+        "score": 77,
+        "count": 12498,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/885970/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/885970/364972/ccf06f3ea571d0503b44e79aee8f80501939f1ad/1750593556/hls_264_master.m3u8?t=1619626985",
+      "steam_url": "https://store.steampowered.com/app/885970",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 29.99,
+          "low": 5.99,
+          "low_1y": 5.36,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 29.6,
+          "regular": 148,
+          "low": 29.6,
+          "low_1y": 29.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 19.0,
+          "regular": 95.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-4b26-71c0-9436-603f46ebbf10",
       "title": "Tavern Master",
       "slug": "tavern-master",
@@ -3068,6 +3126,64 @@
           "current": 74.7,
           "regular": 249.0,
           "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea5a-7356-a82d-fb1c2406779f",
+      "title": "A Total War Saga: THRONES OF BRITANNIA",
+      "slug": "a-total-war-saga-thrones-of-britannia",
+      "appid": 712100,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "RTS",
+        "Turn-Based Strategy",
+        "Medieval"
+      ],
+      "reviews": {
+        "score": 70,
+        "count": 12288,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/712100/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/712100/160880/ca151e14242a06c00cfa41c958413f2c3252eb4e/1750574050/hls_264_master.m3u8?t=1525269573",
+      "steam_url": "https://store.steampowered.com/app/712100",
+      "prices": {
+        "USD": {
+          "current": 7.99,
+          "regular": 39.99,
+          "low": 7.99,
+          "low_1y": 7.19,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 35.6,
+          "regular": 178,
+          "low": 35.6,
+          "low_1y": 35.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 21.2,
+          "regular": 106.0,
+          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -5068,7 +5184,7 @@
           "current": 6.99,
           "regular": 19.99,
           "low": 6.99,
-          "low_1y": 5.74,
+          "low_1y": 5.6,
           "cut": 65,
           "currency": "USD",
           "symbol": "$",
@@ -6421,55 +6537,55 @@
       }
     },
     {
-      "id": "0193dc6e-31ac-7082-87c6-b954ffb3b4b7",
-      "title": "闪光公仔",
-      "slug": "shan-guang-gong-zi",
-      "appid": 3328720,
+      "id": "0192e04d-7719-7057-a2f8-81cca1f09a59",
+      "title": "Game of Fate: Chasing Through Time",
+      "slug": "game-of-fate-chasing-through-time",
+      "appid": 2963550,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Action Roguelike",
-        "Spectacle fighter",
-        "Idler",
-        "Auto Battler",
-        "PvP"
+        "FMV",
+        "Dating Sim",
+        "Immersive Sim",
+        "Mystery",
+        "Cinematic"
       ],
       "reviews": {
-        "score": 80,
-        "count": 853,
+        "score": 88,
+        "count": 985,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/3328720/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/0192e04d-7719-7057-a2f8-81cca1f09a59/boxart.jpg?t=1763981117"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3328720/1998477602/3bc3ab9b9755cc35dd426d907a0e250dbff896f4/1750870552/hls_264_master.m3u8?t=1747906788",
-      "steam_url": "https://store.steampowered.com/app/3328720",
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2963550",
       "prices": {
         "USD": {
-          "current": 5.84,
-          "regular": 8.99,
-          "low": 5.84,
-          "low_1y": 5.84,
-          "cut": 35,
+          "current": 6.04,
+          "regular": 10.99,
+          "low": 6.04,
+          "low_1y": 6.04,
+          "cut": 45,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 24.7,
-          "regular": 38,
-          "low": 24.7,
-          "low_1y": 24.7,
-          "cut": 35,
+          "current": 24.75,
+          "regular": 45,
+          "low": 24.75,
+          "low_1y": 24.75,
+          "cut": 45,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
         },
         "MYR": {
-          "current": 20.15,
-          "regular": 31.0,
-          "cut": 35,
+          "current": 25.95,
+          "regular": 47.19,
+          "cut": 45,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6856,122 +6972,6 @@
           "current": 30.55,
           "regular": 47.0,
           "cut": 35,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018dcb00-7aa2-724a-9e9a-820bd3251bd1",
-      "title": "School 666",
-      "slug": "school-666",
-      "appid": 2802820,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Horror",
-        "Online Co-Op",
-        "Realistic",
-        "Psychological Horror",
-        "Adventure"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 543,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018dcb00-7aa2-724a-9e9a-820bd3251bd1/boxart.jpg?t=1761595886"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2802820/1788188787/c9f3177d5d6a8e0ce48c75b4009751d010e9ad39/1750820114/hls_264_master.m3u8?t=1749019214",
-      "steam_url": "https://store.steampowered.com/app/2802820",
-      "prices": {
-        "USD": {
-          "current": 6.99,
-          "regular": 9.99,
-          "low": 6.99,
-          "low_1y": 6.99,
-          "cut": 30,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 29.4,
-          "regular": 42,
-          "low": 29.4,
-          "low_1y": 29.4,
-          "cut": 30,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 18.72,
-          "regular": 26.75,
-          "cut": 30,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d96ef-dbc7-720b-9a39-9291641c60a2",
-      "title": "Gordian Rooms 1: A curious heritage",
-      "slug": "gordian-rooms-1-a-curious-heritage",
-      "appid": 1285080,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Mystery",
-        "Atmospheric",
-        "Adventure",
-        "Point & Click",
-        "Puzzle"
-      ],
-      "reviews": {
-        "score": 86,
-        "count": 517,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d96ef-dbc7-720b-9a39-9291641c60a2/boxart.jpg?t=1786133758"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1285080/314032/35fa6f25838bb13a74cfb18c3324ffa8da757000/1751214973/hls_264_master.m3u8?t=1684953049",
-      "steam_url": "https://store.steampowered.com/app/1285080",
-      "prices": {
-        "USD": {
-          "current": 0.89,
-          "regular": 5.99,
-          "low": 0.89,
-          "low_1y": 0.89,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 3.9,
-          "regular": 26,
-          "low": 3.9,
-          "low_1y": 3.9,
-          "cut": 85,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 2.47,
-          "regular": 16.5,
-          "cut": 85,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7561,6 +7561,64 @@
       }
     },
     {
+      "id": "018d937f-33dd-71dd-a94b-7f4749cbd25b",
+      "title": "Total War: ROME II - Emperor Edition",
+      "slug": "total-war-rome-ii-emperor-edition",
+      "appid": 214950,
+      "tier": "aaa",
+      "is_atl": false,
+      "is_notable": true,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "Turn-Based Strategy",
+        "Grand Strategy",
+        "Rome"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 54233,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-33dd-71dd-a94b-7f4749cbd25b/boxart.jpg?t=1786816522"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/214950/12609/3a6ab55c6aac079bd3b1cf5f5edb787893320ebd/1756428932/hls_264_master.m3u8?t=1512137549",
+      "steam_url": "https://store.steampowered.com/app/214950",
+      "prices": {
+        "USD": {
+          "current": 11.99,
+          "regular": 59.99,
+          "low": 5.99,
+          "low_1y": 10.04,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 53.6,
+          "regular": 268,
+          "low": 26.8,
+          "low_1y": 53,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 31.8,
+          "regular": 159.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-51f4-727c-95c0-ba550d156c86",
       "title": "Disco Elysium - The Final Cut",
       "slug": "disco-elysium-the-final-cut",
@@ -7867,11 +7925,11 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 8081,
+        "count": 8111,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-15bf-70a1-9e1c-01020c6a9e0c/boxart.jpg?t=1786636230"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-15bf-70a1-9e1c-01020c6a9e0c/boxart.jpg?t=1786794609"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/468920/182003/cdca4f850c10a239751f14a9e4743f105a1d6a97/1750534607/hls_264_master.m3u8?t=1535641265",
       "steam_url": "https://store.steampowered.com/app/468920",
@@ -8083,55 +8141,55 @@
       }
     },
     {
-      "id": "018d937f-3e60-72db-8d08-3b2ce4235f2f",
-      "title": "Spirit of the North",
-      "slug": "spirit-of-the-north",
-      "appid": 1213700,
+      "id": "018d937e-f4df-7308-b77b-1a2f45158d8b",
+      "title": "Total War: Medieval II - Definitive Edition",
+      "slug": "total-war-medieval-ii-definitive-edition",
+      "appid": 4700,
       "tier": "known",
       "is_atl": false,
-      "is_notable": false,
+      "is_notable": true,
       "tags": [
-        "Atmospheric",
-        "Adventure",
-        "Exploration",
-        "Puzzle",
-        "Casual"
+        "Strategy",
+        "Medieval",
+        "Historical",
+        "Turn-Based Strategy",
+        "Grand Strategy"
       ],
       "reviews": {
-        "score": 84,
-        "count": 5571,
+        "score": 95,
+        "count": 27145,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3e60-72db-8d08-3b2ce4235f2f/boxart.jpg?t=1786500908"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/4700/capsule_616x353.jpg"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1213700/282132/b4983baaa8b9c39c5175c5ce1c22ca132550e2cb/1750643594/hls_264_master.m3u8?t=1588861667",
-      "steam_url": "https://store.steampowered.com/app/1213700",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/4700/196934/5412c97efa458fe26ff0d1a2f48fa8d5d52e376c/1750484022/hls_264_master.m3u8?t=1542726555",
+      "steam_url": "https://store.steampowered.com/app/4700",
       "prices": {
         "USD": {
-          "current": 2.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.89,
-          "cut": 85,
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 4.46,
+          "cut": 80,
           "currency": "USD",
           "symbol": "$",
           "is_atl": false
         },
         "CNY": {
-          "current": 10.5,
-          "regular": 70,
-          "low": 7,
-          "low_1y": 8.31,
-          "cut": 85,
+          "current": 22.4,
+          "regular": 112,
+          "low": 17,
+          "low_1y": 22.4,
+          "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 5.85,
-          "regular": 39.0,
-          "cut": 85,
+          "current": 13.2,
+          "regular": 66.0,
+          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -8199,54 +8257,112 @@
       }
     },
     {
-      "id": "018d937f-21f5-72e7-81dd-7c4cd610e1d5",
-      "title": "911 Operator",
-      "slug": "911-operator",
-      "appid": 503560,
+      "id": "018d937f-32bb-7350-b5a2-6397d66c8393",
+      "title": "Total War: Empire - Definitive Edition",
+      "slug": "total-war-empire-definitive-edition",
+      "appid": 10500,
       "tier": "known",
       "is_atl": false,
-      "is_notable": false,
+      "is_notable": true,
       "tags": [
-        "Simulation",
         "Strategy",
-        "Management",
-        "Singleplayer",
-        "Indie"
+        "Historical",
+        "Military",
+        "Grand Strategy",
+        "Turn-Based Strategy"
       ],
       "reviews": {
         "score": 89,
-        "count": 14393,
+        "count": 21200,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-21f5-72e7-81dd-7c4cd610e1d5/boxart.jpg?t=1783935317"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/10500/capsule_616x353.jpg"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/503560/91312/0ba1711043b8c83af23ad706f688e5993bb4f469/1750538862/hls_264_master.m3u8?t=1684158459",
-      "steam_url": "https://store.steampowered.com/app/503560",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/10500/196936/5412c97efa458fe26ff0d1a2f48fa8d5d52e376c/1750484429/hls_264_master.m3u8?t=1542726475",
+      "steam_url": "https://store.steampowered.com/app/10500",
       "prices": {
         "USD": {
-          "current": 2.99,
-          "regular": 14.99,
-          "low": 1.49,
-          "low_1y": 1.49,
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 3.74,
+          "low_1y": 4.46,
           "cut": 80,
           "currency": "USD",
           "symbol": "$",
           "is_atl": false
         },
         "CNY": {
-          "current": 9.6,
-          "regular": 48,
-          "low": 4,
-          "low_1y": 7.05,
+          "current": 22.4,
+          "regular": 112,
+          "low": 17,
+          "low_1y": 22.4,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 6.2,
-          "regular": 31.0,
+          "current": 13.2,
+          "regular": 66.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-f862-7224-a5aa-d90d54b89059",
+      "title": "Total War: Napoleon - Definitive Edition",
+      "slug": "total-war-napoleon-definitive-edition",
+      "appid": 34030,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "Grand Strategy",
+        "War",
+        "Turn-Based Strategy"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 17868,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/34030/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/34030/196930/5412c97efa458fe26ff0d1a2f48fa8d5d52e376c/1750485122/hls_264_master.m3u8?t=1542726983",
+      "steam_url": "https://store.steampowered.com/app/34030",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 3.74,
+          "low_1y": 4.46,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 22.4,
+          "regular": 112,
+          "low": 17,
+          "low_1y": 22.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 13.2,
+          "regular": 66.0,
           "cut": 80,
           "low": null,
           "low_1y": null,
@@ -8413,6 +8529,64 @@
           "regular": 42,
           "low": 7,
           "low_1y": 8.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 5.35,
+          "regular": 26.75,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1637-7076-a9cd-422251b058fe",
+      "title": "Hammerwatch 4-Pack",
+      "slug": "hammerwatch-4-pack",
+      "appid": 239070,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Dungeon Crawler",
+        "Indie",
+        "RPG",
+        "Co-op",
+        "Pixel Graphics"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 3665,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1637-7076-a9cd-422251b058fe/boxart.png"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/239070/12497/597ffd11233f7e6f111eacc0cf2c831a92509169/1750483406/hls_264_master.m3u8?t=1447358379",
+      "steam_url": "https://store.steampowered.com/app/239070",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 29.99,
+          "low": 4.49,
+          "low_1y": 5.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 21.6,
+          "regular": 108,
+          "low": 17,
+          "low_1y": 21.6,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -11433,16 +11607,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 6.87,
-          "regular": 13.75,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11491,16 +11655,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 24.5,
-          "regular": 49.0,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11548,16 +11702,6 @@
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 114.5,
-          "regular": 229.0,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T19:05:25.650708+00:00",
-  "total": 211,
+  "generated_at": "2026-08-15T06:40:09.312676+00:00",
+  "total": 212,
   "games": [
     {
       "id": "018d937f-5ccf-7344-a579-d8feb6ba83cf",
@@ -1192,7 +1192,7 @@
           "current": 19.99,
           "regular": 49.99,
           "low": 19.99,
-          "low_1y": 13.95,
+          "low_1y": 12.85,
           "cut": 60,
           "currency": "USD",
           "symbol": "$",
@@ -1875,7 +1875,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 21724,
+        "count": 21743,
         "text": ""
       },
       "images": {
@@ -1937,7 +1937,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/527430/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f842-7389-a71f-cdae61dd3fd1/boxart.jpg?t=1786744513"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/527430",
@@ -3847,11 +3847,11 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 8839,
+        "count": 8838,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/40990/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3102-701d-a896-7cbc7f8bbec8/boxart.jpg?t=1786737042"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/40990/134596/15d3badc5b3d458f25e26a8503982b5a3637d76f/1751248640/hls_264_master.m3u8?t=1511321248",
       "steam_url": "https://store.steampowered.com/app/40990",
@@ -6189,64 +6189,6 @@
       }
     },
     {
-      "id": "019e9db7-8761-7134-865c-2ecb4fc0deca",
-      "title": "Supporter",
-      "slug": "supporter--9",
-      "appid": 2274620,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Shop Keeper",
-        "Simulation",
-        "Pixel Graphics",
-        "Life Sim",
-        "Casual"
-      ],
-      "reviews": {
-        "score": 81,
-        "count": 2281,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019e9db7-8761-7134-865c-2ecb4fc0deca/banner300.jpg?t=1786665320"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2274620/1392800696/23aa62ad0661216b70ad1a4247051fe9f3fc6424/1780330097/hls_264_master.m3u8?t=1780762348",
-      "steam_url": "https://store.steampowered.com/app/2274620",
-      "prices": {
-        "USD": {
-          "current": 15.28,
-          "regular": 22.48,
-          "low": 15.28,
-          "low_1y": 15.28,
-          "cut": 32,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 63,
-          "regular": 91.8,
-          "low": 63,
-          "low_1y": 63,
-          "cut": 31,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 48.29,
-          "regular": 80.49,
-          "cut": 40,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-4632-728e-9822-43b1e50d3fdb",
       "title": "Lacuna - A Sci-Fi Noir Adventure",
       "slug": "lacuna-a-sci-fi-noir-adventure",
@@ -6807,6 +6749,64 @@
       }
     },
     {
+      "id": "018d937f-03b7-718c-afcc-9fccff93f685",
+      "title": "Soulslayer",
+      "slug": "soulslayer",
+      "appid": 466810,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Indie",
+        "Casual",
+        "Detective",
+        "Visual Novel"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 653,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-03b7-718c-afcc-9fccff93f685/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/466810",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "low_1y": 4.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 18,
+          "regular": 36,
+          "low": 18,
+          "low_1y": 18,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 11.5,
+          "regular": 23.0,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018ef1c9-4119-73bd-b9f4-0381ce74b535",
       "title": "哎呦！这么多美女呀！",
       "slug": "ai-you-zhe-me-duo-mei-nu-ya",
@@ -6914,6 +6914,64 @@
           "current": 18.72,
           "regular": 26.75,
           "cut": 30,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d96ef-dbc7-720b-9a39-9291641c60a2",
+      "title": "Gordian Rooms 1: A curious heritage",
+      "slug": "gordian-rooms-1-a-curious-heritage",
+      "appid": 1285080,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Mystery",
+        "Atmospheric",
+        "Adventure",
+        "Point & Click",
+        "Puzzle"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 517,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d96ef-dbc7-720b-9a39-9291641c60a2/boxart.jpg?t=1786133758"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1285080/314032/35fa6f25838bb13a74cfb18c3324ffa8da757000/1751214973/hls_264_master.m3u8?t=1684953049",
+      "steam_url": "https://store.steampowered.com/app/1285080",
+      "prices": {
+        "USD": {
+          "current": 0.89,
+          "regular": 5.99,
+          "low": 0.89,
+          "low_1y": 0.89,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.9,
+          "regular": 26,
+          "low": 3.9,
+          "low_1y": 3.9,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.47,
+          "regular": 16.5,
+          "cut": 85,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7291,7 +7349,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030840/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4293-7217-a8d5-41fbae8f2929/boxart.jpg?t=1786741531"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1030840/743333/7baa5ff2102429fa367827c39da2fcce1cb1c134/1750608657/hls_264_master.m3u8?t=1724260130",
       "steam_url": "https://store.steampowered.com/app/1030840",
@@ -7925,11 +7983,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 36412,
+        "count": 36413,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5018-73d9-8c4c-98a098302e81/boxart.jpg?t=1786716616"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5018-73d9-8c4c-98a098302e81/boxart.jpg?t=1786742414"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1190000/875770/f919977b0c202dea2acc4be0624e522423ef7a0c/1750636427/hls_264_master.m3u8?t=1745365738",
       "steam_url": "https://store.steampowered.com/app/1190000",
@@ -9089,7 +9147,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/201790/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1235-71ef-aa4f-f8ab0ca80ca7/boxart.jpg?t=1786755933"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/201790/186172/bc102ce6302c5c36215c156ce0bba7d057f002f1/1750498601/hls_264_master.m3u8?t=1537484726",
       "steam_url": "https://store.steampowered.com/app/201790",
@@ -9143,11 +9201,11 @@
       ],
       "reviews": {
         "score": 85,
-        "count": 10888,
+        "count": 10886,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1522820/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-51d0-71f8-bae2-772197e206cb/boxart.jpg?t=1786762543"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1522820/384809/495a788af511b8b53430483423f2d8ad9d2777c0/1750697804/hls_264_master.m3u8?t=1627049067",
       "steam_url": "https://store.steampowered.com/app/1522820",
@@ -9437,7 +9495,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/102600/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e54-737e-acea-f452ad363dde/boxart.jpg?t=1786765521"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/102600/186171/44d1f7fb2d1d0161a1d040ed9dc550f94acb9a61/1750498442/hls_264_master.m3u8?t=1537484192",
       "steam_url": "https://store.steampowered.com/app/102600",
@@ -11549,16 +11607,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 18.0,
-          "regular": 36.0,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -12063,7 +12111,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/341000/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fd68-72ed-b71b-1f1156b1a562/boxart.jpg?t=1786736420"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/341000/59890/941a40e0419502eacb5c90148b5e0ae2c7a2d84a/1751272387/hls_264_master.m3u8?t=1463923780",
       "steam_url": "https://store.steampowered.com/app/341000",
