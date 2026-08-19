@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T18:40:35.301545+00:00",
-  "total": 200,
+  "generated_at": "2026-08-19T06:53:50.616626+00:00",
+  "total": 205,
   "games": [
     {
       "id": "018d937f-5ccf-7344-a579-d8feb6ba83cf",
@@ -313,7 +313,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1250410/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/01971f4e-0d26-704d-a9cc-5f2f61df3854/boxart.jpg?t=1787094010"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1250410/513209/00254739b742d4548e5727ecb713f685ec39e659/1750651547/hls_264_master.m3u8?t=1684358207",
       "steam_url": "https://store.steampowered.com/app/1250410",
@@ -2571,7 +2571,7 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 15453,
+        "count": 15515,
         "text": ""
       },
       "images": {
@@ -5445,6 +5445,64 @@
       }
     },
     {
+      "id": "018d937e-ea8e-73a3-b3f9-9cc7409c8e63",
+      "title": "ibb & obb - Best Friends Forever Double Pack",
+      "slug": "ibb-and-obb-best-friends-forever-double-pack",
+      "appid": 95400,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Co-op",
+        "Online Co-Op",
+        "Puzzle",
+        "Local Co-Op",
+        "Platformer"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 4045,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea8e-73a3-b3f9-9cc7409c8e63/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/95400",
+      "prices": {
+        "USD": {
+          "current": 2.79,
+          "regular": 13.99,
+          "low": 2.79,
+          "low_1y": 2.79,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9,
+          "regular": 45,
+          "low": 9,
+          "low_1y": 9,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 5.4,
+          "regular": 27.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-7341-70e4-b726-9db675bc91b6",
       "title": "Weird West: Definitive Edition",
       "slug": "weird-west-definitive-edition",
@@ -6189,6 +6247,64 @@
       }
     },
     {
+      "id": "018d937f-11c7-7179-b9d0-22ebed36a166",
+      "title": "Season of 12 colors",
+      "slug": "season-of-12-colors",
+      "appid": 370280,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Casual",
+        "Visual Novel",
+        "Adventure",
+        "Anime"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 1797,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-11c7-7179-b9d0-22ebed36a166/boxart.jpg?t=1786335624"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/370280/46919/746c605e836e590785544fdfaaf54ff2d2a72feb/1751276874/hls_264_master.m3u8?t=1457964454",
+      "steam_url": "https://store.steampowered.com/app/370280",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 2.99,
+          "low": 1.49,
+          "low_1y": 1.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.5,
+          "regular": 15,
+          "low": 2.99,
+          "low_1y": 7.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.25,
+          "regular": 8.5,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937e-f85a-708a-a2a2-86aa390decb8",
       "title": "Nuclear Dawn",
       "slug": "nuclear-dawn",
@@ -6421,55 +6537,55 @@
       }
     },
     {
-      "id": "018d937f-156a-7088-9b53-b1bfef7a87f6",
-      "title": "Short Stories Collection of Class Tangerine",
-      "slug": "short-stories-collection-of-class-tangerine",
-      "appid": 701930,
+      "id": "018d937f-4624-7300-ba91-3746ecbfb508",
+      "title": "Cross Princess",
+      "slug": "cross-princess",
+      "appid": 1301620,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
         "Casual",
-        "Indie",
         "Adventure",
-        "Simulation",
-        "Visual Novel"
+        "Visual Novel",
+        "Sexual Content",
+        "Indie"
       ],
       "reviews": {
-        "score": 94,
-        "count": 863,
+        "score": 95,
+        "count": 877,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-156a-7088-9b53-b1bfef7a87f6/boxart.jpg?t=1786335910"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4624-7300-ba91-3746ecbfb508/boxart.jpg?t=1786335670"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/701930/119566/71a427f4767538ed29bcb7619c8b0a35e4d2e233/1751133373/hls_264_master.m3u8?t=1503977054",
-      "steam_url": "https://store.steampowered.com/app/701930",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1301620/303666/daf2819c4e9cbbc0ebc31ac9d457cd790d783c6b/1751218165/hls_264_master.m3u8?t=1597628990",
+      "steam_url": "https://store.steampowered.com/app/1301620",
       "prices": {
         "USD": {
-          "current": 3.19,
-          "regular": 7.99,
-          "low": 3.19,
-          "low_1y": 3.19,
-          "cut": 60,
+          "current": 1.94,
+          "regular": 2.99,
+          "low": 1.94,
+          "low_1y": 1.94,
+          "cut": 35,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 11.6,
-          "regular": 29,
-          "low": 11,
-          "low_1y": 11.6,
-          "cut": 60,
+          "current": 9.75,
+          "regular": 15,
+          "low": 9,
+          "low_1y": 9.75,
+          "cut": 35,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 7.6,
-          "regular": 19.0,
-          "cut": 60,
+          "current": 5.52,
+          "regular": 8.5,
+          "cut": 35,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6923,6 +7039,112 @@
       }
     },
     {
+      "id": "018d937f-2d95-7336-aaf2-e955f283622d",
+      "title": "Lingering Fragrance",
+      "slug": "lingering-fragrance",
+      "appid": 880400,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Visual Novel",
+        "Adventure",
+        "Anime"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 564,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d95-7336-aaf2-e955f283622d/boxart.jpg?t=1786335677"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/880400",
+      "prices": {
+        "USD": {
+          "current": 1.19,
+          "regular": 3.99,
+          "low": 1.19,
+          "low_1y": 1.19,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.15,
+          "regular": 10.5,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5f25-719b-a23a-adca84ca469a",
+      "title": "EZ2ON REBOOT : R - PRESTIGE PASS",
+      "slug": "ez2on-reboot-r-prestige-pass",
+      "appid": 1926210,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Casual",
+        "Sports",
+        "Music",
+        "Rhythm"
+      ],
+      "reviews": {
+        "score": 99,
+        "count": 512,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5f25-719b-a23a-adca84ca469a/banner300.jpg?t=1786755932"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1926210/707214/b5756fde896eaaaba6473c7424a74640033ee983/1751057118/hls_264_master.m3u8?t=1717141669",
+      "steam_url": "https://store.steampowered.com/app/1926210",
+      "prices": {
+        "USD": {
+          "current": 25.99,
+          "regular": 39.99,
+          "low": 25.99,
+          "low_1y": 25.99,
+          "cut": 35,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 76.7,
+          "regular": 118,
+          "low": 76.7,
+          "low_1y": 76.7,
+          "cut": 35,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 70.2,
+          "regular": 108.0,
+          "cut": 35,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937e-fd6e-73e7-8ab3-71d29a597c84",
       "title": "Metro 2033 Redux",
       "slug": "metro-2033-redux",
@@ -7055,7 +7277,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 139666,
+        "count": 139677,
         "text": ""
       },
       "images": {
@@ -7581,7 +7803,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/703080/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0191-73dd-95c3-ca3fec878ba8/boxart.jpg?t=1787100015"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/703080/251196/d10d27bbc206e86cca577cce0c9c72972d0110de/1750573035/hls_264_master.m3u8?t=1686057966",
       "steam_url": "https://store.steampowered.com/app/703080",
@@ -7693,7 +7915,7 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 20271,
+        "count": 20281,
         "text": ""
       },
       "images": {
@@ -8157,7 +8379,7 @@
       ],
       "reviews": {
         "score": 86,
-        "count": 23250,
+        "count": 23249,
         "text": ""
       },
       "images": {
@@ -8489,64 +8711,6 @@
       }
     },
     {
-      "id": "018d937f-05e1-710d-93fa-4e1f1b80de6e",
-      "title": "Hammerwatch",
-      "slug": "hammerwatch",
-      "appid": 239070,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Dungeon Crawler",
-        "Indie",
-        "RPG",
-        "Co-op",
-        "Pixel Graphics"
-      ],
-      "reviews": {
-        "score": 88,
-        "count": 3665,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-05e1-710d-93fa-4e1f1b80de6e/boxart.jpg?t=1786390560"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/239070/12497/597ffd11233f7e6f111eacc0cf2c831a92509169/1750483406/hls_264_master.m3u8?t=1447358379",
-      "steam_url": "https://store.steampowered.com/app/239070",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 9.99,
-          "low": 1.49,
-          "low_1y": 1.59,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 8.4,
-          "regular": 42,
-          "low": 7,
-          "low_1y": 8.4,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 5.35,
-          "regular": 26.75,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-1637-7076-a9cd-422251b058fe",
       "title": "Hammerwatch 4-Pack",
       "slug": "hammerwatch-4-pack",
@@ -8587,6 +8751,64 @@
           "regular": 108,
           "low": 17,
           "low_1y": 21.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 5.35,
+          "regular": 26.75,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-05e1-710d-93fa-4e1f1b80de6e",
+      "title": "Hammerwatch",
+      "slug": "hammerwatch",
+      "appid": 239070,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Dungeon Crawler",
+        "Indie",
+        "RPG",
+        "Co-op",
+        "Pixel Graphics"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 3665,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-05e1-710d-93fa-4e1f1b80de6e/boxart.jpg?t=1786390560"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/239070/12497/597ffd11233f7e6f111eacc0cf2c831a92509169/1750483406/hls_264_master.m3u8?t=1447358379",
+      "steam_url": "https://store.steampowered.com/app/239070",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 1.49,
+          "low_1y": 1.59,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 8.4,
+          "regular": 42,
+          "low": 7,
+          "low_1y": 8.4,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -9727,7 +9949,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244460/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-50e3-70a2-9dc0-91a22d1fe81f/boxart.jpg?t=1787087713"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1244460/415619/e03922369ea38490542af96656fc92e01d1a32f0/1750649156/hls_264_master.m3u8?t=1686217851",
       "steam_url": "https://store.steampowered.com/app/1244460",
@@ -10983,6 +11205,64 @@
       }
     },
     {
+      "id": "018d9741-0674-7332-8ead-30b55aada00a",
+      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles: Ultimate Edition",
+      "slug": "demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-ultimate-edition",
+      "appid": 1490890,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "Action",
+        "3D Fighter",
+        "Adventure",
+        "Action-Adventure"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 16542,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d9741-0674-7332-8ead-30b55aada00a/boxart.jpg?t=1718873701"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1490890/384108/48f20a2b3ef20a46d46136f5aefe9a972a8d14ea/1750694266/hls_264_master.m3u8?t=1626110279",
+      "steam_url": "https://store.steampowered.com/app/1490890",
+      "prices": {
+        "USD": {
+          "current": 44.99,
+          "regular": 89.99,
+          "low": 22.49,
+          "low_1y": 22.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 284,
+          "regular": 568,
+          "low": 142,
+          "low_1y": 142,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 114.5,
+          "regular": 229.0,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-07c4-7038-ba6f-56a5acdb7ef8",
       "title": "Sonic Adventure DX",
       "slug": "sonic-adventure-dx",
@@ -11491,16 +11771,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 19.25,
-          "regular": 38.5,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11548,16 +11818,6 @@
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 6.99,
-          "regular": 13.99,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
