@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:58:07.275833+00:00",
+  "generated_at": "2026-08-27T17:35:07.471828+00:00",
   "total": 300,
   "games": [
     {
@@ -281,9 +281,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 28.35,
+          "current": 189.0,
           "regular": 189.0,
-          "cut": 85,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -339,9 +339,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 39.75,
+          "current": 159.0,
           "regular": 159.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -397,9 +397,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 12.45,
+          "current": 83.0,
           "regular": 83.0,
-          "cut": 85,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -513,9 +513,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 38.4,
+          "current": 128.0,
           "regular": 128.0,
-          "cut": 70,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -629,9 +629,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 27.6,
+          "current": 69.0,
           "regular": 69.0,
-          "cut": 60,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -687,9 +687,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 23.8,
+          "current": 119.0,
           "regular": 119.0,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -919,9 +919,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 12.3,
+          "current": 41.0,
           "regular": 41.0,
-          "cut": 70,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1295,11 +1295,11 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 57856,
+        "count": 57950,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6993-7288-8655-db3300f50295/boxart.jpg?t=1787597473"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1659040/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1659040/489970123/756c6b61b74d8a0ffe5b40d505d9a2d5325dc07a/1780394208/hls_264_master.m3u8?t=1780701513",
       "steam_url": "https://store.steampowered.com/app/1659040",
@@ -1357,7 +1357,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1089980/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f8d3-7361-9dae-28cd1495e488/boxart.jpg?t=1787818211"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1089980/303088/11f62e45b3d1c075d8af74d45ca8453cb1cd6fa2/1750616048/hls_264_master.m3u8?t=1596760000",
       "steam_url": "https://store.steampowered.com/app/1089980",
@@ -1615,9 +1615,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 4.41,
+          "current": 49.0,
           "regular": 49.0,
-          "cut": 91,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1789,9 +1789,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 4.41,
+          "current": 49.0,
           "regular": 49.0,
-          "cut": 91,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2253,9 +2253,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 27.29,
+          "current": 69.99,
           "regular": 69.99,
-          "cut": 61,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2281,7 +2281,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 24502,
+        "count": 24579,
         "text": ""
       },
       "images": {
@@ -2372,64 +2372,6 @@
           "current": 12.92,
           "regular": 23.5,
           "cut": 45,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d97ae-b97c-70fd-bf68-c0d51ac847ba",
-      "title": "Hero's Adventure: Road to Passion",
-      "slug": "heros-adventure-road-to-passion",
-      "appid": 1948980,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Martial Arts",
-        "Open World",
-        "Multiple Endings",
-        "Wuxia"
-      ],
-      "reviews": {
-        "score": 84,
-        "count": 22330,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d97ae-b97c-70fd-bf68-c0d51ac847ba/boxart.jpg?t=1786721124"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1948980/2004736583/07766229800e97372e632b872f2a3eefe10a8b45/1750742424/hls_264_master.m3u8?t=1750315205",
-      "steam_url": "https://store.steampowered.com/app/1948980",
-      "prices": {
-        "USD": {
-          "current": 8.99,
-          "regular": 17.99,
-          "low": 8.99,
-          "low_1y": 8.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 34.5,
-          "regular": 69,
-          "low": 34.5,
-          "low_1y": 34.5,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 22.5,
-          "regular": 45.0,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2793,7 +2735,7 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 19292,
+        "count": 19377,
         "text": ""
       },
       "images": {
@@ -2823,9 +2765,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 59.6,
+          "current": 149.0,
           "regular": 149.0,
-          "cut": 60,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3403,9 +3345,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 59.75,
+          "current": 239.0,
           "regular": 239.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3531,6 +3473,64 @@
       }
     },
     {
+      "id": "018d937f-2db8-72db-8cc2-c896bfa8ad7f",
+      "title": "Wargame: Red Dragon",
+      "slug": "wargame-red-dragon",
+      "appid": 251060,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "RTS",
+        "Military",
+        "Wargame",
+        "Realistic"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 15733,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2db8-72db-8cc2-c896bfa8ad7f/boxart.jpg?t=1787825724"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/251060",
+      "prices": {
+        "USD": {
+          "current": 4.49,
+          "regular": 29.99,
+          "low": 4.49,
+          "low_1y": 4.49,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 20.7,
+          "regular": 138,
+          "low": 19,
+          "low_1y": 20.7,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 18.0,
+          "regular": 120.0,
+          "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-58d7-736f-b979-0da56c1ffb5c",
       "title": "Sword and Fairy 7",
       "slug": "sword-and-fairy-7",
@@ -3635,9 +3635,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 7.35,
+          "current": 49.0,
           "regular": 49.0,
-          "cut": 85,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3925,9 +3925,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 29.4,
+          "current": 49.0,
           "regular": 49.0,
-          "cut": 40,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4157,9 +4157,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 16.0,
+          "current": 32.0,
           "regular": 32.0,
-          "cut": 50,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4273,9 +4273,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 19.0,
+          "current": 95.0,
           "regular": 95.0,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4331,9 +4331,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 21.2,
+          "current": 106.0,
           "regular": 106.0,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4440,7 +4440,7 @@
           "current": 11.6,
           "regular": 58,
           "low": 11.6,
-          "low_1y": 9.74,
+          "low_1y": 10,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -4505,9 +4505,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 4.23,
+          "current": 47.0,
           "regular": 47.0,
-          "cut": 91,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4711,7 +4711,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/593600/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1163-73c6-8a57-2660e344fdd4/boxart.jpg?t=1787802620"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/593600/225790/5c30a2334a4fa69ac5dbb3f3136758933bdbb580/1750557844/hls_264_master.m3u8?t=1559313913",
       "steam_url": "https://store.steampowered.com/app/593600",
@@ -4795,9 +4795,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 9.5,
+          "current": 38.0,
           "regular": 38.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4881,11 +4881,11 @@
       ],
       "reviews": {
         "score": 85,
-        "count": 10774,
+        "count": 10780,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-409c-73ef-8f44-cdd4a76256fc/boxart.jpg?t=1787758823"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272320/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1272320/1082242692/bc5769bdea351a3bf01ad9e2452b8fc2d2e4de4e/1783620006/hls_264_master.m3u8?t=1783620561",
       "steam_url": "https://store.steampowered.com/app/1272320",
@@ -5085,9 +5085,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 7.7,
+          "current": 38.5,
           "regular": 38.5,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -5375,9 +5375,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 32.25,
+          "current": 129.0,
           "regular": 129.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -5451,7 +5451,7 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 8779,
+        "count": 8802,
         "text": ""
       },
       "images": {
@@ -5539,9 +5539,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 3.9,
+          "current": 39.0,
           "regular": 39.0,
-          "cut": 90,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6093,7 +6093,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2096610/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-57b2-72cf-9154-1f6e0c2e1073/boxart.jpg?t=1787773536"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2096610/502720/870349b4d437a6bfa5139ee51052d26fb5980a1c/1750746624/hls_264_master.m3u8?t=1666100058",
       "steam_url": "https://store.steampowered.com/app/2096610",
@@ -6467,9 +6467,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 38.4,
+          "current": 128.0,
           "regular": 128.0,
-          "cut": 70,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6673,7 +6673,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-178b-7149-9a99-bf7e8088c45e/boxart.jpg?t=1787769008"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-178b-7149-9a99-bf7e8088c45e/boxart.jpg?t=1787792133"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/893850/270465/af59a72a8ab90ca613fc10eef2be796017b4160a/1751159578/hls_264_master.m3u8?t=1693313719",
       "steam_url": "https://store.steampowered.com/app/893850",
@@ -6702,64 +6702,6 @@
           "current": 26.95,
           "regular": 38.5,
           "cut": 30,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-11be-7143-9d5c-39024c3361d4",
-      "title": "Metal Slug 3",
-      "slug": "metal-slug-3",
-      "appid": 250180,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Arcade",
-        "Classic",
-        "Action",
-        "Co-op",
-        "Side Scroller"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 6884,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-11be-7143-9d5c-39024c3361d4/boxart.jpg?t=1786605944"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/250180/16879/6c5e9ecdabb2ec0297cd8a12d0e952a8e0356f44/1751266778/hls_264_master.m3u8?t=1447360214",
-      "steam_url": "https://store.steampowered.com/app/250180",
-      "prices": {
-        "USD": {
-          "current": 1.59,
-          "regular": 7.99,
-          "low": 1.59,
-          "low_1y": 1.24,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 5.6,
-          "regular": 28,
-          "low": 5.6,
-          "low_1y": 5.6,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 3.8,
-          "regular": 19.0,
-          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7021,7 +6963,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332720/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-500d-726d-be91-3c86474e697f/boxart.jpg?t=1787788208"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1332720/612300/6c98c82fdda64dfc102e57208c7319c33ad68c74/1750673034/hls_264_master.m3u8?t=1695892734",
       "steam_url": "https://store.steampowered.com/app/1332720",
@@ -7047,9 +6989,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 10.78,
+          "current": 49.0,
           "regular": 49.0,
-          "cut": 78,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7279,9 +7221,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 37.8,
+          "current": 189.0,
           "regular": 189.0,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7685,9 +7627,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 33.6,
+          "current": 112.0,
           "regular": 112.0,
-          "cut": 70,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7794,7 +7736,7 @@
           "current": 11.6,
           "regular": 58,
           "low": 11.6,
-          "low_1y": 9.74,
+          "low_1y": 10,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -8161,64 +8103,6 @@
       }
     },
     {
-      "id": "018d937e-f008-70c8-9063-1c2381cc2abb",
-      "title": "METAL SLUG",
-      "slug": "metal-slug",
-      "appid": 366250,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Arcade",
-        "2D",
-        "Multiplayer",
-        "Side Scroller"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 4392,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f008-70c8-9063-1c2381cc2abb/boxart.jpg?t=1786608015"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/366250/36881/996a6d485eb9f186cb029db26e2d8fa651620cbe/1750517294/hls_264_master.m3u8?t=1447375581",
-      "steam_url": "https://store.steampowered.com/app/366250",
-      "prices": {
-        "USD": {
-          "current": 1.59,
-          "regular": 7.99,
-          "low": 1.59,
-          "low_1y": 1.14,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 5.6,
-          "regular": 28,
-          "low": 5.6,
-          "low_1y": 5,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 3.8,
-          "regular": 19.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-17d7-7081-9f63-85bf75b75d40",
       "title": "Mega Man 11",
       "slug": "mega-man-11",
@@ -8268,64 +8152,6 @@
           "current": 15.28,
           "regular": 101.9,
           "cut": 85,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937e-f53f-721c-8354-3eb7742da917",
-      "title": "ibb & obb",
-      "slug": "ibb-and-obb",
-      "appid": 95400,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Co-op",
-        "Online Co-Op",
-        "Puzzle",
-        "Local Co-Op",
-        "Platformer"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 4045,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f53f-721c-8354-3eb7742da917/boxart.jpg?t=1786597218"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/95400",
-      "prices": {
-        "USD": {
-          "current": 2.39,
-          "regular": 11.99,
-          "low": 2.39,
-          "low_1y": 2.39,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 8,
-          "regular": 40,
-          "low": 8,
-          "low_1y": 8,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 5.4,
-          "regular": 27.0,
-          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -8587,7 +8413,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1522870/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5c5c-73a0-bb7c-7f49410ba93c/boxart.jpg?t=1787781926"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1522870/428238/39c70c150360da646eb6cf603fa345cb5e09a6de/1750998631/hls_264_master.m3u8?t=1640896322",
       "steam_url": "https://store.steampowered.com/app/1522870",
@@ -9051,7 +8877,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1672500/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018de7a5-eb53-71c4-9eac-7cedbae7a287/boxart.jpg?t=1787799906"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1672500/765105/b2a878f9db3f8320a97d5fa6a0bab704808e91b6/1750722675/hls_264_master.m3u8?t=1727839611",
       "steam_url": "https://store.steampowered.com/app/1672500",
@@ -9473,67 +9299,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 3.0,
+          "current": 12.0,
           "regular": 12.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-27fa-734a-b346-42b57b4050e7",
-      "title": "METAL SLUG X",
-      "slug": "metal-slug-x",
-      "appid": 312610,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Arcade",
-        "Co-op",
-        "Classic",
-        "2D"
-      ],
-      "reviews": {
-        "score": 87,
-        "count": 3134,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-27fa-734a-b346-42b57b4050e7/boxart.jpg?t=1786606508"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/312610/25002/77d7d66eab6cd6a12901c850876d138575b90b93/1751263309/hls_264_master.m3u8?t=1447363586",
-      "steam_url": "https://store.steampowered.com/app/312610",
-      "prices": {
-        "USD": {
-          "current": 1.59,
-          "regular": 7.99,
-          "low": 1.59,
-          "low_1y": 1.24,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 5.6,
-          "regular": 28,
-          "low": 5.6,
-          "low_1y": 5,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 3.8,
-          "regular": 19.0,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9949,6 +9717,64 @@
       }
     },
     {
+      "id": "018d937f-42c9-72ce-8e99-7f3dd3257e67",
+      "title": "Paper Dolls 2",
+      "slug": "paper-dolls-2",
+      "appid": 1334040,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Horror",
+        "FPS",
+        "Dating Sim",
+        "Shooter",
+        "Psychological Horror"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 2621,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-42c9-72ce-8e99-7f3dd3257e67/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1334040/289056/0a219322a6cafd4e063d4ae87065f64fba8e66c2/1751222878/hls_264_master.m3u8?t=1590936439",
+      "steam_url": "https://store.steampowered.com/app/1334040",
+      "prices": {
+        "USD": {
+          "current": 5.19,
+          "regular": 19.99,
+          "low": 5.19,
+          "low_1y": 5.19,
+          "cut": 74,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 17.68,
+          "regular": 68,
+          "low": 17.68,
+          "low_1y": 17.68,
+          "cut": 74,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 10.14,
+          "regular": 39.0,
+          "cut": 74,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-7a0c-7024-9762-1c9fa70a3e1a",
       "title": "Snezhinka:Sentinel Girls2",
       "slug": "snezhinka-sentinel-girls2",
@@ -9969,7 +9795,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2608350/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7a0c-7024-9762-1c9fa70a3e1a/boxart.jpg?t=1787781628"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2608350/628551/548e9ee662d83449c8da7cba2368f85aa76169d0/1750817398/hls_264_master.m3u8?t=1724696670",
       "steam_url": "https://store.steampowered.com/app/2608350",
@@ -10297,6 +10123,64 @@
       }
     },
     {
+      "id": "018d937f-74c8-737f-801f-7d912ae376ae",
+      "title": "KAMITSUBAKI CITY ENSEMBLE",
+      "slug": "kamitsubaki-city-ensemble",
+      "appid": 2581050,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Music",
+        "Adventure",
+        "Rhythm",
+        "Anime",
+        "Casual"
+      ],
+      "reviews": {
+        "score": 70,
+        "count": 1392,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-74c8-737f-801f-7d912ae376ae/boxart.jpg?t=1786690525"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2581050/819980/7d5639c917d6ca4fdae7b04e9c909b9f45cc99d7/1750817187/hls_264_master.m3u8?t=1738177416",
+      "steam_url": "https://store.steampowered.com/app/2581050",
+      "prices": {
+        "USD": {
+          "current": 0.79,
+          "regular": 3.99,
+          "low": 0.79,
+          "low_1y": 0.79,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.8,
+          "regular": 19,
+          "low": 3.8,
+          "low_1y": 3.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 2.59,
+          "regular": 12.99,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-09a6-72ee-9ede-46c506159b8d",
       "title": "Screencheat",
       "slug": "screencheat",
@@ -10391,9 +10275,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 3.0,
+          "current": 12.0,
           "regular": 12.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -10419,7 +10303,7 @@
       ],
       "reviews": {
         "score": 92,
-        "count": 762,
+        "count": 763,
         "text": ""
       },
       "images": {
@@ -10439,9 +10323,9 @@
           "is_atl": true
         },
         "MYR": {
-          "current": 3.0,
+          "current": 12.0,
           "regular": 12.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -10497,9 +10381,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 7.75,
+          "current": 31.0,
           "regular": 31.0,
-          "cut": 75,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11009,9 +10893,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 31.8,
+          "current": 159.0,
           "regular": 159.0,
-          "cut": 80,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11241,9 +11125,9 @@
           "is_atl": false
         },
         "MYR": {
-          "current": 30.9,
+          "current": 103.0,
           "regular": 103.0,
-          "cut": 70,
+          "cut": 0,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11587,6 +11471,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 3.6,
+          "regular": 72.0,
+          "cut": 95,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
         }
       }
     },
@@ -11634,6 +11528,16 @@
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.9,
+          "regular": 49.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -11943,11 +11847,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 36677,
+        "count": 36735,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5018-73d9-8c4c-98a098302e81/boxart.jpg?t=1787496311"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190000/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1190000/875770/f919977b0c202dea2acc4be0624e522423ef7a0c/1750636427/hls_264_master.m3u8?t=1745365738",
       "steam_url": "https://store.steampowered.com/app/1190000",
@@ -12183,7 +12087,7 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 5740,
+        "count": 5787,
         "text": ""
       },
       "images": {
@@ -12903,7 +12807,7 @@
       ],
       "reviews": {
         "score": 80,
-        "count": 7752,
+        "count": 7759,
         "text": ""
       },
       "images": {
@@ -13387,7 +13291,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/33900/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2b60-7270-a439-8be1285db77e/boxart.jpg?t=1787801435"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/33900/4812/65186d971338d2b6e37be3ce643590466475a274/1751246193/hls_264_master.m3u8?t=1447354011",
       "steam_url": "https://store.steampowered.com/app/33900",
@@ -14903,6 +14807,54 @@
       }
     },
     {
+      "id": "018d937e-f834-73ac-8bd5-f994b441f770",
+      "title": "Renegade Ops",
+      "slug": "renegade-ops",
+      "appid": 99300,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Twin Stick Shooter",
+        "Arcade",
+        "Top-Down",
+        "Local Co-Op"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 1001,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f834-73ac-8bd5-f994b441f770/boxart.jpg?t=1787266216"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/99300/5892/389f885fab56a14873b64a713301e4274fac8873/1751259788/hls_264_master.m3u8?t=1447354745",
+      "steam_url": "https://store.steampowered.com/app/99300",
+      "prices": {
+        "USD": {
+          "current": 3.75,
+          "regular": 15,
+          "low": 2.25,
+          "low_1y": 3.75,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 12.5,
+          "regular": 50,
+          "low": 7,
+          "low_1y": 12.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-30d0-7030-83b8-8d43155016b3",
       "title": "UBOAT",
       "slug": "uboat",
@@ -15783,7 +15735,7 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 2770,
+        "count": 2774,
         "text": ""
       },
       "images": {
@@ -16335,6 +16287,54 @@
           "regular": 123,
           "low": 30.8,
           "low_1y": 30.8,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-47cc-7291-8feb-1d56b0646fe1",
+      "title": "Bugsnax",
+      "slug": "bugsnax",
+      "appid": 674140,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Creature Collector",
+        "Adventure",
+        "Singleplayer",
+        "Story Rich",
+        "LGBTQ+"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 8583,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-47cc-7291-8feb-1d56b0646fe1/boxart.jpg?t=1787419246"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/674140/458134/3673c0e285f65ca30e816942672476df41405b50/1750568939/hls_264_master.m3u8?t=1651150892",
+      "steam_url": "https://store.steampowered.com/app/674140",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 24.99,
+          "low": 5.99,
+          "low_1y": 6.24,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 32,
+          "regular": 80,
+          "low": 19.2,
+          "low_1y": 20,
           "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
