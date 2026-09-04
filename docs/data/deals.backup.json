@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:39:22.630261+00:00",
+  "generated_at": "2026-09-04T10:33:51.065398+00:00",
   "total": 300,
   "games": [
     {
@@ -313,7 +313,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/389730/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0a42-73de-a3a3-e7a08a03de7a/boxart.jpg?t=1788490223"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/389730/423204/2e75873b6efc2bdc567ad10b6fb74ecd8361f8b8/1750524052/hls_264_master.m3u8?t=1638994619",
       "steam_url": "https://store.steampowered.com/app/389730",
@@ -371,7 +371,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/752590/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2e9a-70fc-9c2e-565a87c8917b/boxart.jpg?t=1788469825"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/752590/257171/68fb555a2dc7f226d69962647a0d0885295edde4/1750579071/hls_264_master.m3u8?t=1576492399",
       "steam_url": "https://store.steampowered.com/app/752590",
@@ -719,7 +719,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/675010/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f4c6-7399-b42a-224b210363d8/boxart.jpg?t=1788468632"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/675010/130553/15c1b0efda0f214536f6ba6f08e3e43d1c732804/1750569677/hls_264_master.m3u8?t=1551796447",
       "steam_url": "https://store.steampowered.com/app/675010",
@@ -835,7 +835,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/476600/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e1e-70f5-85f9-797eb8bb0d39/boxart.jpg?t=1788471929"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/476600/123557/f83b7e9aa32c447560a460ce266897faaa2cd94e/1750535432/hls_264_master.m3u8?t=1505754312",
       "steam_url": "https://store.steampowered.com/app/476600",
@@ -1067,7 +1067,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1549970/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5204-711e-a384-5c741becb621/boxart.jpg?t=1788472523"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1549970/396163/250934457c2e2dafa8ecdc31f99f631295fc57ab/1750700300/hls_264_master.m3u8?t=1630265396",
       "steam_url": "https://store.steampowered.com/app/1549970",
@@ -1183,7 +1183,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1182900/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-51d0-71f8-bae2-7721981a7eb0/boxart.jpg?t=1788474603"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/1182900",
@@ -1502,6 +1502,64 @@
           "current": 18.0,
           "regular": 72.0,
           "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-64e8-73ff-b9b0-8449b0a8eb8c",
+      "title": "Brotato",
+      "slug": "brotato",
+      "appid": 1942280,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Roguelike",
+        "Singleplayer",
+        "Bullet Hell",
+        "Action Roguelike",
+        "Local Co-Op"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 110915,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-64e8-73ff-b9b0-8449b0a8eb8c/boxart.jpg?t=1787072422"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1942280/776977/3c3b725174c83d8d873735bd5e80af3220010ed7/1750742089/hls_264_master.m3u8?t=1729849696",
+      "steam_url": "https://store.steampowered.com/app/1942280",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 4.99,
+          "low": 2.99,
+          "low_1y": 2.45,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 13.2,
+          "regular": 22,
+          "low": 13.2,
+          "low_1y": 13.2,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 8.39,
+          "regular": 13.99,
+          "cut": 40,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2803,11 +2861,11 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 21989,
+        "count": 22025,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-00dc-703f-9bed-929ca6538b0f/boxart.jpg?t=1788261611"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/780310/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/780310/272734/8aabee5597da56624d467f4086562fefa21bae2e/1750583288/hls_264_master.m3u8?t=1685363769",
       "steam_url": "https://store.steampowered.com/app/780310",
@@ -3097,7 +3155,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/427290/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0a4c-73ef-80cb-a65c0bc5e6e1/boxart.jpg?t=1788493212"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/427290/168522/cd0d85fb437d37e9f122d26fc810a97312a68b61/1750529605/hls_264_master.m3u8?t=1529064778",
       "steam_url": "https://store.steampowered.com/app/427290",
@@ -3963,11 +4021,11 @@
       ],
       "reviews": {
         "score": 82,
-        "count": 17237,
+        "count": 17243,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-037b-72ec-bb12-226c3ec8334b/boxart.jpg?t=1788359711"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-037b-72ec-bb12-226c3ec8334b/boxart.jpg?t=1788481213"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/606150/472903/9821eec3e477dd0fbd109446c8bd668629b0f8ef/1750561250/hls_264_master.m3u8?t=1685029268",
       "steam_url": "https://store.steampowered.com/app/606150",
@@ -4257,7 +4315,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1150440/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-614e-718a-b441-f2eee2d5d501/boxart.jpg?t=1788473117"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1150440/579726/a9d9488dcc89312f04e7f4d499dde222f2dcafc2/1750628671/hls_264_master.m3u8?t=1687267994",
       "steam_url": "https://store.steampowered.com/app/1150440",
@@ -5881,7 +5939,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272320/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-409c-73ef-8f44-cdd4a76256fc/boxart.jpg?t=1788486342"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1272320/1082242692/bc5769bdea351a3bf01ad9e2452b8fc2d2e4de4e/1783620006/hls_264_master.m3u8?t=1783620561",
       "steam_url": "https://store.steampowered.com/app/1272320",
@@ -5997,7 +6055,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1042550/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3a20-7328-b483-b6b3f28e8a97/boxart.jpg?t=1788511820"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1042550/245799/452938f72f2289baa629c6740c32302fc1ecec56/1750609237/hls_264_master.m3u8?t=1571349661",
       "steam_url": "https://store.steampowered.com/app/1042550",
@@ -6519,7 +6577,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/378540/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1ad7-728a-9596-0d9ab395c991/boxart.jpg?t=1788493226"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/378540/103251/5b33ba5cc4d4dccb8ae03602f1660d556a8d98cc/1750520989/hls_264_master.m3u8?t=1495189187",
       "steam_url": "https://store.steampowered.com/app/378540",
@@ -6577,7 +6635,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/816090/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0a68-709b-bcc7-4d842e4fe130/boxart.jpg?t=1788490515"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/816090/163911/832d1d6a6d759f87a2aebd0161b084e9e324dd0a/1751148209/hls_264_master.m3u8?t=1526976135",
       "steam_url": "https://store.steampowered.com/app/816090",
@@ -7447,7 +7505,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/899440/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-37cf-72d5-96de-8dbf4f7fcd89/boxart.jpg?t=1788498910"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/899440/203923/904e8d313b25a6aa5555965994d1ab86d5f6c98f/1750595570/hls_264_master.m3u8?t=1547830848",
       "steam_url": "https://store.steampowered.com/app/899440",
@@ -7737,7 +7795,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/644830/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-015e-70a1-b2f1-5a1fe9fc1341/boxart.jpg?t=1788503124"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/644830/262107/6be81d13ff8b7bab45aa7902cab5ef269f433bd1/1751125827/hls_264_master.m3u8?t=1579184125",
       "steam_url": "https://store.steampowered.com/app/644830",
@@ -9129,7 +9187,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/624270/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2933-7136-b024-2ce952f94fbc/boxart.jpg?t=1788466815"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/624270",
@@ -9535,7 +9593,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/236450/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f875-70cc-a3ac-317917a15bd7/boxart.png?t=1788467420"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/236450/13766/14d19d8855735e2e080eecb7a7a3a91c7b8827b4/1751251106/hls_264_master.m3u8?t=1447358890",
       "steam_url": "https://store.steampowered.com/app/236450",
@@ -11579,16 +11637,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        },
-        "MYR": {
-          "current": 4.9,
-          "regular": 49.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -12477,7 +12525,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1532690/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-50ea-72a6-9112-a81e293c5e13/boxart.jpg?t=1788482123"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1532690/522517/990135b1a89a25f4b2312646b297970bc6fe49de/1750999772/hls_264_master.m3u8?t=1671100619",
       "steam_url": "https://store.steampowered.com/app/1532690",
@@ -12978,6 +13026,150 @@
           "low": 3.5,
           "low_1y": 3,
           "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-4431-706c-817b-aa0139c5cc88",
+      "title": "川建国同志想要连任/Comrade Trump's Re-election",
+      "slug": "chuan-jian-guo-tong-zhi-xiang-yao-lian-ren-comrade-trumps-re-election",
+      "appid": 1375870,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Casual",
+        "Strategy",
+        "RPG",
+        "Political Sim",
+        "Strategy RPG"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 1174,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4431-706c-817b-aa0139c5cc88/boxart.jpg?t=1787675142"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1375870/305099/836250d19dbdf7e7bd15836f4a60331d1d23ae44/1751229299/hls_264_master.m3u8?t=1597722424",
+      "steam_url": "https://store.steampowered.com/app/1375870",
+      "prices": {
+        "USD": {
+          "current": 1.19,
+          "regular": 2.99,
+          "low": 1.19,
+          "low_1y": 1.19,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6,
+          "regular": 15,
+          "low": 4.62,
+          "low_1y": 6,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-767a-7215-9f14-746b3c657598",
+      "title": "Cats Hidden in China",
+      "slug": "cats-hidden-in-china",
+      "appid": 2608040,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Hidden Object",
+        "Point & Click",
+        "Cats",
+        "Wholesome",
+        "Collectathon"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 999,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-767a-7215-9f14-746b3c657598/boxart.jpg?t=1787554514"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2608040/1691272092/96659f5d8453b0e502582770a8026a9f207faf4a/1771828440/hls_264_master.m3u8?t=1772007227",
+      "steam_url": "https://store.steampowered.com/app/2608040",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "low_1y": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "low_1y": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-7378-7160-ab31-2bb3f4e5758c",
+      "title": "Cats Hidden in Georgia",
+      "slug": "cats-hidden-in-georgia",
+      "appid": 2485180,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Hidden Object",
+        "Cats",
+        "Wholesome",
+        "Cozy",
+        "Casual"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 897,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7378-7160-ab31-2bb3f4e5758c/boxart.jpg?t=1787554515"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2485180",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "low_1y": 0.48,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "low_1y": 2,
+          "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
@@ -13772,7 +13964,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2e92-7174-9906-4586fbe824b0/boxart.jpg?t=1788472215"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/282070/424626/6ac5385b9c9a4a7d781b0a408e7d739999cc694a/1750489186/hls_264_master.m3u8?t=1685354286",
       "steam_url": "https://store.steampowered.com/app/282070",
@@ -14012,7 +14204,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/860510/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-498b-723d-b31e-242b050d693d/boxart.jpg?t=1788494111"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/860510/348892/0c6fdc6fb5ea585de1adc71cae4746ec1c666ecb/1750590473/hls_264_master.m3u8?t=1613677913",
       "steam_url": "https://store.steampowered.com/app/860510",
@@ -16192,198 +16384,6 @@
           "regular": 148,
           "low": 14.8,
           "low_1y": 14.8,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-696d-7068-a8be-10d17e7a1e39",
-      "title": "Amnesia: The Bunker",
-      "slug": "amnesia-the-bunker",
-      "appid": 1944430,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Horror",
-        "Survival Horror",
-        "Atmospheric",
-        "Immersive Sim",
-        "Stealth"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 10153,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-696d-7068-a8be-10d17e7a1e39/boxart.jpg?t=1786609507"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1944430/575680/c3899ad4aa30a858af79ac878f3f0f0f7f47fe5a/1750742109/hls_264_master.m3u8?t=1686140318",
-      "steam_url": "https://store.steampowered.com/app/1944430",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 24.99,
-          "low": 3.74,
-          "low_1y": 3.74,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 18.4,
-          "regular": 92,
-          "low": 13.8,
-          "low_1y": 13.8,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-015c-70c3-9803-217606e6d113",
-      "title": "Death Road to Canada",
-      "slug": "death-road-to-canada",
-      "appid": 252610,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Zombies",
-        "Pixel Graphics",
-        "Action Roguelike",
-        "Local Co-Op",
-        "Survival"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 9079,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-015c-70c3-9803-217606e6d113/boxart.jpg?t=1788199529"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/252610/134067/40085dc3939ba5510faca75e09d67a95ea4ddf32/1750487808/hls_264_master.m3u8?t=1510954504",
-      "steam_url": "https://store.steampowered.com/app/252610",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 14.99,
-          "low": 2.24,
-          "low_1y": 2.24,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 9.6,
-          "regular": 48,
-          "low": 7.2,
-          "low_1y": 7.2,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-20ea-71be-b119-aaab276dd1a1",
-      "title": "Rebel Galaxy",
-      "slug": "rebel-galaxy",
-      "appid": 290300,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Space",
-        "Sci-fi",
-        "Open World",
-        "RPG",
-        "Great Soundtrack"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 7247,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-20ea-71be-b119-aaab276dd1a1/boxart.jpg?t=1787766945"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/290300/43186/ea106a4155fc86888ead4428ca9bebf5e3951c52/1750500989/hls_264_master.m3u8?t=1447378125",
-      "steam_url": "https://store.steampowered.com/app/290300",
-      "prices": {
-        "USD": {
-          "current": 3.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 15.2,
-          "regular": 76,
-          "low": 6,
-          "low_1y": 6,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-e9f3-736d-b2b8-02f0e5850ede",
-      "title": "War for the Overworld",
-      "slug": "war-for-the-overworld",
-      "appid": 230190,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Cult",
-        "Base Building",
-        "Dungeon Crawler",
-        "Sandbox",
-        "Management"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 6476,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-e9f3-736d-b2b8-02f0e5850ede/boxart.jpg?t=1786645242"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/230190/188759/f77c05daafeed95b034aff86fa55bb2df42e7fb4/1750494038/hls_264_master.m3u8?t=1540832234",
-      "steam_url": "https://store.steampowered.com/app/230190",
-      "prices": {
-        "USD": {
-          "current": 5.99,
-          "regular": 29.99,
-          "low": 2.99,
-          "low_1y": 4.79,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 21.6,
-          "regular": 108,
-          "low": 8,
-          "low_1y": 17,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
