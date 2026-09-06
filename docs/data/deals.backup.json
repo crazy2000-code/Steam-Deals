@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:17:15.222607+00:00",
+  "generated_at": "2026-09-06T10:15:00.424844+00:00",
   "total": 300,
   "games": [
     {
@@ -2575,7 +2575,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2407270/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-7b1a-728b-8c90-012b9d8b3031/boxart.jpg?t=1788645614"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2407270/881657/c7050c627ce063e5bf169e9239419c79bcac04ec/1750814191/hls_264_master.m3u8?t=1746009937",
       "steam_url": "https://store.steampowered.com/app/2407270",
@@ -9351,7 +9351,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/361300/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-26ec-707b-9d17-7381540e4a67/boxart.jpg?t=1788652210"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/361300/70748/8856066e37f395ce99b790294422502075c5fac9/1751269973/hls_264_master.m3u8?t=1473272917",
       "steam_url": "https://store.steampowered.com/app/361300",
@@ -11593,54 +11593,6 @@
       }
     },
     {
-      "id": "018d937f-4802-7326-97a5-72f5d3d002d2",
-      "title": "Röki Deluxe Edition",
-      "slug": "roki-deluxe-edition",
-      "appid": 1067540,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Story Rich",
-        "Puzzle",
-        "Atmospheric",
-        "Singleplayer"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 2439,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4802-7326-97a5-72f5d3d002d2/banner300.jpg?t=1787259634"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1067540/292189/c493b1eecbbdb2b5df6356eba0602f90454d494e/1750612078/hls_264_master.m3u8?t=1592066090",
-      "steam_url": "https://store.steampowered.com/app/1067540",
-      "prices": {
-        "USD": {
-          "current": 2.29,
-          "regular": 22.99,
-          "low": 2.29,
-          "low_1y": 2.29,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 11.9,
-          "regular": 119,
-          "low": 11.9,
-          "low_1y": 11.9,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-26a6-71e0-af19-f7d4e9b97f51",
       "title": "Street Fighter 30th Anniversary Collection",
       "slug": "street-fighter-30th-anniversary-collection",
@@ -11781,6 +11733,54 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-03c9-711c-9dbb-62a7584a893a",
+      "title": "Detective Grimoire - Soundtrack Edition",
+      "slug": "detective-grimoire-soundtrack-edition",
+      "appid": 272600,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Exploration",
+        "Point & Click",
+        "Puzzle",
+        "Detective",
+        "Visual Novel"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 2127,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-03c9-711c-9dbb-62a7584a893a/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/272600/23667/f3aaeb3cdedae29df4d8ac825295d70636d2b7a6/1751268680/hls_264_master.m3u8?t=1447362976",
+      "steam_url": "https://store.steampowered.com/app/272600",
+      "prices": {
+        "USD": {
+          "current": 1.79,
+          "regular": 8.99,
+          "low": 1.79,
+          "low_1y": 1.79,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.2,
+          "regular": 36,
+          "low": 6,
+          "low_1y": 7.2,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
         }
       }
     },
@@ -12361,143 +12361,47 @@
       }
     },
     {
-      "id": "018d937f-711f-733e-a6a3-034844532948",
-      "title": "My Furry Protogen",
-      "slug": "my-furry-protogen",
-      "appid": 2009010,
+      "id": "018d937f-6bc5-7187-8836-34cc403fa444",
+      "title": "Don't play this",
+      "slug": "don-t-play-this",
+      "appid": 3319120,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Visual Novel",
-        "Adventure",
-        "Casual",
-        "Dating Sim",
-        "Cyberpunk"
+        "Indie",
+        "Psychological Horror",
+        "Horror",
+        "Exploration",
+        "Gore"
       ],
       "reviews": {
-        "score": 90,
-        "count": 940,
+        "score": 85,
+        "count": 946,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-711f-733e-a6a3-034844532948/boxart.jpg?t=1786393560"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6bc5-7187-8836-34cc403fa444/boxart.jpg?t=1786849224"
       },
       "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2009010",
+      "steam_url": "https://store.steampowered.com/app/3319120",
       "prices": {
         "USD": {
-          "current": 1.99,
-          "regular": 4.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 60,
+          "current": 6.29,
+          "regular": 8.99,
+          "low": 6.29,
+          "low_1y": 6.29,
+          "cut": 30,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 12,
-          "regular": 30,
-          "low": 9,
-          "low_1y": 9,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-74de-7028-ba86-fb61b9ddb5fa",
-      "title": "Island Notes",
-      "slug": "island-notes",
-      "appid": 2447680,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Open World",
-        "RPG",
-        "Sandbox",
-        "Dating Sim"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 849,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-74de-7028-ba86-fb61b9ddb5fa/boxart.jpg?t=1787952026"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2447680/1206766349/d8a7ec482be966fc5493ecdfc92f9706ec7d45cb/1784528326/hls_264_master.m3u8?t=1784529546",
-      "steam_url": "https://store.steampowered.com/app/2447680",
-      "prices": {
-        "USD": {
-          "current": 8.44,
-          "regular": 12.99,
-          "low": 8.44,
-          "low_1y": 8.44,
-          "cut": 35,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 32.43,
-          "regular": 49.9,
-          "low": 32.43,
-          "low_1y": 32.43,
-          "cut": 35,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-3432-714b-8ade-4fe463d72978",
-      "title": "Serious Sam Double D",
-      "slug": "serious-sam-double-d",
-      "appid": 111600,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Indie",
-        "Platformer",
-        "Shooter",
-        "2D"
-      ],
-      "reviews": {
-        "score": 83,
-        "count": 664,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3432-714b-8ade-4fe463d72978/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/111600/5715/2c614864abdf0fbf479b1971ac414d56f0e82064/1751249735/hls_264_master.m3u8?t=1447354621",
-      "steam_url": "https://store.steampowered.com/app/111600",
-      "prices": {
-        "USD": {
-          "current": 0.99,
-          "regular": 9.99,
-          "low": 0.99,
-          "low_1y": 0.99,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 4.2,
-          "regular": 42,
-          "low": 4.2,
-          "low_1y": 4.2,
-          "cut": 90,
+          "current": 23.33,
+          "regular": 33.33,
+          "low": 23.33,
+          "low_1y": 23.33,
+          "cut": 30,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
@@ -13005,7 +12909,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2dc7-7313-be22-b5404d99a6c4/boxart.jpg?t=1788663321"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/433340/312204/582c824616eba63c5641470dd02dc328ffd085d0/1750530486/hls_264_master.m3u8?t=1690493211",
       "steam_url": "https://store.steampowered.com/app/433340",
@@ -14185,54 +14089,6 @@
       }
     },
     {
-      "id": "018d937f-3ebb-73ab-89a3-519da8296625",
-      "title": "Battle Ram",
-      "slug": "battle-ram",
-      "appid": 1262060,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Spectacle fighter",
-        "Bullet Hell",
-        "Robots",
-        "Perma Death",
-        "Difficult"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 2199,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3ebb-73ab-89a3-519da8296625/boxart.jpg?t=1787501413"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1262060",
-      "prices": {
-        "USD": {
-          "current": 1.49,
-          "regular": 29.99,
-          "low": 0.39,
-          "low_1y": 1.49,
-          "cut": 95,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 5.4,
-          "regular": 108,
-          "low": 1.5,
-          "low_1y": 5.4,
-          "cut": 95,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-1ce7-7036-be50-e1f3e205bb7c",
       "title": "SAMOLIOTIK",
       "slug": "samoliotik",
@@ -14753,54 +14609,6 @@
           "regular": 90,
           "low": 7,
           "low_1y": 7,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-03e9-70b1-aa25-6a314b3d3b82",
-      "title": "Textorcist",
-      "slug": "textorcist",
-      "appid": 940680,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Action",
-        "Bullet Hell",
-        "Typing",
-        "Difficult"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 1160,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03e9-70b1-aa25-6a314b3d3b82/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/940680/208854/d676b67a6a142bb20c789274e539e33bd887e4fe/1751166687/hls_264_master.m3u8?t=1549910624",
-      "steam_url": "https://store.steampowered.com/app/940680",
-      "prices": {
-        "USD": {
-          "current": 1.49,
-          "regular": 14.99,
-          "low": 0.89,
-          "low_1y": 0.89,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 5.8,
-          "regular": 58,
-          "low": 3.48,
-          "low_1y": 3.48,
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
@@ -15769,6 +15577,54 @@
       }
     },
     {
+      "id": "018d937f-11b5-73bb-b486-27cea2bd8621",
+      "title": "Trine 2: Complete Story 3Pack",
+      "slug": "trine-2-complete-story-3-pack",
+      "appid": 35720,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Puzzle Platformer",
+        "Platformer",
+        "Adventure",
+        "Beautiful",
+        "Action"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 15266,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-11b5-73bb-b486-27cea2bd8621/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
+      "steam_url": "https://store.steampowered.com/app/35720",
+      "prices": {
+        "USD": {
+          "current": 7.99,
+          "regular": 39.99,
+          "low": 3.99,
+          "low_1y": 7.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 22.4,
+          "regular": 112,
+          "low": 16,
+          "low_1y": 22.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937e-f07d-7229-8ae8-c22a9d5fda2a",
       "title": "Trine 2: Complete Story",
       "slug": "trine-2-complete-story",
@@ -16385,6 +16241,150 @@
           "regular": 48,
           "low": 4.8,
           "low_1y": 4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-2264-7157-8325-07e69ca7e95e",
+      "title": "Zero Escape: Zero Time Dilemma",
+      "slug": "zero-escape-zero-time-dilemma",
+      "appid": 311240,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Puzzle",
+        "Visual Novel",
+        "Story Rich",
+        "Psychological Horror",
+        "Mystery"
+      ],
+      "reviews": {
+        "score": 81,
+        "count": 4649,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2264-7157-8325-07e69ca7e95e/boxart.jpg?t=1788592524"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/311240/63252/7b70a6e6e13c513d89b5f2144be2bb46fe34607e/1751262446/hls_264_master.m3u8?t=1466752741",
+      "steam_url": "https://store.steampowered.com/app/311240",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 14,
+          "regular": 70,
+          "low": 7,
+          "low_1y": 7,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c88-723c-a78b-ac5e6fb54aea",
+      "title": "Call of Juarez®: Bound in Blood",
+      "slug": "call-of-juarez-bound-in-blood",
+      "appid": 21980,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Western",
+        "Action",
+        "FPS",
+        "Singleplayer",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 4383,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c88-723c-a78b-ac5e6fb54aea/boxart.jpg?t=1788456914"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/21980/232538/b0ed94627ba3a40582e76b8d3aabe105745b6415/1751245968/hls_264_master.m3u8?t=1563454826",
+      "steam_url": "https://store.steampowered.com/app/21980",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 0.99,
+          "low_1y": 0.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 8.4,
+          "regular": 42,
+          "low": 4.2,
+          "low_1y": 5,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c9e-73be-b564-32c8aa44408c",
+      "title": "Samorost 3",
+      "slug": "samorost-3",
+      "appid": 421120,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Point & Click",
+        "Hand-drawn",
+        "Relaxing",
+        "Story Rich",
+        "Stylized"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 4347,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c9e-73be-b564-32c8aa44408c/boxart.jpg?t=1786758626"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/421120/50122/67c6c148bef5efd87cd136566179230f91137544/1750528744/hls_264_master.m3u8?t=1457090099",
+      "steam_url": "https://store.steampowered.com/app/421120",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 17.2,
+          "regular": 86,
+          "low": 11.7,
+          "low_1y": 13.8,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
