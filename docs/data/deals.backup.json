@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:12:35.504893+00:00",
+  "generated_at": "2026-09-07T11:19:44.092787+00:00",
   "total": 300,
   "games": [
     {
@@ -5065,11 +5065,11 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 11698,
+        "count": 11703,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0157-70c2-8748-cd3843a43692/boxart.jpg?t=1786733149"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/690640/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/690640/246590/13adc090c74d585f7fb3ee44e8da1cd20e9eef41/1750571211/hls_264_master.m3u8?t=1570539731",
       "steam_url": "https://store.steampowered.com/app/690640",
@@ -5417,7 +5417,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2653790/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-784c-732f-932c-11bb08ef0756/boxart.jpg?t=1788736823"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2653790/625562/bdf4b0f38eee36d2e891025fdf9a28613730477d/1750818064/hls_264_master.m3u8?t=1699024856",
       "steam_url": "https://store.steampowered.com/app/2653790",
@@ -9057,11 +9057,11 @@
       ],
       "reviews": {
         "score": 77,
-        "count": 4110,
+        "count": 4118,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1806-7394-8810-96b4056ab2e5/boxart.jpg?t=1788287721"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/471550/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/471550/136947/dd0357244f72eca913a9cf670aac44d56693a453/1750534802/hls_264_master.m3u8?t=1528356927",
       "steam_url": "https://store.steampowered.com/app/471550",
@@ -11071,64 +11071,6 @@
       }
     },
     {
-      "id": "018d937f-4364-7384-9ed2-d2fd71bfa2da",
-      "title": "Geometry Arena",
-      "slug": "geometry-arena",
-      "appid": 1255650,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Bullet Heaven",
-        "Arena Shooter",
-        "Hack and Slash",
-        "Minimalist",
-        "Replay Value"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 2108,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4364-7384-9ed2-d2fd71bfa2da/boxart.jpg?t=1787961912"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1255650/373655/722aa72370d7bc2ba3f17907cac321b94d79f061/1751210321/hls_264_master.m3u8?t=1622521170",
-      "steam_url": "https://store.steampowered.com/app/1255650",
-      "prices": {
-        "USD": {
-          "current": 1.49,
-          "regular": 5.99,
-          "low": 1.49,
-          "low_1y": 1.49,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 4.5,
-          "regular": 18,
-          "low": 4.5,
-          "low_1y": 4.5,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 4.12,
-          "regular": 16.5,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-4d13-70b8-be67-2626dd5ae5ab",
       "title": "The Dark Eye: Memoria",
       "slug": "the-dark-eye-memoria",
@@ -11177,6 +11119,64 @@
         "MYR": {
           "current": 3.8,
           "regular": 38.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-1561-70ec-8bd3-e28d24e0f45f",
+      "title": "Goodbye Deponia Premium",
+      "slug": "goodbye-deponia-premium",
+      "appid": 241910,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Comedy",
+        "Singleplayer",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 2062,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1561-70ec-8bd3-e28d24e0f45f/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
+      "steam_url": "https://store.steampowered.com/app/241910",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.2,
+          "regular": 92,
+          "low": 8,
+          "low_1y": 9.2,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.9,
+          "regular": 49.0,
           "cut": 90,
           "low": null,
           "low_1y": null,
@@ -11637,6 +11637,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 3.1,
+          "regular": 31.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11733,6 +11743,54 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-24b0-739b-a6c4-8d10c0da4529",
+      "title": "Warlock - Master of the Arcane Complete Edition",
+      "slug": "warlock-master-of-the-arcane-complete-edition",
+      "appid": 203630,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Turn-Based Strategy",
+        "Fantasy",
+        "Turn-Based",
+        "4X"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 1000,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-24b0-739b-a6c4-8d10c0da4529/boxart.jpg?t=1788211820"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/203630",
+      "prices": {
+        "USD": {
+          "current": 6.24,
+          "regular": 24.99,
+          "low": 6.24,
+          "low_1y": 5.84,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 29.5,
+          "regular": 118,
+          "low": 19,
+          "low_1y": 29.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
         }
       }
     },
@@ -14809,54 +14867,6 @@
       }
     },
     {
-      "id": "018d937e-f07d-7229-8ae8-c22a9d5fda2a",
-      "title": "Trine 2: Complete Story",
-      "slug": "trine-2-complete-story",
-      "appid": 35720,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Puzzle Platformer",
-        "Platformer",
-        "Adventure",
-        "Beautiful",
-        "Action"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 15266,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f07d-7229-8ae8-c22a9d5fda2a/boxart.jpg?t=1786741210"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
-      "steam_url": "https://store.steampowered.com/app/35720",
-      "prices": {
-        "USD": {
-          "current": 3.99,
-          "regular": 19.99,
-          "low": 1.24,
-          "low_1y": 1.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 13.6,
-          "regular": 68,
-          "low": 5,
-          "low_1y": 12.4,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-11b5-73bb-b486-27cea2bd8621",
       "title": "Trine 2: Complete Story 3Pack",
       "slug": "trine-2-complete-story-3-pack",
@@ -14873,7 +14883,7 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 15266,
+        "count": 15270,
         "text": ""
       },
       "images": {
@@ -14897,6 +14907,54 @@
           "regular": 112,
           "low": 16,
           "low_1y": 22.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-f07d-7229-8ae8-c22a9d5fda2a",
+      "title": "Trine 2: Complete Story",
+      "slug": "trine-2-complete-story",
+      "appid": 35720,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Puzzle Platformer",
+        "Platformer",
+        "Adventure",
+        "Beautiful",
+        "Action"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 15270,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/35720/capsule_616x353.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
+      "steam_url": "https://store.steampowered.com/app/35720",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 1.24,
+          "low_1y": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 13.6,
+          "regular": 68,
+          "low": 5,
+          "low_1y": 12.4,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -15065,11 +15123,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 12826,
+        "count": 12838,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0c44-7107-81d1-0e2001397b27/boxart.jpg?t=1786737035"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/35700/capsule_616x353.jpg"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/35700",
@@ -16338,54 +16396,6 @@
           "low": 13,
           "low_1y": 15.6,
           "cut": 77,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-09a3-71c9-a2ee-f00c0abe998c",
-      "title": "Saints Row: The Third",
-      "slug": "saints-row-the-third",
-      "appid": 55230,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Open World",
-        "Action",
-        "Comedy",
-        "Co-op",
-        "Third-Person Shooter"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 48816,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-09a3-71c9-a2ee-f00c0abe998c/boxart.jpg?t=1787595311"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/55230/5044/177be47dd86ee6c044aeea3292b50d38c6b3b0d0/1750498275/hls_264_master.m3u8?t=1447354157",
-      "steam_url": "https://store.steampowered.com/app/55230",
-      "prices": {
-        "USD": {
-          "current": 2.49,
-          "regular": 9.99,
-          "low": 1.99,
-          "low_1y": 2.49,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 9.24,
-          "regular": 36.97,
-          "low": 7,
-          "low_1y": 9.24,
-          "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
