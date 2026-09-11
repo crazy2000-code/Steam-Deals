@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:46:34.245668+00:00",
+  "generated_at": "2026-09-11T10:35:43.771008+00:00",
   "total": 300,
   "games": [
     {
@@ -2227,7 +2227,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850570/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5c96-7241-a70f-e8de1c1e0609/boxart.jpg?t=1789076715"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/1850570",
@@ -2923,7 +2923,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1029690/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5e0e-71d6-a8ac-f36fbe3897db/boxart.jpg?t=1789088706"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1029690/469276/7410b8f1cf96367108250e73f3df2dd034daaa0b/1750608294/hls_264_master.m3u8?t=1654528992",
       "steam_url": "https://store.steampowered.com/app/1029690",
@@ -6051,11 +6051,11 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 8634,
+        "count": 8672,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018dc5c3-d555-71b1-8d11-8dcf80a57f97/boxart.jpg?t=1788311738"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2683150/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2683150/740498/a77959e63337c0d7d2d10e15824b2226d959c386/1750818632/hls_264_master.m3u8?t=1723654642",
       "steam_url": "https://store.steampowered.com/app/2683150",
@@ -6403,7 +6403,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/674500/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2e78-73f4-8df3-ce7149891f4c/boxart.jpg?t=1789074936"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/674500/550342/469d2f913d74939698ec438b1c180a7f462fcd5b/1750569529/hls_264_master.m3u8?t=1679412239",
       "steam_url": "https://store.steampowered.com/app/674500",
@@ -6896,6 +6896,64 @@
           "current": 26.4,
           "regular": 44.0,
           "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0192b97c-281f-731a-8706-6fe718a5f8c9",
+      "title": "Fist: Forged in Shadow Torch",
+      "slug": "fist-forged-in-shadow-torch",
+      "appid": 1330470,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Metroidvania",
+        "Platformer",
+        "Action",
+        "Steampunk",
+        "Adventure"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 6649,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0192b97c-281f-731a-8706-6fe718a5f8c9/boxart.jpg?t=1786143722"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1330470/521650/b23de0b7ca3044b6cf63da2b87b83f36c30f597b/1751222390/hls_264_master.m3u8?t=1670922794",
+      "steam_url": "https://store.steampowered.com/app/1330470",
+      "prices": {
+        "USD": {
+          "current": 4.79,
+          "regular": 15.99,
+          "low": 4.79,
+          "low_1y": 4.79,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 17.4,
+          "regular": 58,
+          "low": 17.4,
+          "low_1y": 17.4,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 11.99,
+          "regular": 39.99,
+          "cut": 70,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7939,6 +7997,64 @@
       }
     },
     {
+      "id": "018d937f-2057-7255-9fb1-5c30f44acf81",
+      "title": "Fate/EXTELLA LINK - Digital Deluxe Edition",
+      "slug": "fate-extella-link-digital-deluxe-edition",
+      "appid": 622220,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "Action",
+        "Hack and Slash",
+        "Musou",
+        "RPG"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 4193,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2057-7255-9fb1-5c30f44acf81/boxart.jpg?t=1787289003"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/622220",
+      "prices": {
+        "USD": {
+          "current": 17.99,
+          "regular": 59.99,
+          "low": 17.99,
+          "low_1y": 17.99,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 100.2,
+          "regular": 334,
+          "low": 100.2,
+          "low_1y": 100.2,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 24.0,
+          "regular": 80.0,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1806-7394-8810-96b4056ab2e5",
       "title": "Nine Parchments",
       "slug": "nine-parchments",
@@ -8187,11 +8303,11 @@
       ],
       "reviews": {
         "score": 80,
-        "count": 3794,
+        "count": 3802,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3dd6-72f5-8268-1a0e6627d8fb/boxart.jpg?t=1788352518"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1043260/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1043260/717335/8eef8d4e2002a157cce974f7226ce5493aa6c9a7/1750609301/hls_264_master.m3u8?t=1719074203",
       "steam_url": "https://store.steampowered.com/app/1043260",
@@ -8655,7 +8771,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/728740/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-efd3-7007-ab3b-0948e5a57efb/boxart.jpg?t=1789076714"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/728740/222783/cee57304d25a1a429bb1acc6fda1b9b80615084f/1751137030/hls_264_master.m3u8?t=1557788563",
       "steam_url": "https://store.steampowered.com/app/728740",
@@ -10317,6 +10433,64 @@
       }
     },
     {
+      "id": "018ecd23-569a-7292-ad4a-86b01fa93c69",
+      "title": "KUNKUN Defender",
+      "slug": "kunkun-defender",
+      "appid": 2902540,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Horror",
+        "Psychological Horror",
+        "Survival Horror",
+        "FPS",
+        "Tower Defense"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 820,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018ecd23-569a-7292-ad4a-86b01fa93c69/boxart.jpg?t=1787954104"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2902540",
+      "prices": {
+        "USD": {
+          "current": 1.19,
+          "regular": 2.99,
+          "low": 1.19,
+          "low_1y": 1.19,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 4,
+          "regular": 10,
+          "low": 4,
+          "low_1y": 4,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 3.4,
+          "regular": 8.5,
+          "cut": 60,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-3432-714b-8ade-4fe463d72978",
       "title": "Serious Sam Double D",
       "slug": "serious-sam-double-d",
@@ -11463,16 +11637,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 12.49,
-          "regular": 24.99,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11521,16 +11685,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 22.0,
-          "regular": 44.0,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11578,16 +11732,6 @@
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 29.5,
-          "regular": 59.0,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -12285,7 +12429,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/374040/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-084b-7329-a656-5c2898b189e3/boxart.jpg?t=1789091720"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/374040/268083/b78fe3ae2ca86b7e2facb698155436b0360c15c0/1750519982/hls_264_master.m3u8?t=1589362653",
       "steam_url": "https://store.steampowered.com/app/374040",
@@ -13629,7 +13773,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/805550/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3592-70a1-8934-a495c90387a4/boxart.jpg?t=1789091720"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/805550/553476827/5653a05ccb9fc2d53016901bb49bb920c415f41f/1766398195/hls_264_master.m3u8?t=1766401474",
       "steam_url": "https://store.steampowered.com/app/805550",
@@ -15605,6 +15749,54 @@
       }
     },
     {
+      "id": "018d937f-75ed-7311-876c-8cc6c2e3366a",
+      "title": "Tony Hawk's™ Pro Skater™ 1 + 2 - Digital Deluxe Edition",
+      "slug": "tony-hawks-pro-skater-1-and-2-digital-deluxe-edition",
+      "appid": 2395210,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Sports",
+        "Skateboarding",
+        "Multiplayer",
+        "Singleplayer",
+        "Arcade"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 4474,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-75ed-7311-876c-8cc6c2e3366a/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2395210/611290/33999600925fdf0c271fa191df0ce4b1caa87a37/1750813669/hls_264_master.m3u8?t=1696374748",
+      "steam_url": "https://store.steampowered.com/app/2395210",
+      "prices": {
+        "USD": {
+          "current": 19.99,
+          "regular": 49.99,
+          "low": 17.49,
+          "low_1y": 19.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 130,
+          "regular": 325,
+          "low": 113.75,
+          "low_1y": 130,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-0c29-7275-8cb0-874f60b49d41",
       "title": "Puzzle Agent",
       "slug": "puzzle-agent",
@@ -16167,188 +16359,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-7462-73e3-96df-a80b747306b1",
-      "title": "Call Of Duty 4: Modern Warfare (2007)",
-      "slug": "call-of-duty-4-modern-warfare-2007",
-      "appid": 7940,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": true,
-      "tags": [
-        "FPS",
-        "Action",
-        "Multiplayer",
-        "Shooter",
-        "Singleplayer"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 22046,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7462-73e3-96df-a80b747306b1/boxart.jpg?t=1788458723"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/7940/855/61585befb41f3ec6032626dc2809d890eaad8df0/1750484063/hls_264_master.m3u8?t=1447351174",
-      "steam_url": "https://store.steampowered.com/app/7940",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 19.99,
-          "low": 9.79,
-          "low_1y": 9.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 49,
-          "regular": 98,
-          "low": 49,
-          "low_1y": 49,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937e-f985-730f-a2a2-ffbd98a84169",
-      "title": "Farm Together",
-      "slug": "farm-together",
-      "appid": 673950,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Agriculture",
-        "Multiplayer",
-        "Simulation",
-        "Relaxing",
-        "Online Co-Op"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 17643,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f985-730f-a2a2-ffbd98a84169/boxart.jpg?t=1788801613"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/673950/188721/3e7e5109bab49cfce9df8bb027c864e380fa9973/1750568866/hls_264_master.m3u8?t=1683110146",
-      "steam_url": "https://store.steampowered.com/app/673950",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 19.99,
-          "low": 5.99,
-          "low_1y": 4.8,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 38,
-          "regular": 76,
-          "low": 22.8,
-          "low_1y": 22.8,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-1cfa-70aa-a062-8eee73661b8e",
-      "title": "Vampire: The Masquerade - Bloodlines",
-      "slug": "vampire-the-masquerade-bloodlines",
-      "appid": 2600,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Vampires",
-        "RPG",
-        "Singleplayer",
-        "Supernatural",
-        "Horror"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 13852,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1cfa-70aa-a062-8eee73661b8e/boxart.jpg?t=1788467702"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2600",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 19.99,
-          "low": 4.79,
-          "low_1y": 9.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-7b27-705b-a9b3-189fb4c25756",
-      "title": "BOKURA",
-      "slug": "bokura",
-      "appid": 1801110,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Online Co-Op",
-        "Pixel Graphics",
-        "Adventure",
-        "Co-op",
-        "Psychological Horror"
-      ],
-      "reviews": {
-        "score": 91,
-        "count": 10832,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7b27-705b-a9b3-189fb4c25756/boxart.jpg?t=1788109512"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1801110",
-      "prices": {
-        "USD": {
-          "current": 2.74,
-          "regular": 5.49,
-          "low": 1.64,
-          "low_1y": 1.64,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 11.5,
-          "regular": 23,
-          "low": 6.9,
-          "low_1y": 6.9,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
         }
       }
     }
