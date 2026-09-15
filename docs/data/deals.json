@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:38:51.626328+00:00",
+  "generated_at": "2026-09-15T10:59:15.275212+00:00",
   "total": 300,
   "games": [
     {
@@ -1067,7 +1067,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d9584-24d6-7010-b82b-df1f0b154cc7/boxart.jpg?t=1789426833"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1086940/637951/59ca25b847b0e471638d1e2474acf71b068d57f0/1750615003/hls_264_master.m3u8?t=1702007645",
       "steam_url": "https://store.steampowered.com/app/1086940",
@@ -1473,7 +1473,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/477160/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3062-71ad-8549-0a24362a14ec/boxart.jpg?t=1789467906"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/477160/1047236089/f415d6bc5bf94b2b7b3f97849d802a5d0880f751/1772711935/hls_264_master.m3u8?t=1772719522",
       "steam_url": "https://store.steampowered.com/app/477160",
@@ -1647,7 +1647,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/546560/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3ac1-7228-87f4-1233cb94b630/boxart.jpg?t=1789427738"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/546560/253732/6dc0a5b4a9f2bb0ea9e74ea2bdd4647eb09e1f4d/1749861541/hls_264_master.m3u8?t=1762986581",
       "steam_url": "https://store.steampowered.com/app/546560",
@@ -2807,7 +2807,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1718570/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d9794-802e-7166-94bc-fef0a3f354a2/boxart.jpg?t=1789458043"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1718570/501746/a210fbd419f94cb184b057d562559d4a8788501f/1750730090/hls_264_master.m3u8?t=1684576182",
       "steam_url": "https://store.steampowered.com/app/1718570",
@@ -2923,7 +2923,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/960170/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3c5e-724e-b30a-87b572ebb5cc/boxart.jpg?t=1789440021"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/960170/742394/c8dd37fe1b6cb32a56c0250342406c08543934c6/1750601234/hls_264_master.m3u8?t=1724069331",
       "steam_url": "https://store.steampowered.com/app/960170",
@@ -4643,6 +4643,64 @@
       }
     },
     {
+      "id": "018d937f-3cd6-73b1-b888-fdde927b413f",
+      "title": "FIVE NIGHTS AT FREDDY'S: HELP WANTED",
+      "slug": "five-nights-at-freddys-help-wanted",
+      "appid": 732690,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Horror",
+        "VR",
+        "Singleplayer",
+        "Robots",
+        "Survival Horror"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 12255,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3cd6-73b1-b888-fdde927b413f/boxart.jpg?t=1787352929"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/732690",
+      "prices": {
+        "USD": {
+          "current": 14.99,
+          "regular": 29.99,
+          "low": 14.99,
+          "low_1y": 14.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 45,
+          "regular": 90,
+          "low": 45,
+          "low_1y": 45,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 25.5,
+          "regular": 51.0,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937e-f091-73b0-ba96-31d381a2ee98",
       "title": "Monster Prom",
       "slug": "monster-prom",
@@ -5007,11 +5065,11 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 11706,
+        "count": 11711,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0157-70c2-8748-cd3843a43692/boxart.jpg?t=1788985523"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/690640/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/690640/246590/13adc090c74d585f7fb3ee44e8da1cd20e9eef41/1750571211/hls_264_master.m3u8?t=1570539731",
       "steam_url": "https://store.steampowered.com/app/690640",
@@ -5533,7 +5591,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1259980/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4438-73e4-b9f6-e75b923bc7ef/boxart.jpg?t=1789426544"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1259980/368793/f3e1f9af4c600f1b870234a8e2bbfb902eefa046/1751210989/hls_264_master.m3u8?t=1620730595",
       "steam_url": "https://store.steampowered.com/app/1259980",
@@ -6354,7 +6412,7 @@
           "current": 12.49,
           "regular": 49.99,
           "low": 12.49,
-          "low_1y": 11.74,
+          "low_1y": 9.99,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -6577,7 +6635,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1157390/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4817-71ee-8dac-d0e0926b4f69/boxart.jpg?t=1789429210"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1157390/457697/9cfe7f3ed1f88062c035eeeae64a76d687c79f8b/1750630061/hls_264_master.m3u8?t=1650978901",
       "steam_url": "https://store.steampowered.com/app/1157390",
@@ -8017,7 +8075,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/396900/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-284a-707e-90d4-db59beb1530d/boxart.jpg?t=1789458934"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/396900/221828/781adffc7bbb4f7998cf947f08852a615954571b/1751275547/hls_264_master.m3u8?t=1566241786",
       "steam_url": "https://store.steampowered.com/app/396900",
@@ -8133,7 +8191,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1079800/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3878-73a7-9718-77760e9c2ea3/boxart.jpg?t=1789426518"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1079800/522770/0fa223a32e69d15e241771c162598c766e2b28dc/1750613312/hls_264_master.m3u8?t=1702324573",
       "steam_url": "https://store.steampowered.com/app/1079800",
@@ -8365,7 +8423,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-74dd-71de-982d-ea79aee35667/boxart.jpg?t=1786557913"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-74dd-71de-982d-ea79aee35667/boxart.jpg?t=1789421116"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2464530/2116671433/ac97c52b57aba628e51add922ad0803e38cc5dd3/1778757796/hls_264_master.m3u8?t=1781535668",
       "steam_url": "https://store.steampowered.com/app/2464530",
@@ -9621,28 +9679,30 @@
       }
     },
     {
-      "id": "018d937f-6b7d-7382-9685-8ec6dcfc92f3",
-      "title": "Deep Rock Galactic - Supporter II Upgrade",
-      "slug": "deep-rock-galactic-supporter-ii-upgrade",
-      "appid": 2291670,
+      "id": "018d937f-2dc1-71a9-9039-05879f9839c1",
+      "title": "Deep Rock Galactic - Supporter Upgrade",
+      "slug": "deep-rock-galactic-supporter-upgrade",
+      "appid": 801860,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
         "Action",
+        "Indie",
         "Dwarves",
-        "Co-op"
+        "Co-op",
+        "Multiplayer"
       ],
       "reviews": {
-        "score": 98,
-        "count": 1085,
+        "score": 97,
+        "count": 1118,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6b7d-7382-9685-8ec6dcfc92f3/banner300.jpg?t=1786210851"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2dc1-71a9-9039-05879f9839c1/banner300.jpg?t=1786210838"
       },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2291670",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/801860/285421/8602f1d5aa52c00f0cdfb7977a5411eb3eba6e3f/1750585393/hls_264_master.m3u8?t=1589372651",
+      "steam_url": "https://store.steampowered.com/app/801860",
       "prices": {
         "USD": {
           "current": 4.49,
@@ -9667,6 +9727,64 @@
         "MYR": {
           "current": 11.55,
           "regular": 38.5,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5957-724c-bb6c-e7668f79c579",
+      "title": "Deep Rock Galactic - Rival Tech Pack",
+      "slug": "deep-rock-galactic-rival-tech-pack",
+      "appid": 1797340,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Dwarves",
+        "Loot",
+        "Shooter",
+        "Sci-fi"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 636,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5957-724c-bb6c-e7668f79c579/banner300.jpg?t=1786210587"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1797340",
+      "prices": {
+        "USD": {
+          "current": 2.39,
+          "regular": 7.99,
+          "low": 2.39,
+          "low_1y": 2.39,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.9,
+          "regular": 33,
+          "low": 9.6,
+          "low_1y": 9.6,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 6.52,
+          "regular": 21.75,
           "cut": 70,
           "low": null,
           "low_1y": null,
@@ -9726,120 +9844,6 @@
           "current": 75.04,
           "regular": 134.0,
           "cut": 44,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-425e-72b0-85d3-0464d4ebfeeb",
-      "title": "Deep Rock Galactic - Dark Future Pack",
-      "slug": "deep-rock-galactic-dark-future-pack",
-      "appid": 1283090,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Dwarves",
-        "Indie"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 550,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-425e-72b0-85d3-0464d4ebfeeb/banner300.jpg?t=1786213312"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1283090/282353/1084b37384b26d8fd0c7eb8a57f4c9a69c501a26/1750662527/hls_264_master.m3u8?t=1602244378",
-      "steam_url": "https://store.steampowered.com/app/1283090",
-      "prices": {
-        "USD": {
-          "current": 2.39,
-          "regular": 7.99,
-          "low": 2.39,
-          "low_1y": 2.39,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.9,
-          "regular": 33,
-          "low": 9.6,
-          "low_1y": 9.6,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 6.52,
-          "regular": 21.75,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-0a4a-725b-9aa1-a1f03a8f52f4",
-      "title": "UBERMOSH Vol.7",
-      "slug": "ubermosh-vol-7",
-      "appid": 1029980,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Action",
-        "Retro",
-        "Arcade",
-        "Fast-Paced"
-      ],
-      "reviews": {
-        "score": 81,
-        "count": 508,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0a4a-725b-9aa1-a1f03a8f52f4/boxart.jpg?t=1786214184"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1029980/220052/1ad7d706f2f2cd503094cde70f9fe1df299d318a/1751178724/hls_264_master.m3u8?t=1556202500",
-      "steam_url": "https://store.steampowered.com/app/1029980",
-      "prices": {
-        "USD": {
-          "current": 0.49,
-          "regular": 0.99,
-          "low": 0.49,
-          "low_1y": 0.49,
-          "cut": 51,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 3,
-          "regular": 6,
-          "low": 1.5,
-          "low_1y": 3,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 1.5,
-          "regular": 3.0,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -10893,64 +10897,6 @@
       }
     },
     {
-      "id": "018d937f-1eb1-73fa-bf78-c6c797badb06",
-      "title": "Northgard",
-      "slug": "northgard",
-      "appid": 466560,
-      "tier": "aaa",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "City Builder",
-        "RTS",
-        "Simulation",
-        "Base Building"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 54411,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1eb1-73fa-bf78-c6c797badb06/boxart.jpg?t=1786550729"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/466560/1274293776/142603b333d49be18b3b0ca6fa1cfd6769e86799/1764777602/hls_264_master.m3u8?t=1764864169",
-      "steam_url": "https://store.steampowered.com/app/466560",
-      "prices": {
-        "USD": {
-          "current": 9.79,
-          "regular": 34.99,
-          "low": 2.99,
-          "low_1y": 3.79,
-          "cut": 72,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 30.52,
-          "regular": 109,
-          "low": 9,
-          "low_1y": 12.67,
-          "cut": 72,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 23.52,
-          "regular": 84.0,
-          "cut": 72,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-4a27-72c8-9837-8ec5e5e92932",
       "title": "It Takes Two",
       "slug": "it-takes-two",
@@ -11632,6 +11578,16 @@
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 3.8,
+          "regular": 38.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -12665,7 +12621,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/521890/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-18ed-731a-a2a4-eb4ad5495678/boxart.jpg?t=1789446045"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/521890/129868/c5f2c3129f2e3d136779776d37a330550c1c8003/1750543300/hls_264_master.m3u8?t=1508938107",
       "steam_url": "https://store.steampowered.com/app/521890",
@@ -14277,54 +14233,6 @@
       }
     },
     {
-      "id": "018d937f-1607-711f-866f-331a3799ffd2",
-      "title": "Move or Die 4 Pack",
-      "slug": "move-or-die-4-pack",
-      "appid": 323850,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Multiplayer",
-        "Funny",
-        "Local Multiplayer",
-        "Action",
-        "Fast-Paced"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 16474,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1607-711f-866f-331a3799ffd2/boxart.jpg?t=1720625719"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/323850/50674/3e36ffff683353aad484b9016a58d85843292ade/1750508544/hls_264_master.m3u8?t=1498652224",
-      "steam_url": "https://store.steampowered.com/app/323850",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 39.99,
-          "low": 7.99,
-          "low_1y": 9.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 28,
-          "regular": 112,
-          "low": 22,
-          "low_1y": 28,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-27b2-726a-99c7-90f6e9bbb0d6",
       "title": "Move or Die",
       "slug": "move-or-die",
@@ -14365,6 +14273,54 @@
           "regular": 48,
           "low": 9,
           "low_1y": 10.54,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1607-711f-866f-331a3799ffd2",
+      "title": "Move or Die 4 Pack",
+      "slug": "move-or-die-4-pack",
+      "appid": 323850,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Multiplayer",
+        "Funny",
+        "Local Multiplayer",
+        "Action",
+        "Fast-Paced"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 16474,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1607-711f-866f-331a3799ffd2/boxart.jpg?t=1720625719"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/323850/50674/3e36ffff683353aad484b9016a58d85843292ade/1750508544/hls_264_master.m3u8?t=1498652224",
+      "steam_url": "https://store.steampowered.com/app/323850",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 7.99,
+          "low_1y": 9.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 28,
+          "regular": 112,
+          "low": 22,
+          "low_1y": 28,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -16362,6 +16318,54 @@
           "low": 9,
           "low_1y": 15,
           "cut": 55,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-6e96-73a9-b883-c5085e4dba3f",
+      "title": "Soccer Online: Ball 3D",
+      "slug": "soccer-online-ball-3d",
+      "appid": 485610,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Football (Soccer)",
+        "Sports",
+        "Multiplayer",
+        "eSports",
+        "Competitive"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 4621,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6e96-73a9-b883-c5085e4dba3f/boxart.jpg?t=1789231501"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/485610/464917594/1184851f203944e9d51cceb6bc8cf76144b1e6b5/1764019435/hls_264_master.m3u8?t=1764020071",
+      "steam_url": "https://store.steampowered.com/app/485610",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.28,
+          "low_1y": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 1.74,
+          "low_1y": 3,
+          "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
