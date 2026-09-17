@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:05:29.702744+00:00",
+  "generated_at": "2026-09-17T10:59:37.352466+00:00",
   "total": 300,
   "games": [
     {
@@ -1308,7 +1308,7 @@
           "current": 11.99,
           "regular": 29.99,
           "low": 11.99,
-          "low_1y": 10.77,
+          "low_1y": 10.76,
           "cut": 60,
           "currency": "USD",
           "symbol": "$",
@@ -2923,7 +2923,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1262350/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4051-7072-89b2-bc7dec11ec06/boxart.jpg?t=1789635608"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1262350/508824/c82cb1f2353e146970c0255ecdf6337bdc7d4079/1750657178/hls_264_master.m3u8?t=1666887901",
       "steam_url": "https://store.steampowered.com/app/1262350",
@@ -5571,64 +5571,6 @@
       }
     },
     {
-      "id": "018d937f-07ff-72dd-9159-80f433592bc3",
-      "title": "Momodora: Reverie Under the Moonlight",
-      "slug": "momodora-reverie-under-the-moonlight",
-      "appid": 428550,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Metroidvania",
-        "2D Platformer",
-        "Side Scroller",
-        "Pixel Graphics",
-        "Exploration"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 10487,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-07ff-72dd-9159-80f433592bc3/boxart.jpg?t=1789026926"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/428550/51869/93ab208dd401b76ab4b84f10f727985e4c0e4cdf/1750529824/hls_264_master.m3u8?t=1485492906",
-      "steam_url": "https://store.steampowered.com/app/428550",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 9.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.2,
-          "regular": 36,
-          "low": 7,
-          "low_1y": 7.2,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 4.6,
-          "regular": 23.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-1600-72f4-82e7-58443c1477b3",
       "title": "Momodora: Reverie Under the Moonlight - Soundtrack Bundle",
       "slug": "momodora-reverie-under-the-moonlight-soundtrack-bundle",
@@ -5673,6 +5615,64 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 4.6,
+          "regular": 23.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-07ff-72dd-9159-80f433592bc3",
+      "title": "Momodora: Reverie Under the Moonlight",
+      "slug": "momodora-reverie-under-the-moonlight",
+      "appid": 428550,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Metroidvania",
+        "2D Platformer",
+        "Side Scroller",
+        "Pixel Graphics",
+        "Exploration"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 10487,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-07ff-72dd-9159-80f433592bc3/boxart.jpg?t=1789026926"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/428550/51869/93ab208dd401b76ab4b84f10f727985e4c0e4cdf/1750529824/hls_264_master.m3u8?t=1485492906",
+      "steam_url": "https://store.steampowered.com/app/428550",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.2,
+          "regular": 36,
+          "low": 7,
+          "low_1y": 7.2,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
         },
         "MYR": {
           "current": 4.6,
@@ -5823,7 +5823,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2194530/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6ef0-711f-89fb-8d747df74ccd/boxart.jpg?t=1789595719"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2194530/536317/467bdbe3383ae69d3d7b537f79fe55e5f16892e5/1751088332/hls_264_master.m3u8?t=1675658694",
       "steam_url": "https://store.steampowered.com/app/2194530",
@@ -7717,64 +7717,6 @@
       }
     },
     {
-      "id": "018d937f-7040-7271-bfe8-2d34f60b48b9",
-      "title": "清零计划2：天启派对 Project Zero 2: Apocalypse Party",
-      "slug": "qing-ling-ji-hua2-tian-qi-pai-dui-project-zero-2-apocalypse-party",
-      "appid": 2351560,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Singleplayer",
-        "Action Roguelike",
-        "Online Co-Op",
-        "Top-Down Shooter"
-      ],
-      "reviews": {
-        "score": 72,
-        "count": 4654,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2351560/capsule_616x353.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2351560/635370/1612003367d1009abee95085252781d24c49fd7c/1750812611/hls_264_master.m3u8?t=1703068482",
-      "steam_url": "https://store.steampowered.com/app/2351560",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 21,
-          "regular": 42,
-          "low": 21,
-          "low_1y": 21,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 13.37,
-          "regular": 26.75,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-0ff2-7287-9958-5f2de112229f",
       "title": "Per Aspera",
       "slug": "per-aspera",
@@ -9341,6 +9283,64 @@
       }
     },
     {
+      "id": "018d937f-6a18-7301-b1fb-ff435039712c",
+      "title": "Love Delivery",
+      "slug": "love-delivery",
+      "appid": 1817940,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Dating Sim",
+        "Simulation",
+        "Visual Novel",
+        "Casual",
+        "2D"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 2405,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6a18-7301-b1fb-ff435039712c/boxart.jpg?t=1787660722"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1817940",
+      "prices": {
+        "USD": {
+          "current": 8.24,
+          "regular": 14.99,
+          "low": 8.24,
+          "low_1y": 8.24,
+          "cut": 45,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 27.5,
+          "regular": 50,
+          "low": 27.5,
+          "low_1y": 27.5,
+          "cut": 45,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 17.6,
+          "regular": 32.0,
+          "cut": 45,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-4632-728e-9822-43b1e50d3fdb",
       "title": "Lacuna - A Sci-Fi Noir Adventure",
       "slug": "lacuna-a-sci-fi-noir-adventure",
@@ -9419,7 +9419,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1296360/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4ef0-70ed-9ecb-6472942498b1/boxart.jpg?t=1789593019"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1296360/419281/d00c0ab55ee5a36e9bdf1f8e6583a6daad9f7935/1751217001/hls_264_master.m3u8?t=1638464699",
       "steam_url": "https://store.steampowered.com/app/1296360",
@@ -9979,6 +9979,64 @@
       }
     },
     {
+      "id": "018d937f-4e45-73ce-b984-ccc424b1aadb",
+      "title": "Rust Instrument Pack",
+      "slug": "rust-instrument-pack",
+      "appid": 1174370,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Massively Multiplayer",
+        "Indie",
+        "RPG",
+        "Action",
+        "Adventure"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 886,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4e45-73ce-b984-ccc424b1aadb/banner300.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1174370",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "low_1y": 4.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 20,
+          "regular": 40,
+          "low": 18,
+          "low_1y": 20,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 12.49,
+          "regular": 24.99,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-6fb3-73e6-894b-550fe8f0df74",
       "title": "CaseCracker2",
       "slug": "casecracker2",
@@ -10144,62 +10202,6 @@
           "current": 75.04,
           "regular": 134.0,
           "cut": 44,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-47e5-705f-910c-6472a845b9b7",
-      "title": "Deep Rock Galactic - Roughneck Pack",
-      "slug": "deep-rock-galactic-roughneck-pack",
-      "appid": 1430610,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Indie",
-        "Dwarves"
-      ],
-      "reviews": {
-        "score": 98,
-        "count": 526,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-47e5-705f-910c-6472a845b9b7/banner300.jpg?t=1786212714"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1430610/315762/20916c2d0f77edc2d8b2af70ca1559d51ebfbc1b/1750687507/hls_264_master.m3u8?t=1602245379",
-      "steam_url": "https://store.steampowered.com/app/1430610",
-      "prices": {
-        "USD": {
-          "current": 2.39,
-          "regular": 7.99,
-          "low": 2.39,
-          "low_1y": 2.39,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.9,
-          "regular": 33,
-          "low": 9.6,
-          "low_1y": 9.6,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 6.52,
-          "regular": 21.75,
-          "cut": 70,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -13509,11 +13511,11 @@
       ],
       "reviews": {
         "score": 86,
-        "count": 6573,
+        "count": 6580,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4222-7283-8995-a6f2e68d4a6a/boxart.jpg?t=1786610426"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4222-7283-8995-a6f2e68d4a6a/boxart.jpg?t=1789624815"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/994730/722421/0503b353206f306de3c6734fecb1f32ed6d0e54e/1750605076/hls_264_master.m3u8?t=1720148866",
       "steam_url": "https://store.steampowered.com/app/994730",
@@ -14501,6 +14503,54 @@
       }
     },
     {
+      "id": "018d937f-1607-711f-866f-331a3799ffd2",
+      "title": "Move or Die 4 Pack",
+      "slug": "move-or-die-4-pack",
+      "appid": 323850,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Multiplayer",
+        "Funny",
+        "Local Multiplayer",
+        "Action",
+        "Fast-Paced"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 16474,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1607-711f-866f-331a3799ffd2/boxart.jpg?t=1720625719"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/323850/50674/3e36ffff683353aad484b9016a58d85843292ade/1750508544/hls_264_master.m3u8?t=1498652224",
+      "steam_url": "https://store.steampowered.com/app/323850",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 7.99,
+          "low_1y": 9.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 28,
+          "regular": 112,
+          "low": 22,
+          "low_1y": 28,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-27b2-726a-99c7-90f6e9bbb0d6",
       "title": "Move or Die",
       "slug": "move-or-die",
@@ -14597,54 +14647,6 @@
       }
     },
     {
-      "id": "018d937f-334d-7016-9fc6-c947cd00e5d2",
-      "title": "100% Orange Juice",
-      "slug": "100-orange-juice",
-      "appid": 282800,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Anime",
-        "Board Game",
-        "Cute",
-        "Multiplayer",
-        "Strategy"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 14779,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-334d-7016-9fc6-c947cd00e5d2/boxart.jpg?t=1789041328"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/282800/1400253690/5d91082bc4616fbdc0242c5ff228d85adee2abc4/1767097226/hls_264_master.m3u8?t=1767272429",
-      "steam_url": "https://store.steampowered.com/app/282800",
-      "prices": {
-        "USD": {
-          "current": 1.74,
-          "regular": 6.99,
-          "low": 0.97,
-          "low_1y": 1.04,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 7.25,
-          "regular": 29,
-          "low": 4.06,
-          "low_1y": 4.35,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-117f-70fb-8fc3-c5174478b533",
       "title": "100% Orange Juice - 4 Pack",
       "slug": "100-orange-juice-4-pack",
@@ -14685,6 +14687,54 @@
           "regular": 58,
           "low": 11.6,
           "low_1y": 11.6,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-334d-7016-9fc6-c947cd00e5d2",
+      "title": "100% Orange Juice",
+      "slug": "100-orange-juice",
+      "appid": 282800,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "Board Game",
+        "Cute",
+        "Multiplayer",
+        "Strategy"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 14779,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-334d-7016-9fc6-c947cd00e5d2/boxart.jpg?t=1789041328"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/282800/1400253690/5d91082bc4616fbdc0242c5ff228d85adee2abc4/1767097226/hls_264_master.m3u8?t=1767272429",
+      "steam_url": "https://store.steampowered.com/app/282800",
+      "prices": {
+        "USD": {
+          "current": 1.74,
+          "regular": 6.99,
+          "low": 0.97,
+          "low_1y": 1.04,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 7.25,
+          "regular": 29,
+          "low": 4.06,
+          "low_1y": 4.35,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -15049,7 +15099,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196630/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-427d-7144-9ab1-6050967e61e6/boxart.jpg?t=1789618826"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1196630/301504/72aeeae2bd9d2fa79789f276363e2ea8b260b8c2/1750637604/hls_264_master.m3u8?t=1596123106",
       "steam_url": "https://store.steampowered.com/app/1196630",
@@ -16346,54 +16396,6 @@
           "low": 113.75,
           "low_1y": 130,
           "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-fd00-73d9-a35c-e7bfb8ebd708",
-      "title": "Hyperdimension Neptunia Re;Birth1",
-      "slug": "hyperdimension-neptunia-re-birth1",
-      "appid": 282900,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Anime",
-        "JRPG",
-        "Female Protagonist",
-        "Cute",
-        "RPG"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 10136,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd00-73d9-a35c-e7bfb8ebd708/boxart.jpg?t=1786505721"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/282900/29854/3a33d3468ba1f7045a7a2d86d3a8d7f8e16f9abd/1750489572/hls_264_master.m3u8?t=1447367510",
-      "steam_url": "https://store.steampowered.com/app/282900",
-      "prices": {
-        "USD": {
-          "current": 6.74,
-          "regular": 14.99,
-          "low": 4.49,
-          "low_1y": 4.17,
-          "cut": 55,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 26.1,
-          "regular": 58,
-          "low": 13,
-          "low_1y": 17.5,
-          "cut": 55,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
