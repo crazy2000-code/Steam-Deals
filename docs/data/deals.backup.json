@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:27:30.768487+00:00",
+  "generated_at": "2026-09-25T11:04:59.824662+00:00",
   "total": 300,
   "games": [
     {
@@ -603,7 +603,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/678960/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1e92-7265-8ad2-d01cdd79164b/boxart.jpg?t=1790292636"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/678960/324826/9a3e350a3abd9f93bb844fbaa9b304f968d7eb3b/1750570172/hls_264_master.m3u8?t=1604695872",
       "steam_url": "https://store.steampowered.com/app/678960",
@@ -4107,11 +4107,11 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 14606,
+        "count": 14612,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f84c-71c7-8687-85b3add80147/boxart.jpg?t=1787180715"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f84c-71c7-8687-85b3add80147/boxart.jpg?t=1790285721"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/246420/16304/631253f09e4ad0a6848ab961ceb7f6ff94714925/1750487248/hls_264_master.m3u8?t=1447360000",
       "steam_url": "https://store.steampowered.com/app/246420",
@@ -5019,64 +5019,6 @@
       }
     },
     {
-      "id": "018d937f-4b26-71c0-9436-603f46ebbf10",
-      "title": "Tavern Master",
-      "slug": "tavern-master",
-      "appid": 1525700,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Management",
-        "Simulation",
-        "Building",
-        "Medieval",
-        "Resource Management"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 12613,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4b26-71c0-9436-603f46ebbf10/boxart.jpg?t=1787016030"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1525700/375296/cc4a6f12afbf45d41792ca9ecf309247ed1c5c15/1750699304/hls_264_master.m3u8?t=1623139346",
-      "steam_url": "https://store.steampowered.com/app/1525700",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 14.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.6,
-          "regular": 48,
-          "low": 9.6,
-          "low_1y": 9.6,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 6.4,
-          "regular": 32.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-3112-7112-a60a-382f57fc9b81",
       "title": "Peggle® Deluxe",
       "slug": "peggle-deluxe",
@@ -5125,6 +5067,64 @@
         "MYR": {
           "current": 3.8,
           "regular": 19.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-4b26-71c0-9436-603f46ebbf10",
+      "title": "Tavern Master",
+      "slug": "tavern-master",
+      "appid": 1525700,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Management",
+        "Simulation",
+        "Building",
+        "Medieval",
+        "Resource Management"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 12613,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4b26-71c0-9436-603f46ebbf10/boxart.jpg?t=1787016030"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1525700/375296/cc4a6f12afbf45d41792ca9ecf309247ed1c5c15/1750699304/hls_264_master.m3u8?t=1623139346",
+      "steam_url": "https://store.steampowered.com/app/1525700",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 14.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.6,
+          "regular": 48,
+          "low": 9.6,
+          "low_1y": 9.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 6.4,
+          "regular": 32.0,
           "cut": 80,
           "low": null,
           "low_1y": null,
@@ -10595,64 +10595,6 @@
       }
     },
     {
-      "id": "018d937f-5223-72e9-bdf2-5a7691bbe524",
-      "title": "Rust - Voice Props Pack",
-      "slug": "rust-voice-props-pack",
-      "appid": 1670430,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Massively Multiplayer",
-        "Action",
-        "Indie",
-        "RPG"
-      ],
-      "reviews": {
-        "score": 86,
-        "count": 1935,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5223-72e9-bdf2-5a7691bbe524/banner300.jpg?t=1786573216"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1670430",
-      "prices": {
-        "USD": {
-          "current": 6.49,
-          "regular": 12.99,
-          "low": 6.49,
-          "low_1y": 6.49,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 25.5,
-          "regular": 51,
-          "low": 25.5,
-          "low_1y": 25.5,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 15.99,
-          "regular": 31.99,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-1ad8-727c-b0f7-16eddfcbd035",
       "title": "Tom Clancy's Rainbow Six 3: Gold Edition",
       "slug": "tom-clancys-rainbow-six-3-gold-edition",
@@ -11107,64 +11049,6 @@
       }
     },
     {
-      "id": "018d937f-7494-70a9-bf4b-90b5995fb2aa",
-      "title": "Pocket Bravery: Ultimate Edition",
-      "slug": "pocket-bravery-ultimate-edition",
-      "appid": 1555150,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Fighting",
-        "Competitive",
-        "Pixel Graphics",
-        "Multiplayer",
-        "2D Fighter"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 504,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7494-70a9-bf4b-90b5995fb2aa/boxart.jpg?t=1719860702"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1555150",
-      "prices": {
-        "USD": {
-          "current": 17.99,
-          "regular": 29.99,
-          "low": 17.99,
-          "low_1y": 17.99,
-          "cut": 40,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 65.4,
-          "regular": 109,
-          "low": 65.4,
-          "low_1y": 65.4,
-          "cut": 40,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 29.4,
-          "regular": 49.0,
-          "cut": 40,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-2ee6-704c-8a25-f9606ccdf59a",
       "title": "Battlefield™ 1 Revolution",
       "slug": "battlefield-1-revolution",
@@ -11529,11 +11413,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 112475,
+        "count": 112482,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-279b-71f2-9c0a-3b434420cd6e/boxart.jpg?t=1786294817"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/774171/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/774171/228987/99e8588af9ed6d6b8e35b642ccb4a84dbfb77224/1750582312/hls_264_master.m3u8?t=1564116858",
       "steam_url": "https://store.steampowered.com/app/774171",
@@ -11614,6 +11498,16 @@
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 27.8,
+          "regular": 139.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -11879,7 +11773,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/270880/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ffc6-7240-84fa-dc653171dc0f/boxart.jpg?t=1790284539"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/270880/131869705/8ce99ab76c190aeb2afb0bdda4bd07354882148c/1750487883/hls_264_master.m3u8?t=1748107298",
       "steam_url": "https://store.steampowered.com/app/270880",
@@ -12119,7 +12013,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e63-73bc-9df0-bde83d04cb52/boxart.jpg?t=1790307329"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/414340/416147/373321aa603c3f1794b4f1bbeb4298ae65b71d1d/1750527661/hls_264_master.m3u8?t=1637082351",
       "steam_url": "https://store.steampowered.com/app/414340",
@@ -12925,7 +12819,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/335300/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f4a3-71a0-bdde-24bbd5daf322/boxart.jpg?t=1790291701"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/335300/33751/7a8e1d6308ff52d37af1e4bcc3d6747de2bd9cc8/1750510549/hls_264_master.m3u8?t=1447372190",
       "steam_url": "https://store.steampowered.com/app/335300",
@@ -14125,7 +14019,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085510/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2bd4-73d3-8214-3e8cd9de2a4b/boxart.jpg?t=1790299821"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1085510/879988/d2bba944bada86b3e2a820a4c3d30cfa48523773/1750614082/hls_264_master.m3u8?t=1746451636",
       "steam_url": "https://store.steampowered.com/app/1085510",
@@ -16305,6 +16199,102 @@
           "regular": 36,
           "low": 7.2,
           "low_1y": 9,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-0e2e-7222-b494-194f0f3047cd",
+      "title": "Guacamelee! Gold Edition",
+      "slug": "guacamelee-gold-edition",
+      "appid": 214770,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Metroidvania",
+        "Platformer",
+        "Action",
+        "Indie",
+        "Beat 'em up"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 3154,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e2e-7222-b494-194f0f3047cd/boxart.jpg?t=1786998957"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/214770/12804/f419c2b0fb4d9cdf76f264dd0f01f0d6adeabef3/1751259439/hls_264_master.m3u8?t=1447358492",
+      "steam_url": "https://store.steampowered.com/app/214770",
+      "prices": {
+        "USD": {
+          "current": 3.74,
+          "regular": 14.99,
+          "low": 1.49,
+          "low_1y": 3.74,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 14.75,
+          "regular": 59,
+          "low": 4,
+          "low_1y": 14,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-5db0-7313-92ff-cb1b3bcc3c1d",
+      "title": "SpongeBob SquarePants: The Cosmic Shake",
+      "slug": "spongebob-squarepants-the-cosmic-shake",
+      "appid": 1282150,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "3D Platformer",
+        "Family Friendly",
+        "Platformer",
+        "Action",
+        "Comedy"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 3137,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5db0-7313-92ff-cb1b3bcc3c1d/boxart.jpg?t=1786972824"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1282150/534193/7b0861f1d6f8752353fb9bd4343a906c7a485797/1750662324/hls_264_master.m3u8?t=1675187827",
+      "steam_url": "https://store.steampowered.com/app/1282150",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 7.99,
+          "low_1y": 6.68,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 34,
+          "regular": 136,
+          "low": 27.2,
+          "low_1y": 27.2,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
