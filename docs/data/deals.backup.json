@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:23:26.245622+00:00",
+  "generated_at": "2026-09-26T10:59:57.999329+00:00",
   "total": 300,
   "games": [
     {
@@ -4720,6 +4720,64 @@
           "current": 10.49,
           "regular": 29.99,
           "cut": 65,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "0191c18a-7d33-71e4-a6cc-4a4a9d8af2a7",
+      "title": "Isonzo - First Wave Edition",
+      "slug": "isonzo-first-wave-edition",
+      "appid": 1556790,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Atmospheric",
+        "Simulation",
+        "Team-Based",
+        "Indie",
+        "PvP"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 14434,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0191c18a-7d33-71e4-a6cc-4a4a9d8af2a7/boxart.jpg?t=1746090001"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1556790/876397/6d696848903f85542409d844ad9422b1d0126949/1750701107/hls_264_master.m3u8?t=1745844935",
+      "steam_url": "https://store.steampowered.com/app/1556790",
+      "prices": {
+        "USD": {
+          "current": 9.89,
+          "regular": 44.99,
+          "low": 9.89,
+          "low_1y": 9.89,
+          "cut": 78,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 41.58,
+          "regular": 189,
+          "low": 41.58,
+          "low_1y": 41.58,
+          "cut": 78,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 28.38,
+          "regular": 129.0,
+          "cut": 78,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9619,64 +9677,6 @@
       }
     },
     {
-      "id": "018d9699-ce8d-71ed-830a-69751f0293ba",
-      "title": "Paper Dolls Original",
-      "slug": "paper-dolls-original",
-      "appid": 1051310,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Horror",
-        "Adventure",
-        "Thriller",
-        "Action",
-        "Puzzle"
-      ],
-      "reviews": {
-        "score": 84,
-        "count": 4447,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d9699-ce8d-71ed-830a-69751f0293ba/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1051310/214974/1868f8dac3b7b5ba46c4a05cac05b0421f3f19f9/1751181643/hls_264_master.m3u8?t=1553594777",
-      "steam_url": "https://store.steampowered.com/app/1051310",
-      "prices": {
-        "USD": {
-          "current": 5.09,
-          "regular": 16.99,
-          "low": 5.09,
-          "low_1y": 5.09,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 17.4,
-          "regular": 58,
-          "low": 17.4,
-          "low_1y": 17.4,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 10.2,
-          "regular": 34.0,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-03f0-7096-8860-582bb708c15a",
       "title": "LIGHTNING RETURNS: FINAL FANTASY XIII",
       "slug": "lightning-returns-final-fantasy-xiii",
@@ -11509,54 +11509,6 @@
           "currency": "MYR",
           "symbol": "RM",
           "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-4e45-73ce-b984-ccc424b1aadb",
-      "title": "Rust Instrument Pack",
-      "slug": "rust-instrument-pack",
-      "appid": 1174370,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Massively Multiplayer",
-        "Indie",
-        "RPG",
-        "Action",
-        "Adventure"
-      ],
-      "reviews": {
-        "score": 91,
-        "count": 885,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4e45-73ce-b984-ccc424b1aadb/banner300.jpg"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1174370",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 20,
-          "regular": 40,
-          "low": 18,
-          "low_1y": 20,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
         }
       }
     },
@@ -13439,11 +13391,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 134879,
+        "count": 134886,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/362890/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-20eb-70ae-bb67-f6d04b00780d/boxart.jpg?t=1790392210"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/362890/270609/74929ca65b6e654d8ce1d5ee361b218d940f8603/1750516090/hls_264_master.m3u8?t=1583517821",
       "steam_url": "https://store.steampowered.com/app/362890",
@@ -16295,6 +16247,54 @@
           "regular": 58,
           "low": 7.2,
           "low_1y": 12.82,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-60f2-71ce-95d8-bbc09d1b46ab",
+      "title": "Dragon Age II: Ultimate Edition",
+      "slug": "dragon-age-ii-ultimate-edition",
+      "appid": 1238040,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "Fantasy",
+        "Adventure",
+        "Action",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 81,
+        "count": 6939,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-60f2-71ce-95d8-bbc09d1b46ab/boxart.jpg?t=1786672241"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1238040/464774/e80badf71616ce960272c4e91013f317bd81b582/1750647881/hls_264_master.m3u8?t=1654010740",
+      "steam_url": "https://store.steampowered.com/app/1238040",
+      "prices": {
+        "USD": {
+          "current": 7.49,
+          "regular": 29.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 39.5,
+          "regular": 158,
+          "low": 15.8,
+          "low_1y": 15.8,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
