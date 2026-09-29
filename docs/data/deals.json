@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T23:09:20.528740+00:00",
-  "total": 281,
+  "generated_at": "2026-09-29T12:09:16.894495+00:00",
+  "total": 279,
   "games": [
     {
       "id": "018d937f-3cc5-7116-b8e1-06ca7dd2e7ca",
@@ -2329,11 +2329,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 48373,
+        "count": 48379,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-33e8-72ed-a34e-8397d3f83437/boxart.jpg?t=1787762417"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-33e8-72ed-a34e-8397d3f83437/boxart.jpg?t=1790678442"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/645630/115547/33a82f4993b8512ac3af247d552de81b35d80147/1750566291/hls_264_master.m3u8?t=1683629134",
       "steam_url": "https://store.steampowered.com/app/645630",
@@ -3850,64 +3850,6 @@
           "current": 6.84,
           "regular": 68.49,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "0191c18a-7d33-71e4-a6cc-4a4a9d8af2a7",
-      "title": "Isonzo - First Wave Edition",
-      "slug": "isonzo-first-wave-edition",
-      "appid": 1556790,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Atmospheric",
-        "Simulation",
-        "Team-Based",
-        "Indie",
-        "PvP"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 14434,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/0191c18a-7d33-71e4-a6cc-4a4a9d8af2a7/boxart.jpg?t=1746090001"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1556790/876397/6d696848903f85542409d844ad9422b1d0126949/1750701107/hls_264_master.m3u8?t=1745844935",
-      "steam_url": "https://store.steampowered.com/app/1556790",
-      "prices": {
-        "USD": {
-          "current": 9.89,
-          "regular": 44.99,
-          "low": 9.89,
-          "low_1y": 9.89,
-          "cut": 78,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 41.58,
-          "regular": 189,
-          "low": 41.58,
-          "low_1y": 41.58,
-          "cut": 78,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 28.38,
-          "regular": 129.0,
-          "cut": 78,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9725,6 +9667,64 @@
       }
     },
     {
+      "id": "018d937f-11c7-7179-b9d0-22ebed36a166",
+      "title": "Season of 12 colors",
+      "slug": "season-of-12-colors",
+      "appid": 370280,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Casual",
+        "Visual Novel",
+        "Adventure",
+        "Anime"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 1799,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-11c7-7179-b9d0-22ebed36a166/boxart.jpg?t=1786335624"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/370280/46919/746c605e836e590785544fdfaaf54ff2d2a72feb/1751276874/hls_264_master.m3u8?t=1457964454",
+      "steam_url": "https://store.steampowered.com/app/370280",
+      "prices": {
+        "USD": {
+          "current": 1.49,
+          "regular": 2.99,
+          "low": 1.49,
+          "low_1y": 1.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.5,
+          "regular": 15,
+          "low": 2.99,
+          "low_1y": 7.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.25,
+          "regular": 8.5,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1af8-72d7-905d-024bbded07f9",
       "title": "Company of Heroes: Tales of Valor",
       "slug": "company-of-heroes-tales-of-valor",
@@ -9947,64 +9947,6 @@
       }
     },
     {
-      "id": "019376e4-50d4-7187-abab-32b34091fe0b",
-      "title": "SHOOPER NOVA",
-      "slug": "shooper-nova",
-      "appid": 2853160,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Roguelite",
-        "Casual",
-        "Action",
-        "Tower Defense"
-      ],
-      "reviews": {
-        "score": 83,
-        "count": 546,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019376e4-50d4-7187-abab-32b34091fe0b/boxart.jpg?t=1789985121"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2853160/860881/d5e6126b6abee5d0d5e0b6d3299b4dbd57383298/1750947755/hls_264_master.m3u8?t=1743645226",
-      "steam_url": "https://store.steampowered.com/app/2853160",
-      "prices": {
-        "USD": {
-          "current": 2.72,
-          "regular": 6.99,
-          "low": 2.72,
-          "low_1y": 2.72,
-          "cut": 61,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.36,
-          "regular": 24,
-          "low": 9.36,
-          "low_1y": 9.36,
-          "cut": 61,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 7.6,
-          "regular": 19.5,
-          "cut": 61,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-1f25-70c0-9c55-9c37d94ec520",
       "title": "2Dark",
       "slug": "2dark",
@@ -10054,64 +9996,6 @@
           "current": 8.9,
           "regular": 89.0,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-7494-70a9-bf4b-90b5995fb2aa",
-      "title": "Pocket Bravery: Ultimate Edition",
-      "slug": "pocket-bravery-ultimate-edition",
-      "appid": 1555150,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Fighting",
-        "Competitive",
-        "Pixel Graphics",
-        "Multiplayer",
-        "2D Fighter"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 504,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7494-70a9-bf4b-90b5995fb2aa/boxart.jpg?t=1719860702"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1555150",
-      "prices": {
-        "USD": {
-          "current": 17.99,
-          "regular": 29.99,
-          "low": 17.99,
-          "low_1y": 17.99,
-          "cut": 40,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 65.4,
-          "regular": 109,
-          "low": 65.4,
-          "low_1y": 65.4,
-          "cut": 40,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 29.4,
-          "regular": 49.0,
-          "cut": 40,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11604,6 +11488,16 @@
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 50.82,
+          "regular": 101.64,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -13961,46 +13855,46 @@
       }
     },
     {
-      "id": "018d937f-3e50-71ea-b5b6-f58efd37ecb7",
-      "title": "Streamer Daily",
-      "slug": "streamer-daily",
-      "appid": 1058380,
+      "id": "018d937f-4ea5-73d2-b28a-2f9b72952f9b",
+      "title": "Tree Simulator 2022",
+      "slug": "tree-simulator-2022",
+      "appid": 1591290,
       "tier": "known",
       "is_atl": false,
       "is_notable": false,
       "tags": [
+        "Action",
+        "Psychological Horror",
         "Simulation",
-        "Indie",
         "Casual",
-        "Strategy",
         "Adventure"
       ],
       "reviews": {
-        "score": 88,
-        "count": 1080,
+        "score": 97,
+        "count": 1022,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3e50-71ea-b5b6-f58efd37ecb7/boxart.jpg?t=1786864826"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4ea5-73d2-b28a-2f9b72952f9b/boxart.jpg?t=1787355925"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1058380/266024/15fc6bc6040eb321ca99ac12180614a799072a15/1751182560/hls_264_master.m3u8?t=1581558916",
-      "steam_url": "https://store.steampowered.com/app/1058380",
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1591290",
       "prices": {
         "USD": {
-          "current": 2.99,
-          "regular": 11.99,
-          "low": 1.19,
-          "low_1y": 1.19,
+          "current": 1.49,
+          "regular": 5.99,
+          "low": 0.5,
+          "low_1y": 0.89,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
           "is_atl": false
         },
         "CNY": {
-          "current": 12,
-          "regular": 48,
-          "low": 4.8,
-          "low_1y": 4.8,
+          "current": 6.5,
+          "regular": 26,
+          "low": 2.55,
+          "low_1y": 3.9,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -14021,15 +13915,15 @@
         "World War II",
         "Submarine",
         "Naval Combat",
-        "Military"
+        "Naval"
       ],
       "reviews": {
         "score": 83,
-        "count": 25597,
+        "count": 25624,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-30d0-7030-83b8-8d43155016b3/boxart.jpg?t=1786620322"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-30d0-7030-83b8-8d43155016b3/boxart.jpg?t=1790677503"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/494840/734606/edc74ce043b142a350278436e7e39f6d74654632/1750537951/hls_264_master.m3u8?t=1722612295",
       "steam_url": "https://store.steampowered.com/app/494840",
