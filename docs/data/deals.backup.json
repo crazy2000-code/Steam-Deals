@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T22:00:08.545038+00:00",
-  "total": 278,
+  "generated_at": "2026-09-30T11:58:34.353804+00:00",
+  "total": 276,
   "games": [
     {
       "id": "018d937f-3cc5-7116-b8e1-06ca7dd2e7ca",
@@ -3685,6 +3685,64 @@
       }
     },
     {
+      "id": "0191c18a-7d33-71e4-a6cc-4a4a9d8af2a7",
+      "title": "Isonzo - First Wave Edition",
+      "slug": "isonzo-first-wave-edition",
+      "appid": 1556790,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Atmospheric",
+        "Simulation",
+        "Team-Based",
+        "Indie",
+        "PvP"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 14434,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/0191c18a-7d33-71e4-a6cc-4a4a9d8af2a7/boxart.jpg?t=1746090001"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1556790/876397/6d696848903f85542409d844ad9422b1d0126949/1750701107/hls_264_master.m3u8?t=1745844935",
+      "steam_url": "https://store.steampowered.com/app/1556790",
+      "prices": {
+        "USD": {
+          "current": 9.89,
+          "regular": 44.99,
+          "low": 9.89,
+          "low_1y": 9.89,
+          "cut": 78,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 41.58,
+          "regular": 189,
+          "low": 41.58,
+          "low_1y": 41.58,
+          "cut": 78,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 28.38,
+          "regular": 129.0,
+          "cut": 78,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-60ca-735e-a2f5-6a896a5f8e8f",
       "title": "JoJo's Bizarre Adventure: All-Star Battle R",
       "slug": "jojos-bizarre-adventure-all-star-battle-r",
@@ -5232,64 +5290,6 @@
           "current": 54.5,
           "regular": 109.0,
           "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-6f10-7379-9ad8-972e10cb5ab1",
-      "title": "Anomaly Agent",
-      "slug": "anomaly-agent",
-      "appid": 2378620,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "2D Platformer",
-        "Side Scroller",
-        "Action Roguelike",
-        "Hack and Slash",
-        "Platformer"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 9463,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6f10-7379-9ad8-972e10cb5ab1/boxart.jpg?t=1786988713"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2378620/659008/b223d48bd8271d2a9c3f7884a7d9da0959ec6960/1750912934/hls_264_master.m3u8?t=1707151760",
-      "steam_url": "https://store.steampowered.com/app/2378620",
-      "prices": {
-        "USD": {
-          "current": 3.59,
-          "regular": 11.99,
-          "low": 3.59,
-          "low_1y": 2.93,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 14.4,
-          "regular": 48,
-          "low": 14.4,
-          "low_1y": 14.4,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 9.6,
-          "regular": 32.0,
-          "cut": 70,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7473,6 +7473,64 @@
       }
     },
     {
+      "id": "018e641a-2e80-7141-9e96-87d7fa4e90ef",
+      "title": "Reverse Collapse: Code Name Bakery - Deluxe Edition",
+      "slug": "reverse-collapse-code-name-bakery-deluxe-edition",
+      "appid": 1127700,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Difficult",
+        "Turn-Based Tactics",
+        "Multiple Endings",
+        "Singleplayer",
+        "Tactical RPG"
+      ],
+      "reviews": {
+        "score": 78,
+        "count": 4862,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018e641a-2e80-7141-9e96-87d7fa4e90ef/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1127700/669755/d1a191aa0573267b34ae1afe1ccbaa2bfe427259/1750624485/hls_264_master.m3u8?t=1711075539",
+      "steam_url": "https://store.steampowered.com/app/1127700",
+      "prices": {
+        "USD": {
+          "current": 23.99,
+          "regular": 39.99,
+          "low": 23.99,
+          "low_1y": 23.99,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 130.8,
+          "regular": 218,
+          "low": 130.8,
+          "low_1y": 130.8,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 36.6,
+          "regular": 61.0,
+          "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-27eb-720b-97d4-8481ce76842f",
       "title": "FINAL FANTASY VIII - REMASTERED",
       "slug": "final-fantasy-viii-remastered",
@@ -8440,64 +8498,6 @@
           "current": 12.58,
           "regular": 62.9,
           "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018df5dd-0b92-71b3-ae24-2bae5b4d9fae",
-      "title": "Snufkin: Melody of Moominvalley - Digital Deluxe Edition",
-      "slug": "snufkin-melody-of-moominvalley-digital-deluxe-edition",
-      "appid": 1808680,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Colorful",
-        "Puzzle",
-        "Funny",
-        "RPG",
-        "Stylized"
-      ],
-      "reviews": {
-        "score": 97,
-        "count": 3369,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018df5dd-0b92-71b3-ae24-2bae5b4d9fae/boxart.jpg?t=1772735410"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1808680",
-      "prices": {
-        "USD": {
-          "current": 16.49,
-          "regular": 32.99,
-          "low": 16.49,
-          "low_1y": 16.49,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 60.34,
-          "regular": 120.69,
-          "low": 60.34,
-          "low_1y": 60.34,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 39.6,
-          "regular": 79.2,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9551,6 +9551,61 @@
       }
     },
     {
+      "id": "018d937f-5dab-72fc-b028-9bcfc6cffe16",
+      "title": "Euro Truck Simulator 2 - Ukrainian Paint Jobs Pack",
+      "slug": "euro-truck-simulator-2-ukrainian-paint-jobs-pack",
+      "appid": 1918370,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 1694,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5dab-72fc-b028-9bcfc6cffe16/banner300.jpg?t=1787182513"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1918370",
+      "prices": {
+        "USD": {
+          "current": 0.52,
+          "regular": 0.99,
+          "low": 0.52,
+          "low_1y": 0.52,
+          "cut": 47,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3.18,
+          "regular": 6,
+          "low": 3.18,
+          "low_1y": 3.18,
+          "cut": 47,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.59,
+          "regular": 3.0,
+          "cut": 47,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1af8-72d7-905d-024bbded07f9",
       "title": "Company of Heroes: Tales of Valor",
       "slug": "company-of-heroes-tales-of-valor",
@@ -9657,64 +9712,6 @@
       }
     },
     {
-      "id": "018d937f-156a-7088-9b53-b1bfef7a87f6",
-      "title": "Short Stories Collection of Class Tangerine",
-      "slug": "short-stories-collection-of-class-tangerine",
-      "appid": 701930,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Indie",
-        "Adventure",
-        "Simulation",
-        "Visual Novel"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 864,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-156a-7088-9b53-b1bfef7a87f6/boxart.jpg?t=1786335910"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/701930/119566/71a427f4767538ed29bcb7619c8b0a35e4d2e233/1751133373/hls_264_master.m3u8?t=1503977054",
-      "steam_url": "https://store.steampowered.com/app/701930",
-      "prices": {
-        "USD": {
-          "current": 3.19,
-          "regular": 7.99,
-          "low": 3.19,
-          "low_1y": 3.19,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 11.6,
-          "regular": 29,
-          "low": 11,
-          "low_1y": 11.6,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 7.6,
-          "regular": 19.0,
-          "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-0e32-726c-84a2-c30e8f6f8837",
       "title": "Company of Heroes: Opposing Fronts",
       "slug": "company-of-heroes-opposing-fronts",
@@ -9764,64 +9761,6 @@
           "current": 9.8,
           "regular": 49.0,
           "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-03b7-718c-afcc-9fccff93f685",
-      "title": "Soulslayer",
-      "slug": "soulslayer",
-      "appid": 466810,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Adventure",
-        "Casual",
-        "Detective",
-        "Visual Novel"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 656,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03b7-718c-afcc-9fccff93f685/boxart.jpg"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/466810",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 18,
-          "regular": 36,
-          "low": 18,
-          "low_1y": 18,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 11.5,
-          "regular": 23.0,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9929,64 +9868,6 @@
           "regular": 109,
           "low": 65.4,
           "low_1y": 65.4,
-          "cut": 40,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 29.4,
-          "regular": 49.0,
-          "cut": 40,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-7494-70a9-bf4b-90b598cc2eae",
-      "title": "Pocket Bravery: Deluxe Edition",
-      "slug": "pocket-bravery-deluxe-edition",
-      "appid": 1555150,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Fighting",
-        "Competitive",
-        "Pixel Graphics",
-        "Multiplayer",
-        "2D Fighter"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 504,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7494-70a9-bf4b-90b598cc2eae/boxart.jpg?t=1719860703"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1555150",
-      "prices": {
-        "USD": {
-          "current": 14.99,
-          "regular": 24.99,
-          "low": 14.99,
-          "low_1y": 14.99,
-          "cut": 40,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 55.8,
-          "regular": 93,
-          "low": 55.8,
-          "low_1y": 55.8,
           "cut": 40,
           "currency": "CNY",
           "symbol": "¥",
@@ -10485,11 +10366,11 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 166181,
+        "count": 166257,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-ffc6-7240-84fa-dc653171dc0f/boxart.jpg?t=1790698235"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ffc6-7240-84fa-dc653171dc0f/boxart.jpg?t=1790761538"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/270880/131869705/8ce99ab76c190aeb2afb0bdda4bd07354882148c/1750487883/hls_264_master.m3u8?t=1748107298",
       "steam_url": "https://store.steampowered.com/app/270880",
@@ -11604,6 +11485,16 @@
           "cut": 88,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 7.32,
+          "regular": 61.0,
+          "cut": 88,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -12934,7 +12825,7 @@
           "current": 7.49,
           "regular": 29.99,
           "low": 2.99,
-          "low_1y": 4.85,
+          "low_1y": 4.89,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -14409,11 +14300,11 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 13854,
+        "count": 13861,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-66be-70b5-aeb6-9b214ad8047d/boxart.jpg?t=1790715307"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-66be-70b5-aeb6-9b214ad8047d/boxart.jpg?t=1790768732"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/850190/627424/e1895f0104c5cd7fb0797d70f782d005a53701a0/1750589044/hls_264_master.m3u8?t=1700233214",
       "steam_url": "https://store.steampowered.com/app/850190",
