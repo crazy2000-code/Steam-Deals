@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:36:58.571974+00:00",
+  "generated_at": "2026-10-06T23:06:19.665651+00:00",
   "total": 300,
   "games": [
     {
@@ -309,7 +309,7 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 260720,
+        "count": 261303,
         "text": ""
       },
       "images": {
@@ -5641,15 +5641,15 @@
         "FPS",
         "PvP",
         "Team-Based",
-        "Tactical"
+        "Open World"
       ],
       "reviews": {
         "score": 74,
-        "count": 213471,
+        "count": 213627,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/019152f5-9009-71ea-884c-a8f60799b3ca/boxart.jpg?t=1791001537"
+        "capsule": "https://assets.isthereanydeal.com/019152f5-9009-71ea-884c-a8f60799b3ca/boxart.jpg?t=1791296115"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/594650/1427015078/967b5fc7eea3d560b8e794f900650d688a17974f/1780991339/hls_264_master.m3u8?t=1780992167",
       "steam_url": "https://store.steampowered.com/app/594650",
@@ -6225,7 +6225,7 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 127113,
+        "count": 127455,
         "text": ""
       },
       "images": {
@@ -10259,6 +10259,64 @@
       }
     },
     {
+      "id": "018d937f-5f62-7038-be7b-6e2658ca7e7e",
+      "title": "The Stanley Parable: Ultra Deluxe",
+      "slug": "the-stanley-parable-ultra-deluxe",
+      "appid": 1703340,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Multiple Endings",
+        "Choices Matter",
+        "Comedy",
+        "Walking Simulator",
+        "First-Person"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 34383,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5f62-7038-be7b-6e2658ca7e7e/boxart.jpg?t=1786417882"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1703340/462328/cdc931ae44fb10e373e085c5bbcf0d9d7e233919/1750727858/hls_264_master.m3u8?t=1652303703",
+      "steam_url": "https://store.steampowered.com/app/1703340",
+      "prices": {
+        "USD": {
+          "current": 8.74,
+          "regular": 24.99,
+          "low": 8.74,
+          "low_1y": 8.74,
+          "cut": 65,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 28,
+          "regular": 80,
+          "low": 28,
+          "low_1y": 28,
+          "cut": 65,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 15.4,
+          "regular": 44.0,
+          "cut": 65,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-65f2-73ff-9da2-7b422ba45745",
       "title": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
       "slug": "pathfinder-wrath-of-the-righteous-enhanced-edition",
@@ -11578,16 +11636,6 @@
           "cut": 67,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 23.76,
-          "regular": 72.0,
-          "cut": 67,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": true
         }
       }
@@ -13350,7 +13398,7 @@
           "current": 4.99,
           "regular": 19.99,
           "low": 4.99,
-          "low_1y": 3.94,
+          "low_1y": 3.95,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -16318,54 +16366,6 @@
           "low": 11.2,
           "low_1y": 11.2,
           "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018de5f0-d478-70c9-b035-3ae640a2c727",
-      "title": "ENDER MAGNOLIA: Bloom in the mist",
-      "slug": "ender-magnolia-bloom-in-the-mist",
-      "appid": 2725260,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Metroidvania",
-        "2D",
-        "Female Protagonist",
-        "Dark Fantasy",
-        "Singleplayer"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 17206,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018de5f0-d478-70c9-b035-3ae640a2c727/boxart.jpg?t=1786289726"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2725260",
-      "prices": {
-        "USD": {
-          "current": 13.74,
-          "regular": 24.99,
-          "low": 13.74,
-          "low_1y": 13.74,
-          "cut": 45,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 53.9,
-          "regular": 98,
-          "low": 53.9,
-          "low_1y": 53.9,
-          "cut": 45,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true

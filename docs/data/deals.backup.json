@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:21:45.175628+00:00",
+  "generated_at": "2026-10-06T13:36:58.571974+00:00",
   "total": 300,
   "games": [
     {
@@ -6747,11 +6747,11 @@
       ],
       "reviews": {
         "score": 76,
-        "count": 106552,
+        "count": 106766,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-213f-7029-87ff-c2c883b8d4f6/boxart.jpg?t=1790877942"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-213f-7029-87ff-c2c883b8d4f6/boxart.jpg?t=1791269134"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/899770",
@@ -7436,18 +7436,18 @@
       "is_notable": false,
       "tags": [
         "Strategy",
-        "City Builder",
         "Simulation",
+        "City Builder",
         "Base Building",
         "Grand Strategy"
       ],
       "reviews": {
         "score": 84,
-        "count": 77259,
+        "count": 77392,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-43f3-7181-a7ef-f059395e87bc/boxart.jpg?t=1790850914"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-43f3-7181-a7ef-f059395e87bc/boxart.jpg?t=1791282023"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1363080/691162/5ba78540b9ae2ccb902067211544d5a5954c73bd/1750678058/hls_264_master.m3u8?t=1743006020",
       "steam_url": "https://store.steampowered.com/app/1363080",
@@ -10565,11 +10565,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 33391,
+        "count": 33421,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-42c6-70a5-a29b-9d8c2e0f7b84/boxart.jpg?t=1790851242"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-42c6-70a5-a29b-9d8c2e0f7b84/boxart.jpg?t=1791284728"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1336490/660550/41641960e08bbf11c6208f797d2e982c4cc3d89d/1750673929/hls_264_master.m3u8?t=1707418034",
       "steam_url": "https://store.steampowered.com/app/1336490",
@@ -12227,17 +12227,17 @@
       "tags": [
         "Strategy",
         "RPG",
-        "Turn-Based Tactics",
         "Turn-Based Strategy",
+        "Turn-Based Tactics",
         "Tactical"
       ],
       "reviews": {
         "score": 87,
-        "count": 26192,
+        "count": 26231,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2054-717c-a9c2-a4be89c032e7/boxart.jpg?t=1790847312"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2054-717c-a9c2-a4be89c032e7/boxart.jpg?t=1791284108"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/365360/93639/07db2e4d15216ac382576954186c932e7b88035f/1750516625/hls_264_master.m3u8?t=1764597554",
       "steam_url": "https://store.steampowered.com/app/365360",
@@ -12457,6 +12457,54 @@
       }
     },
     {
+      "id": "018d937e-f4ba-7318-a173-9571653fa438",
+      "title": "Workers & Resources: Soviet Republic",
+      "slug": "workers-and-resources-soviet-republic",
+      "appid": 784150,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Simulation",
+        "City Builder",
+        "Base Building",
+        "Grand Strategy"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 24980,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f4ba-7318-a173-9571653fa438/boxart.jpg?t=1791285322"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/784150/703466/c14b378c104e0f831bbe2deb8038d7180caddf4b/1750583625/hls_264_master.m3u8?t=1743008791",
+      "steam_url": "https://store.steampowered.com/app/784150",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 9.99,
+          "low_1y": 8.69,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 37.25,
+          "regular": 149,
+          "low": 37.25,
+          "low_1y": 35.02,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-3646-7290-985d-66caa615329f",
       "title": "Contraband Police",
       "slug": "contraband-police",
@@ -12505,46 +12553,46 @@
       }
     },
     {
-      "id": "018d937e-f4ba-7318-a173-9571653fa438",
-      "title": "Workers & Resources: Soviet Republic",
-      "slug": "workers-and-resources-soviet-republic",
-      "appid": 784150,
+      "id": "018d937e-f8f3-70da-8c77-7155fdb347a0",
+      "title": "Red Orchestra 2 - Digital Deluxe Upgrade",
+      "slug": "red-orchestra-2-digital-deluxe-upgrade",
+      "appid": 35450,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Strategy",
-        "City Builder",
-        "Simulation",
-        "Base Building",
-        "Grand Strategy"
+        "World War II",
+        "Realistic",
+        "Multiplayer",
+        "FPS",
+        "Wargame"
       ],
       "reviews": {
-        "score": 91,
-        "count": 24935,
+        "score": 93,
+        "count": 24884,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f4ba-7318-a173-9571653fa438/boxart.jpg?t=1790856030"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f8f3-70da-8c77-7155fdb347a0/boxart.jpg"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/784150/703466/c14b378c104e0f831bbe2deb8038d7180caddf4b/1750583625/hls_264_master.m3u8?t=1743008791",
-      "steam_url": "https://store.steampowered.com/app/784150",
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/35450",
       "prices": {
         "USD": {
-          "current": 9.99,
-          "regular": 39.99,
-          "low": 9.99,
-          "low_1y": 8.69,
+          "current": 2.49,
+          "regular": 9.99,
+          "low": 2.49,
+          "low_1y": 2.49,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 37.25,
-          "regular": 149,
-          "low": 37.25,
-          "low_1y": 35.02,
+          "current": 9,
+          "regular": 36,
+          "low": 9,
+          "low_1y": 9,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -13145,11 +13193,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 22295,
+        "count": 22330,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-00c3-718f-a69d-f91c0396aa87/boxart.jpg?t=1790849159"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-00c3-718f-a69d-f91c0396aa87/boxart.jpg?t=1791279320"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/274520/243462/a3de8a3d7142a5b2374ebdf9d32e211cfc26934f/1750500236/hls_264_master.m3u8?t=1764597553",
       "steam_url": "https://store.steampowered.com/app/274520",
@@ -14924,7 +14972,7 @@
           "current": 3.99,
           "regular": 19.99,
           "low": 3.99,
-          "low_1y": 3.99,
+          "low_1y": 3.89,
           "cut": 80,
           "currency": "USD",
           "symbol": "$",
@@ -15809,15 +15857,15 @@
         "Simulation",
         "Base Building",
         "City Builder",
-        "Management"
+        "Grand Strategy"
       ],
       "reviews": {
         "score": 94,
-        "count": 17534,
+        "count": 17559,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1790854522"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1791285318"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/463530/1547654049/07d28005dfe882e70f98e72a36bf36ab6fa56d4a/1782459536/hls_264_master.m3u8?t=1782460105",
       "steam_url": "https://store.steampowered.com/app/463530",
@@ -16318,54 +16366,6 @@
           "low": 53.9,
           "low_1y": 53.9,
           "cut": 45,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-55b3-7250-9c70-2bcca9ac320f",
-      "title": "Marvel's Midnight Suns",
-      "slug": "marvels-midnight-suns",
-      "appid": 368260,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Superhero",
-        "Turn-Based Tactics",
-        "Deckbuilding",
-        "Turn-Based Strategy",
-        "Tactical RPG"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 17136,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-55b3-7250-9c70-2bcca9ac320f/boxart.jpg?t=1786652134"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/368260/518538/42089cfad7b9f4d139cc6744071b9bb23a67198a/1750518215/hls_264_master.m3u8?t=1669957277",
-      "steam_url": "https://store.steampowered.com/app/368260",
-      "prices": {
-        "USD": {
-          "current": 8.99,
-          "regular": 59.99,
-          "low": 8.99,
-          "low_1y": 7.52,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 29.85,
-          "regular": 199,
-          "low": 29.85,
-          "low_1y": 25.67,
-          "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
