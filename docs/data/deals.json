@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:03:00.736524+00:00",
+  "generated_at": "2026-10-07T23:20:13.345293+00:00",
   "total": 300,
   "games": [
     {
@@ -3541,6 +3541,64 @@
       }
     },
     {
+      "id": "018d937f-469e-7367-bf34-be753fe3abff",
+      "title": "Riders Republic",
+      "slug": "riders-republic",
+      "appid": 2290180,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Racing",
+        "Open World",
+        "Sports",
+        "Massively Multiplayer",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 81,
+        "count": 31556,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-469e-7367-bf34-be753fe3abff/boxart.jpg?t=1791408938"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2290180/621973481/1f120b30ad6d1dc24a3b7aa6d46daff0eb0e57db/1782312984/hls_264_master.m3u8?t=1782313251",
+      "steam_url": "https://store.steampowered.com/app/2290180",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 39.99,
+          "low": 3.99,
+          "low_1y": 3.6,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 16.8,
+          "regular": 168,
+          "low": 16.8,
+          "low_1y": 16.8,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 12.9,
+          "regular": 129.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1018-7053-bd38-d5cfb751b486",
       "title": "STEEP",
       "slug": "steep",
@@ -3590,64 +3648,6 @@
           "current": 4.75,
           "regular": 95.0,
           "cut": 95,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-469e-7367-bf34-be753fe3abff",
-      "title": "Riders Republic",
-      "slug": "riders-republic",
-      "appid": 2290180,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": true,
-      "tags": [
-        "Racing",
-        "Open World",
-        "Sports",
-        "Massively Multiplayer",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 81,
-        "count": 31032,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-469e-7367-bf34-be753fe3abff/boxart.jpg?t=1790187304"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2290180/621973481/1f120b30ad6d1dc24a3b7aa6d46daff0eb0e57db/1782312984/hls_264_master.m3u8?t=1782313251",
-      "steam_url": "https://store.steampowered.com/app/2290180",
-      "prices": {
-        "USD": {
-          "current": 3.99,
-          "regular": 39.99,
-          "low": 3.99,
-          "low_1y": 3.6,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 16.8,
-          "regular": 168,
-          "low": 16.8,
-          "low_1y": 16.8,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 12.9,
-          "regular": 129.0,
-          "cut": 90,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -5645,11 +5645,11 @@
       ],
       "reviews": {
         "score": 74,
-        "count": 213627,
+        "count": 213681,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/019152f5-9009-71ea-884c-a8f60799b3ca/boxart.jpg?t=1791296115"
+        "capsule": "https://assets.isthereanydeal.com/019152f5-9009-71ea-884c-a8f60799b3ca/boxart.jpg?t=1791389433"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/594650/1427015078/967b5fc7eea3d560b8e794f900650d688a17974f/1780991339/hls_264_master.m3u8?t=1780992167",
       "steam_url": "https://store.steampowered.com/app/594650",
@@ -12889,6 +12889,54 @@
       }
     },
     {
+      "id": "018d937e-fa66-7175-9bff-eaf27afed778",
+      "title": "Depth 4-Pack",
+      "slug": "depth-4-pack",
+      "appid": 274940,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Shooter",
+        "Underwater",
+        "Multiplayer",
+        "Atmospheric",
+        "Team-Based"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 23588,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fa66-7175-9bff-eaf27afed778/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/274940/94636/ccc9050bcf405bb992f9cd0f71b61b60509b61d8/1750500306/hls_264_master.m3u8?t=1753678658",
+      "steam_url": "https://store.steampowered.com/app/274940",
+      "prices": {
+        "USD": {
+          "current": 14.99,
+          "regular": 59.99,
+          "low": 14.99,
+          "low_1y": 14.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 49.5,
+          "regular": 198,
+          "low": 39,
+          "low_1y": 49.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-0e14-70a4-a208-80394437e425",
       "title": "Depth",
       "slug": "depth",
@@ -16318,54 +16366,6 @@
           "low": 15.2,
           "low_1y": 12.92,
           "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937e-f4d7-7087-b8f9-3e7dcd246f09",
-      "title": "The Witness",
-      "slug": "the-witness",
-      "appid": 210970,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Puzzle",
-        "Exploration",
-        "First-Person",
-        "Open World",
-        "Singleplayer"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 17221,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f4d7-7087-b8f9-3e7dcd246f09/boxart.jpg?t=1786400123"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/210970/48606/d91f43a3b3d871e8650a876391fb620985cf7cda/1751248980/hls_264_master.m3u8?t=1453238896",
-      "steam_url": "https://store.steampowered.com/app/210970",
-      "prices": {
-        "USD": {
-          "current": 3.99,
-          "regular": 39.99,
-          "low": 3.99,
-          "low_1y": 3.99,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 11.2,
-          "regular": 112,
-          "low": 11.2,
-          "low_1y": 11.2,
-          "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
