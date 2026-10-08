@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:20:13.345293+00:00",
+  "generated_at": "2026-10-08T13:23:25.331244+00:00",
   "total": 300,
   "games": [
     {
@@ -193,11 +193,11 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 317784,
+        "count": 318154,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd94-7238-a99b-14457502670c/boxart.jpg?t=1788808826"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fd94-7238-a99b-14457502670c/boxart.jpg?t=1791452451"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/582010/255950/5dffee8057c4005eb9c3f7c6443b16a42b58f208/1750555191/hls_264_master.m3u8?t=1578591085",
       "steam_url": "https://store.steampowered.com/app/582010",
@@ -7955,11 +7955,11 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 59018,
+        "count": 59325,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6993-7288-8655-db3300f50295/boxart.jpg?t=1790679016"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6993-7288-8655-db3300f50295/boxart.jpg?t=1791443145"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1659040/489970123/756c6b61b74d8a0ffe5b40d505d9a2d5325dc07a/1780394208/hls_264_master.m3u8?t=1780701513",
       "steam_url": "https://store.steampowered.com/app/1659040",
@@ -8883,11 +8883,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 48389,
+        "count": 48407,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-33e8-72ed-a34e-8397d3f83437/boxart.jpg?t=1791200410"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-33e8-72ed-a34e-8397d3f83437/boxart.jpg?t=1791446428"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/645630/115547/33a82f4993b8512ac3af247d552de81b35d80147/1750566291/hls_264_master.m3u8?t=1683629134",
       "steam_url": "https://store.steampowered.com/app/645630",
@@ -9811,11 +9811,11 @@
       ],
       "reviews": {
         "score": 88,
-        "count": 37502,
+        "count": 37505,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-342f-704f-b8d9-0813d7209d96/boxart.jpg?t=1791375925"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-342f-704f-b8d9-0813d7209d96/boxart.jpg?t=1791447623"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/704850/193372/67fc3ac273477bacd524b959bfd4a6e9cb5b96b6/1750573216/hls_264_master.m3u8?t=1683628527",
       "steam_url": "https://store.steampowered.com/app/704850",
@@ -12889,54 +12889,6 @@
       }
     },
     {
-      "id": "018d937e-fa66-7175-9bff-eaf27afed778",
-      "title": "Depth 4-Pack",
-      "slug": "depth-4-pack",
-      "appid": 274940,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Shooter",
-        "Underwater",
-        "Multiplayer",
-        "Atmospheric",
-        "Team-Based"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 23588,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fa66-7175-9bff-eaf27afed778/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/274940/94636/ccc9050bcf405bb992f9cd0f71b61b60509b61d8/1750500306/hls_264_master.m3u8?t=1753678658",
-      "steam_url": "https://store.steampowered.com/app/274940",
-      "prices": {
-        "USD": {
-          "current": 14.99,
-          "regular": 59.99,
-          "low": 14.99,
-          "low_1y": 14.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 49.5,
-          "regular": 198,
-          "low": 39,
-          "low_1y": 49.5,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-0e14-70a4-a208-80394437e425",
       "title": "Depth",
       "slug": "depth",
@@ -12981,6 +12933,54 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-fa66-7175-9bff-eaf27afed778",
+      "title": "Depth 4-Pack",
+      "slug": "depth-4-pack",
+      "appid": 274940,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Shooter",
+        "Underwater",
+        "Multiplayer",
+        "Atmospheric",
+        "Team-Based"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 23588,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fa66-7175-9bff-eaf27afed778/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/274940/94636/ccc9050bcf405bb992f9cd0f71b61b60509b61d8/1750500306/hls_264_master.m3u8?t=1753678658",
+      "steam_url": "https://store.steampowered.com/app/274940",
+      "prices": {
+        "USD": {
+          "current": 14.99,
+          "regular": 59.99,
+          "low": 14.99,
+          "low_1y": 14.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 49.5,
+          "regular": 198,
+          "low": 39,
+          "low_1y": 49.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
         }
       }
     },
