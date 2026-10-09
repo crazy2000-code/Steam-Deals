@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T22:48:06.370783+00:00",
-  "total": 210,
+  "generated_at": "2026-10-09T12:23:37.496275+00:00",
+  "total": 211,
   "games": [
     {
       "id": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0",
@@ -2856,8 +2856,8 @@
         "Co-op",
         "Relaxing",
         "Decorating",
-        "Immersive Sim",
-        "Casual"
+        "Casual",
+        "Immersive Sim"
       ],
       "reviews": {
         "score": 87,
@@ -4344,64 +4344,6 @@
           "current": 3.85,
           "regular": 38.5,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "01a0edb1-1a27-7067-ab46-2f74173374aa",
-      "title": "Tempest Rising Gold Edition",
-      "slug": "tempest-rising-gold-edition",
-      "appid": 1486920,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RTS",
-        "Strategy",
-        "Base Building",
-        "Singleplayer",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 87,
-        "count": 9985,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/01a0edb1-1a27-7067-ab46-2f74173374aa/boxart.jpg?t=1790946960"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1486920",
-      "prices": {
-        "USD": {
-          "current": 35.19,
-          "regular": 54.99,
-          "low": 35.19,
-          "low_1y": 35.19,
-          "cut": 36,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 146.56,
-          "regular": 229,
-          "low": 146.56,
-          "low_1y": 146.56,
-          "cut": 36,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 99.2,
-          "regular": 155.0,
-          "cut": 36,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -9289,11 +9231,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 17648,
+        "count": 17658,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f8c5-7010-a344-8bec5817cdea/boxart.jpg?t=1791489014"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f8c5-7010-a344-8bec5817cdea/boxart.jpg?t=1791505538"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/40700/389370408/10e89c200a802f127294239f4dd2fdfe436fbfc8/1750485470/hls_264_master.m3u8?t=1748253073",
       "steam_url": "https://store.steampowered.com/app/40700",
@@ -9521,11 +9463,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 4916,
+        "count": 4920,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1006-738b-9c58-d21516faaad9/boxart.jpg?t=1788001817"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1006-738b-9c58-d21516faaad9/boxart.jpg?t=1791546904"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/207690/165757/da317119148249f965278e11164575b2ecaab5eb/1750493177/hls_264_master.m3u8?t=1527759174",
       "steam_url": "https://store.steampowered.com/app/207690",
@@ -9579,11 +9521,11 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 4380,
+        "count": 4381,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1c9e-73be-b564-32c8aa44408c/boxart.jpg?t=1786758626"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c9e-73be-b564-32c8aa44408c/boxart.jpg?t=1791510922"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/421120/50122/67c6c148bef5efd87cd136566179230f91137544/1750528744/hls_264_master.m3u8?t=1457090099",
       "steam_url": "https://store.steampowered.com/app/421120",
@@ -10549,6 +10491,64 @@
       }
     },
     {
+      "id": "018d937e-ff76-705d-9c76-1e86f76cb56c",
+      "title": "Endless Space 2",
+      "slug": "endless-space-2",
+      "appid": 392110,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Space",
+        "Sci-fi",
+        "4X",
+        "Turn-Based Strategy"
+      ],
+      "reviews": {
+        "score": 83,
+        "count": 17300,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ff76-705d-9c76-1e86f76cb56c/boxart.jpg?t=1789472728"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/392110/103554/a6958258cc2971322f18c691ab8a20883d078cf4/1750524361/hls_264_master.m3u8?t=1567713294",
+      "steam_url": "https://store.steampowered.com/app/392110",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 7.49,
+          "low_1y": 7.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 32.25,
+          "regular": 129,
+          "low": 25.8,
+          "low_1y": 25.8,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 18.75,
+          "regular": 75.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-00f3-70e3-b3ff-eeb615b10226",
       "title": "The Last Spell",
       "slug": "the-last-spell",
@@ -10565,11 +10565,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 13308,
+        "count": 13316,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-00f3-70e3-b3ff-eeb615b10226/boxart.jpg?t=1790684122"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/1105670/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1105670/545588/d662ed926a7a096c4a8d103da4c379b65494715e/1750620126/hls_264_master.m3u8?t=1678374033",
       "steam_url": "https://store.steampowered.com/app/1105670",
@@ -11853,7 +11853,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018de04c-7ffa-7196-bde0-08380149d24d/boxart.jpg?t=1791496820"
+        "capsule": "https://assets.isthereanydeal.com/018de04c-7ffa-7196-bde0-08380149d24d/boxart.jpg?t=1791513913"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2784470/650674534/2b144ab1ab9a1740dcca7b7a2a9491d550f5c7e2/1748811521/hls_264_master.m3u8?t=1752003790",
       "steam_url": "https://store.steampowered.com/app/2784470",
@@ -12065,6 +12065,54 @@
           "regular": 114,
           "low": 34.2,
           "low_1y": 57,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-30f5-7387-ae56-283e891789ef",
+      "title": "Nyan Cat: Lost In Space",
+      "slug": "nyan-cat-lost-in-space",
+      "appid": 415420,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Memes",
+        "Cats",
+        "Platformer",
+        "Adventure",
+        "Action-Adventure"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 1642,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-30f5-7387-ae56-283e891789ef/boxart.png?t=1786816227"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/415420/47935/b424af30888ee8c081d3ffc31ee0e25f8ae61807/1751280420/hls_264_master.m3u8?t=1449137560",
+      "steam_url": "https://store.steampowered.com/app/415420",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 1.01,
+          "low_1y": 2.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 11,
+          "regular": 22,
+          "low": 4.99,
+          "low_1y": 11,
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
