@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T20:59:37.139269+00:00",
-  "total": 238,
+  "generated_at": "2026-10-11T11:54:32.099451+00:00",
+  "total": 239,
   "games": [
     {
       "id": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0",
@@ -4692,6 +4692,64 @@
           "current": 3.85,
           "regular": 38.5,
           "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "01a0edb1-1a27-7067-ab46-2f74173374aa",
+      "title": "Tempest Rising Gold Edition",
+      "slug": "tempest-rising-gold-edition",
+      "appid": 1486920,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RTS",
+        "Strategy",
+        "Base Building",
+        "Singleplayer",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 9985,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/01a0edb1-1a27-7067-ab46-2f74173374aa/boxart.jpg?t=1790946960"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1486920",
+      "prices": {
+        "USD": {
+          "current": 35.19,
+          "regular": 54.99,
+          "low": 35.19,
+          "low_1y": 35.19,
+          "cut": 36,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 146.56,
+          "regular": 229,
+          "low": 146.56,
+          "low_1y": 146.56,
+          "cut": 36,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 99.2,
+          "regular": 155.0,
+          "cut": 36,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11578,16 +11636,6 @@
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 7.75,
-          "regular": 31.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
