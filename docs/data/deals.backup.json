@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T11:54:32.099451+00:00",
-  "total": 239,
+  "generated_at": "2026-10-11T21:21:50.719055+00:00",
+  "total": 244,
   "games": [
     {
       "id": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0",
@@ -2091,6 +2091,64 @@
       }
     },
     {
+      "id": "018d937e-ffa2-734b-bd3a-2d399afbad2f",
+      "title": "Just Shapes & Beats",
+      "slug": "just-shapes-and-beats",
+      "appid": 531510,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Rhythm",
+        "Great Soundtrack",
+        "Music",
+        "Bullet Hell",
+        "Difficult"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 24112,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ffa2-734b-bd3a-2d399afbad2f/boxart.jpg?t=1786556438"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/531510/164667/f30d7c4c446fe66980423856f4f9a9f07e070ad0/1750544922/hls_264_master.m3u8?t=1693412028",
+      "steam_url": "https://store.steampowered.com/app/531510",
+      "prices": {
+        "USD": {
+          "current": 11.99,
+          "regular": 19.99,
+          "low": 11.99,
+          "low_1y": 11.99,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 42,
+          "regular": 70,
+          "low": 42,
+          "low_1y": 42,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 29.4,
+          "regular": 49.0,
+          "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-3294-7015-a1a5-3e279739c3cc",
       "title": "Foundation",
       "slug": "foundation",
@@ -3251,64 +3309,6 @@
       }
     },
     {
-      "id": "018d937f-58d7-736f-b979-0da56c1ffb5c",
-      "title": "Sword and Fairy 7",
-      "slug": "sword-and-fairy-7",
-      "appid": 1543030,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Singleplayer",
-        "Martial Arts",
-        "Mythology",
-        "Action RPG"
-      ],
-      "reviews": {
-        "score": 72,
-        "count": 15578,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-58d7-736f-b979-0da56c1ffb5c/boxart.jpg?t=1786990017"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1543030/409119/d791c5f6f413a0f385a2af904aabcad51586ec82/1750699344/hls_264_master.m3u8?t=1662362235",
-      "steam_url": "https://store.steampowered.com/app/1543030",
-      "prices": {
-        "USD": {
-          "current": 11.99,
-          "regular": 29.99,
-          "low": 11.99,
-          "low_1y": 11.99,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 51.2,
-          "regular": 128,
-          "low": 51.2,
-          "low_1y": 51.2,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 43.2,
-          "regular": 108.0,
-          "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-5c5c-73a0-bb7c-7f494173a47b",
       "title": "Strange Horticulture",
       "slug": "strange-horticulture",
@@ -4121,6 +4121,64 @@
       }
     },
     {
+      "id": "018d937f-0110-702c-b9d4-3d61c54cf1c7",
+      "title": "Cosmoteer: Starship Architect & Commander",
+      "slug": "cosmoteer-starship-architect-and-commander",
+      "appid": 799600,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Sci-fi",
+        "Singleplayer",
+        "Building",
+        "Space",
+        "2D"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 12070,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0110-702c-b9d4-3d61c54cf1c7/boxart.jpg?t=1786204230"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/799600/482645/51e4a8123ce757de145ce601fdcf664fc9d033ef/1750585162/hls_264_master.m3u8?t=1690655140",
+      "steam_url": "https://store.steampowered.com/app/799600",
+      "prices": {
+        "USD": {
+          "current": 13.99,
+          "regular": 19.99,
+          "low": 13.99,
+          "low_1y": 13.99,
+          "cut": 30,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 47.6,
+          "regular": 68,
+          "low": 47.6,
+          "low_1y": 47.6,
+          "cut": 30,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 34.3,
+          "regular": 49.0,
+          "cut": 30,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1163-73c6-8a57-2660e344fdd4",
       "title": "PIXARK",
       "slug": "pixark",
@@ -4344,64 +4402,6 @@
           "current": 8.75,
           "regular": 35.0,
           "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-409c-73ef-8f44-cdd4a76256fc",
-      "title": "Diplomacy is Not an Option",
-      "slug": "diplomacy-is-not-an-option",
-      "appid": 1272320,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Resource Management",
-        "Medieval",
-        "Historical",
-        "Zombies",
-        "Base Building"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 10957,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-409c-73ef-8f44-cdd4a76256fc/boxart.jpg?t=1790905525"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1272320/1082242692/bc5769bdea351a3bf01ad9e2452b8fc2d2e4de4e/1783620006/hls_264_master.m3u8?t=1783620561",
-      "steam_url": "https://store.steampowered.com/app/1272320",
-      "prices": {
-        "USD": {
-          "current": 11.99,
-          "regular": 29.99,
-          "low": 11.99,
-          "low_1y": 9.25,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 39.6,
-          "regular": 99,
-          "low": 39.6,
-          "low_1y": 33.26,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 28.8,
-          "regular": 72.0,
-          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -4701,64 +4701,6 @@
       }
     },
     {
-      "id": "01a0edb1-1a27-7067-ab46-2f74173374aa",
-      "title": "Tempest Rising Gold Edition",
-      "slug": "tempest-rising-gold-edition",
-      "appid": 1486920,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RTS",
-        "Strategy",
-        "Base Building",
-        "Singleplayer",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 87,
-        "count": 9985,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/01a0edb1-1a27-7067-ab46-2f74173374aa/boxart.jpg?t=1790946960"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1486920",
-      "prices": {
-        "USD": {
-          "current": 35.19,
-          "regular": 54.99,
-          "low": 35.19,
-          "low_1y": 35.19,
-          "cut": 36,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 146.56,
-          "regular": 229,
-          "low": 146.56,
-          "low_1y": 146.56,
-          "cut": 36,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 99.2,
-          "regular": 155.0,
-          "cut": 36,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-730c-7162-b22a-575b379c3ecf",
       "title": "Stronghold: Definitive Edition",
       "slug": "stronghold-definitive-edition",
@@ -5030,6 +4972,64 @@
           "current": 9.24,
           "regular": 28.0,
           "cut": 67,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-1f51-72bb-a6f8-8746945ef102",
+      "title": "Bus Simulator 18",
+      "slug": "bus-simulator-18",
+      "appid": 515180,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Automobile Sim",
+        "Driving",
+        "Multiplayer",
+        "Realistic"
+      ],
+      "reviews": {
+        "score": 79,
+        "count": 8792,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1f51-72bb-a6f8-8746945ef102/boxart.jpg?t=1787248551"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/515180/168050/f3156392ae85f6564ddb4061f7b079b588c83495/1751296064/hls_264_master.m3u8?t=1528909229",
+      "steam_url": "https://store.steampowered.com/app/515180",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 14.99,
+          "low": 2.99,
+          "low_1y": 2.52,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 11.8,
+          "regular": 59,
+          "low": 11.8,
+          "low_1y": 11.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 7.35,
+          "regular": 36.75,
+          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6837,6 +6837,64 @@
       }
     },
     {
+      "id": "018d937f-6e67-715e-9f17-791ede47f33e",
+      "title": "Bus Simulator 21 Next Stop",
+      "slug": "bus-simulator-21-next-stop",
+      "appid": 976590,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Automobile Sim",
+        "Driving",
+        "3D",
+        "Realistic"
+      ],
+      "reviews": {
+        "score": 74,
+        "count": 3993,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6e67-715e-9f17-791ede47f33e/boxart.jpg?t=1787262014"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/976590/689616/b606936f0a46bb78eeb4f82240001c1046adf7e3/1750603083/hls_264_master.m3u8?t=1713537208",
+      "steam_url": "https://store.steampowered.com/app/976590",
+      "prices": {
+        "USD": {
+          "current": 8.74,
+          "regular": 24.99,
+          "low": 8.74,
+          "low_1y": 8.68,
+          "cut": 65,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 32.55,
+          "regular": 93,
+          "low": 32.55,
+          "low_1y": 32.55,
+          "cut": 65,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 20.47,
+          "regular": 58.49,
+          "cut": 65,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937e-ea1f-70cf-b40a-abe09fc73e80",
       "title": "Grow Home",
       "slug": "grow-home",
@@ -7060,6 +7118,64 @@
           "current": 2.38,
           "regular": 17.0,
           "cut": 86,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-45db-72da-8744-111c18250426",
+      "title": "Voidigo",
+      "slug": "voidigo",
+      "appid": 1304680,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action Roguelike",
+        "Twin Stick Shooter",
+        "Roguelike",
+        "Local Co-Op",
+        "Bullet Hell"
+      ],
+      "reviews": {
+        "score": 96,
+        "count": 3788,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-45db-72da-8744-111c18250426/boxart.jpg?t=1788000325"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1304680/350235/59291c91d007c2fa16ca6f133e86d21421254962/1750671205/hls_264_master.m3u8?t=1732113019",
+      "steam_url": "https://store.steampowered.com/app/1304680",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 4.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10.5,
+          "regular": 21,
+          "low": 10.5,
+          "low_1y": 10.5,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 6.49,
+          "regular": 12.99,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -10433,6 +10549,64 @@
       }
     },
     {
+      "id": "018d937e-fa50-72c0-91d0-6ed8ed4dba2f",
+      "title": "Gas Guzzlers Extreme",
+      "slug": "gas-guzzlers-extreme",
+      "appid": 243800,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Combat Racing",
+        "Vehicular Combat",
+        "Racing",
+        "Automobile Sim",
+        "Action"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 3088,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fa50-72c0-91d0-6ed8ed4dba2f/boxart.jpg?t=1787943006"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/243800/12644/ebf72d24c994defc1589b644b968fe03d036d7af/1751247950/hls_264_master.m3u8?t=1447358432",
+      "steam_url": "https://store.steampowered.com/app/243800",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 1.66,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 18.8,
+          "regular": 94,
+          "low": 9.4,
+          "low_1y": 11.78,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 11.8,
+          "regular": 59.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-0143-7246-9689-4b6d3727293b",
       "title": "Figment",
       "slug": "figment",
@@ -11187,6 +11361,64 @@
       }
     },
     {
+      "id": "018d937f-2d2f-7172-9f8a-93ddf009651b",
+      "title": "TerraTech",
+      "slug": "terratech",
+      "appid": 285920,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Building",
+        "Sandbox",
+        "Open World",
+        "Open World Survival Craft",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 20609,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d2f-7172-9f8a-93ddf009651b/boxart.jpg?t=1786641915"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/285920/178207/dd0b4cf30b4b9fec99f9792b38ecf2dc71600513/1750490003/hls_264_master.m3u8?t=1685531508",
+      "steam_url": "https://store.steampowered.com/app/285920",
+      "prices": {
+        "USD": {
+          "current": 6.24,
+          "regular": 24.99,
+          "low": 4.99,
+          "low_1y": 6.24,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 20,
+          "regular": 80,
+          "low": 16,
+          "low_1y": 19.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 11.0,
+          "regular": 44.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-380a-72e5-8720-6e50d31974c6",
       "title": "Neon Abyss",
       "slug": "neon-abyss",
@@ -11405,16 +11637,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 18.75,
-          "regular": 75.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11462,16 +11684,6 @@
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 15.25,
-          "regular": 61.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -11521,16 +11733,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 3.75,
-          "regular": 15.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11578,16 +11780,6 @@
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 12.25,
-          "regular": 49.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -13004,6 +13196,54 @@
           "current": 3,
           "regular": 6,
           "low": 1.74,
+          "low_1y": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-462c-71fc-b835-04865a39e341",
+      "title": "Kandidatos",
+      "slug": "kandidatos",
+      "appid": 1395560,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Fighting",
+        "Comedy",
+        "3D Fighter",
+        "Martial Arts",
+        "Satire"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 3500,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-462c-71fc-b835-04865a39e341/boxart.jpg?t=1790199633"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1395560/304436/7de35b799b423ca99ec6c703e776820100fbb7a6/1751232248/hls_264_master.m3u8?t=1782787286",
+      "steam_url": "https://store.steampowered.com/app/1395560",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.29,
+          "low_1y": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 1.66,
           "low_1y": 3,
           "cut": 50,
           "currency": "CNY",

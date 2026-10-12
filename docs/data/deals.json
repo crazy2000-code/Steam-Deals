@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T21:21:50.719055+00:00",
-  "total": 244,
+  "generated_at": "2026-10-12T13:58:43.521764+00:00",
+  "total": 245,
   "games": [
     {
       "id": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0",
@@ -2246,7 +2246,7 @@
           "current": 5.9,
           "regular": 59,
           "low": 5.9,
-          "low_1y": 5.9,
+          "low_1y": 5,
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
@@ -2745,11 +2745,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 18727,
+        "count": 18842,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-500f-706a-9e9d-32a6ed2b9032/boxart.jpg?t=1791004878"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-500f-706a-9e9d-32a6ed2b9032/boxart.jpg?t=1791791404"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1599600/484890/dce6b069ede6b19aa823a43e88aeeb3d13408202/1750705040/hls_264_master.m3u8?t=1659620731",
       "steam_url": "https://store.steampowered.com/app/1599600",
@@ -5055,11 +5055,11 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 8742,
+        "count": 8748,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1786639210"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1791794704"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1504500/464551/8dc9db2283be45cabbd5ca3042d678168064c9c9/1750996364/hls_264_master.m3u8?t=1684903877",
       "steam_url": "https://store.steampowered.com/app/1504500",
@@ -5403,11 +5403,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 7766,
+        "count": 7775,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4813-701c-88aa-96877a3f17c2/boxart.jpg?t=1786205104"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4813-701c-88aa-96877a3f17c2/boxart.jpg?t=1791809419"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1121640/741421215/ed4727162d8942f747f721235b970e207418b005/1753363437/hls_264_master.m3u8?t=1753365988",
       "steam_url": "https://store.steampowered.com/app/1121640",
@@ -6769,6 +6769,64 @@
         "MYR": {
           "current": 3.9,
           "regular": 19.5,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-2b35-72da-b450-6bde20e7c8cb",
+      "title": "Niche - a genetics survival game",
+      "slug": "niche-a-genetics-survival-game",
+      "appid": 440650,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Turn-Based Strategy",
+        "Adventure",
+        "Puzzle",
+        "Singleplayer",
+        "Nature"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 4357,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2b35-72da-b450-6bde20e7c8cb/boxart.jpg?t=1786202715"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/440650/51324/f6ee1e48696426a05139e4e1ef85af31e76d14b0/1750530859/hls_264_master.m3u8?t=1464118209",
+      "steam_url": "https://store.steampowered.com/app/440650",
+      "prices": {
+        "USD": {
+          "current": 3.59,
+          "regular": 17.99,
+          "low": 3.59,
+          "low_1y": 3.59,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 12,
+          "regular": 60,
+          "low": 12,
+          "low_1y": 12,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 9.0,
+          "regular": 45.0,
           "cut": 80,
           "low": null,
           "low_1y": null,
@@ -8220,6 +8278,64 @@
           "current": 2.35,
           "regular": 23.5,
           "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-4e58-72ce-8807-c520100ef503",
+      "title": "东方夜光幻梦",
+      "slug": "dong-fang-ye-guang-huan-meng",
+      "appid": 1245540,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Casual",
+        "Anime",
+        "Roguelite",
+        "Cartoon",
+        "Cartoony"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 1704,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4e58-72ce-8807-c520100ef503/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1245540",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 16,
+          "regular": 32,
+          "low": 16,
+          "low_1y": 16,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 9.75,
+          "regular": 19.5,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11521,16 +11637,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 17.92,
-          "regular": 71.71,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11579,16 +11685,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        },
-        "MYR": {
-          "current": 9.75,
-          "regular": 39.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -13437,54 +13533,6 @@
           "regular": 59,
           "low": 26.55,
           "low_1y": 24.32,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-27f8-7207-82aa-8f86ec2fb968",
-      "title": "X-Plane 11",
-      "slug": "x-plane-11",
-      "appid": 269950,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Simulation",
-        "Flight",
-        "Realistic",
-        "Open World",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 19276,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-27f8-7207-82aa-8f86ec2fb968/boxart.jpg?t=1791026739"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/269950/84835/5a004c9a2083b5db09d0fad42e3b3495bdbbd477/1750499565/hls_264_master.m3u8?t=1482444216",
-      "steam_url": "https://store.steampowered.com/app/269950",
-      "prices": {
-        "USD": {
-          "current": 14.99,
-          "regular": 29.99,
-          "low": 9.89,
-          "low_1y": 9.89,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 45,
-          "regular": 90,
-          "low": 29.7,
-          "low_1y": 29.7,
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
