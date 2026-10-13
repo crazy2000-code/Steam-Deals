@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:19:23.676135+00:00",
+  "generated_at": "2026-10-13T13:34:02.845917+00:00",
   "total": 300,
   "games": [
     {
@@ -541,11 +541,11 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 50386,
+        "count": 50573,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-64d8-72a9-b6e7-9e34585a016f/boxart.jpg?t=1789617034"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-64d8-72a9-b6e7-9e34585a016f/boxart.jpg?t=1791867617"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1364780/164062000/efbde3d3a18847d8f98cc53a96854579b3d0e96d/1782090499/hls_264_master.m3u8?t=1782095041",
       "steam_url": "https://store.steampowered.com/app/1364780",
@@ -2401,7 +2401,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/690830/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3294-7015-a1a5-3e279739c3cc/boxart.jpg?t=1791856531"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/690830",
@@ -5867,11 +5867,11 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 8748,
+        "count": 8750,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1791794704"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1791877213"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1504500/464551/8dc9db2283be45cabbd5ca3042d678168064c9c9/1750996364/hls_264_master.m3u8?t=1684903877",
       "steam_url": "https://store.steampowered.com/app/1504500",
@@ -11361,6 +11361,64 @@
       }
     },
     {
+      "id": "018d937f-27fc-724c-a100-d4289ea23e5f",
+      "title": "Zombie Kill of the Week - Reborn 4-Pack",
+      "slug": "zombie-kill-of-the-week-reborn-4-pack",
+      "appid": 342300,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Zombies",
+        "Indie",
+        "2D",
+        "Pixel Graphics"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 769,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-27fc-724c-a100-d4289ea23e5f/banner300.jpg?t=1771002007"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/342300",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.8,
+          "regular": 68,
+          "low": 6,
+          "low_1y": 6.8,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 3.4,
+          "regular": 17.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-220e-7290-84d7-80608be87563",
       "title": "Hell Yeah! Wrath of the Dead Rabbit",
       "slug": "hell-yeah-wrath-of-the-dead-rabbit",
@@ -11578,16 +11636,6 @@
           "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 8.4,
-          "regular": 56.0,
-          "cut": 85,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -14921,11 +14969,11 @@
       ],
       "reviews": {
         "score": 84,
-        "count": 17852,
+        "count": 17856,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1b21-706f-8ccc-a76054f27589/boxart.jpg?t=1786140961"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1b21-706f-8ccc-a76054f27589/boxart.jpg?t=1791881120"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/641320/226895/78bf79e51f15b7b5adb47eb6fe031e2ec213217c/1750565911/hls_264_master.m3u8?t=1559838440",
       "steam_url": "https://store.steampowered.com/app/641320",
@@ -16338,54 +16386,6 @@
           "low": 22.2,
           "low_1y": 22,
           "cut": 67,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-304d-7185-ac59-40bad3065160",
-      "title": "Octodad: Dadliest Catch",
-      "slug": "octodad-dadliest-catch",
-      "appid": 224480,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Comedy",
-        "Physics",
-        "Funny",
-        "Indie",
-        "Family Friendly"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 9111,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-304d-7185-ac59-40bad3065160/boxart.jpg?t=1787442032"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/224480/16574/533eff1bc6f4dd1e35c6a89008d81929d87b2872/1750481969/hls_264_master.m3u8?t=1447360089",
-      "steam_url": "https://store.steampowered.com/app/224480",
-      "prices": {
-        "USD": {
-          "current": 5.09,
-          "regular": 14.99,
-          "low": 0.99,
-          "low_1y": 2.99,
-          "cut": 66,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 16.32,
-          "regular": 48,
-          "low": 3,
-          "low_1y": 12,
-          "cut": 66,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
