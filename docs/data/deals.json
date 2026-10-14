@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:29:06.510430+00:00",
+  "generated_at": "2026-10-14T11:10:24.376636+00:00",
   "total": 300,
   "games": [
     {
@@ -1734,6 +1734,64 @@
           "current": 29.5,
           "regular": 59.0,
           "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-2d61-7357-8998-c5fabda75487",
+      "title": "Noita",
+      "slug": "noita",
+      "appid": 881100,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Physics",
+        "Roguelike",
+        "Pixel Graphics",
+        "Difficult",
+        "Dungeon Crawler"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 81566,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d61-7357-8998-c5fabda75487/boxart.jpg?t=1790938605"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/881100/318644/b853dbe56ac169124a412e8ce28bac0b89558f33/1750592906/hls_264_master.m3u8?t=1602783173",
+      "steam_url": "https://store.steampowered.com/app/881100",
+      "prices": {
+        "USD": {
+          "current": 7.99,
+          "regular": 19.99,
+          "low": 7.99,
+          "low_1y": 7.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 28,
+          "regular": 70,
+          "low": 28,
+          "low_1y": 28,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 15.6,
+          "regular": 39.0,
+          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6273,11 +6331,11 @@
       ],
       "reviews": {
         "score": 96,
-        "count": 8750,
+        "count": 8752,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1791877213"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6470-733c-b3c8-812e122dbd4e/boxart.jpg?t=1791962416"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1504500/464551/8dc9db2283be45cabbd5ca3042d678168064c9c9/1750996364/hls_264_master.m3u8?t=1684903877",
       "steam_url": "https://store.steampowered.com/app/1504500",
@@ -9665,6 +9723,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 6.3,
+          "regular": 90.0,
+          "cut": 93,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -11569,16 +11637,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        },
-        "MYR": {
-          "current": 3.8,
-          "regular": 38.0,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -11626,16 +11684,6 @@
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 24.5,
-          "regular": 98.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": true
         }
       }
@@ -16337,54 +16385,6 @@
           "regular": 68,
           "low": 13,
           "low_1y": 17,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-2a10-72f6-b557-e0085b310ad5",
-      "title": "Cook, Serve, Delicious! 2!!",
-      "slug": "cook-serve-delicious-2",
-      "appid": 386620,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Typing",
-        "Casual",
-        "Management",
-        "Difficult",
-        "Arcade"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 2134,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2a10-72f6-b557-e0085b310ad5/boxart.jpg?t=1786555565"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/386620/387762300/f9f327bef9f16e867f099a0d6f790c8924c896a7/1754505487/hls_264_master.m3u8?t=1755113713",
-      "steam_url": "https://store.steampowered.com/app/386620",
-      "prices": {
-        "USD": {
-          "current": 3.74,
-          "regular": 14.99,
-          "low": 1.29,
-          "low_1y": 2.39,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 14.5,
-          "regular": 58,
-          "low": 4.2,
-          "low_1y": 10.5,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
