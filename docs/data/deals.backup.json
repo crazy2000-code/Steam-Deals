@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:33:12.617317+00:00",
+  "generated_at": "2026-10-15T10:56:18.094471+00:00",
   "total": 300,
   "games": [
     {
@@ -844,7 +844,7 @@
           "current": 15.99,
           "regular": 39.99,
           "low": 15.99,
-          "low_1y": 14.65,
+          "low_1y": 14.36,
           "cut": 60,
           "currency": "USD",
           "symbol": "$",
@@ -5716,7 +5716,7 @@
           "current": 2.49,
           "regular": 9.99,
           "low": 2.49,
-          "low_1y": 2.49,
+          "low_1y": 1.95,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -5726,7 +5726,7 @@
           "current": 15.75,
           "regular": 63,
           "low": 12,
-          "low_1y": 15.75,
+          "low_1y": 13.28,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -6780,64 +6780,6 @@
           "current": 5.07,
           "regular": 39.0,
           "cut": 87,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-7867-71db-ba0b-3fd6e45770d5",
-      "title": "Like a Dragon Gaiden: The Man Who Erased His Name - Digital Deluxe",
-      "slug": "like-a-dragon-gaiden-the-man-who-erased-his-name-digital-deluxe",
-      "appid": 2375550,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Beat 'em up",
-        "Action RPG",
-        "Sexual Content",
-        "Action-Adventure"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 9162,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-7867-71db-ba0b-3fd6e45770d5/boxart.jpg?t=1725213917"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/2375550",
-      "prices": {
-        "USD": {
-          "current": 13.74,
-          "regular": 54.99,
-          "low": 13.74,
-          "low_1y": 12.34,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 62,
-          "regular": 248,
-          "low": 62,
-          "low_1y": 62,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 37.25,
-          "regular": 149.0,
-          "cut": 75,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11637,6 +11579,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
+        },
+        "MYR": {
+          "current": 6.99,
+          "regular": 13.99,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
         }
       }
     },
@@ -12553,102 +12505,6 @@
       }
     },
     {
-      "id": "018d937f-537e-726e-9324-d21772d24433",
-      "title": "Super Monkey Ball Banana Mania Digital Deluxe Edition",
-      "slug": "super-monkey-ball-banana-mania-digital-deluxe-edition",
-      "appid": 1316910,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Colorful",
-        "Platformer",
-        "Controller",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 1316,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-537e-726e-9324-d21772d24433/boxart.jpg?t=1733970609"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1316910/407182/f56e17f02efb3b2d986ef22ac3f8f4c6278b334d/1750671850/hls_264_master.m3u8?t=1633565684",
-      "steam_url": "https://store.steampowered.com/app/1316910",
-      "prices": {
-        "USD": {
-          "current": 9.99,
-          "regular": 39.99,
-          "low": 9.99,
-          "low_1y": 8.36,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 74.75,
-          "regular": 299,
-          "low": 74.75,
-          "low_1y": 67.01,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "019060dd-3506-72cf-8109-5fcdfd5af336",
-      "title": "Dollar",
-      "slug": "dollar",
-      "appid": 3069470,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Idler",
-        "Capitalism",
-        "Casual",
-        "Economy",
-        "Memes"
-      ],
-      "reviews": {
-        "score": 79,
-        "count": 1050,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/019060dd-3506-72cf-8109-5fcdfd5af336/boxart.jpg?t=1787684714"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3069470/717373/b9009e431dddcf9c8488273eb3774af528a98a21/1750972308/hls_264_master.m3u8?t=1722099530",
-      "steam_url": "https://store.steampowered.com/app/3069470",
-      "prices": {
-        "USD": {
-          "current": 0.49,
-          "regular": 0.99,
-          "low": 0.49,
-          "low_1y": 0.49,
-          "cut": 51,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 3,
-          "regular": 6,
-          "low": 3,
-          "low_1y": 3,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-09a6-72ee-9ede-46c506159b8d",
       "title": "Screencheat",
       "slug": "screencheat",
@@ -12841,50 +12697,49 @@
       }
     },
     {
-      "id": "019256b4-85ea-7141-b7ed-f7f682c95d8e",
-      "title": "Chonkers",
-      "slug": "chonkers",
-      "appid": 3244210,
+      "id": "018d937e-fde2-7232-9a2b-4c69af94f373",
+      "title": "Legend of Merchant",
+      "slug": "legend-of-merchant",
+      "appid": 543140,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Cats",
-        "Creature Collector",
-        "Idler",
-        "Cozy",
-        "Relaxing"
+        "Casual",
+        "Simulation",
+        "Indie",
+        "2D"
       ],
       "reviews": {
-        "score": 87,
-        "count": 522,
+        "score": 82,
+        "count": 606,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/019256b4-85ea-7141-b7ed-f7f682c95d8e/boxart.jpg?t=1787038834"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fde2-7232-9a2b-4c69af94f373/boxart.jpg?t=1787439630"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/3244210/787607/2d0b8b6f58959b9fc1b9b25ba25c80292505a4af/1750825102/hls_264_master.m3u8?t=1731936967",
-      "steam_url": "https://store.steampowered.com/app/3244210",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/543140/84048/b4d18591aae9c741601908f2e99566734ff96f87/1751299816/hls_264_master.m3u8?t=1481881236",
+      "steam_url": "https://store.steampowered.com/app/543140",
       "prices": {
         "USD": {
-          "current": 3.49,
-          "regular": 4.99,
-          "low": 3.49,
-          "low_1y": 3.49,
+          "current": 1.39,
+          "regular": 1.99,
+          "low": 1.39,
+          "low_1y": 1.39,
           "cut": 30,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 15.4,
-          "regular": 22,
-          "low": 15.4,
-          "low_1y": 15.4,
+          "current": 4.9,
+          "regular": 7,
+          "low": 1.79,
+          "low_1y": 4.9,
           "cut": 30,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": true
+          "is_atl": false
         }
       }
     },
@@ -14704,7 +14559,7 @@
           "current": 10.5,
           "regular": 70,
           "low": 7,
-          "low_1y": 8.24,
+          "low_1y": 8.23,
           "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
@@ -16385,6 +16240,150 @@
           "regular": 15,
           "low": 2.99,
           "low_1y": 3,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-0dfc-7048-ac4a-eb1e77ade821",
+      "title": "Wolfenstein: The Old Blood",
+      "slug": "wolfenstein-the-old-blood",
+      "appid": 350080,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "FPS",
+        "Action",
+        "World War II",
+        "Gore",
+        "Alternate History"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 18139,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0dfc-7048-ac4a-eb1e77ade821/boxart.jpg?t=1786651553"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/350080/35414/457ad4f0ac318b684a8f0ee91f02a2817208607e/1750513801/hls_264_master.m3u8?t=1447374088",
+      "steam_url": "https://store.steampowered.com/app/350080",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 20.75,
+          "regular": 83,
+          "low": 13,
+          "low_1y": 16.6,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-f862-7224-a5aa-d90d54b89059",
+      "title": "Total War: Napoleon - Definitive Edition",
+      "slug": "total-war-napoleon-definitive-edition",
+      "appid": 34030,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "Grand Strategy",
+        "War",
+        "Turn-Based Strategy"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 18090,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f862-7224-a5aa-d90d54b89059/boxart.jpg?t=1786822525"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/34030/196930/5412c97efa458fe26ff0d1a2f48fa8d5d52e376c/1750485122/hls_264_master.m3u8?t=1542726983",
+      "steam_url": "https://store.steampowered.com/app/34030",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 3.74,
+          "low_1y": 4.45,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 17,
+          "regular": 68,
+          "low": 17,
+          "low_1y": 17,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-1b21-706f-8ccc-a76054f27589",
+      "title": "Cooking Simulator",
+      "slug": "cooking-simulator",
+      "appid": 641320,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Cooking",
+        "Singleplayer",
+        "Realistic",
+        "Sandbox"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 17856,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1b21-706f-8ccc-a76054f27589/boxart.jpg?t=1791881120"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/641320/226895/78bf79e51f15b7b5adb47eb6fe031e2ec213217c/1750565911/hls_264_master.m3u8?t=1559838440",
+      "steam_url": "https://store.steampowered.com/app/641320",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 19,
+          "regular": 76,
+          "low": 15.2,
+          "low_1y": 15.2,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
