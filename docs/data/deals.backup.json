@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:20:12.519918+00:00",
+  "generated_at": "2026-10-20T10:55:55.101027+00:00",
   "total": 300,
   "games": [
     {
@@ -715,11 +715,11 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 46838,
+        "count": 47000,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3e66-70a2-bb81-04e55ec0da54/boxart.jpg?t=1791471611"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3e66-70a2-bb81-04e55ec0da54/boxart.jpg?t=1792487116"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1465360/2140598964/1ced738be5066c12e8c09eb75be9c35d71e4e3f6/1782402586/hls_264_master.m3u8?t=1782403732",
       "steam_url": "https://store.steampowered.com/app/1465360",
@@ -3570,7 +3570,7 @@
           "current": 2.74,
           "regular": 4.99,
           "low": 2.74,
-          "low_1y": 2.64,
+          "low_1y": 2.49,
           "cut": 45,
           "currency": "USD",
           "symbol": "$",
@@ -12043,6 +12043,54 @@
       }
     },
     {
+      "id": "018d937f-1561-70ec-8bd3-e28d24e0f45f",
+      "title": "Goodbye Deponia Premium",
+      "slug": "goodbye-deponia-premium",
+      "appid": 241910,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Comedy",
+        "Singleplayer",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 2083,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1561-70ec-8bd3-e28d24e0f45f/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
+      "steam_url": "https://store.steampowered.com/app/241910",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.2,
+          "regular": 92,
+          "low": 8,
+          "low_1y": 9.2,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937e-ea11-7209-bf57-17e5acadfcd0",
       "title": "Goodbye Deponia",
       "slug": "goodbye-deponia",
@@ -12423,6 +12471,54 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-4e58-72ce-8807-c520100ef503",
+      "title": "东方夜光幻梦",
+      "slug": "dong-fang-ye-guang-huan-meng",
+      "appid": 1245540,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Casual",
+        "Anime",
+        "Roguelite",
+        "Cartoon",
+        "Cartoony"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 1704,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4e58-72ce-8807-c520100ef503/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1245540",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 7.99,
+          "low": 3.99,
+          "low_1y": 3.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 16,
+          "regular": 32,
+          "low": 16,
+          "low_1y": 16,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
         }
       }
     },
@@ -12859,54 +12955,6 @@
       }
     },
     {
-      "id": "018d937f-09a6-72ee-9ede-46c506159b8d",
-      "title": "Screencheat",
-      "slug": "screencheat",
-      "appid": 301970,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Split Screen",
-        "Arena Shooter",
-        "FPS",
-        "Shooter",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 91,
-        "count": 852,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-09a6-72ee-9ede-46c506159b8d/boxart.jpg?t=1786741835"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/301970/53784/9748e41ea90fb9bf6a72227b28c45219cacebdde/1750503646/hls_264_master.m3u8?t=1567657638",
-      "steam_url": "https://store.steampowered.com/app/301970",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 14.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 11.6,
-          "regular": 58,
-          "low": 10,
-          "low_1y": 9,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-20c0-732b-84a3-1d1e7603c52b",
       "title": "Screencheat 4 Pack",
       "slug": "screencheat-4-pack",
@@ -12947,6 +12995,54 @@
           "regular": 152,
           "low": 25.2,
           "low_1y": 30.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-09a6-72ee-9ede-46c506159b8d",
+      "title": "Screencheat",
+      "slug": "screencheat",
+      "appid": 301970,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Split Screen",
+        "Arena Shooter",
+        "FPS",
+        "Shooter",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 852,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-09a6-72ee-9ede-46c506159b8d/boxart.jpg?t=1786741835"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/301970/53784/9748e41ea90fb9bf6a72227b28c45219cacebdde/1750503646/hls_264_master.m3u8?t=1567657638",
+      "steam_url": "https://store.steampowered.com/app/301970",
+      "prices": {
+        "USD": {
+          "current": 2.99,
+          "regular": 14.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 11.6,
+          "regular": 58,
+          "low": 10,
+          "low_1y": 9,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -13075,53 +13171,6 @@
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937e-fde2-7232-9a2b-4c69af94f373",
-      "title": "Legend of Merchant",
-      "slug": "legend-of-merchant",
-      "appid": 543140,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Simulation",
-        "Indie",
-        "2D"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 606,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fde2-7232-9a2b-4c69af94f373/boxart.jpg?t=1787439630"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/543140/84048/b4d18591aae9c741601908f2e99566734ff96f87/1751299816/hls_264_master.m3u8?t=1481881236",
-      "steam_url": "https://store.steampowered.com/app/543140",
-      "prices": {
-        "USD": {
-          "current": 1.39,
-          "regular": 1.99,
-          "low": 1.39,
-          "low_1y": 1.39,
-          "cut": 30,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 4.9,
-          "regular": 7,
-          "low": 1.79,
-          "low_1y": 4.9,
-          "cut": 30,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
         }
       }
     },
@@ -15766,6 +15815,54 @@
       }
     },
     {
+      "id": "018d937f-11b5-73bb-b486-27cea2bd8621",
+      "title": "Trine 2: Complete Story 3Pack",
+      "slug": "trine-2-complete-story-3-pack",
+      "appid": 35720,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Puzzle Platformer",
+        "Action-Adventure",
+        "Platformer",
+        "2D Platformer",
+        "Co-op"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 15282,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-11b5-73bb-b486-27cea2bd8621/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
+      "steam_url": "https://store.steampowered.com/app/35720",
+      "prices": {
+        "USD": {
+          "current": 7.99,
+          "regular": 39.99,
+          "low": 3.99,
+          "low_1y": 7.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 22.4,
+          "regular": 112,
+          "low": 16,
+          "low_1y": 22.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-0c44-7107-81d1-0e2001397b27",
       "title": "Trine Enchanted Edition",
       "slug": "trine-enchanted-edition",
@@ -16238,102 +16335,6 @@
           "regular": 94,
           "low": 9.4,
           "low_1y": 11.78,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-fce3-7094-bf5f-033ef388a6e3",
-      "title": "Tiny & Big: Grandpa's Leftovers",
-      "slug": "tiny-and-big-grandpas-leftovers",
-      "appid": 205910,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Physics",
-        "Platformer",
-        "Puzzle",
-        "Great Soundtrack"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 2777,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fce3-7094-bf5f-033ef388a6e3/boxart.jpg?t=1788209108"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/205910/7948/9a3670d2cc885c23e14816381e6614c806398048/1751249001/hls_264_master.m3u8?t=1584297589",
-      "steam_url": "https://store.steampowered.com/app/205910",
-      "prices": {
-        "USD": {
-          "current": 2.39,
-          "regular": 11.99,
-          "low": 0.99,
-          "low_1y": 2.39,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 9.6,
-          "regular": 48,
-          "low": 3,
-          "low_1y": 9,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-03bf-7297-b667-edbb9ed1b35a",
-      "title": "Retro City Rampage™ DX",
-      "slug": "retro-city-rampage-dx",
-      "appid": 204630,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Open World",
-        "Action",
-        "Retro",
-        "Pixel Graphics",
-        "Indie"
-      ],
-      "reviews": {
-        "score": 88,
-        "count": 1688,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03bf-7297-b667-edbb9ed1b35a/boxart.jpg?t=1786296070"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/204630/7224/1a6fc4767e1b3a2e47303b6b32b43c816f5e7ef9/1751246455/hls_264_master.m3u8?t=1447355626",
-      "steam_url": "https://store.steampowered.com/app/204630",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 14.99,
-          "low": 0.99,
-          "low_1y": 2.24,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 9.6,
-          "regular": 48,
-          "low": 7,
-          "low_1y": 7.2,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
