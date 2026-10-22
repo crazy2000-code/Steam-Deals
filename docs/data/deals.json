@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:24:07.415801+00:00",
+  "generated_at": "2026-10-22T11:04:43.939962+00:00",
   "total": 300,
   "games": [
     {
@@ -19,11 +19,11 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 888670,
+        "count": 892488,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2997-7131-b8b9-7c8af4825fa8/boxart.jpg?t=1786396547"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2997-7131-b8b9-7c8af4825fa8/boxart.jpg?t=1792664724"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1091500/798578/0d0c54b81225b2b7760d1a99b6c5950cb85a1767/1750617872/hls_264_master.m3u8?t=1734434783",
       "steam_url": "https://store.steampowered.com/app/1091500",
@@ -1598,7 +1598,7 @@
           "current": 2.99,
           "regular": 19.99,
           "low": 2.99,
-          "low_1y": 2.59,
+          "low_1y": 2.56,
           "cut": 85,
           "currency": "USD",
           "symbol": "$",
@@ -2178,7 +2178,7 @@
           "current": 12.49,
           "regular": 24.99,
           "low": 12.49,
-          "low_1y": 11.05,
+          "low_1y": 9.87,
           "cut": 50,
           "currency": "USD",
           "symbol": "$",
@@ -4237,6 +4237,64 @@
       }
     },
     {
+      "id": "018d9801-129f-71e4-bf23-a69d51c66d4e",
+      "title": "Soulmask",
+      "slug": "soulmask",
+      "appid": 2646460,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Base Building",
+        "Crafting",
+        "Open World"
+      ],
+      "reviews": {
+        "score": 76,
+        "count": 18576,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d9801-129f-71e4-bf23-a69d51c66d4e/boxart.jpg?t=1792653608"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2646460",
+      "prices": {
+        "USD": {
+          "current": 17.99,
+          "regular": 29.99,
+          "low": 17.99,
+          "low_1y": 17.99,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 64.8,
+          "regular": 108,
+          "low": 64.8,
+          "low_1y": 64.8,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 43.2,
+          "regular": 72.0,
+          "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-2b35-72da-b450-6bde24754e0e",
       "title": "GreedFall",
       "slug": "greedfall",
@@ -5136,7 +5194,7 @@
           "current": 5.99,
           "regular": 59.99,
           "low": 5.99,
-          "low_1y": 5.09,
+          "low_1y": 5.05,
           "cut": 90,
           "currency": "USD",
           "symbol": "$",
@@ -11559,16 +11617,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
-        },
-        "MYR": {
-          "current": 12.5,
-          "regular": 50.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
         }
       }
     },
@@ -12955,54 +13003,6 @@
       }
     },
     {
-      "id": "018d937f-03c9-711c-9dbb-62a7584a893a",
-      "title": "Detective Grimoire - Soundtrack Edition",
-      "slug": "detective-grimoire-soundtrack-edition",
-      "appid": 272600,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Point & Click",
-        "Exploration",
-        "Puzzle",
-        "Detective",
-        "Visual Novel"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 2230,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03c9-711c-9dbb-62a7584a893a/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/272600/23667/f3aaeb3cdedae29df4d8ac825295d70636d2b7a6/1751268680/hls_264_master.m3u8?t=1447362976",
-      "steam_url": "https://store.steampowered.com/app/272600",
-      "prices": {
-        "USD": {
-          "current": 1.79,
-          "regular": 8.99,
-          "low": 1.79,
-          "low_1y": 1.79,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.2,
-          "regular": 36,
-          "low": 6,
-          "low_1y": 7.2,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937e-eff8-70e8-a193-2d4773d9322e",
       "title": "Detective Grimoire",
       "slug": "detective-grimoire",
@@ -13195,54 +13195,6 @@
       }
     },
     {
-      "id": "018d937e-ea11-7209-bf57-17e5acadfcd0",
-      "title": "Goodbye Deponia",
-      "slug": "goodbye-deponia",
-      "appid": 241910,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Point & Click",
-        "Comedy",
-        "Singleplayer",
-        "Indie"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 2083,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-ea11-7209-bf57-17e5acadfcd0/boxart.jpg?t=1789521631"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
-      "steam_url": "https://store.steampowered.com/app/241910",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.41,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.6,
-          "regular": 76,
-          "low": 7,
-          "low_1y": 7.6,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-1561-70ec-8bd3-e28d24e0f45f",
       "title": "Goodbye Deponia Premium",
       "slug": "goodbye-deponia-premium",
@@ -13283,6 +13235,54 @@
           "regular": 92,
           "low": 8,
           "low_1y": 9.2,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea11-7209-bf57-17e5acadfcd0",
+      "title": "Goodbye Deponia",
+      "slug": "goodbye-deponia",
+      "appid": 241910,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Comedy",
+        "Singleplayer",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 2083,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea11-7209-bf57-17e5acadfcd0/boxart.jpg?t=1789521631"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
+      "steam_url": "https://store.steampowered.com/app/241910",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 1.41,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.6,
+          "regular": 76,
+          "low": 7,
+          "low_1y": 7.6,
           "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
@@ -14147,6 +14147,54 @@
           "regular": 58,
           "low": 10,
           "low_1y": 9,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-20c0-732b-84a3-1d1e7603c52b",
+      "title": "Screencheat 4 Pack",
+      "slug": "screencheat-4-pack",
+      "appid": 301970,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Split Screen",
+        "Arena Shooter",
+        "FPS",
+        "Shooter",
+        "Multiplayer"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 852,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-20c0-732b-84a3-1d1e7603c52b/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/301970/53784/9748e41ea90fb9bf6a72227b28c45219cacebdde/1750503646/hls_264_master.m3u8?t=1567657638",
+      "steam_url": "https://store.steampowered.com/app/301970",
+      "prices": {
+        "USD": {
+          "current": 8.99,
+          "regular": 44.99,
+          "low": 8.99,
+          "low_1y": 8.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 30.4,
+          "regular": 152,
+          "low": 25.2,
+          "low_1y": 30.4,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -16287,54 +16335,6 @@
           "regular": 100,
           "low": 10,
           "low_1y": 8.1,
-          "cut": 85,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-3e30-72b7-9410-37b0013b832d",
-      "title": "Partisans 1941",
-      "slug": "partisans-1941",
-      "appid": 1227530,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Real Time Tactics",
-        "World War II",
-        "Stealth",
-        "Tactical"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 7545,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3e30-72b7-9410-37b0013b832d/boxart.jpg?t=1789484727"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1227530/319017/6bb3f7eb74f5c53b1620254fde9d5c6e7af87b6b/1750645068/hls_264_master.m3u8?t=1602686924",
-      "steam_url": "https://store.steampowered.com/app/1227530",
-      "prices": {
-        "USD": {
-          "current": 4.49,
-          "regular": 29.99,
-          "low": 4.19,
-          "low_1y": 2.27,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 22.35,
-          "regular": 149,
-          "low": 19.8,
-          "low_1y": 15.37,
           "cut": 85,
           "currency": "CNY",
           "symbol": "¥",
