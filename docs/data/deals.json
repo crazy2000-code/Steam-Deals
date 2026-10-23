@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T21:16:54.766274+00:00",
-  "total": 291,
+  "generated_at": "2026-10-23T10:53:02.279911+00:00",
+  "total": 292,
   "games": [
     {
       "id": "018d937f-2997-7131-b8b9-7c8af4825fa8",
@@ -206,7 +206,7 @@
           "current": 14.99,
           "regular": 59.99,
           "low": 14.99,
-          "low_1y": 14.95,
+          "low_1y": 13.99,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -438,7 +438,7 @@
           "current": 5.99,
           "regular": 29.99,
           "low": 5.99,
-          "low_1y": 5.95,
+          "low_1y": 5.8,
           "cut": 80,
           "currency": "USD",
           "symbol": "$",
@@ -612,7 +612,7 @@
           "current": 2.99,
           "regular": 19.99,
           "low": 2.99,
-          "low_1y": 2.48,
+          "low_1y": 2.32,
           "cut": 85,
           "currency": "USD",
           "symbol": "$",
@@ -786,7 +786,7 @@
           "current": 11.99,
           "regular": 29.99,
           "low": 11.99,
-          "low_1y": 11.44,
+          "low_1y": 10.99,
           "cut": 60,
           "currency": "USD",
           "symbol": "$",
@@ -1569,6 +1569,64 @@
       }
     },
     {
+      "id": "018d937f-1608-721b-8ee7-f4903258fb76",
+      "title": "Green Hell",
+      "slug": "green-hell",
+      "appid": 815370,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Survival",
+        "Open World Survival Craft",
+        "Multiplayer",
+        "Online Co-Op",
+        "Open World"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 80493,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1608-721b-8ee7-f4903258fb76/boxart.jpg?t=1787652918"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/815370/607071131/2d7869669378db0fa6dc0472d301046d19b23dce/1777470056/hls_264_master.m3u8?t=1777904119",
+      "steam_url": "https://store.steampowered.com/app/815370",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 8,
+          "regular": 80,
+          "low": 8,
+          "low_1y": 8,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 4.4,
+          "regular": 44.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-43f3-7181-a7ef-f059395e87bc",
       "title": "Manor Lords",
       "slug": "manor-lords",
@@ -1578,18 +1636,18 @@
       "is_notable": false,
       "tags": [
         "Strategy",
-        "Simulation",
         "City Builder",
+        "Simulation",
         "Base Building",
         "Grand Strategy"
       ],
       "reviews": {
         "score": 84,
-        "count": 77489,
+        "count": 77931,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-43f3-7181-a7ef-f059395e87bc/boxart.jpg?t=1791282023"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-43f3-7181-a7ef-f059395e87bc/boxart.jpg?t=1792744553"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1363080/691162/5ba78540b9ae2ccb902067211544d5a5954c73bd/1750678058/hls_264_master.m3u8?t=1743006020",
       "steam_url": "https://store.steampowered.com/app/1363080",
@@ -1830,7 +1888,7 @@
           "current": 10.39,
           "regular": 39.99,
           "low": 10.39,
-          "low_1y": 10.39,
+          "low_1y": 9.9,
           "cut": 74,
           "currency": "USD",
           "symbol": "$",
@@ -1898,7 +1956,7 @@
           "current": 54,
           "regular": 90,
           "low": 54,
-          "low_1y": 52.8,
+          "low_1y": 51.3,
           "cut": 40,
           "currency": "CNY",
           "symbol": "¥",
@@ -2961,6 +3019,64 @@
       }
     },
     {
+      "id": "018d937f-0dea-7132-a836-1d534093ce69",
+      "title": "Empires of the Undergrowth",
+      "slug": "empires-of-the-undergrowth",
+      "appid": 463530,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Simulation",
+        "Base Building",
+        "City Builder",
+        "Grand Strategy"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 17709,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1792744541"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/463530/1547654049/07d28005dfe882e70f98e72a36bf36ab6fa56d4a/1782459536/hls_264_master.m3u8?t=1782460105",
+      "steam_url": "https://store.steampowered.com/app/463530",
+      "prices": {
+        "USD": {
+          "current": 7.49,
+          "regular": 29.99,
+          "low": 7.49,
+          "low_1y": 7.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 24.75,
+          "regular": 99,
+          "low": 24.75,
+          "low_1y": 24.75,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 14.99,
+          "regular": 59.99,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "0194b16a-fe62-7399-844d-6085393d8346",
       "title": "Stronghold Crusader HD (2012)",
       "slug": "stronghold-crusader-hd-2012",
@@ -3010,64 +3126,6 @@
           "current": 4.6,
           "regular": 23.0,
           "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-0dea-7132-a836-1d534093ce69",
-      "title": "Empires of the Undergrowth",
-      "slug": "empires-of-the-undergrowth",
-      "appid": 463530,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Simulation",
-        "Base Building",
-        "City Builder",
-        "Grand Strategy"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 17620,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1791285318"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/463530/1547654049/07d28005dfe882e70f98e72a36bf36ab6fa56d4a/1782459536/hls_264_master.m3u8?t=1782460105",
-      "steam_url": "https://store.steampowered.com/app/463530",
-      "prices": {
-        "USD": {
-          "current": 7.49,
-          "regular": 29.99,
-          "low": 7.49,
-          "low_1y": 7.49,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 24.75,
-          "regular": 99,
-          "low": 24.75,
-          "low_1y": 24.75,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 14.99,
-          "regular": 59.99,
-          "cut": 75,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3280,7 +3338,7 @@
           "current": 5.99,
           "regular": 59.99,
           "low": 5.99,
-          "low_1y": 5.05,
+          "low_1y": 5.02,
           "cut": 90,
           "currency": "USD",
           "symbol": "$",
@@ -3860,7 +3918,7 @@
           "current": 19.99,
           "regular": 39.99,
           "low": 19.99,
-          "low_1y": 18.65,
+          "low_1y": 17.99,
           "cut": 50,
           "currency": "USD",
           "symbol": "$",
@@ -4440,7 +4498,7 @@
           "current": 9.99,
           "regular": 39.99,
           "low": 9.99,
-          "low_1y": 9.99,
+          "low_1y": 8.5,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -7920,7 +7978,7 @@
           "current": 0.89,
           "regular": 8.99,
           "low": 0.89,
-          "low_1y": 0.7,
+          "low_1y": 0.74,
           "cut": 90,
           "currency": "USD",
           "symbol": "$",
@@ -8867,6 +8925,64 @@
       }
     },
     {
+      "id": "018d937f-1561-70ec-8bd3-e28d24e0f45f",
+      "title": "Goodbye Deponia Premium",
+      "slug": "goodbye-deponia-premium",
+      "appid": 241910,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Comedy",
+        "Singleplayer",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 2083,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1561-70ec-8bd3-e28d24e0f45f/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
+      "steam_url": "https://store.steampowered.com/app/241910",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.2,
+          "regular": 92,
+          "low": 8,
+          "low_1y": 9.2,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.9,
+          "regular": 49.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-41ff-7376-a558-e9b05dcd6524",
       "title": "CONSCRIPT",
       "slug": "conscript",
@@ -9438,64 +9554,6 @@
           "current": 5.35,
           "regular": 26.75,
           "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-1b1e-737b-9727-548b45f16a33",
-      "title": "Final Exam 4 pack",
-      "slug": "final-exam-4-pack",
-      "appid": 233190,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Indie",
-        "Beat 'em up",
-        "Co-op",
-        "Online Co-Op"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 859,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1b1e-737b-9727-548b45f16a33/boxart.jpg"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/233190",
-      "prices": {
-        "USD": {
-          "current": 2.24,
-          "regular": 14.99,
-          "low": 2.24,
-          "low_1y": 2.24,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 9.6,
-          "regular": 64,
-          "low": 9.6,
-          "low_1y": 9.6,
-          "cut": 85,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 2.1,
-          "regular": 14.0,
-          "cut": 85,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11887,11 +11945,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 17363,
+        "count": 17364,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3dcb-701c-ae02-dbf88b5a61e6/boxart.jpg?t=1788465317"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3dcb-701c-ae02-dbf88b5a61e6/boxart.jpg?t=1792750808"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1089090/688411/9e4586d326160b5ec1c84a5b91e83ca8f7df22db/1750616002/hls_264_master.m3u8?t=1713880142",
       "steam_url": "https://store.steampowered.com/app/1089090",
