@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T20:31:08.746837+00:00",
-  "total": 265,
+  "generated_at": "2026-10-26T12:04:32.021708+00:00",
+  "total": 267,
   "games": [
     {
       "id": "018d937f-2997-7131-b8b9-7c8af4825fa8",
@@ -4672,7 +4672,7 @@
           "current": 5.99,
           "regular": 59.99,
           "low": 5.99,
-          "low_1y": 4.97,
+          "low_1y": 4.95,
           "cut": 90,
           "currency": "USD",
           "symbol": "$",
@@ -5484,7 +5484,7 @@
           "current": 14.99,
           "regular": 59.99,
           "low": 14.99,
-          "low_1y": 12.39,
+          "low_1y": 12.05,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -5494,7 +5494,7 @@
           "current": 92,
           "regular": 368,
           "low": 92,
-          "low_1y": 83.62,
+          "low_1y": 80.77,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -5900,7 +5900,7 @@
           "current": 15.5,
           "regular": 62,
           "low": 9.99,
-          "low_1y": 15.13,
+          "low_1y": 15.09,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -6258,64 +6258,6 @@
           "current": 5.0,
           "regular": 50.0,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-2b35-72da-b450-6bde20e7c8cb",
-      "title": "Niche - a genetics survival game",
-      "slug": "niche-a-genetics-survival-game",
-      "appid": 440650,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Turn-Based Strategy",
-        "Adventure",
-        "Puzzle",
-        "Singleplayer",
-        "Nature"
-      ],
-      "reviews": {
-        "score": 88,
-        "count": 4362,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2b35-72da-b450-6bde20e7c8cb/boxart.jpg?t=1786202715"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/440650/51324/f6ee1e48696426a05139e4e1ef85af31e76d14b0/1750530859/hls_264_master.m3u8?t=1464118209",
-      "steam_url": "https://store.steampowered.com/app/440650",
-      "prices": {
-        "USD": {
-          "current": 3.59,
-          "regular": 17.99,
-          "low": 3.59,
-          "low_1y": 3.59,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 12,
-          "regular": 60,
-          "low": 12,
-          "low_1y": 12,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 9.0,
-          "regular": 45.0,
-          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7591,6 +7533,64 @@
       }
     },
     {
+      "id": "018d937f-1627-72a8-bac6-0d468ec17168",
+      "title": "Ride - Game",
+      "slug": "ride-game",
+      "appid": 345660,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Racing",
+        "Simulation",
+        "Automobile Sim",
+        "Sports",
+        "Motorbike"
+      ],
+      "reviews": {
+        "score": 80,
+        "count": 2107,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1627-72a8-bac6-0d468ec17168/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/345660",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 11.9,
+          "regular": 119,
+          "low": 7,
+          "low_1y": 11.9,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 7.9,
+          "regular": 79.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-4d13-70b8-be67-2626dd5ae5ab",
       "title": "The Dark Eye: Memoria",
       "slug": "the-dark-eye-memoria",
@@ -7639,6 +7639,64 @@
         "MYR": {
           "current": 3.8,
           "regular": 38.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-1561-70ec-8bd3-e28d24e0f45f",
+      "title": "Goodbye Deponia Premium",
+      "slug": "goodbye-deponia-premium",
+      "appid": 241910,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Comedy",
+        "Singleplayer",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 2083,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1561-70ec-8bd3-e28d24e0f45f/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/241910/13653/2ec5725b8434ba1df320feaea842ca3a4eaad477/1751258618/hls_264_master.m3u8?t=1447358847",
+      "steam_url": "https://store.steampowered.com/app/241910",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.2,
+          "regular": 92,
+          "low": 8,
+          "low_1y": 9.2,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.9,
+          "regular": 49.0,
           "cut": 90,
           "low": null,
           "low_1y": null,
@@ -8220,64 +8278,6 @@
           "current": 5.35,
           "regular": 26.75,
           "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-0a59-71af-8c0b-afba79828df7",
-      "title": "The Cat Games",
-      "slug": "the-cat-games",
-      "appid": 603260,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Cute",
-        "Cats",
-        "Indie",
-        "Simulation"
-      ],
-      "reviews": {
-        "score": 89,
-        "count": 856,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0a59-71af-8c0b-afba79828df7/boxart.jpg?t=1788815160"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/603260/92341/13c10dccde35a7728a4e59dddbdc68e2f6642396/1751124231/hls_264_master.m3u8?t=1488417003",
-      "steam_url": "https://store.steampowered.com/app/603260",
-      "prices": {
-        "USD": {
-          "current": 0.79,
-          "regular": 1.99,
-          "low": 0.79,
-          "low_1y": 0.79,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 4.4,
-          "regular": 11,
-          "low": 4,
-          "low_1y": 4.4,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 2.27,
-          "regular": 5.69,
-          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11675,6 +11675,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 7.0,
+          "regular": 35.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
         }
       }
     },
@@ -11863,6 +11873,54 @@
           "regular": 48,
           "low": 3,
           "low_1y": 9,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-05b7-70b0-af5c-df4a3faefdd7",
+      "title": "Tiny & Big: Grandpa's Leftovers Soundtrack Edition",
+      "slug": "tiny-and-big-grandpas-leftovers-soundtrack-edition",
+      "appid": 205910,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Physics",
+        "Platformer",
+        "Puzzle",
+        "Great Soundtrack"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 2777,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-05b7-70b0-af5c-df4a3faefdd7/banner300.jpg?t=1788264040"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/205910/7948/9a3670d2cc885c23e14816381e6614c806398048/1751249001/hls_264_master.m3u8?t=1584297589",
+      "steam_url": "https://store.steampowered.com/app/205910",
+      "prices": {
+        "USD": {
+          "current": 3.59,
+          "regular": 17.99,
+          "low": 1.49,
+          "low_1y": 3.59,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 13.6,
+          "regular": 68,
+          "low": 4,
+          "low_1y": 13.6,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -12487,6 +12545,54 @@
           "regular": 59,
           "low": 4,
           "low_1y": 11.6,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-308e-70e9-8f42-a93354522b2e",
+      "title": "Over 9000 Zombies! 2 Pack",
+      "slug": "over-9000-zombies-2-pack",
+      "appid": 273500,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Action Roguelike",
+        "Zombies",
+        "Multiplayer",
+        "Twin Stick Shooter",
+        "Co-op"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 1208,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-308e-70e9-8f42-a93354522b2e/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/273500",
+      "prices": {
+        "USD": {
+          "current": 0.99,
+          "regular": 3.99,
+          "low": 0.59,
+          "low_1y": 0.79,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 4.5,
+          "regular": 18,
+          "low": 2.99,
+          "low_1y": 3.6,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
