@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:24:54.667366+00:00",
+  "generated_at": "2026-10-27T11:29:25.760319+00:00",
   "total": 300,
   "games": [
     {
@@ -3151,11 +3151,11 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 23591,
+        "count": 23597,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0e14-70a4-a208-80394437e425/boxart.jpg?t=1790907511"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0e14-70a4-a208-80394437e425/boxart.jpg?t=1793068829"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/274940/94636/ccc9050bcf405bb992f9cd0f71b61b60509b61d8/1750500306/hls_264_master.m3u8?t=1753678658",
       "steam_url": "https://store.steampowered.com/app/274940",
@@ -7127,6 +7127,64 @@
       }
     },
     {
+      "id": "018d937f-293b-70d6-90ad-ca456d7146b6",
+      "title": "Grim Fandango Remastered",
+      "slug": "grim-fandango-remastered",
+      "appid": 316790,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Classic",
+        "Story Rich",
+        "Comedy"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 7202,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-293b-70d6-90ad-ca456d7146b6/boxart.jpg?t=1793064036"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/316790",
+      "prices": {
+        "USD": {
+          "current": 2.24,
+          "regular": 14.99,
+          "low": 2.24,
+          "low_1y": 2.24,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.2,
+          "regular": 48,
+          "low": 7,
+          "low_1y": 7,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.65,
+          "regular": 31.0,
+          "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-3e77-7040-959c-454732c0b383",
       "title": "Record of Lodoss War-Deedlit in Wonder Labyrinth",
       "slug": "record-of-lodoss-war-deedlit-in-wonder-labyrinth",
@@ -7176,64 +7234,6 @@
           "current": 17.55,
           "regular": 39.0,
           "cut": 55,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-293b-70d6-90ad-ca456d7146b6",
-      "title": "Grim Fandango Remastered",
-      "slug": "grim-fandango-remastered",
-      "appid": 316790,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Point & Click",
-        "Classic",
-        "Story Rich",
-        "Comedy"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 7196,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-293b-70d6-90ad-ca456d7146b6/boxart.jpg?t=1788287115"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/316790",
-      "prices": {
-        "USD": {
-          "current": 2.24,
-          "regular": 14.99,
-          "low": 2.24,
-          "low_1y": 2.24,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 7.2,
-          "regular": 48,
-          "low": 7,
-          "low_1y": 7,
-          "cut": 85,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 4.65,
-          "regular": 31.0,
-          "cut": 85,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7620,7 +7620,7 @@
           "current": 14.99,
           "regular": 49.99,
           "low": 14.99,
-          "low_1y": 14.95,
+          "low_1y": 12.91,
           "cut": 70,
           "currency": "USD",
           "symbol": "$",
@@ -7910,7 +7910,7 @@
           "current": 14.99,
           "regular": 59.99,
           "low": 14.99,
-          "low_1y": 12.05,
+          "low_1y": 12.01,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
@@ -10829,6 +10829,64 @@
       }
     },
     {
+      "id": "018d937f-540c-7369-a2bc-15b504d47298",
+      "title": "选王之剑",
+      "slug": "xuan-wang-zhi-jian",
+      "appid": 1674890,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Roguelite",
+        "Idler",
+        "Strategy",
+        "Anime"
+      ],
+      "reviews": {
+        "score": 86,
+        "count": 1243,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-540c-7369-a2bc-15b504d47298/boxart.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1674890",
+      "prices": {
+        "USD": {
+          "current": 2.39,
+          "regular": 7.99,
+          "low": 2.39,
+          "low_1y": 2.39,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.6,
+          "regular": 32,
+          "low": 9.6,
+          "low_1y": 9.6,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 6.52,
+          "regular": 21.75,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-7338-7088-b795-eef79c84f194",
       "title": "Golf Club Nostalgia",
       "slug": "golf-club-nostalgia",
@@ -11549,16 +11607,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 17.49,
-          "regular": 69.99,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11627,7 +11675,7 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 55488,
+        "count": 55504,
         "text": ""
       },
       "images": {
@@ -11871,7 +11919,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/322330/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1b71-7386-a176-660fcd80d8e8/boxart.jpg?t=1793061355"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/322330/772813262/1eaf63bd89a720d7897d5bef28700cd93fdeeb0b/1781047716/hls_264_master.m3u8?t=1781196639",
       "steam_url": "https://store.steampowered.com/app/322330",
@@ -15231,7 +15279,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/214490/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ff11-7011-8841-547a2015c0f1/boxart.jpg?t=1793053826"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/214490/24157/42c4e1443028b2f94c3ce58bbecde9ff062d3ddf/1750481001/hls_264_master.m3u8?t=1447363219",
       "steam_url": "https://store.steampowered.com/app/214490",
@@ -16308,54 +16356,6 @@
           "low": 15.6,
           "low_1y": 15.6,
           "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-1968-71ca-a2dd-4f9fef3ce3cd",
-      "title": "Dusk",
-      "slug": "dusk",
-      "appid": 519860,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Boomer Shooter",
-        "FPS",
-        "Retro",
-        "Shooter",
-        "Fast-Paced"
-      ],
-      "reviews": {
-        "score": 97,
-        "count": 22141,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1968-71ca-a2dd-4f9fef3ce3cd/boxart.jpg?t=1786384593"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/519860/200548/fa4d35fd507bb157b9ebe2dc49ffab6c89a90c2c/1750542589/hls_264_master.m3u8?t=1544616121",
-      "steam_url": "https://store.steampowered.com/app/519860",
-      "prices": {
-        "USD": {
-          "current": 6.59,
-          "regular": 19.99,
-          "low": 5.99,
-          "low_1y": 5.99,
-          "cut": 67,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 25.08,
-          "regular": 76,
-          "low": 22.8,
-          "low_1y": 21,
-          "cut": 67,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
