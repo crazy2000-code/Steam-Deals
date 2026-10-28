@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T21:52:00.737135+00:00",
+  "generated_at": "2026-10-28T12:02:53.898427+00:00",
   "total": 300,
   "games": [
     {
@@ -1643,11 +1643,11 @@
       ],
       "reviews": {
         "score": 89,
-        "count": 110948,
+        "count": 111013,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-502d-707c-b964-11cd6990ba4f/boxart.jpg?t=1792832720"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-502d-707c-b964-11cd6990ba4f/boxart.jpg?t=1793182816"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1604030/695563/ec1d7936ac8aac583439039a89a421f9ab70fb0b/1750710266/hls_264_master.m3u8?t=1714748047",
       "steam_url": "https://store.steampowered.com/app/1604030",
@@ -2165,11 +2165,11 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 48159,
+        "count": 48278,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5288-7397-8712-586d47b31fab/boxart.jpg?t=1786385476"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5288-7397-8712-586d47b31fab/boxart.jpg?t=1793161210"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1562430/751913/2f166531a359b6bbad73e42bb417a30b2eb61798/1750701525/hls_264_master.m3u8?t=1725614790",
       "steam_url": "https://store.steampowered.com/app/1562430",
@@ -2575,7 +2575,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2475490/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-74a0-7000-8a70-dd240ccebc78/boxart.jpg?t=1793146230"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2475490/762233/062504d7121c9700397959d4474f92972d5caa99/1750815511/hls_264_master.m3u8?t=1727388825",
       "steam_url": "https://store.steampowered.com/app/2475490",
@@ -3300,6 +3300,64 @@
           "current": 34.25,
           "regular": 137.0,
           "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-4959-7012-9cc1-33534c9d44de",
+      "title": "Sun Haven",
+      "slug": "sun-haven",
+      "appid": 1432860,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Farming Sim",
+        "Pixel Graphics",
+        "Multiplayer",
+        "Life Sim",
+        "Dating Sim"
+      ],
+      "reviews": {
+        "score": 79,
+        "count": 22209,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4959-7012-9cc1-33534c9d44de/boxart.jpg?t=1786210642"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1432860/642868/d3476f0757c0dbe90578d97c397543dfcc65c501/1750687823/hls_264_master.m3u8?t=1718246114",
+      "steam_url": "https://store.steampowered.com/app/1432860",
+      "prices": {
+        "USD": {
+          "current": 6.99,
+          "regular": 24.99,
+          "low": 6.99,
+          "low_1y": 6.99,
+          "cut": 72,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 25.76,
+          "regular": 92,
+          "low": 25.76,
+          "low_1y": 25.76,
+          "cut": 72,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 17.08,
+          "regular": 61.0,
+          "cut": 72,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7143,11 +7201,11 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 7202,
+        "count": 7206,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-293b-70d6-90ad-ca456d7146b6/boxart.jpg?t=1793064036"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-293b-70d6-90ad-ca456d7146b6/boxart.jpg?t=1793143212"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/316790",
@@ -8568,64 +8626,6 @@
           "current": 15.97,
           "regular": 46.99,
           "cut": 66,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-7040-7271-bfe8-2d34f60b48b9",
-      "title": "清零计划2：天启派对 Project Zero 2: Apocalypse Party",
-      "slug": "qing-ling-ji-hua2-tian-qi-pai-dui-project-zero-2-apocalypse-party",
-      "appid": 2351560,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Singleplayer",
-        "Action Roguelike",
-        "Online Co-Op",
-        "Top-Down Shooter"
-      ],
-      "reviews": {
-        "score": 72,
-        "count": 4664,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2351560/capsule_616x353.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2351560/635370/1612003367d1009abee95085252781d24c49fd7c/1750812611/hls_264_master.m3u8?t=1703068482",
-      "steam_url": "https://store.steampowered.com/app/2351560",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 21,
-          "regular": 42,
-          "low": 21,
-          "low_1y": 21,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 13.37,
-          "regular": 26.75,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -13483,6 +13483,54 @@
       }
     },
     {
+      "id": "018d937f-0f93-7221-a83e-1a2e097b6098",
+      "title": "Chivalry: Medieval Warfare 4-pack",
+      "slug": "chivalry-medieval-warfare-4-pack",
+      "appid": 219640,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Medieval",
+        "Multiplayer",
+        "Action",
+        "Gore",
+        "First-Person"
+      ],
+      "reviews": {
+        "score": 83,
+        "count": 44465,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0f93-7221-a83e-1a2e097b6098/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/219640/9815/f936fedf02efd1b5804cdda6177faf0b21364746/1750481410/hls_264_master.m3u8?t=1447357058",
+      "steam_url": "https://store.steampowered.com/app/219640",
+      "prices": {
+        "USD": {
+          "current": 14.99,
+          "regular": 74.99,
+          "low": 7.49,
+          "low_1y": 14.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 38.8,
+          "regular": 194,
+          "low": 19,
+          "low_1y": 38.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-00cb-710a-9a4c-f7c1c558b97d",
       "title": "Prey",
       "slug": "prey",
@@ -16307,54 +16355,6 @@
           "regular": 70,
           "low": 17.5,
           "low_1y": 21,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-222e-7330-ad76-8ae4666c6ef2",
-      "title": "Devil Daggers",
-      "slug": "devil-daggers",
-      "appid": 422970,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "FPS",
-        "Difficult",
-        "Indie",
-        "Fast-Paced",
-        "Action"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 7482,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-222e-7330-ad76-8ae4666c6ef2/boxart.jpg?t=1787033763"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/422970/51563/379b941a29effb3cbddb0d4b6c1d5757a3a39738/1750528878/hls_264_master.m3u8?t=1454561741",
-      "steam_url": "https://store.steampowered.com/app/422970",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 9.99,
-          "low": 1.99,
-          "low_1y": 2.49,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 10.8,
-          "regular": 36,
-          "low": 7.49,
-          "low_1y": 7,
           "cut": 70,
           "currency": "CNY",
           "symbol": "¥",
