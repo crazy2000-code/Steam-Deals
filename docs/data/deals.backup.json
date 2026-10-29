@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:24:56.127860+00:00",
+  "generated_at": "2026-10-29T12:14:55.812259+00:00",
   "total": 300,
   "games": [
     {
@@ -3773,6 +3773,64 @@
       }
     },
     {
+      "id": "018d937f-0dea-7132-a836-1d534093ce69",
+      "title": "Empires of the Undergrowth",
+      "slug": "empires-of-the-undergrowth",
+      "appid": 463530,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Strategy",
+        "Simulation",
+        "Base Building",
+        "City Builder",
+        "Grand Strategy"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 17881,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1793270134"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/463530/1547654049/07d28005dfe882e70f98e72a36bf36ab6fa56d4a/1782459536/hls_264_master.m3u8?t=1782460105",
+      "steam_url": "https://store.steampowered.com/app/463530",
+      "prices": {
+        "USD": {
+          "current": 7.49,
+          "regular": 29.99,
+          "low": 7.49,
+          "low_1y": 7.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 24.75,
+          "regular": 99,
+          "low": 24.75,
+          "low_1y": 24.75,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 14.99,
+          "regular": 59.99,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-35ec-72c5-bcd5-044b9aa959aa",
       "title": "The Last Campfire",
       "slug": "the-last-campfire",
@@ -3822,64 +3880,6 @@
           "current": 3.85,
           "regular": 38.5,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-0dea-7132-a836-1d534093ce69",
-      "title": "Empires of the Undergrowth",
-      "slug": "empires-of-the-undergrowth",
-      "appid": 463530,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Strategy",
-        "Simulation",
-        "Base Building",
-        "City Builder",
-        "Grand Strategy"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 17709,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1792744541"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/463530/1547654049/07d28005dfe882e70f98e72a36bf36ab6fa56d4a/1782459536/hls_264_master.m3u8?t=1782460105",
-      "steam_url": "https://store.steampowered.com/app/463530",
-      "prices": {
-        "USD": {
-          "current": 7.49,
-          "regular": 29.99,
-          "low": 7.49,
-          "low_1y": 7.49,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 24.75,
-          "regular": 99,
-          "low": 24.75,
-          "low_1y": 24.75,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 14.99,
-          "regular": 59.99,
-          "cut": 75,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -8635,64 +8635,6 @@
       }
     },
     {
-      "id": "018d937f-7040-7271-bfe8-2d34f60b48b9",
-      "title": "清零计划2：天启派对 Project Zero 2: Apocalypse Party",
-      "slug": "qing-ling-ji-hua2-tian-qi-pai-dui-project-zero-2-apocalypse-party",
-      "appid": 2351560,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Casual",
-        "Singleplayer",
-        "Action Roguelike",
-        "Online Co-Op",
-        "Top-Down Shooter"
-      ],
-      "reviews": {
-        "score": 72,
-        "count": 4664,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/2351560/capsule_616x353.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/2351560/635370/1612003367d1009abee95085252781d24c49fd7c/1750812611/hls_264_master.m3u8?t=1703068482",
-      "steam_url": "https://store.steampowered.com/app/2351560",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 21,
-          "regular": 42,
-          "low": 21,
-          "low_1y": 21,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 13.37,
-          "regular": 26.75,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-22be-731b-a7da-20d329ea1e20",
       "title": "Observation",
       "slug": "observation",
@@ -11607,6 +11549,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 17.49,
+          "regular": 69.99,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
         }
       }
     },
@@ -13483,6 +13435,54 @@
       }
     },
     {
+      "id": "018d937f-0f93-7221-a83e-1a2e097b6098",
+      "title": "Chivalry: Medieval Warfare 4-pack",
+      "slug": "chivalry-medieval-warfare-4-pack",
+      "appid": 219640,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Medieval",
+        "Multiplayer",
+        "Action",
+        "Gore",
+        "First-Person"
+      ],
+      "reviews": {
+        "score": 83,
+        "count": 44465,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0f93-7221-a83e-1a2e097b6098/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/219640/9815/f936fedf02efd1b5804cdda6177faf0b21364746/1750481410/hls_264_master.m3u8?t=1447357058",
+      "steam_url": "https://store.steampowered.com/app/219640",
+      "prices": {
+        "USD": {
+          "current": 14.99,
+          "regular": 74.99,
+          "low": 7.49,
+          "low_1y": 14.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 38.8,
+          "regular": 194,
+          "low": 19,
+          "low_1y": 38.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-00cb-710a-9a4c-f7c1c558b97d",
       "title": "Prey",
       "slug": "prey",
@@ -14107,54 +14107,6 @@
       }
     },
     {
-      "id": "018d937e-f07d-7229-8ae8-c22a9d5fda2a",
-      "title": "Trine 2: Complete Story",
-      "slug": "trine-2-complete-story",
-      "appid": 35720,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Puzzle Platformer",
-        "Action-Adventure",
-        "Platformer",
-        "2D Platformer",
-        "Co-op"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 15282,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f07d-7229-8ae8-c22a9d5fda2a/boxart.jpg?t=1789546810"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
-      "steam_url": "https://store.steampowered.com/app/35720",
-      "prices": {
-        "USD": {
-          "current": 3.99,
-          "regular": 19.99,
-          "low": 1.24,
-          "low_1y": 1.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 13.6,
-          "regular": 68,
-          "low": 5,
-          "low_1y": 12.4,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-11b5-73bb-b486-27cea2bd8621",
       "title": "Trine 2: Complete Story 3Pack",
       "slug": "trine-2-complete-story-3-pack",
@@ -14195,6 +14147,54 @@
           "regular": 112,
           "low": 16,
           "low_1y": 22.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-f07d-7229-8ae8-c22a9d5fda2a",
+      "title": "Trine 2: Complete Story",
+      "slug": "trine-2-complete-story",
+      "appid": 35720,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Puzzle Platformer",
+        "Action-Adventure",
+        "Platformer",
+        "2D Platformer",
+        "Co-op"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 15282,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f07d-7229-8ae8-c22a9d5fda2a/boxart.jpg?t=1789546810"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/35720/6190/aab9811761e1f6389f1f1e769e67d8ff8374c62a/1750485178/hls_264_master.m3u8?t=1447354937",
+      "steam_url": "https://store.steampowered.com/app/35720",
+      "prices": {
+        "USD": {
+          "current": 3.99,
+          "regular": 19.99,
+          "low": 1.24,
+          "low_1y": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 13.6,
+          "regular": 68,
+          "low": 5,
+          "low_1y": 12.4,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
