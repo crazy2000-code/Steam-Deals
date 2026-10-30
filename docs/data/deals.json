@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:25:22.773860+00:00",
+  "generated_at": "2026-10-30T12:06:29.238762+00:00",
   "total": 300,
   "games": [
     {
@@ -2397,11 +2397,11 @@
       ],
       "reviews": {
         "score": 97,
-        "count": 45274,
+        "count": 45279,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5266-732f-9ed1-3921fb9817be/boxart.jpg?t=1786561818"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5266-732f-9ed1-3921fb9817be/boxart.jpg?t=1793358318"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1669980/559591/376b3617488498f6018b27ca4b5a2aaa19f3d1c2/1750722064/hls_264_master.m3u8?t=1741928189",
       "steam_url": "https://store.steampowered.com/app/1669980",
@@ -3905,11 +3905,11 @@
       ],
       "reviews": {
         "score": 94,
-        "count": 17881,
+        "count": 17902,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1793270134"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0dea-7132-a836-1d534093ce69/boxart.jpg?t=1793358313"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/463530/1547654049/07d28005dfe882e70f98e72a36bf36ab6fa56d4a/1782459536/hls_264_master.m3u8?t=1782460105",
       "steam_url": "https://store.steampowered.com/app/463530",
@@ -6663,64 +6663,6 @@
       }
     },
     {
-      "id": "018d937e-f0a9-73d5-98a1-0ba04680ac46",
-      "title": "A Bird Story + Soundtrack",
-      "slug": "a-bird-story-and-soundtrack",
-      "appid": 327410,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Story Rich",
-        "Great Soundtrack",
-        "Pixel Graphics",
-        "Short"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 8228,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f0a9-73d5-98a1-0ba04680ac46/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/327410/26771/d76a3c8836790b5236f0954cf9ec41d6882cb998/1751264603/hls_264_master.m3u8?t=1447364486",
-      "steam_url": "https://store.steampowered.com/app/327410",
-      "prices": {
-        "USD": {
-          "current": 1.19,
-          "regular": 5.99,
-          "low": 1.19,
-          "low_1y": 1.19,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 5.2,
-          "regular": 26,
-          "low": 5,
-          "low_1y": 5.2,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 2.3,
-          "regular": 11.5,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-24e0-7010-9815-a8c785b0cac8",
       "title": "A Bird Story",
       "slug": "a-bird-story",
@@ -6761,6 +6703,64 @@
           "regular": 18,
           "low": 3,
           "low_1y": 3.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 2.3,
+          "regular": 11.5,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-f0a9-73d5-98a1-0ba04680ac46",
+      "title": "A Bird Story + Soundtrack",
+      "slug": "a-bird-story-and-soundtrack",
+      "appid": 327410,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Story Rich",
+        "Great Soundtrack",
+        "Pixel Graphics",
+        "Short"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 8228,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f0a9-73d5-98a1-0ba04680ac46/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/327410/26771/d76a3c8836790b5236f0954cf9ec41d6882cb998/1751264603/hls_264_master.m3u8?t=1447364486",
+      "steam_url": "https://store.steampowered.com/app/327410",
+      "prices": {
+        "USD": {
+          "current": 1.19,
+          "regular": 5.99,
+          "low": 1.19,
+          "low_1y": 1.19,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 5.2,
+          "regular": 26,
+          "low": 5,
+          "low_1y": 5.2,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -9347,11 +9347,11 @@
       ],
       "reviews": {
         "score": 82,
-        "count": 3827,
+        "count": 3832,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d95ba-d7cc-70d9-8cbb-a6888eab9a9e/boxart.jpg?t=1786390266"
+        "capsule": "https://assets.isthereanydeal.com/018d95ba-d7cc-70d9-8cbb-a6888eab9a9e/boxart.jpg?t=1793321105"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/489360/75917/81e1dfda36f56d6b92496748b92caa5af61a5ca9/1751291915/hls_264_master.m3u8?t=1476118774",
       "steam_url": "https://store.steampowered.com/app/489360",
@@ -9902,64 +9902,6 @@
           "current": 12.25,
           "regular": 49.0,
           "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-4632-728e-9822-43b1ea2f3d26",
-      "title": "Heliborne - Enhanced Edition",
-      "slug": "heliborne-enhanced-edition",
-      "appid": 433530,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Military",
-        "Flight",
-        "Multiplayer",
-        "Co-op",
-        "Experimental"
-      ],
-      "reviews": {
-        "score": 76,
-        "count": 3257,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4632-728e-9822-43b1ea2f3d26/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/433530/570316/0a46cc64fe7802420139d1b73441b6573d144be0/1751284142/hls_264_master.m3u8?t=1685101214",
-      "steam_url": "https://store.steampowered.com/app/433530",
-      "prices": {
-        "USD": {
-          "current": 5.99,
-          "regular": 29.99,
-          "low": 5.99,
-          "low_1y": 5.98,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 21.8,
-          "regular": 109,
-          "low": 20.6,
-          "low_1y": 20.6,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 13.79,
-          "regular": 68.99,
-          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -11661,6 +11603,16 @@
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 7.8,
+          "regular": 39.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
@@ -15810,11 +15762,11 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 29744,
+        "count": 29796,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2d32-71b9-8be8-145d7bd20ceb/boxart.jpg?t=1789002330"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d32-71b9-8be8-145d7bd20ceb/boxart.jpg?t=1793354717"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/692850/715283/683d3e2917f95195477092cf8874b1e05cfad0f7/1750571479/hls_264_master.m3u8?t=1718722845",
       "steam_url": "https://store.steampowered.com/app/692850",
@@ -16362,6 +16314,54 @@
           "regular": 70,
           "low": 12,
           "low_1y": 14,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea6e-7178-ab1d-c18c6a48462e",
+      "title": "Guacamelee! Super Turbo Championship Edition",
+      "slug": "guacamelee-super-turbo-championship-edition",
+      "appid": 275390,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Platformer",
+        "Metroidvania",
+        "2D",
+        "Beat 'em up",
+        "Action"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 2642,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea6e-7178-ab1d-c18c6a48462e/boxart.jpg?t=1786990872"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/275390/24114/f3e3de740290cc57be3df6a9b4b142c64d0eabaa/1750500352/hls_264_master.m3u8?t=1447363192",
+      "steam_url": "https://store.steampowered.com/app/275390",
+      "prices": {
+        "USD": {
+          "current": 3.74,
+          "regular": 14.99,
+          "low": 1.49,
+          "low_1y": 2,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 14.75,
+          "regular": 59,
+          "low": 4,
+          "low_1y": 11.6,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
