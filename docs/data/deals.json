@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:06:50.382030+00:00",
+  "generated_at": "2026-10-31T11:40:06.796993+00:00",
   "total": 300,
   "games": [
     {
@@ -3155,7 +3155,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4040-736a-9249-1c8d1f620494/boxart.jpg?t=1793411712"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/774801/860422/1dcd799d73f0464b7d080e353e1da36962b47ebe/1750582419/hls_264_master.m3u8?t=1743354496",
       "steam_url": "https://store.steampowered.com/app/774801",
@@ -6779,55 +6779,55 @@
       }
     },
     {
-      "id": "018d937e-f0a9-73d5-98a1-0ba04680ac46",
-      "title": "A Bird Story + Soundtrack",
-      "slug": "a-bird-story-and-soundtrack",
-      "appid": 327410,
+      "id": "018d937f-43f8-71cb-a5de-0e77ec0e5cfc",
+      "title": "No One Goes Alone",
+      "slug": "no-one-goes-alone",
+      "appid": 2116120,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Indie",
-        "Story Rich",
-        "Great Soundtrack",
-        "Pixel Graphics",
-        "Short"
+        "Extraction Shooter",
+        "PvE",
+        "Realistic",
+        "FPS",
+        "Gun Customization"
       ],
       "reviews": {
-        "score": 85,
-        "count": 8228,
+        "score": 76,
+        "count": 8470,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f0a9-73d5-98a1-0ba04680ac46/boxart.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-43f8-71cb-a5de-0e77ec0e5cfc/banner300.jpg?t=1793041829"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/327410/26771/d76a3c8836790b5236f0954cf9ec41d6882cb998/1751264603/hls_264_master.m3u8?t=1447364486",
-      "steam_url": "https://store.steampowered.com/app/327410",
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/2116120",
       "prices": {
         "USD": {
-          "current": 1.19,
-          "regular": 5.99,
-          "low": 1.19,
-          "low_1y": 1.19,
-          "cut": 80,
+          "current": 25.18,
+          "regular": 55.78,
+          "low": 25.18,
+          "low_1y": 25.18,
+          "cut": 55,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 5.2,
-          "regular": 26,
-          "low": 5,
-          "low_1y": 5.2,
-          "cut": 80,
+          "current": 85.42,
+          "regular": 177.26,
+          "low": 85.42,
+          "low_1y": 85.42,
+          "cut": 52,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
+          "is_atl": true
         },
         "MYR": {
-          "current": 2.3,
-          "regular": 11.5,
-          "cut": 80,
+          "current": 42.94,
+          "regular": 53.68,
+          "cut": 20,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -6877,6 +6877,64 @@
           "regular": 18,
           "low": 3,
           "low_1y": 3.6,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 2.3,
+          "regular": 11.5,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-f0a9-73d5-98a1-0ba04680ac46",
+      "title": "A Bird Story + Soundtrack",
+      "slug": "a-bird-story-and-soundtrack",
+      "appid": 327410,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Story Rich",
+        "Great Soundtrack",
+        "Pixel Graphics",
+        "Short"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 8228,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f0a9-73d5-98a1-0ba04680ac46/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/327410/26771/d76a3c8836790b5236f0954cf9ec41d6882cb998/1751264603/hls_264_master.m3u8?t=1447364486",
+      "steam_url": "https://store.steampowered.com/app/327410",
+      "prices": {
+        "USD": {
+          "current": 1.19,
+          "regular": 5.99,
+          "low": 1.19,
+          "low_1y": 1.19,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 5.2,
+          "regular": 26,
+          "low": 5,
+          "low_1y": 5.2,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
@@ -10539,64 +10597,6 @@
       }
     },
     {
-      "id": "018d937f-6472-72ac-8f80-240e71d9d86c",
-      "title": "Sherlock Holmes The Awakened Premium Edition",
-      "slug": "sherlock-holmes-the-awakened-premium-edition",
-      "appid": 1949030,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Detective",
-        "Story Rich",
-        "Lovecraftian",
-        "Mystery",
-        "Horror"
-      ],
-      "reviews": {
-        "score": 81,
-        "count": 2642,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6472-72ac-8f80-240e71d9d86c/boxart.jpg?t=1753095303"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1949030/552719/d1ac69e841fbf1029a78b8a21dc42bfd915ea932/1750742435/hls_264_master.m3u8?t=1680033573",
-      "steam_url": "https://store.steampowered.com/app/1949030",
-      "prices": {
-        "USD": {
-          "current": 5.49,
-          "regular": 54.99,
-          "low": 5.49,
-          "low_1y": 4.56,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 28.99,
-          "regular": 289.99,
-          "low": 28.99,
-          "low_1y": 28,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 13.99,
-          "regular": 139.99,
-          "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-4651-71c3-a10e-b1d8837c637d",
       "title": "Observer: System Redux",
       "slug": "observer-system-redux",
@@ -11235,52 +11235,55 @@
       }
     },
     {
-      "id": "018d937e-feb8-71a3-8819-21b3fa181d0d",
-      "title": "RESIDENT EVIL 2 - All In-game Rewards Unlock",
-      "slug": "resident-evil-2-all-in-game-rewards-unlock",
-      "appid": 920571,
+      "id": "018d937e-fd04-723a-8464-a78cea1866b3",
+      "title": "Rebuild 3: Gangs of Deadsville - Deluxe Edition",
+      "slug": "rebuild-3-gangs-of-deadsville-deluxe-edition",
+      "appid": 257170,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Action",
-        "Horror"
+        "Colony Sim",
+        "Survival",
+        "4X",
+        "Strategy",
+        "Post-apocalyptic"
       ],
       "reviews": {
-        "score": 95,
-        "count": 1258,
+        "score": 86,
+        "count": 1487,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-feb8-71a3-8819-21b3fa181d0d/banner300.jpg?t=1788828606"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fd04-723a-8464-a78cea1866b3/boxart.jpg"
       },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/920571",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/257170/36554/e76b3b6a0c36398cf8d0904900c78ec429a6153e/1750490739/hls_264_master.m3u8?t=1447375261",
+      "steam_url": "https://store.steampowered.com/app/257170",
       "prices": {
         "USD": {
-          "current": 1.99,
-          "regular": 4.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 60,
+          "current": 7.49,
+          "regular": 24.99,
+          "low": 7.49,
+          "low_1y": 7.49,
+          "cut": 70,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 10,
-          "regular": 25,
-          "low": 10,
-          "low_1y": 10,
-          "cut": 60,
+          "current": 27.6,
+          "regular": 92,
+          "low": 23.4,
+          "low_1y": 27.6,
+          "cut": 70,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": true
+          "is_atl": false
         },
         "MYR": {
-          "current": 6.76,
-          "regular": 16.9,
-          "cut": 60,
+          "current": 11.55,
+          "regular": 38.5,
+          "cut": 70,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -12667,54 +12670,6 @@
           "low": 1.86,
           "low_1y": 5.4,
           "cut": 95,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-03e9-70b1-aa25-6a314b3d3b82",
-      "title": "Textorcist",
-      "slug": "textorcist",
-      "appid": 940680,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Indie",
-        "Action",
-        "Typing",
-        "Bullet Hell",
-        "Difficult"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 1169,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-03e9-70b1-aa25-6a314b3d3b82/boxart.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/940680/208854/d676b67a6a142bb20c789274e539e33bd887e4fe/1751166687/hls_264_master.m3u8?t=1549910624",
-      "steam_url": "https://store.steampowered.com/app/940680",
-      "prices": {
-        "USD": {
-          "current": 1.04,
-          "regular": 14.99,
-          "low": 0.89,
-          "low_1y": 0.89,
-          "cut": 93,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 4.06,
-          "regular": 58,
-          "low": 3.48,
-          "low_1y": 3.48,
-          "cut": 93,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
@@ -15402,6 +15357,54 @@
           "regular": 52,
           "low": 4,
           "low_1y": 4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1c54-71a8-a3ce-f7f9e90581b7",
+      "title": "Sanctum 4 Pack",
+      "slug": "sanctum-4-pack",
+      "appid": 91600,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Tower Defense",
+        "FPS",
+        "Strategy",
+        "Co-op",
+        "Action"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 1986,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1c54-71a8-a3ce-f7f9e90581b7/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/91600/4751/09bb05f295cc744e27c7df9fae77d76e32ef3fb6/1750492667/hls_264_master.m3u8?t=1581547986",
+      "steam_url": "https://store.steampowered.com/app/91600",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 29.99,
+          "low": 2.99,
+          "low_1y": 5.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 22,
+          "regular": 110,
+          "low": 10.8,
+          "low_1y": 22,
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
