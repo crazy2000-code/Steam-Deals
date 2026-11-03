@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:36:14.822182+00:00",
+  "generated_at": "2026-11-03T13:40:56.089360+00:00",
   "total": 300,
   "games": [
     {
@@ -3193,64 +3193,6 @@
       }
     },
     {
-      "id": "018d937f-4959-7012-9cc1-33534c9d44de",
-      "title": "Sun Haven",
-      "slug": "sun-haven",
-      "appid": 1432860,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Farming Sim",
-        "Pixel Graphics",
-        "Multiplayer",
-        "Life Sim",
-        "Dating Sim"
-      ],
-      "reviews": {
-        "score": 79,
-        "count": 22209,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4959-7012-9cc1-33534c9d44de/boxart.jpg?t=1786210642"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1432860/642868/d3476f0757c0dbe90578d97c397543dfcc65c501/1750687823/hls_264_master.m3u8?t=1718246114",
-      "steam_url": "https://store.steampowered.com/app/1432860",
-      "prices": {
-        "USD": {
-          "current": 6.99,
-          "regular": 24.99,
-          "low": 6.99,
-          "low_1y": 6.99,
-          "cut": 72,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 25.76,
-          "regular": 92,
-          "low": 25.76,
-          "low_1y": 25.76,
-          "cut": 72,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 17.08,
-          "regular": 61.0,
-          "cut": 72,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-6ee4-73f5-858c-2fde3c008587",
       "title": "Pacific Drive",
       "slug": "pacific-drive",
@@ -4021,11 +3963,11 @@
       ],
       "reviews": {
         "score": 80,
-        "count": 16755,
+        "count": 16780,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5281-7062-9d82-a628f78d52f1/boxart.jpg?t=1791847221"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5281-7062-9d82-a628f78d52f1/boxart.jpg?t=1793698205"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/1465460",
@@ -9042,6 +8984,64 @@
           "current": 3.85,
           "regular": 38.5,
           "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-1641-71ce-9f2b-74e629e73b0c",
+      "title": "NEKOPARA Extra",
+      "slug": "nekopara-extra",
+      "appid": 899970,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "Cute",
+        "Visual Novel",
+        "Nudity",
+        "Hentai"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 3618,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1641-71ce-9f2b-74e629e73b0c/boxart.jpg?t=1789420224"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/899970",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 4.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 8.8,
+          "regular": 22,
+          "low": 8,
+          "low_1y": 8.8,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 5.59,
+          "regular": 13.99,
+          "cut": 60,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
