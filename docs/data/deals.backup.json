@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T23:33:13.717497+00:00",
-  "total": 272,
+  "generated_at": "2026-11-05T14:14:38.287602+00:00",
+  "total": 270,
   "games": [
     {
       "id": "018d937e-f48c-7289-8516-c7c5b2e12eba",
@@ -889,11 +889,11 @@
       ],
       "reviews": {
         "score": 79,
-        "count": 166164,
+        "count": 166405,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018dd0ec-ce78-7205-887b-cfc7b259ae00/boxart.jpg?t=1788270627"
+        "capsule": "https://assets.isthereanydeal.com/018dd0ec-ce78-7205-887b-cfc7b259ae00/boxart.jpg?t=1793886012"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/534380/1441271320/c804bcc763a89ea9e63be55c2eb8c7281cfb4a75/1781106901/hls_264_master.m3u8?t=1781107573",
       "steam_url": "https://store.steampowered.com/app/534380",
@@ -3441,11 +3441,11 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 17127,
+        "count": 17145,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6b7e-7213-992d-536da3e39f0a/boxart.jpg?t=1793789431"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6b7e-7213-992d-536da3e39f0a/boxart.jpg?t=1793866822"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/1669000",
@@ -3454,7 +3454,7 @@
           "current": 19.99,
           "regular": 49.99,
           "low": 19.99,
-          "low_1y": 18,
+          "low_1y": 17.95,
           "cut": 60,
           "currency": "USD",
           "symbol": "$",
@@ -8065,64 +8065,6 @@
       }
     },
     {
-      "id": "018d937f-1641-71ce-9f2b-74e629e73b0c",
-      "title": "NEKOPARA Extra",
-      "slug": "nekopara-extra",
-      "appid": 899970,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Anime",
-        "Cute",
-        "Visual Novel",
-        "Nudity",
-        "Hentai"
-      ],
-      "reviews": {
-        "score": 97,
-        "count": 3618,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1641-71ce-9f2b-74e629e73b0c/boxart.jpg?t=1789420224"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/899970",
-      "prices": {
-        "USD": {
-          "current": 1.99,
-          "regular": 4.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 8.8,
-          "regular": 22,
-          "low": 8,
-          "low_1y": 8.8,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 5.59,
-          "regular": 13.99,
-          "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-6148-7288-816c-1817b4ac0ef2",
       "title": "Inkbound",
       "slug": "inkbound",
@@ -8297,64 +8239,6 @@
       }
     },
     {
-      "id": "018d937f-0dd7-70e3-a04a-d52f5aacdb7c",
-      "title": "King's Bounty: The Legend",
-      "slug": "kings-bounty-the-legend",
-      "appid": 25900,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Strategy",
-        "Turn-Based Strategy",
-        "Fantasy",
-        "Turn-Based"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 3289,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0dd7-70e3-a04a-d52f5aacdb7c/boxart.jpg?t=1793292006"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/25900/674694851/32b2c34871fddbcbd950bc009da0d98a242581c4/1770385364/hls_264_master.m3u8?t=1770386285",
-      "steam_url": "https://store.steampowered.com/app/25900",
-      "prices": {
-        "USD": {
-          "current": 1.04,
-          "regular": 6.99,
-          "low": 1.04,
-          "low_1y": 0.74,
-          "cut": 85,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 4.35,
-          "regular": 29,
-          "low": 4.2,
-          "low_1y": 3.7,
-          "cut": 85,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 2.81,
-          "regular": 18.75,
-          "cut": 85,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-1547-7013-8131-53077af4333b",
       "title": "Lara Croft GO",
       "slug": "lara-croft-go",
@@ -8403,6 +8287,64 @@
         "MYR": {
           "current": 4.35,
           "regular": 29.0,
+          "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-0dd7-70e3-a04a-d52f5aacdb7c",
+      "title": "King's Bounty: The Legend",
+      "slug": "kings-bounty-the-legend",
+      "appid": 25900,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "Strategy",
+        "Turn-Based Strategy",
+        "Fantasy",
+        "Turn-Based"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 3289,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0dd7-70e3-a04a-d52f5aacdb7c/boxart.jpg?t=1793292006"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/25900/674694851/32b2c34871fddbcbd950bc009da0d98a242581c4/1770385364/hls_264_master.m3u8?t=1770386285",
+      "steam_url": "https://store.steampowered.com/app/25900",
+      "prices": {
+        "USD": {
+          "current": 1.04,
+          "regular": 6.99,
+          "low": 1.04,
+          "low_1y": 0.74,
+          "cut": 85,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 4.35,
+          "regular": 29,
+          "low": 4.2,
+          "low_1y": 3.7,
+          "cut": 85,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 2.81,
+          "regular": 18.75,
           "cut": 85,
           "low": null,
           "low_1y": null,
@@ -8839,7 +8781,7 @@
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4632-728e-9822-43b1e50d3fdb/boxart.jpg?t=1793107812"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4632-728e-9822-43b1e50d3fdb/boxart.jpg?t=1793867730"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1364100/370628/1cb0e86b1ab3d05255960ec7a934323e54bfaa35/1751227406/hls_264_master.m3u8?t=1652721698",
       "steam_url": "https://store.steampowered.com/app/1364100",
@@ -9341,64 +9283,6 @@
       }
     },
     {
-      "id": "018d937f-4e45-73ce-b984-ccc424b1aadb",
-      "title": "Rust Instrument Pack",
-      "slug": "rust-instrument-pack",
-      "appid": 1174370,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Massively Multiplayer",
-        "Indie",
-        "RPG",
-        "Action",
-        "Adventure"
-      ],
-      "reviews": {
-        "score": 91,
-        "count": 881,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4e45-73ce-b984-ccc424b1aadb/banner300.jpg"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/1174370",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 4.99,
-          "low_1y": 4.99,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 20,
-          "regular": 40,
-          "low": 18,
-          "low_1y": 20,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 12.49,
-          "regular": 24.99,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-5f25-719b-a23a-adca84ca469a",
       "title": "EZ2ON REBOOT : R - PRESTIGE PASS",
       "slug": "ez2on-reboot-r-prestige-pass",
@@ -9763,11 +9647,11 @@
       ],
       "reviews": {
         "score": 85,
-        "count": 120700,
+        "count": 120775,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-246a-7339-8ccc-7bddae738345/boxart.jpg?t=1792782924"
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/582160/capsule_616x353.jpg"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/582160/130379/fbe86162d0aacf0a39d88154b9bca10a2e0a02a0/1750555625/hls_264_master.m3u8?t=1509076784",
       "steam_url": "https://store.steampowered.com/app/582160",
@@ -11637,6 +11521,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 7.8,
+          "regular": 39.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
         }
       }
     },
@@ -11684,6 +11578,16 @@
           "cut": 80,
           "currency": "CNY",
           "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 9.8,
+          "regular": 49.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
           "is_atl": false
         }
       }
