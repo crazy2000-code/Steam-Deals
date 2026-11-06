@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:37:39.824258+00:00",
+  "generated_at": "2026-11-06T13:46:46.510889+00:00",
   "total": 247,
   "games": [
     {
@@ -1038,64 +1038,6 @@
           "current": 6.99,
           "regular": 13.99,
           "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-1608-721b-8ee7-f4903258fb76",
-      "title": "Green Hell",
-      "slug": "green-hell",
-      "appid": 815370,
-      "tier": "aaa",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Survival",
-        "Open World Survival Craft",
-        "Multiplayer",
-        "Online Co-Op",
-        "Open World"
-      ],
-      "reviews": {
-        "score": 84,
-        "count": 80493,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1608-721b-8ee7-f4903258fb76/boxart.jpg?t=1787652918"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/815370/607071131/2d7869669378db0fa6dc0472d301046d19b23dce/1777470056/hls_264_master.m3u8?t=1777904119",
-      "steam_url": "https://store.steampowered.com/app/815370",
-      "prices": {
-        "USD": {
-          "current": 2.49,
-          "regular": 24.99,
-          "low": 2.49,
-          "low_1y": 2.49,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 8,
-          "regular": 80,
-          "low": 8,
-          "low_1y": 8,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 4.4,
-          "regular": 44.0,
-          "cut": 90,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2513,7 +2455,7 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 18423,
+        "count": 18430,
         "text": ""
       },
       "images": {
@@ -3025,11 +2967,11 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 17145,
+        "count": 17165,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6b7e-7213-992d-536da3e39f0a/boxart.jpg?t=1793866822"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6b7e-7213-992d-536da3e39f0a/boxart.jpg?t=1793956815"
       },
       "trailer": null,
       "steam_url": "https://store.steampowered.com/app/1669000",
@@ -4069,11 +4011,11 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 11490,
+        "count": 11541,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6996-71cc-ba11-ad56ff552abb/boxart.jpg?t=1786742424"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6996-71cc-ba11-ad56ff552abb/boxart.jpg?t=1793962044"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/2187290/554998/8c8ed5cdf70c95499634cded0d82176bb269ef54/1750805320/hls_264_master.m3u8?t=1699011833",
       "steam_url": "https://store.steampowered.com/app/2187290",
@@ -4276,6 +4218,64 @@
           "current": 8.1,
           "regular": 54.0,
           "cut": 85,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-0ea8-7175-9357-30c0600a53e7",
+      "title": "Armello",
+      "slug": "armello",
+      "appid": 290340,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Board Game",
+        "PvP",
+        "Turn-Based Strategy",
+        "Card Game",
+        "Turn-Based"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 11024,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0ea8-7175-9357-30c0600a53e7/boxart.jpg?t=1787341240"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/290340/42103/ae62744f8da5837431383cfbd3eb42cdf9e01123/1750501023/hls_264_master.m3u8?t=1447377818",
+      "steam_url": "https://store.steampowered.com/app/290340",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 24.99,
+          "low": 4.99,
+          "low_1y": 4.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 17.8,
+          "regular": 89,
+          "low": 14,
+          "low_1y": 17.8,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 11.8,
+          "regular": 59.0,
+          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -7307,7 +7307,7 @@
       ],
       "reviews": {
         "score": 90,
-        "count": 3289,
+        "count": 3296,
         "text": ""
       },
       "images": {
@@ -7481,11 +7481,11 @@
       ],
       "reviews": {
         "score": 81,
-        "count": 3067,
+        "count": 3069,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6ce4-73d2-8802-174f054b41c2/boxart.jpg?t=1786212653"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6ce4-73d2-8802-174f054b41c2/boxart.jpg?t=1793937035"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1956800/725510956/9cecf6c4c322882d18de94cace29c2f913bd5e70/1758767835/hls_264_master.m3u8?t=1758771695",
       "steam_url": "https://store.steampowered.com/app/1956800",
@@ -8161,64 +8161,6 @@
       }
     },
     {
-      "id": "018d937e-fd31-70ef-ab59-d59e0ca7c572",
-      "title": "Love at First Sight",
-      "slug": "love-at-first-sight",
-      "appid": 353330,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Visual Novel",
-        "Anime",
-        "Romance",
-        "Indie",
-        "Cute"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 1427,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-fd31-70ef-ab59-d59e0ca7c572/boxart.jpg?t=1790899940"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/353330/36239/736d0f066bdeca51741e214ebe75bcf54dc76b77/1751268395/hls_264_master.m3u8?t=1447374938",
-      "steam_url": "https://store.steampowered.com/app/353330",
-      "prices": {
-        "USD": {
-          "current": 2.49,
-          "regular": 9.99,
-          "low": 2.49,
-          "low_1y": 2.49,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 10.5,
-          "regular": 42,
-          "low": 9,
-          "low_1y": 10.5,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 6.68,
-          "regular": 26.75,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-27f1-70c9-81b8-9dddcbaa2241",
       "title": "Blood Bowl - Chaos Edition",
       "slug": "blood-bowl-chaos-edition",
@@ -8293,7 +8235,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 1164,
+        "count": 1166,
         "text": ""
       },
       "images": {
@@ -8384,6 +8326,64 @@
           "current": 2.14,
           "regular": 19.5,
           "cut": 89,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-4e45-73ce-b984-ccc424b1aadb",
+      "title": "Rust Instrument Pack",
+      "slug": "rust-instrument-pack",
+      "appid": 1174370,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Massively Multiplayer",
+        "Indie",
+        "RPG",
+        "Action",
+        "Adventure"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 881,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-4e45-73ce-b984-ccc424b1aadb/banner300.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/1174370",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 9.99,
+          "low": 4.99,
+          "low_1y": 4.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 20,
+          "regular": 40,
+          "low": 18,
+          "low_1y": 20,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 12.49,
+          "regular": 24.99,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -8500,64 +8500,6 @@
           "current": 8.9,
           "regular": 89.0,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-5f25-719b-a23a-adca84ca469a",
-      "title": "EZ2ON REBOOT : R - PRESTIGE PASS",
-      "slug": "ez2on-reboot-r-prestige-pass",
-      "appid": 1926210,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Casual",
-        "Sports",
-        "Music",
-        "Rhythm"
-      ],
-      "reviews": {
-        "score": 99,
-        "count": 514,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5f25-719b-a23a-adca84ca469a/banner300.jpg?t=1786755932"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1926210/707214/b5756fde896eaaaba6473c7424a74640033ee983/1751057118/hls_264_master.m3u8?t=1717141669",
-      "steam_url": "https://store.steampowered.com/app/1926210",
-      "prices": {
-        "USD": {
-          "current": 25.19,
-          "regular": 39.99,
-          "low": 25.19,
-          "low_1y": 25.19,
-          "cut": 37,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 74.34,
-          "regular": 118,
-          "low": 74.34,
-          "low_1y": 74.34,
-          "cut": 37,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 68.04,
-          "regular": 108.0,
-          "cut": 37,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -10197,11 +10139,11 @@
       ],
       "reviews": {
         "score": 87,
-        "count": 6905,
+        "count": 6924,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0869-71f5-b4fd-20c5f25a1564/boxart.jpg?t=1792566612"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0869-71f5-b4fd-20c5f25a1564/boxart.jpg?t=1793961358"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/761620/138149/d4bbecdeabbadc667f6ec83948afe15b94109c2d/1750580790/hls_264_master.m3u8?t=1513709574",
       "steam_url": "https://store.steampowered.com/app/761620",
@@ -11617,6 +11559,16 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
+        },
+        "MYR": {
+          "current": 14.75,
+          "regular": 59.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
         }
       }
     },
@@ -12957,6 +12909,54 @@
           "regular": 28,
           "low": 8.4,
           "low_1y": 8.4,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937e-f86d-7229-9cf1-3d8ddb2048f8",
+      "title": "Mount Your Friends 4 Pack",
+      "slug": "mount-your-friends-4-pack",
+      "appid": 296470,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Funny",
+        "Comedy",
+        "Multiplayer",
+        "Sports",
+        "Indie"
+      ],
+      "reviews": {
+        "score": 95,
+        "count": 5124,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f86d-7229-9cf1-3d8ddb2048f8/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/296470/23153/56aea81d8b9c41504f3e3773e3ffbddf84ba6725/1750502971/hls_264_master.m3u8?t=1447362756",
+      "steam_url": "https://store.steampowered.com/app/296470",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 14.99,
+          "low": 2.99,
+          "low_1y": 5.99,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 23.2,
+          "regular": 58,
+          "low": 9,
+          "low_1y": 23.2,
           "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
