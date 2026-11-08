@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T21:42:55.478913+00:00",
-  "total": 228,
+  "generated_at": "2026-11-08T13:00:11.062074+00:00",
+  "total": 232,
   "games": [
     {
       "id": "018d937e-f48c-7289-8516-c7c5b2e12eba",
@@ -1211,6 +1211,64 @@
         "MYR": {
           "current": 19.17,
           "regular": 29.5,
+          "cut": 35,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-62fb-7394-b7df-25ff35798fe6",
+      "title": "SANABI",
+      "slug": "sanabi",
+      "appid": 1562700,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Pixel Graphics",
+        "Story Rich",
+        "Action",
+        "Cyberpunk",
+        "2D Platformer"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 42133,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-62fb-7394-b7df-25ff35798fe6/boxart.jpg?t=1786382491"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1562700/625467/6a47d0e80e73fcd6e462bb4e9720c2c125ebe273/1750701561/hls_264_master.m3u8?t=1699000777",
+      "steam_url": "https://store.steampowered.com/app/1562700",
+      "prices": {
+        "USD": {
+          "current": 9.74,
+          "regular": 14.99,
+          "low": 9.74,
+          "low_1y": 7.56,
+          "cut": 35,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 27.95,
+          "regular": 43,
+          "low": 27.95,
+          "low_1y": 27.95,
+          "cut": 35,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 25.02,
+          "regular": 38.5,
           "cut": 35,
           "low": null,
           "low_1y": null,
@@ -6885,6 +6943,64 @@
       }
     },
     {
+      "id": "018d937f-08b1-702d-ae35-86393adb694c",
+      "title": "The Night of the Rabbit Premium Edition",
+      "slug": "the-night-of-the-rabbit-premium-edition",
+      "appid": 230820,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Adventure",
+        "Point & Click",
+        "Indie",
+        "Fantasy",
+        "Story Rich"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 2779,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-08b1-702d-ae35-86393adb694c/banner300.jpg?t=1787014549"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/230820/11731/36b579b786854432c8c8e53cb832a3358061505a/1751248942/hls_264_master.m3u8?t=1447357984",
+      "steam_url": "https://store.steampowered.com/app/230820",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 24.99,
+          "low": 2.49,
+          "low_1y": 1.99,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 9.9,
+          "regular": 99,
+          "low": 8,
+          "low_1y": 9.9,
+          "cut": 90,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.7,
+          "regular": 47.0,
+          "cut": 90,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-0c9c-71fa-9913-317ba96abe47",
       "title": "Jotun: Valhalla Edition",
       "slug": "jotun-valhalla-edition",
@@ -7523,6 +7639,122 @@
       }
     },
     {
+      "id": "018d937f-3127-7102-8119-cf4d57800062",
+      "title": "DARIUSBURST Chronicle Saviours - Collector Edition",
+      "slug": "dariusburst-chronicle-saviours-collector-edition",
+      "appid": 377870,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Shoot 'Em Up",
+        "Arcade",
+        "Action",
+        "Great Soundtrack",
+        "Side Scroller"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 721,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3127-7102-8119-cf4d57800062/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/377870/47650/920aba21d53918680f7c0164a97224626ac7ce29/1751272682/hls_264_master.m3u8?t=1450240808",
+      "steam_url": "https://store.steampowered.com/app/377870",
+      "prices": {
+        "USD": {
+          "current": 17.99,
+          "regular": 59.99,
+          "low": 17.99,
+          "low_1y": 17.99,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 59.4,
+          "regular": 198,
+          "low": 55,
+          "low_1y": 59.4,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 27.5,
+          "regular": 110.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-5254-7388-b0a5-bbb5374819cb",
+      "title": "Cyber Manhunt - Home Sweet Home",
+      "slug": "cyber-manhunt-home-sweet-home",
+      "appid": 1682230,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "Simulation",
+        "Indie",
+        "Puzzle",
+        "Story Rich"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 699,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-5254-7388-b0a5-bbb5374819cb/banner300.jpg?t=1786405608"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1682230/382605/f94bc70b2746b210a4769690da7564014eda77d6/1751019001/hls_264_master.m3u8?t=1625578473",
+      "steam_url": "https://store.steampowered.com/app/1682230",
+      "prices": {
+        "USD": {
+          "current": 1.79,
+          "regular": 2.99,
+          "low": 1.79,
+          "low_1y": 1.79,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10.8,
+          "regular": 18,
+          "low": 10.8,
+          "low_1y": 10.8,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 6.59,
+          "regular": 10.99,
+          "cut": 40,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-1c90-7182-92b4-849660319832",
       "title": "G-senjou no Maou - The Devil on G-String Voiced Edition",
       "slug": "g-senjou-no-maou-the-devil-on-g-string-voiced-edition",
@@ -7630,64 +7862,6 @@
           "current": 8.9,
           "regular": 89.0,
           "cut": 90,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-5f25-719b-a23a-adca84ca469a",
-      "title": "EZ2ON REBOOT : R - PRESTIGE PASS",
-      "slug": "ez2on-reboot-r-prestige-pass",
-      "appid": 1926210,
-      "tier": "other",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Action",
-        "Casual",
-        "Sports",
-        "Music",
-        "Rhythm"
-      ],
-      "reviews": {
-        "score": 99,
-        "count": 514,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-5f25-719b-a23a-adca84ca469a/banner300.jpg?t=1786755932"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1926210/707214/b5756fde896eaaaba6473c7424a74640033ee983/1751057118/hls_264_master.m3u8?t=1717141669",
-      "steam_url": "https://store.steampowered.com/app/1926210",
-      "prices": {
-        "USD": {
-          "current": 25.19,
-          "regular": 39.99,
-          "low": 25.19,
-          "low_1y": 25.19,
-          "cut": 37,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 74.34,
-          "regular": 118,
-          "low": 74.34,
-          "low_1y": 74.34,
-          "cut": 37,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 68.04,
-          "regular": 108.0,
-          "cut": 37,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -10355,6 +10529,64 @@
       }
     },
     {
+      "id": "018d937f-117f-70fb-8fc3-c5174478b533",
+      "title": "100% Orange Juice - 4 Pack",
+      "slug": "100-orange-juice-4-pack",
+      "appid": 282800,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Anime",
+        "Board Game",
+        "Cute",
+        "Multiplayer",
+        "Strategy"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 14807,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-117f-70fb-8fc3-c5174478b533/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/282800/1400253690/5d91082bc4616fbdc0242c5ff228d85adee2abc4/1767097226/hls_264_master.m3u8?t=1767272429",
+      "steam_url": "https://store.steampowered.com/app/282800",
+      "prices": {
+        "USD": {
+          "current": 3.74,
+          "regular": 14.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 14.5,
+          "regular": 58,
+          "low": 11.6,
+          "low_1y": 11.6,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 4.87,
+          "regular": 19.5,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-15aa-73a5-83db-32c7fc830553",
       "title": "Running with Rifles",
       "slug": "running-with-rifles",
@@ -11443,16 +11675,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 9.3,
-          "regular": 31.0,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11501,16 +11723,6 @@
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
-        },
-        "MYR": {
-          "current": 6.9,
-          "regular": 23.0,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
         }
       }
     },
@@ -11558,16 +11770,6 @@
           "cut": 67,
           "currency": "CNY",
           "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 23.76,
-          "regular": 72.0,
-          "cut": 67,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
           "is_atl": false
         }
       }
