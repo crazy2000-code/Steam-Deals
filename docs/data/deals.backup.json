@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T14:32:56.545702+00:00",
-  "total": 7,
+  "generated_at": "2026-11-10T23:15:17.951533+00:00",
+  "total": 9,
   "games": [
     {
       "id": "018d937e-f48c-7289-8516-c7c5b2e12eba",
@@ -110,6 +110,64 @@
           "current": 11.7,
           "regular": 39.0,
           "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-6357-7146-8e4a-1e1708b01f0d",
+      "title": "The Legend of Heroes: Kuro no Kiseki Digital Deluxe Edition",
+      "slug": "the-legend-of-heroes-kuro-no-kiseki-digital-deluxe-edition",
+      "appid": 1811950,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "JRPG",
+        "Interactive Fiction",
+        "Party-Based RPG",
+        "Visual Novel"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 1323,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6357-7146-8e4a-1e1708b01f0d/banner300.jpg?t=1733647806"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1811950/465677/1fab0d4ff52cde8e85c7879cb6a6ab22a3b1e7b4/1751033808/hls_264_master.m3u8?t=1658743691",
+      "steam_url": "https://store.steampowered.com/app/1811950",
+      "prices": {
+        "USD": {
+          "current": 40.54,
+          "regular": 81.09,
+          "low": 40.54,
+          "low_1y": 40.54,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 268.12,
+          "regular": 536.25,
+          "low": 268.12,
+          "low_1y": 268.12,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 104.5,
+          "regular": 209.0,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -231,6 +289,64 @@
           "currency": "MYR",
           "symbol": "RM",
           "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-20cc-703a-963c-8dd3f93cb88b",
+      "title": "Euro Truck Simulator 2",
+      "slug": "euro-truck-simulator-2",
+      "appid": 227300,
+      "tier": "aaa",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Driving",
+        "Transportation",
+        "Simulation",
+        "Open World",
+        "Automobile Sim"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 766520,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-20cc-703a-963c-8dd3f93cb88b/boxart.jpg?t=1794331527"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/227300/455253/f717b44f949ed6c824778b30d516147bdaaad95a/1750482436/hls_264_master.m3u8?t=1683632053",
+      "steam_url": "https://store.steampowered.com/app/227300",
+      "prices": {
+        "USD": {
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 4.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 23.24,
+          "regular": 92.99,
+          "low": 8.8,
+          "low_1y": 22,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 14.24,
+          "regular": 56.99,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
         }
       }
     },
