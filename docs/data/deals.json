@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T13:32:46.479874+00:00",
-  "total": 60,
+  "generated_at": "2026-11-12T00:24:29.611214+00:00",
+  "total": 62,
   "games": [
     {
       "id": "018d937f-1f64-7265-8641-5dc1606e8537",
@@ -193,11 +193,11 @@
       ],
       "reviews": {
         "score": 72,
-        "count": 15186,
+        "count": 15187,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018e9875-731e-72ca-bb85-c5733e287dfc/boxart.jpg?t=1794356415"
+        "capsule": "https://assets.isthereanydeal.com/018e9875-731e-72ca-bb85-c5733e287dfc/boxart.jpg?t=1794425133"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/451340/227583/5a12b415cc1f21e9a572018ce12a584fddb5c181/1750532448/hls_264_master.m3u8?t=1711956586",
       "steam_url": "https://store.steampowered.com/app/451340",
@@ -400,6 +400,64 @@
           "current": 5.35,
           "regular": 26.75,
           "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-3cee-7013-a0f0-642654707338",
+      "title": "We who are about to Die",
+      "slug": "we-who-are-about-to-die",
+      "appid": 973230,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Roguelite",
+        "Strategy",
+        "Simulation",
+        "RPG"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 8157,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-3cee-7013-a0f0-642654707338/boxart.jpg?t=1789707906"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/973230/716047/6e9ffb432db430ff75cefe605c8d8c8e76ca0800/1750602795/hls_264_master.m3u8?t=1719175156",
+      "steam_url": "https://store.steampowered.com/app/973230",
+      "prices": {
+        "USD": {
+          "current": 13.19,
+          "regular": 21.99,
+          "low": 13.19,
+          "low_1y": 13.19,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 48,
+          "regular": 80,
+          "low": 48,
+          "low_1y": 48,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 32.39,
+          "regular": 53.99,
+          "cut": 40,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1063,7 +1121,7 @@
       ],
       "reviews": {
         "score": 85,
-        "count": 3105,
+        "count": 3108,
         "text": ""
       },
       "images": {
@@ -1743,6 +1801,64 @@
       }
     },
     {
+      "id": "018d937f-6357-7146-8e4a-1e1708b01f0d",
+      "title": "The Legend of Heroes: Kuro no Kiseki Digital Deluxe Edition",
+      "slug": "the-legend-of-heroes-kuro-no-kiseki-digital-deluxe-edition",
+      "appid": 1811950,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "RPG",
+        "JRPG",
+        "Interactive Fiction",
+        "Party-Based RPG",
+        "Visual Novel"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 1323,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6357-7146-8e4a-1e1708b01f0d/banner300.jpg?t=1733647806"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1811950/465677/1fab0d4ff52cde8e85c7879cb6a6ab22a3b1e7b4/1751033808/hls_264_master.m3u8?t=1658743691",
+      "steam_url": "https://store.steampowered.com/app/1811950",
+      "prices": {
+        "USD": {
+          "current": 40.54,
+          "regular": 81.09,
+          "low": 40.54,
+          "low_1y": 40.54,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 268.12,
+          "regular": 536.25,
+          "low": 268.12,
+          "low_1y": 268.12,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 104.5,
+          "regular": 209.0,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-6f09-712c-8e66-46b83790a081",
       "title": "Saloon Simulator",
       "slug": "saloon-simulator",
@@ -1758,8 +1874,8 @@
         "Cooking"
       ],
       "reviews": {
-        "score": 88,
-        "count": 906,
+        "score": 87,
+        "count": 927,
         "text": ""
       },
       "images": {
@@ -1908,6 +2024,64 @@
           "current": 27.5,
           "regular": 110.0,
           "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-69fc-7321-9635-1b588159e8ed",
+      "title": "The Heroes Around Me",
+      "slug": "the-heroes-around-me",
+      "appid": 1768470,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Visual Novel",
+        "Story Rich",
+        "Pixel Graphics",
+        "Interactive Fiction",
+        "RPG"
+      ],
+      "reviews": {
+        "score": 94,
+        "count": 698,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-69fc-7321-9635-1b588159e8ed/boxart.jpg?t=1787182545"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1768470/713821/ffb9160dbbe84b9d1edf47363a7444999488b169/1751028961/hls_264_master.m3u8?t=1718355828",
+      "steam_url": "https://store.steampowered.com/app/1768470",
+      "prices": {
+        "USD": {
+          "current": 4.19,
+          "regular": 6.99,
+          "low": 4.19,
+          "low_1y": 4.19,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 17.4,
+          "regular": 29,
+          "low": 17.4,
+          "low_1y": 17.4,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 11.7,
+          "regular": 19.5,
+          "cut": 40,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3077,6 +3251,64 @@
       }
     },
     {
+      "id": "018d937e-f4d4-72e7-8573-f89aa24ca824",
+      "title": "Red Orchestra: Ostfront 41-45",
+      "slug": "red-orchestra-ostfront-41-45",
+      "appid": 1200,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "World War II",
+        "Action",
+        "FPS",
+        "Realistic",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 1507,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-f4d4-72e7-8573-f89aa24ca824/boxart.png?t=1789715418"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1200/292/b4f5c6f08cbd1ccc5b1bb624193fbf963da5c0bf/1751245931/hls_264_master.m3u8?t=1447350846",
+      "steam_url": "https://store.steampowered.com/app/1200",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 4.99,
+          "low": 1.24,
+          "low_1y": 0.74,
+          "cut": 60,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 8.8,
+          "regular": 22,
+          "low": 5,
+          "low_1y": 4.99,
+          "cut": 60,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 5.0,
+          "regular": 12.5,
+          "cut": 60,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-2db0-70cd-85bb-69eabf881fae",
       "title": "Brothers in Arms Earned in Blood",
       "slug": "brothers-in-arms-earned-in-blood",
@@ -3126,64 +3358,6 @@
           "current": 6.4,
           "regular": 16.0,
           "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-f53b-714a-9584-fff6f20a5adc",
-      "title": "Nova Drift",
-      "slug": "nova-drift",
-      "appid": 858210,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Shoot 'Em Up",
-        "Bullet Hell",
-        "Roguelite",
-        "Arcade",
-        "Action Roguelike"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 13054,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f53b-714a-9584-fff6f20a5adc/boxart.jpg?t=1792878611"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/858210/738568/ab73f37ce8511d9d7ac4a87faf53c332904ac981/1750589691/hls_264_master.m3u8?t=1723465057",
-      "steam_url": "https://store.steampowered.com/app/858210",
-      "prices": {
-        "USD": {
-          "current": 8.99,
-          "regular": 17.99,
-          "low": 6.11,
-          "low_1y": 5.84,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 34,
-          "regular": 68,
-          "low": 23.12,
-          "low_1y": 23.12,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 22.5,
-          "regular": 45.0,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3415,64 +3589,6 @@
         "MYR": {
           "current": 7.5,
           "regular": 15.0,
-          "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-358f-7231-aef9-a6875824d5e6",
-      "title": "Zueirama",
-      "slug": "zueirama",
-      "appid": 952290,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Adventure",
-        "Indie",
-        "Casual",
-        "Pixel Graphics",
-        "Memes"
-      ],
-      "reviews": {
-        "score": 93,
-        "count": 1453,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-358f-7231-aef9-a6875824d5e6/boxart.jpg?t=1786141030"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/952290/273829/a92f3d47954c65d739c2db4782e79d913cdc8ac1/1751168085/hls_264_master.m3u8?t=1628264088",
-      "steam_url": "https://store.steampowered.com/app/952290",
-      "prices": {
-        "USD": {
-          "current": 3.49,
-          "regular": 6.99,
-          "low": 1.74,
-          "low_1y": 2.09,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 14.5,
-          "regular": 29,
-          "low": 7.25,
-          "low_1y": 8.7,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 9.37,
-          "regular": 18.75,
           "cut": 50,
           "low": null,
           "low_1y": null,
