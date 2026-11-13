@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T14:03:18.421185+00:00",
-  "total": 91,
+  "generated_at": "2026-11-13T23:22:11.351429+00:00",
+  "total": 92,
   "games": [
     {
       "id": "018d937e-f48c-7289-8516-c7c5b2e12eba",
@@ -483,7 +483,7 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 48447,
+        "count": 48448,
         "text": ""
       },
       "images": {
@@ -1047,64 +1047,6 @@
       }
     },
     {
-      "id": "018d937f-3885-7265-ab09-d011fad1d2e0",
-      "title": "Hydroneer",
-      "slug": "hydroneer",
-      "appid": 1106840,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Base Building",
-        "Automation",
-        "Mining",
-        "Sandbox",
-        "Co-op"
-      ],
-      "reviews": {
-        "score": 85,
-        "count": 27319,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-3885-7265-ab09-d011fad1d2e0/boxart.jpg?t=1788297315"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1106840/286759864/d548ba9ac2b3144972503a2b1b5db7d1806d2ce9/1777545087/hls_264_master.m3u8?t=1777546947",
-      "steam_url": "https://store.steampowered.com/app/1106840",
-      "prices": {
-        "USD": {
-          "current": 4.49,
-          "regular": 14.99,
-          "low": 4.49,
-          "low_1y": 4.49,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 17.7,
-          "regular": 59,
-          "low": 17.4,
-          "low_1y": 17.4,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 11.02,
-          "regular": 36.75,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-30f8-73c8-96cf-947e2c4ecd7a",
       "title": "ICEY",
       "slug": "icey",
@@ -1270,6 +1212,64 @@
           "current": 13.0,
           "regular": 65.0,
           "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-43a7-7141-a19e-daffe2ec4c3e",
+      "title": "Coral Island",
+      "slug": "coral-island",
+      "appid": 1158160,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Farming Sim",
+        "Life Sim",
+        "Dating Sim",
+        "Relaxing",
+        "Simulation"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 22090,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-43a7-7141-a19e-daffe2ec4c3e/boxart.jpg?t=1789653309"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1158160/1760110759/9c02567e3c4357b368b778e249c4e7fe9f57dd15/1781760344/hls_264_master.m3u8?t=1781768007",
+      "steam_url": "https://store.steampowered.com/app/1158160",
+      "prices": {
+        "USD": {
+          "current": 17.99,
+          "regular": 29.99,
+          "low": 17.99,
+          "low_1y": 17.99,
+          "cut": 40,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 88.8,
+          "regular": 148,
+          "low": 88.8,
+          "low_1y": 88.8,
+          "cut": 40,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 39.0,
+          "regular": 65.0,
+          "cut": 40,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2671,6 +2671,64 @@
       }
     },
     {
+      "id": "018d937f-2d03-701c-8037-3c29d85a9303",
+      "title": "Pre-Dynastic Egypt",
+      "slug": "pre-dynastic-egypt",
+      "appid": 461620,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Indie",
+        "Strategy",
+        "Singleplayer",
+        "Simulation",
+        "Survival"
+      ],
+      "reviews": {
+        "score": 91,
+        "count": 1825,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d03-701c-8037-3c29d85a9303/boxart.jpg"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/461620/81577/4288b32a686ef933b9bc758b78550b4e4161e948/1751288854/hls_264_master.m3u8?t=1509717871",
+      "steam_url": "https://store.steampowered.com/app/461620",
+      "prices": {
+        "USD": {
+          "current": 2.49,
+          "regular": 9.99,
+          "low": 2.49,
+          "low_1y": 2.49,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10.5,
+          "regular": 42,
+          "low": 8,
+          "low_1y": 10.5,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 6.68,
+          "regular": 26.75,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
       "id": "018d937f-6f09-712c-8e66-46b83790a081",
       "title": "Saloon Simulator",
       "slug": "saloon-simulator",
@@ -2803,7 +2861,7 @@
       ],
       "reviews": {
         "score": 93,
-        "count": 82067,
+        "count": 82152,
         "text": ""
       },
       "images": {
@@ -4333,64 +4391,6 @@
       }
     },
     {
-      "id": "018d937f-1af7-71f5-9025-c6cb7f676ae0",
-      "title": "Descenders",
-      "slug": "descenders",
-      "appid": 681280,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Sports",
-        "Racing",
-        "Cycling",
-        "Action",
-        "Bikes"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 20181,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1af7-71f5-9025-c6cb7f676ae0/boxart.jpg?t=1786635197"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/681280/221839/0d7d51b426dc5ce778d6711efe90c651ea829168/1750570565/hls_264_master.m3u8?t=1721987192",
-      "steam_url": "https://store.steampowered.com/app/681280",
-      "prices": {
-        "USD": {
-          "current": 6.24,
-          "regular": 24.99,
-          "low": 4.99,
-          "low_1y": 6.24,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 17.25,
-          "regular": 69,
-          "low": 13.8,
-          "low_1y": 17.25,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 10.99,
-          "regular": 43.99,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937e-f4d7-7087-b8f9-3e7dcd246f09",
       "title": "The Witness",
       "slug": "the-witness",
@@ -4489,6 +4489,64 @@
           "regular": 48,
           "low": 9,
           "low_1y": 10.54,
+          "cut": 75,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 7.75,
+          "regular": 31.0,
+          "cut": 75,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-1607-711f-866f-331a3799ffd2",
+      "title": "Move or Die 4 Pack",
+      "slug": "move-or-die-4-pack",
+      "appid": 323850,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Multiplayer",
+        "Funny",
+        "Local Multiplayer",
+        "Action",
+        "Fast-Paced"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 16464,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-1607-711f-866f-331a3799ffd2/boxart.jpg?t=1720625719"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/323850/50674/3e36ffff683353aad484b9016a58d85843292ade/1750508544/hls_264_master.m3u8?t=1498652224",
+      "steam_url": "https://store.steampowered.com/app/323850",
+      "prices": {
+        "USD": {
+          "current": 9.99,
+          "regular": 39.99,
+          "low": 7.99,
+          "low_1y": 9.99,
+          "cut": 75,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 28,
+          "regular": 112,
+          "low": 22,
+          "low_1y": 28,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
@@ -4871,7 +4929,7 @@
       ],
       "reviews": {
         "score": 95,
-        "count": 13175,
+        "count": 13194,
         "text": ""
       },
       "images": {
