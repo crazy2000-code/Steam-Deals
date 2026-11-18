@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T00:20:39.300836+00:00",
-  "total": 96,
+  "generated_at": "2026-11-18T14:53:43.323577+00:00",
+  "total": 94,
   "games": [
     {
       "id": "018d937f-4b6c-713b-90ce-2a4a62881469",
@@ -61,64 +61,6 @@
       }
     },
     {
-      "id": "018d937f-19bf-7267-b295-082ae0d3557e",
-      "title": "Total War: WARHAMMER II",
-      "slug": "total-war-warhammer-ii",
-      "appid": 594570,
-      "tier": "aaa",
-      "is_atl": true,
-      "is_notable": true,
-      "tags": [
-        "Strategy",
-        "Fantasy",
-        "Turn-Based Strategy",
-        "RTS",
-        "Grand Strategy"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 85187,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-19bf-7267-b295-082ae0d3557e/boxart.jpg?t=1786643497"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/594570/379805/229a43d5756deda2bd95b57c17b6b4fce2f650ce/1750558638/hls_264_master.m3u8?t=1632304405",
-      "steam_url": "https://store.steampowered.com/app/594570",
-      "prices": {
-        "USD": {
-          "current": 14.99,
-          "regular": 59.99,
-          "low": 14.99,
-          "low_1y": 12.56,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 67,
-          "regular": 268,
-          "low": 67,
-          "low_1y": 67,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 39.75,
-          "regular": 159.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-4382-707a-85b5-cdf1984ea8a8",
       "title": "Persona 4 Golden",
       "slug": "persona-4-golden",
@@ -168,6 +110,64 @@
           "current": 39.5,
           "regular": 79.0,
           "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-ea1c-71e7-9b12-dd4a7c394475",
+      "title": "Total War: THREE KINGDOMS",
+      "slug": "total-war-three-kingdoms",
+      "appid": 779340,
+      "tier": "aaa",
+      "is_atl": true,
+      "is_notable": true,
+      "tags": [
+        "Strategy",
+        "Historical",
+        "War",
+        "Turn-Based Strategy",
+        "Grand Strategy"
+      ],
+      "reviews": {
+        "score": 82,
+        "count": 63467,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea1c-71e7-9b12-dd4a7c394475/boxart.jpg?t=1786833324"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/779340/224656/a4656ca68ea0f9f50b812bf8d2b715e696002703/1750582630/hls_264_master.m3u8?t=1558620959",
+      "steam_url": "https://store.steampowered.com/app/779340",
+      "prices": {
+        "USD": {
+          "current": 11.99,
+          "regular": 39.99,
+          "low": 11.99,
+          "low_1y": 7.59,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 59.4,
+          "regular": 198,
+          "low": 53.6,
+          "low_1y": 39,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 38.4,
+          "regular": 128.0,
+          "cut": 70,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -583,54 +583,6 @@
       }
     },
     {
-      "id": "018d937e-f4b9-7080-816b-cf6e33e64534",
-      "title": "Black Desert",
-      "slug": "black-desert",
-      "appid": 582660,
-      "tier": "aaa",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Sandbox",
-        "Action RPG",
-        "Exploration",
-        "MMORPG",
-        "War"
-      ],
-      "reviews": {
-        "score": 75,
-        "count": 63379,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f4b9-7080-816b-cf6e33e64534/boxart.jpg?t=1786651836"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/582660/1424471521/e5429c8301fe669a0764684055ac26a7d30c0136/1765919722/hls_264_master.m3u8?t=1765935421",
-      "steam_url": "https://store.steampowered.com/app/582660",
-      "prices": {
-        "USD": {
-          "current": 0.99,
-          "regular": 9.99,
-          "low": 0.99,
-          "low_1y": 0.99,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 4.65,
-          "regular": 15.5,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-6993-7288-8655-db3300f50295",
       "title": "HITMAN World of Assassination",
       "slug": "hitman-world-of-assassination",
@@ -705,11 +657,11 @@
       ],
       "reviews": {
         "score": 91,
-        "count": 59749,
+        "count": 59753,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-506e-72eb-975a-1a5175b622de/boxart.jpg?t=1786560914"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-506e-72eb-975a-1a5175b622de/boxart.jpg?t=1794967822"
       },
       "trailer": "https://video.akamai.steamstatic.com/store_trailers/1627720/614254/a2464aab03521fe2627046afc34a74067cca84fc/1750713680/hls_264_master.m3u8?t=1696396705",
       "steam_url": "https://store.steampowered.com/app/1627720",
@@ -921,64 +873,6 @@
       }
     },
     {
-      "id": "018d937f-30ea-73e1-ae80-96b4311df608",
-      "title": "Clone Drone in the Danger Zone",
-      "slug": "clone-drone-in-the-danger-zone",
-      "appid": 597170,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Robots",
-        "Action",
-        "3D Fighter",
-        "Swordplay",
-        "Multiplayer"
-      ],
-      "reviews": {
-        "score": 96,
-        "count": 36454,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-30ea-73e1-ae80-96b4311df608/boxart.jpg?t=1787426131"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/597170/340201/aab5159a5dcc75300787484df024fc6971abff88/1750559258/hls_264_master.m3u8?t=1623253614",
-      "steam_url": "https://store.steampowered.com/app/597170",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 19.99,
-          "low": 4.99,
-          "low_1y": 3.99,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 17.5,
-          "regular": 70,
-          "low": 17.5,
-          "low_1y": 17.5,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 9.75,
-          "regular": 39.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-49a5-71a2-bd24-27380b2da80a",
       "title": "Nioh 2 - The Complete Edition",
       "slug": "nioh-2-the-complete-edition",
@@ -1037,55 +931,55 @@
       }
     },
     {
-      "id": "018d937f-24e2-716c-bd72-c882afc77936",
-      "title": "For The King",
-      "slug": "for-the-king",
-      "appid": 527230,
+      "id": "018d937e-ea28-7385-82ae-194daaa9ee01",
+      "title": "Bright Memory",
+      "slug": "bright-memory",
+      "appid": 955050,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "RPG",
-        "Online Co-Op",
-        "Turn-Based",
-        "Roguelike",
-        "Strategy"
+        "Female Protagonist",
+        "FPS",
+        "Hack and Slash",
+        "Shooter",
+        "First-Person"
       ],
       "reviews": {
-        "score": 87,
-        "count": 31229,
+        "score": 89,
+        "count": 30193,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-24e2-716c-bd72-c882afc77936/boxart.jpg?t=1793911229"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ea28-7385-82ae-194daaa9ee01/boxart.jpg?t=1789043421"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/527230/339137/c5c956545b69c897628e41c88c401209741dad0b/1750544423/hls_264_master.m3u8?t=1612980708",
-      "steam_url": "https://store.steampowered.com/app/527230",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/955050/261863/23e80a21fd3379678c2bed101bc66a3bd60a1b35/1751168371/hls_264_master.m3u8?t=1636679297",
+      "steam_url": "https://store.steampowered.com/app/955050",
       "prices": {
         "USD": {
-          "current": 1.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.99,
-          "cut": 90,
+          "current": 2.39,
+          "regular": 7.99,
+          "low": 2.39,
+          "low_1y": 2.39,
+          "cut": 70,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 7,
-          "regular": 70,
-          "low": 7,
-          "low_1y": 7,
-          "cut": 90,
+          "current": 8.7,
+          "regular": 29,
+          "low": 8.7,
+          "low_1y": 8.7,
+          "cut": 70,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
         },
         "MYR": {
-          "current": 3.9,
-          "regular": 39.0,
-          "cut": 90,
+          "current": 5.85,
+          "regular": 19.5,
+          "cut": 70,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1095,55 +989,113 @@
       }
     },
     {
-      "id": "018d937e-f9f5-70f3-82f0-45540422a20a",
-      "title": "Golf It!",
-      "slug": "golf-it",
-      "appid": 571740,
+      "id": "018d937f-6990-73cf-b4c2-abef94962c8a",
+      "title": "Hi-Fi RUSH",
+      "slug": "hi-fi-rush",
+      "appid": 1817230,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Multiplayer",
-        "Mini Golf",
-        "Golf",
-        "Casual",
-        "Sports"
+        "Rhythm",
+        "Action",
+        "Hack and Slash",
+        "Great Soundtrack",
+        "Singleplayer"
       ],
       "reviews": {
-        "score": 90,
-        "count": 24790,
+        "score": 97,
+        "count": 27615,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f9f5-70f3-82f0-45540422a20a/boxart.jpg?t=1794619550"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6990-73cf-b4c2-abef94962c8a/boxart.jpg?t=1790917969"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/571740/88582/817a371333ea4f468dbf708b14f9f57f6a3202ba/1750551981/hls_264_master.m3u8?t=1485889720",
-      "steam_url": "https://store.steampowered.com/app/571740",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1817230/1666817001/b4923fadd44dd5642228e85bc522ac6f739a781e/1762755913/hls_264_master.m3u8?t=1763072078",
+      "steam_url": "https://store.steampowered.com/app/1817230",
       "prices": {
         "USD": {
-          "current": 2.24,
-          "regular": 8.99,
-          "low": 2.24,
-          "low_1y": 2.24,
-          "cut": 75,
+          "current": 13.49,
+          "regular": 29.99,
+          "low": 13.49,
+          "low_1y": 13.49,
+          "cut": 55,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 8.5,
-          "regular": 34,
-          "low": 4.49,
-          "low_1y": 8.5,
-          "cut": 75,
+          "current": 56.25,
+          "regular": 125,
+          "low": 56.25,
+          "low_1y": 56.25,
+          "cut": 55,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 47.2,
+          "regular": 104.9,
+          "cut": 55,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-00cb-710a-9a4c-f7c1c2d8df1b",
+      "title": "Red Orchestra 2: Heroes of Stalingrad",
+      "slug": "red-orchestra-2-heroes-of-stalingrad",
+      "appid": 35450,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "World War II",
+        "Realistic",
+        "FPS",
+        "Multiplayer",
+        "Wargame"
+      ],
+      "reviews": {
+        "score": 93,
+        "count": 24912,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/35450/capsule_616x353.jpg"
+      },
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/35450",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 19.99,
+          "low": 1.99,
+          "low_1y": 1.49,
+          "cut": 90,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 6.8,
+          "regular": 68,
+          "low": 5,
+          "low_1y": 6.8,
+          "cut": 90,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 5.25,
-          "regular": 21.0,
-          "cut": 75,
+          "current": 3.8,
+          "regular": 38.0,
+          "cut": 90,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1202,64 +1154,6 @@
           "current": 17.12,
           "regular": 68.49,
           "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-154b-7373-8776-11dbffb814ff",
-      "title": "Danganronpa V3: Killing Harmony",
-      "slug": "danganronpa-v3-killing-harmony",
-      "appid": 567640,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Visual Novel",
-        "Detective",
-        "Female Protagonist",
-        "Anime",
-        "Story Rich"
-      ],
-      "reviews": {
-        "score": 82,
-        "count": 22358,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-154b-7373-8776-11dbffb814ff/boxart.jpg?t=1788974415"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/567640/106653/9172bc21fc9bf8cae1facf07cc8186ecdf0bcd7c/1750551625/hls_264_master.m3u8?t=1500945415",
-      "steam_url": "https://store.steampowered.com/app/567640",
-      "prices": {
-        "USD": {
-          "current": 7.99,
-          "regular": 39.99,
-          "low": 7.99,
-          "low_1y": 7.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 40,
-          "regular": 200,
-          "low": 40,
-          "low_1y": 40,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 13.0,
-          "regular": 65.0,
-          "cut": 80,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1424,64 +1318,6 @@
           "current": 59.6,
           "regular": 149.0,
           "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-6e56-73da-8af4-5c76f0131ad5",
-      "title": "Mechabellum",
-      "slug": "mechabellum",
-      "appid": 669330,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Auto Battler",
-        "Mechs",
-        "Strategy",
-        "Wargame",
-        "Robots"
-      ],
-      "reviews": {
-        "score": 83,
-        "count": 18408,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-6e56-73da-8af4-5c76f0131ad5/boxart.jpg?t=1794821714"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/669330/832919341/0e1dba1c962332698d7145e805ca79212062964d/1790080201/hls_264_master.m3u8?t=1790082835",
-      "steam_url": "https://store.steampowered.com/app/669330",
-      "prices": {
-        "USD": {
-          "current": 7.49,
-          "regular": 14.99,
-          "low": 7.49,
-          "low_1y": 7.09,
-          "cut": 50,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 18,
-          "regular": 36,
-          "low": 18,
-          "low_1y": 18,
-          "cut": 50,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 19.25,
-          "regular": 38.5,
-          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -1781,64 +1617,6 @@
       }
     },
     {
-      "id": "018e9875-731e-72ca-bb85-c5733e287dfc",
-      "title": "Gold Mining SImulator",
-      "slug": "gold-mining-simulator",
-      "appid": 451340,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "Simulation",
-        "Mining",
-        "Singleplayer",
-        "Realistic",
-        "Open World"
-      ],
-      "reviews": {
-        "score": 72,
-        "count": 15206,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/451340/capsule_616x353.jpg"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/451340/227583/5a12b415cc1f21e9a572018ce12a584fddb5c181/1750532448/hls_264_master.m3u8?t=1711956586",
-      "steam_url": "https://store.steampowered.com/app/451340",
-      "prices": {
-        "USD": {
-          "current": 2.79,
-          "regular": 19.99,
-          "low": 2.79,
-          "low_1y": 2.79,
-          "cut": 86,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 10.64,
-          "regular": 76,
-          "low": 10.64,
-          "low_1y": 10.64,
-          "cut": 86,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 6.86,
-          "regular": 49.0,
-          "cut": 86,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
       "id": "018d937f-5c70-7304-b0fd-490c637a583c",
       "title": "WARNO",
       "slug": "warno",
@@ -1945,6 +1723,180 @@
         "MYR": {
           "current": 7.6,
           "regular": 38.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-66be-70b5-aeb6-9b214ad8047d",
+      "title": "Goat Simulator 3",
+      "slug": "goat-simulator-3",
+      "appid": 850190,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Physics",
+        "Sandbox",
+        "Exploration",
+        "Open World",
+        "Simulation"
+      ],
+      "reviews": {
+        "score": 97,
+        "count": 14089,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-66be-70b5-aeb6-9b214ad8047d/boxart.jpg?t=1794495007"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/850190/627424/e1895f0104c5cd7fb0797d70f782d005a53701a0/1750589044/hls_264_master.m3u8?t=1700233214",
+      "steam_url": "https://store.steampowered.com/app/850190",
+      "prices": {
+        "USD": {
+          "current": 8.99,
+          "regular": 29.99,
+          "low": 8.99,
+          "low_1y": 8.1,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 32.4,
+          "regular": 108,
+          "low": 32.4,
+          "low_1y": 29.7,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 21.6,
+          "regular": 72.0,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-13d5-7116-9421-407fcd266d11",
+      "title": "Cloudpunk",
+      "slug": "cloudpunk",
+      "appid": 746850,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Cyberpunk",
+        "Open World",
+        "Atmospheric",
+        "Sci-fi",
+        "Futuristic"
+      ],
+      "reviews": {
+        "score": 87,
+        "count": 13948,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-13d5-7116-9421-407fcd266d11/boxart.jpg?t=1786386960"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/746850/321817/efffe021948609396ff03afe251d93d4879925c9/1751139185/hls_264_master.m3u8?t=1603817792",
+      "steam_url": "https://store.steampowered.com/app/746850",
+      "prices": {
+        "USD": {
+          "current": 6.99,
+          "regular": 19.99,
+          "low": 6.99,
+          "low_1y": 6.99,
+          "cut": 65,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 26.6,
+          "regular": 76,
+          "low": 23.8,
+          "low_1y": 23,
+          "cut": 65,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 17.15,
+          "regular": 49.0,
+          "cut": 65,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-fa59-735e-aba7-44858c0c2c52",
+      "title": "Project Winter",
+      "slug": "project-winter",
+      "appid": 774861,
+      "tier": "known",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Social Deduction",
+        "Team-Based",
+        "Survival",
+        "Snow",
+        "PvP"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 13652,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fa59-735e-aba7-44858c0c2c52/boxart.jpg?t=1790960799"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/774861/848119267/420b9168af50044987ee81c189a8e673541731f9/1758198736/hls_264_master.m3u8?t=1758220176",
+      "steam_url": "https://store.steampowered.com/app/774861",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 9.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 7.4,
+          "regular": 37,
+          "low": 7.4,
+          "low_1y": 7.4,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 4.7,
+          "regular": 23.5,
           "cut": 80,
           "low": null,
           "low_1y": null,
@@ -2477,55 +2429,55 @@
       }
     },
     {
-      "id": "018d937e-f53e-7313-b466-705f14a7e59b",
-      "title": "Transport Fever",
-      "slug": "transport-fever",
-      "appid": 446800,
+      "id": "018d937e-ffa6-7206-ab45-d32c55b631ec",
+      "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+      "slug": "nitroplus-blasterz-heroines-infinite-duel",
+      "appid": 482450,
       "tier": "known",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Flight",
-        "City Builder",
-        "Sandbox",
-        "Building",
-        "Driving"
+        "Anime",
+        "2D Fighter",
+        "Fighting",
+        "PvP",
+        "Arcade"
       ],
       "reviews": {
-        "score": 82,
-        "count": 9311,
+        "score": 91,
+        "count": 1071,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f53e-7313-b466-705f14a7e59b/boxart.jpg?t=1790933143"
+        "capsule": "https://assets.isthereanydeal.com/018d937e-ffa6-7206-ab45-d32c55b631ec/boxart.jpg?t=1788381626"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/446800/79427/fbf03a6c3b1e2dd6599a06e679176a23ddd03349/1751286486/hls_264_master.m3u8?t=1478592244",
-      "steam_url": "https://store.steampowered.com/app/446800",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/482450/82424/8cf5512d3980d7fe3c7e4dcaebc75a2413af1b58/1750536476/hls_264_master.m3u8?t=1480966124",
+      "steam_url": "https://store.steampowered.com/app/482450",
       "prices": {
         "USD": {
-          "current": 2.99,
-          "regular": 29.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 90,
+          "current": 4.99,
+          "regular": 19.99,
+          "low": 4.99,
+          "low_1y": 4.99,
+          "cut": 75,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 10.8,
-          "regular": 108,
-          "low": 10.8,
-          "low_1y": 10.8,
-          "cut": 90,
+          "current": 22,
+          "regular": 88,
+          "low": 22,
+          "low_1y": 22,
+          "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": true
         },
         "MYR": {
-          "current": 7.2,
-          "regular": 72.0,
-          "cut": 90,
+          "current": 9.75,
+          "regular": 39.0,
+          "cut": 75,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -2535,113 +2487,228 @@
       }
     },
     {
-      "id": "018d937f-4d40-72f4-b777-f40347aeb294",
-      "title": "Xuan-Yuan Sword: The Gate of Firmament",
-      "slug": "xuan-yuan-sword-the-gate-of-firmament",
-      "appid": 427030,
-      "tier": "known",
-      "is_atl": true,
-      "is_notable": false,
-      "tags": [
-        "RPG",
-        "Story Rich",
-        "Wuxia",
-        "Singleplayer",
-        "Historical"
-      ],
-      "reviews": {
-        "score": 70,
-        "count": 1305,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-4d40-72f4-b777-f40347aeb294/boxart.jpg?t=1786990206"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/427030/51471/b906b8fa831734aa0b3129e7969357aace420f45/1750529535/hls_264_master.m3u8?t=1728970869",
-      "steam_url": "https://store.steampowered.com/app/427030",
-      "prices": {
-        "USD": {
-          "current": 2.99,
-          "regular": 14.99,
-          "low": 2.99,
-          "low_1y": 2.99,
-          "cut": 80,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": true
-        },
-        "CNY": {
-          "current": 12,
-          "regular": 60,
-          "low": 12,
-          "low_1y": 12,
-          "cut": 80,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": true
-        },
-        "MYR": {
-          "current": 6.2,
-          "regular": 31.0,
-          "cut": 80,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": true
-        }
-      }
-    },
-    {
-      "id": "018d937f-1f25-70c0-9c55-9c37d94ec520",
-      "title": "2Dark",
-      "slug": "2dark",
-      "appid": 435100,
+      "id": "018d937f-0a13-7322-827b-0b836b52975f",
+      "title": "Memory Oblivion Box",
+      "slug": "memory-oblivion-box",
+      "appid": 473460,
       "tier": "other",
       "is_atl": true,
       "is_notable": false,
       "tags": [
-        "Horror",
         "Indie",
-        "Stealth",
-        "Survival Horror",
-        "Strategy"
+        "Casual",
+        "Adventure",
+        "Visual Novel",
+        "Anime"
       ],
       "reviews": {
-        "score": 82,
-        "count": 545,
+        "score": 92,
+        "count": 842,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1f25-70c0-9c55-9c37d94ec520/boxart.png?t=1786210559"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0a13-7322-827b-0b836b52975f/boxart.jpg?t=1786335620"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/435100/93630/eb8d955233f3986cb135d4111381adb80cdfb5e7/1751284604/hls_264_master.m3u8?t=1489145058",
-      "steam_url": "https://store.steampowered.com/app/435100",
+      "trailer": null,
+      "steam_url": "https://store.steampowered.com/app/473460",
       "prices": {
         "USD": {
-          "current": 2.49,
-          "regular": 24.99,
-          "low": 2.49,
-          "low_1y": 1.99,
-          "cut": 90,
+          "current": 4.49,
+          "regular": 9.99,
+          "low": 4.49,
+          "low_1y": 4.49,
+          "cut": 55,
           "currency": "USD",
           "symbol": "$",
           "is_atl": true
         },
         "CNY": {
-          "current": 14.9,
-          "regular": 149,
-          "low": 14,
-          "low_1y": 13.77,
-          "cut": 90,
+          "current": 16.2,
+          "regular": 36,
+          "low": 16,
+          "low_1y": 16.2,
+          "cut": 55,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 8.9,
-          "regular": 89.0,
-          "cut": 90,
+          "current": 10.35,
+          "regular": 23.0,
+          "cut": 55,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-42d3-70c8-b7fa-ae75af35ed73",
+      "title": "Euro Truck Simulator 2 - FH Tuning Pack",
+      "slug": "euro-truck-simulator-2-fh-tuning-pack",
+      "appid": 1299530,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Simulation",
+        "Indie",
+        "Multiplayer",
+        "Singleplayer"
+      ],
+      "reviews": {
+        "score": 85,
+        "count": 828,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-42d3-70c8-b7fa-ae75af35ed73/banner300.jpg?t=1787164821"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/1299530/1435812417/d0272278ed8d08b8a21fbc8323dd3e902f92c9bc/1757933998/hls_264_master.m3u8?t=1758009702",
+      "steam_url": "https://store.steampowered.com/app/1299530",
+      "prices": {
+        "USD": {
+          "current": 1.99,
+          "regular": 3.99,
+          "low": 1.99,
+          "low_1y": 1.99,
+          "cut": 50,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 10.5,
+          "regular": 21,
+          "low": 10,
+          "low_1y": 10,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 6.09,
+          "regular": 12.19,
+          "cut": 50,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937f-6c7c-733c-bd24-549abf9df5c6",
+      "title": "Galacticare",
+      "slug": "galacticare",
+      "appid": 494730,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Story Rich",
+        "Casual",
+        "Medical Sim",
+        "Outbreak Sim",
+        "Time Management"
+      ],
+      "reviews": {
+        "score": 84,
+        "count": 605,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-6c7c-733c-bd24-549abf9df5c6/boxart.jpg?t=1786647673"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/494730/2132991606/73a989dfd8180a5abaf22762492c4526540e0e9c/1752138068/hls_264_master.m3u8?t=1752140450",
+      "steam_url": "https://store.steampowered.com/app/494730",
+      "prices": {
+        "USD": {
+          "current": 19.79,
+          "regular": 29.99,
+          "low": 19.79,
+          "low_1y": 19.49,
+          "cut": 34,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 80.52,
+          "regular": 122,
+          "low": 80.52,
+          "low_1y": 69.92,
+          "cut": 34,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 47.52,
+          "regular": 72.0,
+          "cut": 34,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": true
+        }
+      }
+    },
+    {
+      "id": "018d937e-fd87-7095-91ac-ea5ab9b8f139",
+      "title": "Gun Done",
+      "slug": "gun-done",
+      "appid": 488280,
+      "tier": "other",
+      "is_atl": true,
+      "is_notable": false,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Western",
+        "Pixel Graphics",
+        "Memes"
+      ],
+      "reviews": {
+        "score": 88,
+        "count": 574,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937e-fd87-7095-91ac-ea5ab9b8f139/boxart.jpg?t=1790924155"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/488280/70652/bcd2b78bc5bd000de7f17f156b30a7c60999c680/1751291738/hls_264_master.m3u8?t=1472417497",
+      "steam_url": "https://store.steampowered.com/app/488280",
+      "prices": {
+        "USD": {
+          "current": 0.49,
+          "regular": 0.99,
+          "low": 0.49,
+          "low_1y": 0.49,
+          "cut": 51,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": true
+        },
+        "CNY": {
+          "current": 3,
+          "regular": 6,
+          "low": 3,
+          "low_1y": 3,
+          "cut": 50,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": true
+        },
+        "MYR": {
+          "current": 1.5,
+          "regular": 3.0,
+          "cut": 50,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3443,6 +3510,64 @@
       }
     },
     {
+      "id": "018d937f-101a-71e7-8e08-6c455a66a708",
+      "title": "Overcooked! 2",
+      "slug": "overcooked-2",
+      "appid": 728880,
+      "tier": "aaa",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Multiplayer",
+        "Online Co-Op",
+        "Local Co-Op",
+        "Co-op",
+        "Cooking"
+      ],
+      "reviews": {
+        "score": 90,
+        "count": 62837,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-101a-71e7-8e08-6c455a66a708/boxart.jpg?t=1789554312"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/728880/316103/1b19211ee13dc4881fae850c036de885578dc15c/1750576130/hls_264_master.m3u8?t=1601561015",
+      "steam_url": "https://store.steampowered.com/app/728880",
+      "prices": {
+        "USD": {
+          "current": 8.49,
+          "regular": 24.99,
+          "low": 6.24,
+          "low_1y": 3.83,
+          "cut": 66,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 33.32,
+          "regular": 98,
+          "low": 24.5,
+          "low_1y": 21.56,
+          "cut": 66,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 20.06,
+          "regular": 59.0,
+          "cut": 66,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-013a-71f8-be61-b93626d4c5ac",
       "title": "Space Engineers",
       "slug": "space-engineers",
@@ -3492,64 +3617,6 @@
           "current": 40.49,
           "regular": 80.99,
           "cut": 50,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-010c-7126-bd87-f9cf8bce8cbf",
-      "title": "Rising Storm 2: Vietnam",
-      "slug": "rising-storm-2-vietnam",
-      "appid": 418460,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "FPS",
-        "Wargame",
-        "Military",
-        "Cold War",
-        "War"
-      ],
-      "reviews": {
-        "score": 87,
-        "count": 42469,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-010c-7126-bd87-f9cf8bce8cbf/boxart.jpg?t=1789747815"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/418460/104904/855ec0fd6ab3070955ea2b6ba512b2b96febfd5f/1750528073/hls_264_master.m3u8?t=1649888707",
-      "steam_url": "https://store.steampowered.com/app/418460",
-      "prices": {
-        "USD": {
-          "current": 2.49,
-          "regular": 24.99,
-          "low": 1.24,
-          "low_1y": 1.24,
-          "cut": 90,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 7.8,
-          "regular": 78,
-          "low": 3,
-          "low_1y": 3.9,
-          "cut": 90,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 4.7,
-          "regular": 47.0,
-          "cut": 90,
           "low": null,
           "low_1y": null,
           "currency": "MYR",
@@ -3907,6 +3974,64 @@
       }
     },
     {
+      "id": "018d937f-2d22-70ed-b75c-8f4fb91b668e",
+      "title": "Zero Escape: The Nonary Games",
+      "slug": "zero-escape-the-nonary-games",
+      "appid": 477740,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Visual Novel",
+        "Story Rich",
+        "Puzzle",
+        "Mystery",
+        "Choices Matter"
+      ],
+      "reviews": {
+        "score": 92,
+        "count": 7097,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-2d22-70ed-b75c-8f4fb91b668e/boxart.jpg?t=1788557420"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/477740/88415/4f085fbbb7468fdc367fdd3af63046782f421f89/1750536238/hls_264_master.m3u8?t=1485759445",
+      "steam_url": "https://store.steampowered.com/app/477740",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 29.99,
+          "low": 2.99,
+          "low_1y": 2.99,
+          "cut": 80,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 19.8,
+          "regular": 99,
+          "low": 9.9,
+          "low_1y": 9.9,
+          "cut": 80,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 10.2,
+          "regular": 51.0,
+          "cut": 80,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
       "id": "018d937f-442a-7041-bbe5-85c680270035",
       "title": "Call to Arms - Gates of Hell: Ostfront",
       "slug": "call-to-arms-gates-of-hell-ostfront",
@@ -4013,122 +4138,6 @@
         "MYR": {
           "current": 9.75,
           "regular": 39.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-0a1d-7114-bee5-c9d70e37be5f",
-      "title": "Two Point Hospital",
-      "slug": "two-point-hospital",
-      "appid": 535930,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": true,
-      "tags": [
-        "Simulation",
-        "Management",
-        "Medical Sim",
-        "Building",
-        "Funny"
-      ],
-      "reviews": {
-        "score": 92,
-        "count": 26760,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0a1d-7114-bee5-c9d70e37be5f/boxart.jpg?t=1786643771"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/535930/181783/51b36f466e06d1956e338a319a707cbdecba246e/1750547354/hls_264_master.m3u8?t=1535609046",
-      "steam_url": "https://store.steampowered.com/app/535930",
-      "prices": {
-        "USD": {
-          "current": 7.49,
-          "regular": 29.99,
-          "low": 4.49,
-          "low_1y": 4.01,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 49.5,
-          "regular": 198,
-          "low": 29.7,
-          "low_1y": 29.7,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 24.75,
-          "regular": 99.0,
-          "cut": 75,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937e-f02e-7125-a2a3-bc943cdd4f22",
-      "title": "Sonic Mania",
-      "slug": "sonic-mania",
-      "appid": 584400,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": true,
-      "tags": [
-        "Great Soundtrack",
-        "2D",
-        "Platformer",
-        "Retro",
-        "Classic"
-      ],
-      "reviews": {
-        "score": 94,
-        "count": 24543,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-f02e-7125-a2a3-bc943cdd4f22/boxart.jpg?t=1786650687"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/584400/119472/7b5d3da09a239bbeb2af4e81e156c5faa06de8d2/1750556235/hls_264_master.m3u8?t=1504024132",
-      "steam_url": "https://store.steampowered.com/app/584400",
-      "prices": {
-        "USD": {
-          "current": 4.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.8,
-          "cut": 75,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 30,
-          "regular": 120,
-          "low": 12,
-          "low_1y": 12,
-          "cut": 75,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 22.5,
-          "regular": 90.0,
           "cut": 75,
           "low": null,
           "low_1y": null,
@@ -4371,54 +4380,54 @@
       }
     },
     {
-      "id": "018d937f-0466-7100-aa8a-fa0febd6d19a",
-      "title": "Duke Nukem 3D: 20th Anniversary World Tour",
-      "slug": "duke-nukem-3d-20th-anniversary-world-tour",
-      "appid": 434050,
+      "id": "018f0689-4790-71fb-932a-950c05b00c6c",
+      "title": "Braid, Anniversary Edition",
+      "slug": "braid-anniversary-edition",
+      "appid": 499180,
       "tier": "known",
       "is_atl": false,
       "is_notable": false,
       "tags": [
-        "FPS",
-        "Classic",
-        "Gore",
-        "Action",
-        "1990's"
+        "Puzzle Platformer",
+        "2D Platformer",
+        "Puzzle",
+        "Platformer",
+        "Action-Adventure"
       ],
       "reviews": {
-        "score": 85,
-        "count": 5549,
+        "score": 92,
+        "count": 1826,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-0466-7100-aa8a-fa0febd6d19a/boxart.jpg?t=1789620610"
+        "capsule": "https://assets.isthereanydeal.com/018f0689-4790-71fb-932a-950c05b00c6c/boxart.jpg?t=1786383143"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/434050/76140/311444d008477228ea05a61d4423c1f10668dd42/1750530530/hls_264_master.m3u8?t=1518545442",
-      "steam_url": "https://store.steampowered.com/app/434050",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/499180/699859/ca6417601bf5276db566149825e33f5dfd962af4/1751293410/hls_264_master.m3u8?t=1715667733",
+      "steam_url": "https://store.steampowered.com/app/499180",
       "prices": {
         "USD": {
           "current": 4.99,
           "regular": 19.99,
           "low": 1.99,
-          "low_1y": 1.69,
+          "low_1y": 1.99,
           "cut": 75,
           "currency": "USD",
           "symbol": "$",
           "is_atl": false
         },
         "CNY": {
-          "current": 17,
-          "regular": 68,
-          "low": 6,
-          "low_1y": 5.54,
+          "current": 19,
+          "regular": 76,
+          "low": 7.6,
+          "low_1y": 7.6,
           "cut": 75,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 9.5,
-          "regular": 38.0,
+          "current": 12.25,
+          "regular": 49.0,
           "cut": 75,
           "low": null,
           "low_1y": null,
@@ -4487,64 +4496,6 @@
       }
     },
     {
-      "id": "018d937f-17aa-71a9-bce1-95081f2c8fa6",
-      "title": "STEINS;GATE",
-      "slug": "steins-gate",
-      "appid": 412830,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Visual Novel",
-        "Story Rich",
-        "Anime",
-        "Time Travel",
-        "Sci-fi"
-      ],
-      "reviews": {
-        "score": 97,
-        "count": 25620,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-17aa-71a9-bce1-95081f2c8fa6/boxart.jpg?t=1787152809"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/412830/47590/de209fd09d497d461d5dd740d786e3bd305a927a/1750527464/hls_264_master.m3u8?t=1473391294",
-      "steam_url": "https://store.steampowered.com/app/412830",
-      "prices": {
-        "USD": {
-          "current": 8.99,
-          "regular": 29.99,
-          "low": 2.99,
-          "low_1y": 5.99,
-          "cut": 70,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 27,
-          "regular": 90,
-          "low": 9,
-          "low_1y": 18,
-          "cut": 70,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 15.3,
-          "regular": 51.0,
-          "cut": 70,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
       "id": "018d937f-15d1-7105-b09a-6ce4199e5ad8",
       "title": "Prototype",
       "slug": "prototype",
@@ -4593,6 +4544,64 @@
         "MYR": {
           "current": 28.5,
           "regular": 95.0,
+          "cut": 70,
+          "low": null,
+          "low_1y": null,
+          "currency": "MYR",
+          "symbol": "RM",
+          "is_atl": false
+        }
+      }
+    },
+    {
+      "id": "018d937f-0bd1-726f-87ea-0e5450d67481",
+      "title": "Vanquish",
+      "slug": "vanquish",
+      "appid": 460810,
+      "tier": "known",
+      "is_atl": false,
+      "is_notable": false,
+      "tags": [
+        "Action",
+        "Third-Person Shooter",
+        "Sci-fi",
+        "Singleplayer",
+        "Fast-Paced"
+      ],
+      "reviews": {
+        "score": 89,
+        "count": 7054,
+        "text": ""
+      },
+      "images": {
+        "capsule": "https://assets.isthereanydeal.com/018d937f-0bd1-726f-87ea-0e5450d67481/boxart.jpg?t=1787251244"
+      },
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/460810/106514/5482f2dce49b2cb4cb7f9d96d95596cddaa546c3/1750533386/hls_264_master.m3u8?t=1721230824",
+      "steam_url": "https://store.steampowered.com/app/460810",
+      "prices": {
+        "USD": {
+          "current": 5.99,
+          "regular": 19.99,
+          "low": 4.99,
+          "low_1y": 5,
+          "cut": 70,
+          "currency": "USD",
+          "symbol": "$",
+          "is_atl": false
+        },
+        "CNY": {
+          "current": 34.2,
+          "regular": 114,
+          "low": 25,
+          "low_1y": 34.2,
+          "cut": 70,
+          "currency": "CNY",
+          "symbol": "¥",
+          "is_atl": false
+        },
+        "MYR": {
+          "current": 22.2,
+          "regular": 74.0,
           "cut": 70,
           "low": null,
           "low_1y": null,
@@ -4661,170 +4670,54 @@
       }
     },
     {
-      "id": "018d937e-efd0-71c4-b47e-27e5f6ae980b",
-      "title": "Zup! S",
-      "slug": "zups",
-      "appid": 617670,
+      "id": "018d937f-00e6-73ef-a246-565a8852f91c",
+      "title": "Crash Bandicoot™ N. Sane Trilogy",
+      "slug": "crash-bandicoot-n-sane-trilogy",
+      "appid": 731490,
       "tier": "known",
       "is_atl": false,
       "is_notable": false,
       "tags": [
-        "Puzzle",
-        "Casual",
-        "Indie",
-        "2D",
-        "Physics"
+        "3D Platformer",
+        "Remake",
+        "Platformer",
+        "Classic",
+        "Difficult"
       ],
       "reviews": {
-        "score": 96,
-        "count": 15239,
+        "score": 92,
+        "count": 16880,
         "text": ""
       },
       "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937e-efd0-71c4-b47e-27e5f6ae980b/boxart.jpg?t=1786989912"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-00e6-73ef-a246-565a8852f91c/boxart.jpg?t=1788975915"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/617670/190629/5533587a71c089453310d60047d8250d211a9955/1750563103/hls_264_master.m3u8?t=1539876292",
-      "steam_url": "https://store.steampowered.com/app/617670",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/731490/168644/083060a44fc3814e69c738aa78372e95b9e4eefe/1750576400/hls_264_master.m3u8?t=1529112486",
+      "steam_url": "https://store.steampowered.com/app/731490",
       "prices": {
         "USD": {
-          "current": 0.69,
-          "regular": 1.99,
-          "low": 0.59,
-          "low_1y": 0.59,
-          "cut": 65,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 3.85,
-          "regular": 11,
-          "low": 3.3,
-          "low_1y": 3.3,
-          "cut": 65,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 1.99,
-          "regular": 5.69,
-          "cut": 65,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-1ea1-732d-ab65-d3fc078354b3",
-      "title": "Danganronpa 2: Goodbye Despair",
-      "slug": "danganronpa-2-goodbye-despair",
-      "appid": 413420,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Anime",
-        "Detective",
-        "Visual Novel",
-        "Mystery",
-        "Story Rich"
-      ],
-      "reviews": {
-        "score": 95,
-        "count": 31509,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-1ea1-732d-ab65-d3fc078354b3/boxart.jpg?t=1789029021"
-      },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/413420/54130/35bcea3f7fc4603760a63a70e9524429e2e33572/1750838067/hls_264_master.m3u8?t=1457935520",
-      "steam_url": "https://store.steampowered.com/app/413420",
-      "prices": {
-        "USD": {
-          "current": 7.99,
-          "regular": 19.99,
-          "low": 1.99,
-          "low_1y": 1.99,
+          "current": 15.99,
+          "regular": 39.99,
+          "low": 3.99,
+          "low_1y": 11.99,
           "cut": 60,
           "currency": "USD",
           "symbol": "$",
           "is_atl": false
         },
         "CNY": {
-          "current": 27.2,
-          "regular": 68,
-          "low": 6.8,
-          "low_1y": 6.8,
+          "current": 100,
+          "regular": 250,
+          "low": 25,
+          "low_1y": 75,
           "cut": 60,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 15.2,
-          "regular": 38.0,
-          "cut": 60,
-          "low": null,
-          "low_1y": null,
-          "currency": "MYR",
-          "symbol": "RM",
-          "is_atl": false
-        }
-      }
-    },
-    {
-      "id": "018d937f-2a1b-7242-b6ff-8ea647778930",
-      "title": "Tricky Towers",
-      "slug": "tricky-towers",
-      "appid": 437920,
-      "tier": "known",
-      "is_atl": false,
-      "is_notable": false,
-      "tags": [
-        "Party Game",
-        "Puzzle",
-        "Multiplayer",
-        "Physics",
-        "Casual"
-      ],
-      "reviews": {
-        "score": 90,
-        "count": 12429,
-        "text": ""
-      },
-      "images": {
-        "capsule": "https://assets.isthereanydeal.com/018d937f-2a1b-7242-b6ff-8ea647778930/boxart.jpg?t=1786930215"
-      },
-      "trailer": null,
-      "steam_url": "https://store.steampowered.com/app/437920",
-      "prices": {
-        "USD": {
-          "current": 5.99,
-          "regular": 14.99,
-          "low": 4.49,
-          "low_1y": 4.49,
-          "cut": 60,
-          "currency": "USD",
-          "symbol": "$",
-          "is_atl": false
-        },
-        "CNY": {
-          "current": 23.2,
-          "regular": 58,
-          "low": 14.4,
-          "low_1y": 17.4,
-          "cut": 60,
-          "currency": "CNY",
-          "symbol": "¥",
-          "is_atl": false
-        },
-        "MYR": {
-          "current": 15.4,
-          "regular": 38.5,
+          "current": 76.0,
+          "regular": 190.0,
           "cut": 60,
           "low": null,
           "low_1y": null,
@@ -5395,54 +5288,54 @@
       }
     },
     {
-      "id": "018d937e-ffcb-7090-86b1-42470d5d99d9",
-      "title": "Kingdom Rush Frontiers",
-      "slug": "kingdom-rush-frontiers",
-      "appid": 458710,
+      "id": "018d937f-12f5-7167-81b9-cbb12d20f794",
+      "title": "Zenge",
+      "slug": "zenge",
+      "appid": 461840,
       "tier": "known",
       "is_atl": false,
       "is_notable": false,
       "tags": [
-        "Tower Defense",
-        "Strategy",
-        "2D",
-        "Singleplayer",
-        "Difficult"
+        "Puzzle",
+        "Indie",
+        "Casual",
+        "Minimalist",
+        "Relaxing"
       ],
       "reviews": {
-        "score": 96,
-        "count": 10461,
+        "score": 94,
+        "count": 2759,
         "text": ""
       },
       "images": {
-        "capsule": "https://cdn.cloudflare.steamstatic.com/steam/apps/458710/capsule_616x353.jpg"
+        "capsule": "https://assets.isthereanydeal.com/018d937f-12f5-7167-81b9-cbb12d20f794/boxart.png?t=1787017542"
       },
-      "trailer": "https://video.akamai.steamstatic.com/store_trailers/458710/63664/65887991ba02ffe8a820630afc7b4978b5ba24fa/1750532966/hls_264_master.m3u8?t=1467913290",
-      "steam_url": "https://store.steampowered.com/app/458710",
+      "trailer": "https://video.akamai.steamstatic.com/store_trailers/461840/56203/1b6f7d36ab53a2d3ef5c66e43c393ba2692c6248/1751288885/hls_264_master.m3u8?t=1460481829",
+      "steam_url": "https://store.steampowered.com/app/461840",
       "prices": {
         "USD": {
-          "current": 4.99,
-          "regular": 9.99,
-          "low": 2.49,
-          "low_1y": 3.99,
+          "current": 0.99,
+          "regular": 1.99,
+          "low": 0.49,
+          "low_1y": 0.79,
           "cut": 50,
           "currency": "USD",
           "symbol": "$",
           "is_atl": false
         },
         "CNY": {
-          "current": 18,
-          "regular": 36,
-          "low": 9,
-          "low_1y": 14.4,
+          "current": 5.5,
+          "regular": 11,
+          "low": 0.99,
+          "low_1y": 4.4,
           "cut": 50,
           "currency": "CNY",
           "symbol": "¥",
           "is_atl": false
         },
         "MYR": {
-          "current": 11.5,
-          "regular": 23.0,
+          "current": 2.84,
+          "regular": 5.69,
           "cut": 50,
           "low": null,
           "low_1y": null,
